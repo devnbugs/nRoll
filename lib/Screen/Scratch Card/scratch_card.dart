@@ -36,7 +36,10 @@ class _ScratchCardState extends State<ScratchCard> {
               children: [
                 Text(
                   lang.S.of(context).areYouAgree,
-                  style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
+                  style: kTextStyle.copyWith(
+                      color: kWhite,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18.0),
                 ),
                 const SizedBox(height: 10.0),
                 Text(
@@ -78,12 +81,15 @@ class _ScratchCardState extends State<ScratchCard> {
                         ).onTap(() async {
                           try {
                             //EasyLoading.show(status: 'Loading');
-                            EasyLoading.show(status: lang.S.of(context).loading);
-                           // bool status = await RewardRepo().removePoint(amount, 'Paid For Scratch Card');
-                            bool status = await RewardRepo().removePoint(amount, lang.S.of(context).paidForScratchCard);
+                            EasyLoading.show(
+                                status: lang.S.of(context).loading);
+                            // bool status = await RewardRepo().removePoint(amount, 'Paid For Scratch Card');
+                            bool status = await RewardRepo().removePoint(
+                                amount, lang.S.of(context).paidForScratchCard);
                             if (status && mounted) {
                               //EasyLoading.showSuccess('Successful');
-                              EasyLoading.showSuccess(lang.S.of(context).successful);
+                              EasyLoading.showSuccess(
+                                  lang.S.of(context).successful);
                               await Navigator.push(
                                   context,
                                   MaterialPageRoute(
@@ -93,7 +99,8 @@ class _ScratchCardState extends State<ScratchCard> {
                               finish(context);
                             } else {
                               //EasyLoading.showError('Not Enough Coin');
-                              EasyLoading.showError(lang.S.of(context).notEnoughCoin);
+                              EasyLoading.showError(
+                                  lang.S.of(context).notEnoughCoin);
                             }
                           } catch (e) {
                             EasyLoading.showError(e.toString());
@@ -104,13 +111,17 @@ class _ScratchCardState extends State<ScratchCard> {
                       Expanded(
                         flex: 2,
                         child: Container(
-                          decoration:
-                              BoxDecoration(border: Border.all(color: kGreyTextColor.withOpacity(0.5)), borderRadius: BorderRadius.circular(30.0), color: Colors.transparent),
+                          decoration: BoxDecoration(
+                              border: Border.all(
+                                  color: kGreyTextColor.withOpacity(0.5)),
+                              borderRadius: BorderRadius.circular(30.0),
+                              color: Colors.transparent),
                           child: Padding(
                             padding: const EdgeInsets.all(10.0),
                             child: Text(
                               lang.S.of(context).No,
-                              style: kTextStyle.copyWith(color: kLightTextColor),
+                              style:
+                                  kTextStyle.copyWith(color: kLightTextColor),
                               textAlign: TextAlign.center,
                             ),
                           ),
@@ -151,7 +162,11 @@ class _ScratchCardState extends State<ScratchCard> {
             toolbarHeight: 90,
             iconTheme: const IconThemeData(color: Colors.white),
             flexibleSpace: Container(
-              decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomRight: Radius.circular(30), bottomLeft: Radius.circular(30)), gradient: containerGradiant),
+              decoration: BoxDecoration(
+                  borderRadius: const BorderRadius.only(
+                      bottomRight: Radius.circular(30),
+                      bottomLeft: Radius.circular(30)),
+                  gradient: containerGradiant),
             ),
             shape: const RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
@@ -208,7 +223,10 @@ class _ScratchCardState extends State<ScratchCard> {
                         ),
                         const SizedBox(width: 5.0),
                         Text(
-                          isBalanceShow ? data.data?.user?.wallet?.balance?.toString() ?? "" : lang.S.of(context).balance,
+                          isBalanceShow
+                              ? data.data?.user?.wallet?.balance?.toString() ??
+                                  ""
+                              : lang.S.of(context).balance,
                           style: kTextStyle.copyWith(color: Colors.white),
                         ),
                         const SizedBox(width: 5.0),
@@ -239,7 +257,8 @@ class _ScratchCardState extends State<ScratchCard> {
           body: cards.when(data: (cardList) {
             return SingleChildScrollView(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
                 child: Column(
                   children: [
                     ListView.builder(
@@ -250,7 +269,9 @@ class _ScratchCardState extends State<ScratchCard> {
                           return Padding(
                             padding: const EdgeInsets.only(bottom: 16),
                             child: GestureDetector(
-                              onTap: () => showPopUp(cardList.data![index].price.toString(), cardList.data![index]),
+                              onTap: () => showPopUp(
+                                  cardList.data![index].price.toString(),
+                                  cardList.data![index]),
                               child: Container(
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(10),
@@ -268,30 +289,43 @@ class _ScratchCardState extends State<ScratchCard> {
                                 child: Padding(
                                   padding: const EdgeInsets.all(10.0),
                                   child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
                                     children: [
                                       Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
                                         children: [
                                           Text(
                                             lang.S.of(context).scratchAndWin,
-                                            style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kWhite),
+                                            style: kTextStyle.copyWith(
+                                                fontWeight: FontWeight.bold,
+                                                color: kWhite),
                                           ),
                                           const SizedBox(
                                             height: 5,
                                           ),
                                           RichText(
-                                              text: TextSpan(text: '${lang.S.of(context).price}: ', style: kTextStyle.copyWith(color: kLightTextColor, fontSize: 13), children: [
-                                            TextSpan(
-                                              text: '${cardList.data?[index].price} ${lang.S.of(context).points}',
-                                            )
-                                          ])),
+                                              text: TextSpan(
+                                                  text:
+                                                      '${lang.S.of(context).price}: ',
+                                                  style: kTextStyle.copyWith(
+                                                      color: kLightTextColor,
+                                                      fontSize: 13),
+                                                  children: [
+                                                TextSpan(
+                                                  text:
+                                                      '${cardList.data?[index].price} ${lang.S.of(context).points}',
+                                                )
+                                              ])),
                                           const SizedBox(
                                             height: 5,
                                           ),
                                           Text(
                                             '${lang.S.of(context).itUseYouWillDetect} ${cardList.data?[index].price} ${lang.S.of(context).coins} ',
-                                            style: kTextStyle.copyWith(color: kLightTextColor, fontSize: 13),
+                                            style: kTextStyle.copyWith(
+                                                color: kLightTextColor,
+                                                fontSize: 13),
                                           ),
                                           const SizedBox(
                                             height: 5,

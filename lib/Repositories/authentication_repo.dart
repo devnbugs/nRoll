@@ -27,7 +27,8 @@ class AuthRepo {
 
   Future<SignInModel> signInWithEmail(String email, String password) async {
     Uri url = Uri.parse(Config.serverUrl + Config.signInUrl);
-    var response = await http.post(url, body: <String, dynamic>{'email': email, 'password': password});
+    var response = await http.post(url,
+        body: <String, dynamic>{'email': email, 'password': password});
     if (kDebugMode) {
       print(response.statusCode);
     }
@@ -39,7 +40,8 @@ class AuthRepo {
     }
   }
 
-  Future<FirebaseAuthModel> signInWithPhone(String phone, BuildContext context) async {
+  Future<FirebaseAuthModel> signInWithPhone(
+      String phone, BuildContext context) async {
     Uri url = Uri.parse(Config.serverUrl + Config.signInUrl);
     var response = await http.post(url, headers: {
       "Accept": "application/json"
@@ -59,7 +61,8 @@ class AuthRepo {
     } else if (response.statusCode == 201) {
       var data = FirebaseAuthModel.fromJson(jsonDecode(response.body));
       database.saveString(data.token ?? "", 'token');
-      Navigator.push(context, MaterialPageRoute(builder: (_) => const SetupProfile()));
+      Navigator.push(
+          context, MaterialPageRoute(builder: (_) => const SetupProfile()));
       return data;
     } else if (response.statusCode == 401) {
       EasyLoading.showError(jsonDecode(response.body)['message']);
@@ -97,9 +100,15 @@ class AuthRepo {
   //   }
   // }
 
-  Future<FirebaseAuthModel> signInWithGoogle(String email, BuildContext context) async {
+  Future<FirebaseAuthModel> signInWithGoogle(
+      String email, BuildContext context) async {
     Uri url = Uri.parse(Config.serverUrl + Config.signInUrl);
-    var response = await http.post(url, headers: {"Accept": "application/json"}, body: <String, dynamic>{'email': email, "device_token": "UYYUCGWFGGDVWUY3"});
+    var response = await http.post(url, headers: {
+      "Accept": "application/json"
+    }, body: <String, dynamic>{
+      'email': email,
+      "device_token": "UYYUCGWFGGDVWUY3"
+    });
     if (kDebugMode) {
       print(response.body);
     }
@@ -112,7 +121,8 @@ class AuthRepo {
     } else if (response.statusCode == 201) {
       var data = FirebaseAuthModel.fromJson(jsonDecode(response.body));
       database.saveString(data.token ?? "", 'token');
-      Navigator.push(context, MaterialPageRoute(builder: (_) => SetupProfile()));
+      Navigator.push(
+          context, MaterialPageRoute(builder: (_) => SetupProfile()));
       return data;
     } else if (response.statusCode == 401) {
       EasyLoading.showError(jsonDecode(response.body)['message']);
@@ -125,9 +135,11 @@ class AuthRepo {
     }
   }
 
-  Future<bool> resetPasswordWithEmail(BuildContext context,String email) async {
+  Future<bool> resetPasswordWithEmail(
+      BuildContext context, String email) async {
     Uri url = Uri.parse(Config.serverUrl + Config.forgotPasswordUrl);
-    var response = await http.post(url, body: <String, dynamic>{'email': email});
+    var response =
+        await http.post(url, body: <String, dynamic>{'email': email});
     if (response.statusCode == 200) {
       return true;
     } else {
@@ -150,7 +162,11 @@ class AuthRepo {
 
   Future<bool> resetPassword(String code, String password) async {
     Uri url = Uri.parse(Config.serverUrl + Config.resetPasswordUrl);
-    var response = await http.post(url, body: <String, dynamic>{'code': code, 'password': password, 'password_confirmation': password});
+    var response = await http.post(url, body: <String, dynamic>{
+      'code': code,
+      'password': password,
+      'password_confirmation': password
+    });
     if (response.statusCode == 200) {
       return true;
     } else {
@@ -162,7 +178,9 @@ class AuthRepo {
   Future<bool> updatePassword(String password) async {
     String? token = await DataBase().retrieveString('token');
     Uri url = Uri.parse(Config.serverUrl + Config.editPasswordUrl);
-    var response = await http.post(url, headers: {'Authorization': 'Bearer $token'}, body: <String, dynamic>{'password': password});
+    var response = await http.post(url,
+        headers: {'Authorization': 'Bearer $token'},
+        body: <String, dynamic>{'password': password});
     if (response.statusCode == 200) {
       return true;
     } else {
@@ -175,15 +193,18 @@ class AuthRepo {
     bool ret = false;
     String? token = await DataBase().retrieveString('token');
     Uri url = Uri.parse(Config.serverUrl + Config.refreshTokenUrl);
-    var response = await http.post(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.post(url, headers: {'Authorization': 'Bearer $token'});
 
     try {
       if (response.statusCode == 200) {
-        DataBase().saveString(SignInModel.fromJson(jsonDecode(response.body)).data?.token ?? '', 'token');
+        DataBase().saveString(
+            SignInModel.fromJson(jsonDecode(response.body)).data?.token ?? '',
+            'token');
         ret = true;
       } else {
-         throw Exception('Token Update Failed');
-         //throw Exception(lang.S.of(context).tokenUpdateFailed);
+        throw Exception('Token Update Failed');
+        //throw Exception(lang.S.of(context).tokenUpdateFailed);
       }
     } catch (e) {}
     return ret;
@@ -193,7 +214,8 @@ class AuthRepo {
     String? token = await DataBase().retrieveString('token');
     Uri url = Uri.parse(Config.serverUrl + Config.dailyRewardUrl);
 
-    var response = await http.post(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.post(url, headers: {'Authorization': 'Bearer $token'});
 
     if (response.statusCode == 201) {
       return true;
@@ -212,7 +234,8 @@ class AuthRepo {
     if (kDebugMode) {
       print(token);
     }
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (kDebugMode) {
       print(response.body);
     }
@@ -244,7 +267,8 @@ class AuthRepo {
     }
   }
 
-  Future<bool> signUpWithEmail(String fullName, String mobile, String email, String refer, String password, dynamic filepath) async {
+  Future<bool> signUpWithEmail(String fullName, String mobile, String email,
+      String refer, String password, dynamic filepath) async {
     Map<String, String> body = {
       'name': fullName,
       'email': email,
@@ -275,14 +299,18 @@ class AuthRepo {
     });
   }
 
-  Future<bool> editProfile(String fullName, String mobile, String email, dynamic filepath) async {
+  Future<bool> editProfile(
+      String fullName, String mobile, String email, dynamic filepath) async {
     Map<String, String> body = {
       'name': fullName,
       'email': email,
       'phone': mobile,
     };
     String? token = await DataBase().retrieveString('token');
-    Map<String, String> header = {'Authorization': 'Bearer $token', 'Accept': 'application/json'};
+    Map<String, String> header = {
+      'Authorization': 'Bearer $token',
+      'Accept': 'application/json'
+    };
     Uri url = Uri.parse(Config.serverUrl + Config.editProfileUrl);
     http.MultipartRequest request;
     if (filepath != 'No Data') {
@@ -312,10 +340,18 @@ class AuthRepo {
     });
   }
 
-  Future<bool> completeProfile(String firstName, String lastName, String referCode, dynamic filepath) async {
-    Map<String, String> emailBody = {'first_name': firstName, 'last_name': lastName, 'refer': referCode};
+  Future<bool> completeProfile(String firstName, String lastName,
+      String referCode, dynamic filepath) async {
+    Map<String, String> emailBody = {
+      'first_name': firstName,
+      'last_name': lastName,
+      'refer': referCode
+    };
     String? token = await DataBase().retrieveString('token');
-    Map<String, String> header = {'Accept': 'application/json', 'Authorization': 'Bearer $token'};
+    Map<String, String> header = {
+      'Accept': 'application/json',
+      'Authorization': 'Bearer $token'
+    };
     Uri url = Uri.parse(Config.serverUrl + Config.completeProfileUrl);
     http.MultipartRequest request;
     request = http.MultipartRequest('POST', url);
@@ -335,7 +371,7 @@ class AuthRepo {
       if (response.statusCode == 200) {
         return true;
       } else {
-       throw Exception('Error While Completing Profile');
+        throw Exception('Error While Completing Profile');
         //throw Exception(lang.S.of(context).errorWhileCompletingProfile);
       }
     });
@@ -344,7 +380,8 @@ class AuthRepo {
   Future<SpinDataModel> getSpinValue() async {
     Uri url = Uri.parse(Config.serverUrl + Config.spinValueUrl);
     String? token = await DataBase().retrieveString('token');
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (kDebugMode) {
       print(response.body);
     }
@@ -359,7 +396,8 @@ class AuthRepo {
   Future<VideoModel> getVideos() async {
     Uri url = Uri.parse(Config.serverUrl + Config.videoUrl);
     String? token = await DataBase().retrieveString('token');
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (kDebugMode) {
       print(response.body);
     }
@@ -373,7 +411,8 @@ class AuthRepo {
   Future<WebsiteVisitModel> getWebsite() async {
     Uri url = Uri.parse(Config.serverUrl + Config.websiteUrl);
     String? token = await DataBase().retrieveString('token');
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (kDebugMode) {
       print(response.body);
     }
@@ -387,7 +426,8 @@ class AuthRepo {
   Future<ScratchCardModel> getScratchCard() async {
     Uri url = Uri.parse(Config.serverUrl + Config.scratchCardUrl);
     String? token = await DataBase().retrieveString('token');
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (kDebugMode) {
       print(response.body);
     }
@@ -402,7 +442,8 @@ class AuthRepo {
     String? token = await DataBase().retrieveString('token');
     Uri url = Uri.parse(Config.serverUrl + Config.watchVideoUrl);
 
-    var response = await http.post(url, headers: {'Authorization': 'Bearer $token'}, body: {"video_id": id});
+    var response = await http.post(url,
+        headers: {'Authorization': 'Bearer $token'}, body: {"video_id": id});
 
     if (response.statusCode == 200) {
       return true;
@@ -418,7 +459,8 @@ class AuthRepo {
     String? token = await DataBase().retrieveString('token');
     Uri url = Uri.parse(Config.serverUrl + Config.getRewardUrl);
 
-    var response = await http.post(url, headers: {'Authorization': 'Bearer $token'}, body: {"earning_id": id});
+    var response = await http.post(url,
+        headers: {'Authorization': 'Bearer $token'}, body: {"earning_id": id});
 
     if (response.statusCode == 200) {
       return true;
@@ -432,7 +474,8 @@ class AuthRepo {
   Future<bool> logOut() async {
     Uri url = Uri.parse(Config.serverUrl + Config.signOutUrl);
     String? token = await DataBase().retrieveString('token');
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (response.statusCode == 200) {
       return true;
     } else {
@@ -443,7 +486,8 @@ class AuthRepo {
   Future<bool> deleteAccount() async {
     Uri url = Uri.parse(Config.serverUrl + Config.deleteAccountUrl);
     String? token = await DataBase().retrieveString('token');
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (response.statusCode == 200) {
       return true;
     } else {
@@ -456,7 +500,8 @@ class AuthRepo {
   Future<TutorialVideoModel> getTutorialVideo() async {
     Uri url = Uri.parse(Config.serverUrl + Config.tutorialVideo);
     String? token = await DataBase().retrieveString('token');
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (response.statusCode == 200) {
       return TutorialVideoModel.fromJson(jsonDecode(response.body));
     } else {

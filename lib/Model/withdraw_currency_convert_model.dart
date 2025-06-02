@@ -43,7 +43,8 @@ class Data {
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     if (currencyConvertInfo != null) {
-      map['currency_convert_info'] = currencyConvertInfo?.map((v) => v.toJson()).toList();
+      map['currency_convert_info'] =
+          currencyConvertInfo?.map((v) => v.toJson()).toList();
     }
     return map;
   }
@@ -69,7 +70,8 @@ class CurrencyConvertInfo {
     status = json['status'];
     createdAt = json['created_at'];
     updatedAt = json['updated_at'];
-    currency = json['currency'] != null ? Currency.fromJson(json['currency']) : null;
+    currency =
+        json['currency'] != null ? Currency.fromJson(json['currency']) : null;
   }
   num? id;
   num? currencyId;

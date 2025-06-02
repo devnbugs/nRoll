@@ -111,7 +111,11 @@ class _VideosState extends State<Videos> {
               ),
             ),
             flexibleSpace: Container(
-              decoration: BoxDecoration(gradient: containerGradiant, borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30))),
+              decoration: BoxDecoration(
+                  gradient: containerGradiant,
+                  borderRadius: const BorderRadius.only(
+                      bottomLeft: Radius.circular(30),
+                      bottomRight: Radius.circular(30))),
             ),
             backgroundColor: kMainColor,
             elevation: 0.0,
@@ -162,7 +166,10 @@ class _VideosState extends State<Videos> {
                         ),
                         const SizedBox(width: 5.0),
                         Text(
-                          isBalanceShow ? myFormat.format(info.data?.user?.wallet?.balance) : lang.S.of(context).balance,
+                          isBalanceShow
+                              ? myFormat
+                                  .format(info.data?.user?.wallet?.balance)
+                              : lang.S.of(context).balance,
                           style: mediumTextStyle,
                           textAlign: TextAlign.start,
                         ),
@@ -241,14 +248,18 @@ class _VideosState extends State<Videos> {
                                   ),
                                   Text(
                                     titleList[i],
-                                    style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16.0),
+                                    style: kTextStyle.copyWith(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16.0),
                                   ),
                                   const SizedBox(
                                     height: 4.0,
                                   ),
                                   Text(
                                     subtitleList[i],
-                                    style: kTextStyle.copyWith(color: Colors.white, fontSize: 12.0),
+                                    style: kTextStyle.copyWith(
+                                        color: Colors.white, fontSize: 12.0),
                                   ),
                                 ],
                               ),
@@ -257,7 +268,10 @@ class _VideosState extends State<Videos> {
                         ).onTap(() {
                           switch (i) {
                             case 0:
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => const VideoList()));
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => const VideoList()));
                               break;
                             case 1:
                               appLovin.showAds(ref: ref);

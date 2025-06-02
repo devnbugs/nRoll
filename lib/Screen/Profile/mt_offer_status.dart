@@ -98,7 +98,11 @@ class _OfferStatusState extends State<OfferStatus> {
         ),
         elevation: 0.0,
         flexibleSpace: Container(
-          decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30)), gradient: containerGradiant),
+          decoration: BoxDecoration(
+              borderRadius: const BorderRadius.only(
+                  bottomLeft: Radius.circular(30),
+                  bottomRight: Radius.circular(30)),
+              gradient: containerGradiant),
         ),
         title: Text(
           lang.S.of(context).offerStatus,
@@ -112,7 +116,8 @@ class _OfferStatusState extends State<OfferStatus> {
           children: [
             Text(
               lang.S.of(context).inProgress,
-              style: kTextStyle.copyWith(color: kMainColor, fontWeight: FontWeight.bold),
+              style: kTextStyle.copyWith(
+                  color: kMainColor, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10.0),
             ListView.builder(
@@ -127,7 +132,13 @@ class _OfferStatusState extends State<OfferStatus> {
                       child: Container(
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
-                            boxShadow: const [BoxShadow(color: kShadowColor), BoxShadow(color: kMainBacgrundColor, blurRadius: 10.0, spreadRadius: 0)]),
+                            boxShadow: const [
+                              BoxShadow(color: kShadowColor),
+                              BoxShadow(
+                                  color: kMainBacgrundColor,
+                                  blurRadius: 10.0,
+                                  spreadRadius: 0)
+                            ]),
                         child: Padding(
                           padding: const EdgeInsets.all(10.0),
                           child: Row(
@@ -162,14 +173,16 @@ class _OfferStatusState extends State<OfferStatus> {
                                     children: [
                                       Text(
                                         subtitleList[i],
-                                        style: kTextStyle.copyWith(color: kLightTextColor),
+                                        style: kTextStyle.copyWith(
+                                            color: kLightTextColor),
                                       ),
                                       const SizedBox(
                                         width: 50,
                                       ),
                                       Text(
                                         point[i],
-                                        style: kTextStyle.copyWith(color: kMainColor),
+                                        style: kTextStyle.copyWith(
+                                            color: kMainColor),
                                       ),
                                     ],
                                   ),
@@ -179,10 +192,15 @@ class _OfferStatusState extends State<OfferStatus> {
                                     height: 20,
                                     width: 70,
                                     decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(30.0), gradient: gradiantColorList[i], border: Border.all(color: kWhite.withOpacity(0.25))),
+                                        borderRadius:
+                                            BorderRadius.circular(30.0),
+                                        gradient: gradiantColorList[i],
+                                        border: Border.all(
+                                            color: kWhite.withOpacity(0.25))),
                                     child: Text(
                                       stageList[i],
-                                      style: kTextStyle.copyWith(color: Colors.white, fontSize: 12),
+                                      style: kTextStyle.copyWith(
+                                          color: Colors.white, fontSize: 12),
                                     ),
                                   ),
                                 ],
@@ -252,12 +270,16 @@ class _OfferStatusState extends State<OfferStatus> {
             const SizedBox(height: 20.0),
             Center(
               child: RichText(
-                  text: TextSpan(text: lang.S.of(context).yourFyberUserIDis, style: kTextStyle.copyWith(color: kGreyTextColor), children: [
-                TextSpan(
-                  text: '2361246',
-                  style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
-                )
-              ])),
+                  text: TextSpan(
+                      text: lang.S.of(context).yourFyberUserIDis,
+                      style: kTextStyle.copyWith(color: kGreyTextColor),
+                      children: [
+                    TextSpan(
+                      text: '2361246',
+                      style: kTextStyle.copyWith(
+                          color: kWhite, fontWeight: FontWeight.bold),
+                    )
+                  ])),
             )
           ],
         ),

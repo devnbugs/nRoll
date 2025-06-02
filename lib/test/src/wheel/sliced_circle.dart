@@ -7,17 +7,18 @@ class _TransformedCircleSlice extends StatelessWidget {
   final int index;
 
   const _TransformedCircleSlice({
-    Key? key,
+    super.key,
     required this.item,
     required this.styleStrategy,
     required this.index,
     required this.wheelData,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final style = item.style ?? styleStrategy.getItemStyle(theme, index, wheelData.itemCount);
+    final style = item.style ??
+        styleStrategy.getItemStyle(theme, index, wheelData.itemCount);
 
     return _CircleSliceLayout(
       handler: item,
@@ -43,11 +44,11 @@ class _CircleSlices extends StatelessWidget {
   final _WheelData wheelData;
 
   const _CircleSlices({
-    Key? key,
+    super.key,
     required this.items,
     required this.styleStrategy,
     required this.wheelData,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

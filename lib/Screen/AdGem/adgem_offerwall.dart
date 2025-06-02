@@ -7,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:nb_utils/nb_utils.dart';
 import '../Constant Data/constant.dart';
 import 'package:cash_rocket/generated/l10n.dart' as lang;
+
 class AdGemOfferWall extends StatefulWidget {
   const AdGemOfferWall({super.key});
 
@@ -167,7 +168,9 @@ class _AdGemOfferWallState extends State<AdGemOfferWall> {
                             child: Container(
                               width: 325,
                               padding: const EdgeInsets.all(10.0),
-                              decoration: BoxDecoration(borderRadius: BorderRadius.circular(10.0), color: const Color(0xFFFFFFFF)),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10.0),
+                                  color: const Color(0xFFFFFFFF)),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
@@ -186,14 +189,16 @@ class _AdGemOfferWallState extends State<AdGemOfferWall> {
                                   Padding(
                                     padding: const EdgeInsets.only(left: 5.0),
                                     child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
                                       children: [
                                         SizedBox(
                                           width: context.width() / 1.5,
                                           child: Text(
                                             offer.data?[0].data?[i].name ?? '',
                                             maxLines: 1,
-                                            style: kTextStyle.copyWith(color: kTitleColor),
+                                            style: kTextStyle.copyWith(
+                                                color: kTitleColor),
                                           ),
                                         ),
                                         const SizedBox(height: 4.0),
@@ -202,20 +207,26 @@ class _AdGemOfferWallState extends State<AdGemOfferWall> {
                                             SizedBox(
                                               width: context.width() / 2.2,
                                               child: Text(
-                                                offer.data?[0].data?[i].shortDescription ?? '',
+                                                offer.data?[0].data?[i]
+                                                        .shortDescription ??
+                                                    '',
                                                 maxLines: 1,
-                                                style: kTextStyle.copyWith(color: kGreyTextColor),
+                                                style: kTextStyle.copyWith(
+                                                    color: kGreyTextColor),
                                               ),
                                             ),
                                             Text(
                                               '\$ ${offer.data?[0].data?[i].amount.toString() ?? ''}',
-                                              style: kTextStyle.copyWith(color: kMainColor, fontWeight: FontWeight.bold),
+                                              style: kTextStyle.copyWith(
+                                                  color: kMainColor,
+                                                  fontWeight: FontWeight.bold),
                                             ),
                                           ],
                                         ),
                                         Container(
                                           decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
+                                            borderRadius:
+                                                BorderRadius.circular(30.0),
                                             gradient: const LinearGradient(
                                               begin: Alignment.topCenter,
                                               colors: [
@@ -225,10 +236,17 @@ class _AdGemOfferWallState extends State<AdGemOfferWall> {
                                             ),
                                           ),
                                           child: Padding(
-                                            padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
+                                            padding: const EdgeInsets.only(
+                                                left: 10.0,
+                                                right: 10.0,
+                                                top: 2.0,
+                                                bottom: 2.0),
                                             child: Text(
-                                              offer.data?[0].data?[i].trackingType ?? '',
-                                              style: kTextStyle.copyWith(color: Colors.white),
+                                              offer.data?[0].data?[i]
+                                                      .trackingType ??
+                                                  '',
+                                              style: kTextStyle.copyWith(
+                                                  color: Colors.white),
                                             ),
                                           ),
                                         ),
@@ -238,7 +256,9 @@ class _AdGemOfferWallState extends State<AdGemOfferWall> {
                                 ],
                               ),
                             ),
-                          ).onTap(() => AdGemOfferDetails(adGemOfferWall: offer.data![0].data![i]).launch(context));
+                          ).onTap(() => AdGemOfferDetails(
+                                  adGemOfferWall: offer.data![0].data![i])
+                              .launch(context));
                         })
                   ],
                 ),

@@ -15,7 +15,8 @@ const kWhite = Color(0xffFFFFFF);
 Color textFiledBorderColor = const Color(0xffFFFFFF).withOpacity(0.30);
 Color fillColor = const Color(0xffFFFFFF).withOpacity(0.05);
 const kDarkSecondaryColor = Color(0xFF212741);
-const kBalanceGradiant = LinearGradient(colors: [Color(0xffFFCE56), Color(0xffEF9606)]);
+const kBalanceGradiant =
+    LinearGradient(colors: [Color(0xffFFCE56), Color(0xffEF9606)]);
 
 List<String> spinData = [];
 String spinFee = "0";
@@ -23,7 +24,6 @@ int maxFailedLoadAttempts = 3;
 
 ///___________Purchase_code_______________________________
 String purchaseCode = '3e873705-9a73-4a00-81f9-1f2fbef74e66';
-
 
 // Pollfish basic configuration options
 const String androidApiKey = '363e1f40-882b-4934-aaff-20d9fa489b41';
@@ -41,9 +41,11 @@ final kTextStyle = GoogleFonts.manrope(
   color: Colors.white,
 );
 
-final mediumTextStyle = GoogleFonts.manrope(color: Colors.white, fontWeight: FontWeight.w500, fontSize: 14);
+final mediumTextStyle = GoogleFonts.manrope(
+    color: Colors.white, fontWeight: FontWeight.w500, fontSize: 14);
 
-final boldTextStyle = GoogleFonts.manrope(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24);
+final boldTextStyle = GoogleFonts.manrope(
+    color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24);
 
 const bottomButtonColor = Color(0xff7B78AA);
 
@@ -51,10 +53,13 @@ LinearGradient buttonGradiant = const LinearGradient(colors: [
   Color(0xff0DA6C2),
   Color(0xff0E39C6),
 ]);
-LinearGradient containerGradiant = const LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: [
-  Color(0xff0DA6C2),
-  Color(0xff0E39C6),
-]);
+LinearGradient containerGradiant = const LinearGradient(
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    colors: [
+      Color(0xff0DA6C2),
+      Color(0xff0E39C6),
+    ]);
 const kButtonDecoration = BoxDecoration(
   gradient: LinearGradient(colors: [
     Color(0xff0DA6C2),
@@ -95,10 +100,31 @@ final otpInputDecoration = InputDecoration(
   enabledBorder: outlineInputBorder(),
 );
 
-List<String> businessCategory = ['Fashion Store', 'Electronics Store', 'Computer Store', 'Vegetable Store', 'Sweet Store', 'Meat Store'];
-List<String> language = ['English', 'Bengali', 'Hindi', 'Urdu', 'French', 'Spanish'];
+List<String> businessCategory = [
+  'Fashion Store',
+  'Electronics Store',
+  'Computer Store',
+  'Vegetable Store',
+  'Sweet Store',
+  'Meat Store'
+];
+List<String> language = [
+  'English',
+  'Bengali',
+  'Hindi',
+  'Urdu',
+  'French',
+  'Spanish'
+];
 
-List<String> productCategory = ['Fashion', 'Electronics', 'Computer', 'Gadgets', 'Watches', 'Cloths'];
+List<String> productCategory = [
+  'Fashion',
+  'Electronics',
+  'Computer',
+  'Gadgets',
+  'Watches',
+  'Cloths'
+];
 
 List<String> userRole = [
   'Super Admin',
@@ -124,4 +150,5 @@ List<String> saleStats = [
   'Yearly',
 ];
 
-const String sdkKey = "_f0BQOs31IIZKuF5T6sPNbXpNKTHaXU4abr7m1xHIqtyZJExud5E2ypR6yHvT_tye3k_EOJQ_30vHw4mg109DS";
+const String sdkKey =
+    "_f0BQOs31IIZKuF5T6sPNbXpNKTHaXU4abr7m1xHIqtyZJExud5E2ypR6yHvT_tye3k_EOJQ_30vHw4mg109DS";

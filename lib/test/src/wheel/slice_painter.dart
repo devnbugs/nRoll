@@ -58,6 +58,9 @@ class _CircleSlicePainter extends CustomPainter {
 
   @override
   bool shouldRepaint(_CircleSlicePainter oldDelegate) {
-    return angle != oldDelegate.angle || fillColor != oldDelegate.fillColor || strokeColor != oldDelegate.strokeColor || strokeWidth != oldDelegate.strokeWidth;
+    return angle != oldDelegate.angle ||
+        fillColor != oldDelegate.fillColor ||
+        strokeColor != oldDelegate.strokeColor ||
+        strokeWidth != oldDelegate.strokeWidth;
   }
 }

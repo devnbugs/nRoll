@@ -33,7 +33,8 @@ class StartApp {
       onVideoCompleted: () async {
         try {
           EasyLoading.show(status: 'Getting rewards');
-          var response = await RewardRepo().addPoint('10', 'Startapp Video Ads');
+          var response =
+              await RewardRepo().addPoint('10', 'Startapp Video Ads');
           if (response) {
             EasyLoading.showSuccess('You Have Earned 10 Coins');
             ref.refresh(personalProfileProvider);

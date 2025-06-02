@@ -20,7 +20,11 @@ class _MtPrivacyPolicyState extends State<MtPrivacyPolicy> {
         toolbarHeight: 90,
         iconTheme: const IconThemeData(color: Colors.white),
         flexibleSpace: Container(
-          decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomRight: Radius.circular(30), bottomLeft: Radius.circular(30)), gradient: containerGradiant),
+          decoration: BoxDecoration(
+              borderRadius: const BorderRadius.only(
+                  bottomRight: Radius.circular(30),
+                  bottomLeft: Radius.circular(30)),
+              gradient: containerGradiant),
         ),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
@@ -42,7 +46,8 @@ class _MtPrivacyPolicyState extends State<MtPrivacyPolicy> {
           children: [
             Text(
               lang.S.of(context).privicyPolicyICashRocket,
-              style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
+              style: kTextStyle.copyWith(
+                  color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
             ),
             const SizedBox(height: 10.0),
             Text(

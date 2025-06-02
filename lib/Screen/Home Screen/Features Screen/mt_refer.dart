@@ -17,20 +17,21 @@ import '../../Constant Data/constant.dart';
 import '../no_internet_screen.dart';
 
 class Refer extends StatefulWidget {
-  const Refer({Key? key}) : super(key: key);
+  const Refer({super.key});
 
   @override
   State<Refer> createState() => _ReferState();
 }
 
 class _ReferState extends State<Refer> {
-  final TextEditingController _textController = TextEditingController(text: '5FLK2M');
+  final TextEditingController _textController =
+      TextEditingController(text: '5FLK2M');
 
   Future<void> _copyToClipboard() async {
     await Clipboard.setData(ClipboardData(text: _textController.text));
     // ignore: use_build_context_synchronously
-    ScaffoldMessenger.of(context).showSnackBar( SnackBar(
-     // content: Text('Invitation Code Copied'),
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      // content: Text('Invitation Code Copied'),
       content: Text(lang.S.of(context).invitationCodeCopied),
     ));
   }
@@ -65,18 +66,26 @@ class _ReferState extends State<Refer> {
         ),
         iconTheme: const IconThemeData(color: Colors.white),
         backgroundColor: Colors.transparent,
-        shape: const RoundedRectangleBorder(borderRadius: BorderRadius.only(bottomRight: Radius.circular(30), bottomLeft: Radius.circular(30))),
+        shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+                bottomRight: Radius.circular(30),
+                bottomLeft: Radius.circular(30))),
         elevation: 0.0,
         flexibleSpace: Container(
-          decoration: BoxDecoration(gradient: containerGradiant, borderRadius: const BorderRadius.only(bottomRight: Radius.circular(30), bottomLeft: Radius.circular(30))),
+          decoration: BoxDecoration(
+              gradient: containerGradiant,
+              borderRadius: const BorderRadius.only(
+                  bottomRight: Radius.circular(30),
+                  bottomLeft: Radius.circular(30))),
         ),
       ),
       body: SafeArea(
         child: Consumer(builder: (_, ref, watch) {
-          AsyncValue<UserProfileModel> referCode = ref.watch(personalProfileProvider);
+          AsyncValue<UserProfileModel> referCode =
+              ref.watch(personalProfileProvider);
           return referCode.when(data: (code) {
             if (code.data?.user?.status == 0) {
-             // EasyLoading.showError('You Are Disable!');
+              // EasyLoading.showError('You Are Disable!');
               EasyLoading.showError(lang.S.of(context).youAreDisable);
               DataBase().deleteToken();
               const LogIn().launch(context, isNewTask: true);
@@ -104,7 +113,8 @@ class _ReferState extends State<Refer> {
                   children: [
                     Text(
                       lang.S.of(context).inviteYourFriends,
-                      style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
+                      style: kTextStyle.copyWith(
+                          color: kWhite, fontWeight: FontWeight.bold),
                     ),
                     const SizedBox(height: 5.0),
                     Text(
@@ -132,17 +142,22 @@ class _ReferState extends State<Refer> {
                           hintStyle: TextStyle(color: kLightTextColor),
                           labelStyle: kTextStyle.copyWith(color: kWhite),
                           enabledBorder: const OutlineInputBorder(
-                            borderRadius: BorderRadius.all(Radius.circular(8.0)),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(8.0)),
                             borderSide: BorderSide(color: kMainColor, width: 1),
                           ),
                           focusedBorder: const OutlineInputBorder(
-                            borderRadius: BorderRadius.all(Radius.circular(8.0)),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(8.0)),
                             borderSide: BorderSide(color: kMainColor, width: 1),
                           ),
-                          contentPadding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                          contentPadding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 10),
                           border: InputBorder.none,
                           hintText: code.data?.user?.referCode ?? '',
-                          suffixIcon: const Icon(FeatherIcons.copy, color: kMainColor).onTap(() {
+                          suffixIcon:
+                              const Icon(FeatherIcons.copy, color: kMainColor)
+                                  .onTap(() {
                             setState(() {
                               _copyToClipboard();
                             });
@@ -151,8 +166,8 @@ class _ReferState extends State<Refer> {
                     const SizedBox(height: 16.0),
                     PrimaryButton(
                       buttonText: lang.S.of(context).inviteNow,
-                      onpressed: (() =>
-                          Share.share('I have earned \$100 in a day. Use my refer code to earn \$10 on signup. My Refer Code is ${code.data?.user?.referCode ?? ''}')),
+                      onpressed: (() => Share.share(
+                          'I have earned \$100 in a day. Use my refer code to earn \$10 on signup. My Refer Code is ${code.data?.user?.referCode ?? ''}')),
                     ),
                   ],
                 ),

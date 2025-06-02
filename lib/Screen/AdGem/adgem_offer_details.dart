@@ -71,7 +71,8 @@ class _AdGemOfferDetailsState extends State<AdGemOfferDetails> {
           actions: [
             Padding(
               padding: const EdgeInsets.only(right: 10.0),
-              child: const Icon(Icons.close, color: Colors.white).onTap(() => Navigator.pop(context)),
+              child: const Icon(Icons.close, color: Colors.white)
+                  .onTap(() => Navigator.pop(context)),
             )
           ]),
       body: Padding(
@@ -93,7 +94,8 @@ class _AdGemOfferDetailsState extends State<AdGemOfferDetails> {
                 ),
               ),
               Container(
-                padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
+                padding: const EdgeInsets.only(
+                    left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(30.0),
                   color: const Color(0xFFFFABA5),
@@ -105,7 +107,10 @@ class _AdGemOfferDetailsState extends State<AdGemOfferDetails> {
               const SizedBox(height: 4.0),
               Text(
                 lang.S.of(context).instructions,
-                style: kTextStyle.copyWith(color: kTitleColor, fontWeight: FontWeight.bold, fontSize: 18.0),
+                style: kTextStyle.copyWith(
+                    color: kTitleColor,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18.0),
               ),
               const SizedBox(height: 5.0),
               Text(
@@ -148,7 +153,9 @@ class _AdGemOfferDetailsState extends State<AdGemOfferDetails> {
                             const SizedBox(height: 5.0),
                             Text(
                               '\$ ${widget.adGemOfferWall.amount.toString()}',
-                              style: kTextStyle.copyWith(color: kTitleColor, fontWeight: FontWeight.bold),
+                              style: kTextStyle.copyWith(
+                                  color: kTitleColor,
+                                  fontWeight: FontWeight.bold),
                             ),
                             Text(
                               lang.S.of(context).totalRewards,
@@ -182,7 +189,9 @@ class _AdGemOfferDetailsState extends State<AdGemOfferDetails> {
                             ),
                             const SizedBox(height: 5.0),
                             Text(
-                              widget.adGemOfferWall.shortDescription.toString().toString(),
+                              widget.adGemOfferWall.shortDescription
+                                  .toString()
+                                  .toString(),
                               style: kTextStyle.copyWith(
                                 color: kTitleColor,
                               ),
@@ -197,7 +206,8 @@ class _AdGemOfferDetailsState extends State<AdGemOfferDetails> {
               ),
               const SizedBox(height: 10.0),
               ButtonGlobal(
-                  buttontext: '${lang.S.of(context).earnbdt}  ${widget.adGemOfferWall.amount.toString()}',
+                  buttontext:
+                      '${lang.S.of(context).earnbdt}  ${widget.adGemOfferWall.amount.toString()}',
                   buttonDecoration: kButtonDecoration,
                   onPressed: () {
                     setState(() {

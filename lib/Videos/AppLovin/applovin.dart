@@ -17,15 +17,18 @@ class AppLovin {
 
   Future<void> loadAds() async {
     final String rewardedAdUnitId = Platform.isAndroid
-        ? await DataBase().retrieveString('applovinRewardedAdAndroid') ?? "6d4421fd379b387e"
-        : await DataBase().retrieveString('applovinRewardedAdIos') ?? "6d4421fd379b387e";
+        ? await DataBase().retrieveString('applovinRewardedAdAndroid') ??
+            "6d4421fd379b387e"
+        : await DataBase().retrieveString('applovinRewardedAdIos') ??
+            "6d4421fd379b387e";
 
     toast("Initializing SDK...");
     AppLovinMAX.loadRewardedAd(rewardedAdUnitId);
   }
 
   void initializeRewardedAds({required WidgetRef ref}) {
-    AppLovinMAX.setRewardedAdListener(RewardedAdListener(onAdLoadedCallback: (ad) {
+    AppLovinMAX.setRewardedAdListener(
+        RewardedAdListener(onAdLoadedCallback: (ad) {
       // Rewarded ad is ready to be shown. AppLovinMAX.isRewardedAdReady(_rewarded_ad_unit_id) will now return 'true'
       toast('Rewarded ad loaded from ${ad.networkName}');
 
@@ -37,7 +40,8 @@ class AppLovin {
       _rewardedAdRetryAttempt = _rewardedAdRetryAttempt + 1;
 
       int retryDelay = pow(2, min(6, _rewardedAdRetryAttempt)).toInt();
-      toast('Rewarded ad failed to load with code ${error.code} - retrying in ${retryDelay}s');
+      toast(
+          'Rewarded ad failed to load with code ${error.code} - retrying in ${retryDelay}s');
 
       Future.delayed(Duration(milliseconds: retryDelay * 1000), () {
         loadAds();
@@ -68,8 +72,10 @@ class AppLovin {
 
   void showAds({required WidgetRef ref}) async {
     final String rewardedAdUnitId = Platform.isAndroid
-        ? await DataBase().retrieveString('applovinRewardedAdAndroid') ?? "6d4421fd379b387e"
-        : await DataBase().retrieveString('applovinRewardedAdIos') ?? "6d4421fd379b387e";
+        ? await DataBase().retrieveString('applovinRewardedAdAndroid') ??
+            "6d4421fd379b387e"
+        : await DataBase().retrieveString('applovinRewardedAdIos') ??
+            "6d4421fd379b387e";
 
     bool isReady = (await AppLovinMAX.isRewardedAdReady(rewardedAdUnitId))!;
     if (isReady) {

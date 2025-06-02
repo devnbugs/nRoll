@@ -13,7 +13,7 @@ import '../../Constant Data/global_contanier.dart';
 import 'dart:io' show Platform;
 
 class WelcomeScreen extends StatefulWidget {
-  const WelcomeScreen({Key? key}) : super(key: key);
+  const WelcomeScreen({super.key});
 
   @override
   State<WelcomeScreen> createState() => _WelcomeScreenState();
@@ -21,15 +21,18 @@ class WelcomeScreen extends StatefulWidget {
 
 class _WelcomeScreenState extends State<WelcomeScreen> {
   Future<User?> signInWithDifferentGoogleAccount() async {
-    final GoogleSignInAccount? googleSignInAccount = await GoogleSignIn().signIn();
-    final GoogleSignInAuthentication? googleSignInAuthentication = await googleSignInAccount?.authentication;
+    final GoogleSignInAccount? googleSignInAccount =
+        await GoogleSignIn().signIn();
+    final GoogleSignInAuthentication? googleSignInAuthentication =
+        await googleSignInAccount?.authentication;
 
     final AuthCredential credential = GoogleAuthProvider.credential(
       accessToken: googleSignInAuthentication?.accessToken,
       idToken: googleSignInAuthentication?.idToken,
     );
 
-    final UserCredential authResult = await FirebaseAuth.instance.signInWithCredential(credential);
+    final UserCredential authResult =
+        await FirebaseAuth.instance.signInWithCredential(credential);
 
     final User? user = authResult.user;
 
@@ -41,7 +44,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
 
     // Obtain the auth details from the request
-    final GoogleSignInAuthentication? googleAuth = await googleUser?.authentication;
+    final GoogleSignInAuthentication? googleAuth =
+        await googleUser?.authentication;
 
     // Create a new credential
     final credential = GoogleAuthProvider.credential(
@@ -73,12 +77,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 ),
                 Text(
                   appsName,
-                  style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
+                  style: kTextStyle.copyWith(
+                      color: kWhite, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 30.0),
                 Text(
                   lang.S.of(context).letsGetStarted,
-                  style: kTextStyle.copyWith(color: kWhite, fontSize: 24, fontWeight: FontWeight.bold),
+                  style: kTextStyle.copyWith(
+                      color: kWhite, fontSize: 24, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 10.0),
                 Text(
@@ -89,15 +95,20 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 const SizedBox(height: 30.0),
                 GestureDetector(
                   onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const LogIn()));
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => const LogIn()));
                   },
                   child: Container(
                     alignment: Alignment.center,
                     height: 48,
-                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), color: const Color(0xff1877F5)),
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        color: const Color(0xff1877F5)),
                     child: ListTile(
-                      visualDensity: const VisualDensity(horizontal: -4, vertical: -4),
-                      contentPadding: const EdgeInsets.symmetric(horizontal: 10),
+                      visualDensity:
+                          const VisualDensity(horizontal: -4, vertical: -4),
+                      contentPadding:
+                          const EdgeInsets.symmetric(horizontal: 10),
                       leading: Image.asset(
                         'images/phone.png',
                         height: 25,
@@ -105,7 +116,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       ),
                       title: Text(
                         lang.S.of(context).continueWithMobile,
-                        style: const TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
+                        style: const TextStyle(
+                            color: Colors.white, fontWeight: FontWeight.w500),
                       ),
                     ),
                   ),
@@ -129,8 +141,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       border: Border.all(color: kMainColor),
                     ),
                     child: ListTile(
-                      visualDensity: const VisualDensity(horizontal: -4, vertical: -4),
-                      contentPadding: const EdgeInsets.symmetric(horizontal: 10),
+                      visualDensity:
+                          const VisualDensity(horizontal: -4, vertical: -4),
+                      contentPadding:
+                          const EdgeInsets.symmetric(horizontal: 10),
                       leading: Image.asset(
                         'images/google.png',
                         height: 25,
@@ -138,7 +152,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       ),
                       title: Text(
                         lang.S.of(context).continueWithGoogle,
-                        style: const TextStyle(color: kWhite, fontWeight: FontWeight.w500),
+                        style: const TextStyle(
+                            color: kWhite, fontWeight: FontWeight.w500),
                       ),
                     ),
                   ),
@@ -149,16 +164,19 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 GestureDetector(
                   onTap: () async {
                     if (Platform.isIOS) {
-                      AuthorizationCredentialAppleID credential = await SignInWithApple.getAppleIDCredential(
+                      AuthorizationCredentialAppleID credential =
+                          await SignInWithApple.getAppleIDCredential(
                         scopes: [
                           AppleIDAuthorizationScopes.email,
                           AppleIDAuthorizationScopes.fullName,
                         ],
                       );
-                      await AuthRepo().signInWithGoogle(credential.userIdentifier!, context);
+                      await AuthRepo().signInWithGoogle(
+                          credential.userIdentifier!, context);
                     } else {
-                     // EasyLoading.showError('Apple login will work on apple devises');
-                      EasyLoading.showError(lang.S.of(context).appleLoginWillWorkOnAppleDevises);
+                      // EasyLoading.showError('Apple login will work on apple devises');
+                      EasyLoading.showError(
+                          lang.S.of(context).appleLoginWillWorkOnAppleDevises);
                     }
                   },
                   child: Container(
@@ -170,17 +188,20 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                       border: Border.all(color: kMainColor),
                     ),
                     child: ListTile(
-                      visualDensity: const VisualDensity(horizontal: -4, vertical: -4),
-                      contentPadding: const EdgeInsets.symmetric(horizontal: 10),
+                      visualDensity:
+                          const VisualDensity(horizontal: -4, vertical: -4),
+                      contentPadding:
+                          const EdgeInsets.symmetric(horizontal: 10),
                       leading: Image.asset(
                         'images/apple_logo.png',
                         height: 25,
                         width: 25,
                       ),
-                      title:  Text(
+                      title: Text(
                         lang.S.of(context).continueWithApple,
                         //'Continue with Apple',
-                        style: const TextStyle(color: kWhite, fontWeight: FontWeight.w500),
+                        style: const TextStyle(
+                            color: kWhite, fontWeight: FontWeight.w500),
                       ),
                     ),
                   ),

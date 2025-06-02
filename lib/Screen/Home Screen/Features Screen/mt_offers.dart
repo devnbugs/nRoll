@@ -228,7 +228,10 @@ class _OffersState extends State<Offers> {
                           ),
                           Text(
                             titleList[i],
-                            style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18.0),
+                            style: kTextStyle.copyWith(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18.0),
                           ),
                           const SizedBox(
                             height: 4.0,

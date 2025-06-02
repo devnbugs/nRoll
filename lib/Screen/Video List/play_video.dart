@@ -28,19 +28,21 @@ class _PlayVideoState extends State<PlayVideo> {
   late CustomVideoPlayerController _customVideoPlayerController;
   late YoutubePlayerController _ycontroller;
 
-
   @override
   void initState() {
     super.initState();
     if (widget.video.type == "video") {
-      videoPlayerController = VideoPlayerController.networkUrl(Uri.parse(Config.siteUrl + widget.video.videoLink!))..initialize().then((value) => setState(() {}));
+      videoPlayerController = VideoPlayerController.networkUrl(
+          Uri.parse(Config.siteUrl + widget.video.videoLink!))
+        ..initialize().then((value) => setState(() {}));
       _customVideoPlayerController = CustomVideoPlayerController(
         context: context,
         videoPlayerController: videoPlayerController,
       );
-      videoPlayerController.play().then((value) => _controller.restart(duration: widget.video.duration.toInt()));
+      videoPlayerController.play().then((value) =>
+          _controller.restart(duration: widget.video.duration.toInt()));
       videoPlayerController.setLooping(true);
-    }else{
+    } else {
       _ycontroller = YoutubePlayerController.fromVideoId(
         videoId: widget.videoId,
         autoPlay: true,
@@ -110,16 +112,20 @@ class _PlayVideoState extends State<PlayVideo> {
                     onComplete: () async {
                       try {
                         //EasyLoading.show(status: "Getting reward");
-                        EasyLoading.show(status:lang.S.of(context).gettingReward);
-                        bool status = await AuthRepo().watchVideo(widget.video.id.toString());
+                        EasyLoading.show(
+                            status: lang.S.of(context).gettingReward);
+                        bool status = await AuthRepo()
+                            .watchVideo(widget.video.id.toString());
                         if (status) {
                           ref.refresh(videoProvider);
                           ref.refresh(personalProfileProvider);
-                         // EasyLoading.showSuccess("Rewarded Successfully");
-                          EasyLoading.showSuccess(lang.S.of(context).rewardedSuccessfully);
+                          // EasyLoading.showSuccess("Rewarded Successfully");
+                          EasyLoading.showSuccess(
+                              lang.S.of(context).rewardedSuccessfully);
                         } else {
-                         // EasyLoading.showError("Error Occured");
-                          EasyLoading.showError(lang.S.of(context).errorOccurred);
+                          // EasyLoading.showError("Error Occured");
+                          EasyLoading.showError(
+                              lang.S.of(context).errorOccurred);
                         }
                       } catch (e) {
                         EasyLoading.showError(e.toString());
@@ -133,13 +139,14 @@ class _PlayVideoState extends State<PlayVideo> {
               ],
             ),
             body: Center(
-              child: widget.video.type == "video"
-                  ? CustomVideoPlayer(customVideoPlayerController: _customVideoPlayerController)
-                  : YoutubePlayer(
-                controller: _ycontroller,
-                aspectRatio: 16 / 9,
-              )
-            ),
+                child: widget.video.type == "video"
+                    ? CustomVideoPlayer(
+                        customVideoPlayerController:
+                            _customVideoPlayerController)
+                    : YoutubePlayer(
+                        controller: _ycontroller,
+                        aspectRatio: 16 / 9,
+                      )),
           ),
         ),
       );

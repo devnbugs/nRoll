@@ -11,7 +11,8 @@ class OffertoroModel {
 
   OffertoroModel.fromJson(dynamic json) {
     _query = json['query'] != null ? Query.fromJson(json['query']) : null;
-    _response = json['response'] != null ? Response.fromJson(json['response']) : null;
+    _response =
+        json['response'] != null ? Response.fromJson(json['response']) : null;
     _error = json['error'];
   }
 
@@ -135,7 +136,8 @@ class Offers {
     _amount = json['amount'];
     _imageUrl = json['image_url'];
     _imageUrl220x124 = json['image_url_220x124'];
-    _countries = json['countries'] != null ? json['countries'].cast<String>() : [];
+    _countries =
+        json['countries'] != null ? json['countries'].cast<String>() : [];
     _platform = json['platform'];
     _device = json['device'];
     _lastModified = json['last_modified'];

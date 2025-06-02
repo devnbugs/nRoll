@@ -168,7 +168,9 @@ class _OgAdsOfferWallState extends State<OgAdsOfferWall> {
                             child: Container(
                               width: 325,
                               padding: const EdgeInsets.all(10.0),
-                              decoration: BoxDecoration(borderRadius: BorderRadius.circular(10.0), color: const Color(0xFFFFFFFF)),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10.0),
+                                  color: const Color(0xFFFFFFFF)),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
@@ -187,14 +189,16 @@ class _OgAdsOfferWallState extends State<OgAdsOfferWall> {
                                   Padding(
                                     padding: const EdgeInsets.only(left: 5.0),
                                     child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
                                       children: [
                                         SizedBox(
                                           width: context.width() / 1.5,
                                           child: Text(
                                             offer.offers?[i].nameShort ?? '',
                                             maxLines: 1,
-                                            style: kTextStyle.copyWith(color: kTitleColor),
+                                            style: kTextStyle.copyWith(
+                                                color: kTitleColor),
                                           ),
                                         ),
                                         const SizedBox(height: 4.0),
@@ -203,20 +207,25 @@ class _OgAdsOfferWallState extends State<OgAdsOfferWall> {
                                             SizedBox(
                                               width: context.width() / 2.2,
                                               child: Text(
-                                                offer.offers?[i].description ?? '',
+                                                offer.offers?[i].description ??
+                                                    '',
                                                 maxLines: 1,
-                                                style: kTextStyle.copyWith(color: kGreyTextColor),
+                                                style: kTextStyle.copyWith(
+                                                    color: kGreyTextColor),
                                               ),
                                             ),
                                             Text(
                                               '\$ ${offer.offers?[i].epc.toString() ?? ''}',
-                                              style: kTextStyle.copyWith(color: kMainColor, fontWeight: FontWeight.bold),
+                                              style: kTextStyle.copyWith(
+                                                  color: kMainColor,
+                                                  fontWeight: FontWeight.bold),
                                             ),
                                           ],
                                         ),
                                         Container(
                                           decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(30.0),
+                                            borderRadius:
+                                                BorderRadius.circular(30.0),
                                             gradient: const LinearGradient(
                                               begin: Alignment.topCenter,
                                               colors: [
@@ -226,10 +235,17 @@ class _OgAdsOfferWallState extends State<OgAdsOfferWall> {
                                             ),
                                           ),
                                           child: Padding(
-                                            padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
+                                            padding: const EdgeInsets.only(
+                                                left: 10.0,
+                                                right: 10.0,
+                                                top: 2.0,
+                                                bottom: 2.0),
                                             child: Text(
-                                              offer.offers?[i].device?.toString() ?? '',
-                                              style: kTextStyle.copyWith(color: Colors.white),
+                                              offer.offers?[i].device
+                                                      ?.toString() ??
+                                                  '',
+                                              style: kTextStyle.copyWith(
+                                                  color: Colors.white),
                                             ),
                                           ),
                                         ),
@@ -239,7 +255,9 @@ class _OgAdsOfferWallState extends State<OgAdsOfferWall> {
                                 ],
                               ),
                             ),
-                          ).onTap(() => OgAdsOfferDetails(ogAdsOfferWall: offer.offers![i]).launch(context));
+                          ).onTap(() => OgAdsOfferDetails(
+                                  ogAdsOfferWall: offer.offers![i])
+                              .launch(context));
                         })
                   ],
                 ),

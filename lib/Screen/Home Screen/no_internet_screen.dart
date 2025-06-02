@@ -32,13 +32,15 @@ class _NoInternetScreenState extends State<NoInternetScreen> {
                 const SizedBox(
                   height: 10.0,
                 ),
-                Text(lang.S.of(context).noInternetCollection, style: kTextStyle.copyWith(color: kWhite, fontSize: 20.0)),
+                Text(lang.S.of(context).noInternetCollection,
+                    style: kTextStyle.copyWith(color: kWhite, fontSize: 20.0)),
                 const SizedBox(
                   height: 10.0,
                 ),
                 ButtonGlobal(
                     buttontext: lang.S.of(context).tryAgain,
-                    buttonDecoration: kButtonDecoration.copyWith(color: kMainColor),
+                    buttonDecoration:
+                        kButtonDecoration.copyWith(color: kMainColor),
                     onPressed: () async {
                       ref.refresh(personalProfileProvider);
                       ref.refresh(quizProvider);

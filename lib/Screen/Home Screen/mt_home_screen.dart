@@ -70,7 +70,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 12),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 15, vertical: 12),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
@@ -80,7 +81,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         children: [
                           Text(
                             lang.S.of(context).congratulations,
-                            style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14.0),
+                            style: kTextStyle.copyWith(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                                fontSize: 14.0),
                           ),
                           const SizedBox(height: 5.0),
                           Text(
@@ -97,7 +101,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               borderRadius: BorderRadius.circular(30.0),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.only(left: 20.0, right: 20.0),
+                              padding: const EdgeInsets.only(
+                                  left: 20.0, right: 20.0),
                               child: Text(
                                 lang.S.of(context).ok,
                                 style: kTextStyle.copyWith(
@@ -151,7 +156,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 15, vertical: 15),
                     child: Row(
                       children: [
                         Expanded(
@@ -160,13 +166,16 @@ class _HomeScreenState extends State<HomeScreen> {
                             children: [
                               Text(
                                 lang.S.of(context).dailyReward,
-                                style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                                style: kTextStyle.copyWith(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
                               ),
                               const SizedBox(height: 10.0),
                               Text(
                                 lang.S.of(context).alreadyRewardedComeBackLater,
                                 //'Already rewarded\ncome back later',
-                                style: kTextStyle.copyWith(color: Colors.white, fontSize: 14),
+                                style: kTextStyle.copyWith(
+                                    color: Colors.white, fontSize: 14),
                                 maxLines: 2,
                               ),
                               const SizedBox(height: 10.0),
@@ -177,7 +186,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                   borderRadius: BorderRadius.circular(30.0),
                                 ),
                                 child: Padding(
-                                  padding: const EdgeInsets.only(left: 15.0, right: 15.0),
+                                  padding: const EdgeInsets.only(
+                                      left: 15.0, right: 15.0),
                                   child: Text(
                                     lang.S.of(context).ok,
                                     style: kTextStyle.copyWith(
@@ -242,7 +252,8 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Consumer(builder: (_, ref, watch) {
       AsyncValue<UserProfileModel> profile = ref.watch(personalProfileProvider);
-      AsyncValue<TutorialVideoModel> tutorial = ref.watch(tutorialVideoProvider);
+      AsyncValue<TutorialVideoModel> tutorial =
+          ref.watch(tutorialVideoProvider);
       return profile.when(data: (info) {
         if (info.data?.user?.status == 0) {
           DataBase().deleteToken();
@@ -358,7 +369,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.only(left: 15.0, right: 15.0, top: 30.0),
+                      padding: const EdgeInsets.only(
+                          left: 15.0, right: 15.0, top: 30.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -367,19 +379,26 @@ class _HomeScreenState extends State<HomeScreen> {
                             title: ListTile(
                               contentPadding: EdgeInsets.zero,
                               leading: Container(
-                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(30.0), border: Border.all(color: Colors.white)),
+                                decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(30.0),
+                                    border: Border.all(color: Colors.white)),
                                 child: CircleAvatar(
                                   radius: 18.0,
-                                  backgroundImage: NetworkImage(info.data?.user?.image == Config.siteUrl
+                                  backgroundImage: NetworkImage(info
+                                              .data?.user?.image ==
+                                          Config.siteUrl
                                       ? 'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/68.png'
-                                      : info.data?.user?.image ?? 'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/68.png'),
+                                      : info.data?.user?.image ??
+                                          'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/68.png'),
                                 ),
                               ).onTap(
                                 () => const Profile().launch(context),
                               ),
                               title: Text(
                                 info.data?.user?.name ?? '',
-                                style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                                style: kTextStyle.copyWith(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
                               ),
                             ),
                             trailing: Container(
@@ -393,16 +412,20 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                               ),
                               child: Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   AnimatedOpacity(
                                     opacity: !isBalanceShow ? 1.0 : 0.0,
-                                    duration: const Duration(milliseconds: 1000),
+                                    duration:
+                                        const Duration(milliseconds: 1000),
                                     child: Container(
                                       height: 30,
                                       width: 30,
-                                      decoration: const BoxDecoration(shape: BoxShape.circle, gradient: kBalanceGradiant),
+                                      decoration: const BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          gradient: kBalanceGradiant),
                                       child: const Icon(
                                         FeatherIcons.dollarSign,
                                         size: 15.0,
@@ -412,14 +435,18 @@ class _HomeScreenState extends State<HomeScreen> {
                                   ),
                                   const SizedBox(width: 5.0),
                                   Text(
-                                    isBalanceShow ? myFormat.format(info.data?.user?.wallet?.balance) : lang.S.of(context).balance,
+                                    isBalanceShow
+                                        ? myFormat.format(
+                                            info.data?.user?.wallet?.balance)
+                                        : lang.S.of(context).balance,
                                     style: mediumTextStyle,
                                     textAlign: TextAlign.start,
                                   ),
                                   const SizedBox(width: 5.0),
                                   AnimatedOpacity(
                                     opacity: isBalanceShow ? 1.0 : 0.0,
-                                    duration: const Duration(milliseconds: 1000),
+                                    duration:
+                                        const Duration(milliseconds: 1000),
                                     child: Container(
                                       height: 30,
                                       width: 30,
@@ -456,7 +483,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               color: const Color(0xffF0F0F0).withOpacity(0.3),
                             ),
                             child: ListTile(
-                              contentPadding: const EdgeInsets.symmetric(horizontal: 4, vertical: 5),
+                              contentPadding: const EdgeInsets.symmetric(
+                                  horizontal: 4, vertical: 5),
                               visualDensity: const VisualDensity(vertical: -4),
                               leading: Image.asset(
                                 'images/speed.png',
@@ -479,29 +507,39 @@ class _HomeScreenState extends State<HomeScreen> {
                                   height: 41,
                                   width: 41,
                                   // padding: const EdgeInsets.all(15.0),
-                                  decoration: const BoxDecoration(shape: BoxShape.circle, gradient: kBalanceGradiant),
+                                  decoration: const BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      gradient: kBalanceGradiant),
                                   child: Text(
                                     '20+',
-                                    style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
+                                    style: kTextStyle.copyWith(
+                                        color: kWhite,
+                                        fontWeight: FontWeight.bold),
                                   )),
                             ),
                           ).onTap(
                             () async {
                               try {
                                 //EasyLoading.show(status: 'Getting Today\'s Reward');
-                                EasyLoading.show(status: lang.S.of(context).gettingTodayReward);
-                                bool isValid = await PurchaseModel().isActiveBuyer();
+                                EasyLoading.show(
+                                    status:
+                                        lang.S.of(context).gettingTodayReward);
+                                bool isValid =
+                                    await PurchaseModel().isActiveBuyer();
                                 if (isValid) {
                                   var status = await AuthRepo().dailyRewards();
                                   if (status) {
                                     showRewardPopUp('100');
                                     //EasyLoading.showSuccess('Reward Added');
-                                    EasyLoading.showSuccess(lang.S.of(context).rewardAdded);
+                                    EasyLoading.showSuccess(
+                                        lang.S.of(context).rewardAdded);
                                     admob.showInterstitialAd();
                                     ref.refresh(personalProfileProvider);
                                   } else {
                                     //EasyLoading.showError('Already Rewarded. Try Again Later');
-                                    EasyLoading.showError(lang.S.of(context).alreadyRewardedTryAgainLater);
+                                    EasyLoading.showError(lang.S
+                                        .of(context)
+                                        .alreadyRewardedTryAgainLater);
                                     showRewardsPopUp();
                                   }
                                 } else {
@@ -511,7 +549,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 showRewardsPopUp();
                                 // EasyLoading.instance
                                 //   .backgroundColor = Theme.of(context).colorScheme.primaryContainer;
-                                EasyLoading.showError(e.toString().replaceRange(0, 10, ''));
+                                EasyLoading.showError(
+                                    e.toString().replaceRange(0, 10, ''));
                               }
                             },
                           ),
@@ -551,7 +590,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           if (i == 0) {
                             const Redeem().launch(context);
                           } else {
-                            Share.share('I have earned \$100 in a day. Use my refer code to earn \$10 on signup. My Refer Code is ${info.data?.user?.referCode ?? ''}');
+                            Share.share(
+                                'I have earned \$100 in a day. Use my refer code to earn \$10 on signup. My Refer Code is ${info.data?.user?.referCode ?? ''}');
                           }
                         });
                       },
@@ -567,7 +607,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         padding: const EdgeInsets.only(left: 15),
                         child: Text(
                           lang.S.of(context).allFeatures,
-                          style: kTextStyle.copyWith(fontWeight: FontWeight.bold),
+                          style:
+                              kTextStyle.copyWith(fontWeight: FontWeight.bold),
                         ),
                       ),
                       const SizedBox(
@@ -752,8 +793,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                   ),
                                 )
                               ],
-                            ).onTap(
-                                () => Share.share('I have earned \$100 in a day. Use my refer code to earn \$10 on signup. My Refer Code is ${info.data?.user?.referCode ?? ''}')),
+                            ).onTap(() => Share.share(
+                                'I have earned \$100 in a day. Use my refer code to earn \$10 on signup. My Refer Code is ${info.data?.user?.referCode ?? ''}')),
                           )
                         ],
                       ),
@@ -820,7 +861,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 Center(
                                     child: Text(
                                   lang.S.of(context).scratchCard,
-                                  style: mediumTextStyle.copyWith(fontSize: 13.5),
+                                  style:
+                                      mediumTextStyle.copyWith(fontSize: 13.5),
                                 )),
                               ],
                             ).onTap(
@@ -839,12 +881,14 @@ class _HomeScreenState extends State<HomeScreen> {
                                     lang.S.of(context).share,
                                     overflow: TextOverflow.ellipsis,
                                     maxLines: 1,
-                                    style: kTextStyle.copyWith(color: kTitleColor, fontWeight: FontWeight.bold),
+                                    style: kTextStyle.copyWith(
+                                        color: kTitleColor,
+                                        fontWeight: FontWeight.bold),
                                   ),
                                 )
                               ],
-                            ).onTap(
-                                () => Share.share('I have earned \$100 in a day. Use my refer code to earn \$10 on signup. My Refer Code is ${info.data?.user?.referCode ?? ''}')),
+                            ).onTap(() => Share.share(
+                                'I have earned \$100 in a day. Use my refer code to earn \$10 on signup. My Refer Code is ${info.data?.user?.referCode ?? ''}')),
                           ).visible(false),
                           const Expanded(child: Text(''))
                         ],

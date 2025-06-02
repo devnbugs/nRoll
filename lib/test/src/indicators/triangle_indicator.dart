@@ -4,9 +4,9 @@ class TriangleIndicator extends StatelessWidget {
   final Color? color;
 
   const TriangleIndicator({
-    Key? key,
+    super.key,
     this.color,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -19,42 +19,54 @@ class FortuneBar extends HookWidget implements FortuneWidget {
     ),
   ];
 
-  static const StyleStrategy kDefaultStyleStrategy = UniformStyleStrategy(borderWidth: 4);
+  static const StyleStrategy kDefaultStyleStrategy =
+      UniformStyleStrategy(borderWidth: 4);
 
   /// Requires this widget to have exactly this height.
   final double height;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.items}
+  @override
   final List<FortuneItem> items;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.selected}
+  @override
   final Stream<int> selected;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.rotationCount}
+  @override
   final int rotationCount;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.duration}
+  @override
   final Duration duration;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.indicators}
+  @override
   final List<FortuneIndicator> indicators;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.animationType}
+  @override
   final Curve curve;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.onAnimationStart}
+  @override
   final VoidCallback? onAnimationStart;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.onAnimationEnd}
+  @override
   final VoidCallback? onAnimationEnd;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.styleStrategy}
+  @override
   final StyleStrategy styleStrategy;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.physics}
+  @override
   final PanPhysics physics;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.onFling}
+  @override
   final VoidCallback? onFling;
 
   /// If this value is true, this widget expands to the screen width and ignores
@@ -64,6 +76,7 @@ class FortuneBar extends HookWidget implements FortuneWidget {
   final bool fullWidth;
 
   /// {@macro flutter_fortune_wheel.FortuneWidget.animateFirst}
+  @override
   final bool animateFirst;
 
   final int visibleItemCount;
@@ -94,7 +107,7 @@ class FortuneBar extends HookWidget implements FortuneWidget {
     this.visibleItemCount = kDefaultVisibleItemCount,
     this.onFling,
     PanPhysics? physics,
-  })  : physics = physics ?? DirectionalPanPhysics.horizontal();
+  }) : physics = physics ?? DirectionalPanPhysics.horizontal();
 
   @override
   Widget build(BuildContext context) {
@@ -137,7 +150,9 @@ class FortuneBar extends HookWidget implements FortuneWidget {
         builder: (context, panState) {
           return LayoutBuilder(builder: (context, constraints) {
             final size = Size(
-              fullWidth ? MediaQuery.of(context).size.width : constraints.maxWidth,
+              fullWidth
+                  ? MediaQuery.of(context).size.width
+                  : constraints.maxWidth,
               height,
             );
 
@@ -146,11 +161,14 @@ class FortuneBar extends HookWidget implements FortuneWidget {
                 AnimatedBuilder(
                     animation: animation,
                     builder: (context, _) {
-                      final itemPosition = (items.length * rotationCount + selectedIndex.value);
-                      final isAnimatingPanFactor = animationCtrl.isAnimating ? 0 : 1;
+                      final itemPosition =
+                          (items.length * rotationCount + selectedIndex.value);
+                      final isAnimatingPanFactor =
+                          animationCtrl.isAnimating ? 0 : 1;
                       final panFactor = 2 / size.width;
                       final panOffset = -panState.distance * panFactor;
-                      final position = animation.value * itemPosition + panOffset * isAnimatingPanFactor;
+                      final position = animation.value * itemPosition +
+                          panOffset * isAnimatingPanFactor;
 
                       return _InfiniteBar(
                         centerPosition: 1,

@@ -47,7 +47,11 @@ class _WebsiteListState extends State<WebsiteList> {
                 ),
               ),
               flexibleSpace: Container(
-                decoration: BoxDecoration(gradient: containerGradiant, borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30))),
+                decoration: BoxDecoration(
+                    gradient: containerGradiant,
+                    borderRadius: const BorderRadius.only(
+                        bottomLeft: Radius.circular(30),
+                        bottomRight: Radius.circular(30))),
               ),
               elevation: 0.0,
               title: Text(
@@ -57,13 +61,15 @@ class _WebsiteListState extends State<WebsiteList> {
             ),
             body: SingleChildScrollView(
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 15, vertical: 15),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       '${lang.S.of(context).totalWebsites}: ${website.data?.length ?? 0}',
-                      style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kWhite),
+                      style: kTextStyle.copyWith(
+                          fontWeight: FontWeight.bold, color: kWhite),
                     ),
                     const SizedBox(
                       height: 5,
@@ -99,36 +105,60 @@ class _WebsiteListState extends State<WebsiteList> {
                               child: Padding(
                                 padding: const EdgeInsets.all(10.0),
                                 child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
                                     Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
                                       children: [
                                         Text(
                                           website.data?[i].title ?? "",
-                                          style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kWhite),
+                                          style: kTextStyle.copyWith(
+                                              fontWeight: FontWeight.bold,
+                                              color: kWhite),
                                         ),
                                         const SizedBox(
                                           height: 5,
                                         ),
                                         RichText(
-                                            text:
-                                                TextSpan(text: lang.S.of(context).visitWebsiteAndGet, style: kTextStyle.copyWith(fontSize: 13, color: kLightTextColor), children: [
-                                          TextSpan(
-                                              text: ' ${website.data?[i].rewardPoint ?? ""} ${lang.S.of(context).points}', style: kTextStyle.copyWith(color: kWhite, fontSize: 13)),
-                                        ])),
+                                            text: TextSpan(
+                                                text: lang.S
+                                                    .of(context)
+                                                    .visitWebsiteAndGet,
+                                                style: kTextStyle.copyWith(
+                                                    fontSize: 13,
+                                                    color: kLightTextColor),
+                                                children: [
+                                              TextSpan(
+                                                  text:
+                                                      ' ${website.data?[i].rewardPoint ?? ""} ${lang.S.of(context).points}',
+                                                  style: kTextStyle.copyWith(
+                                                      color: kWhite,
+                                                      fontSize: 13)),
+                                            ])),
                                         const SizedBox(
                                           height: 5,
                                         ),
                                         GestureDetector(
                                           onTap: () {
-                                            Navigator.push(context, MaterialPageRoute(builder: (context) => VisitWebsite(url: website.data![i])));
+                                            Navigator.push(
+                                                context,
+                                                MaterialPageRoute(
+                                                    builder: (context) =>
+                                                        VisitWebsite(
+                                                            url: website
+                                                                .data![i])));
                                           },
                                           child: Container(
                                             alignment: Alignment.center,
-                                            padding: const EdgeInsets.symmetric(horizontal: 10),
+                                            padding: const EdgeInsets.symmetric(
+                                                horizontal: 10),
                                             height: 30,
-                                            decoration: BoxDecoration(borderRadius: BorderRadius.circular(36), gradient: buttonGradiant),
+                                            decoration: BoxDecoration(
+                                                borderRadius:
+                                                    BorderRadius.circular(36),
+                                                gradient: buttonGradiant),
                                             child: Text(
                                               lang.S.of(context).visitWebsite,
                                               style: mediumTextStyle,

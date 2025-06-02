@@ -35,7 +35,10 @@ class _TrianglePainter extends CustomPainter {
 
   @override
   bool shouldRepaint(_TrianglePainter oldDelegate) {
-    return fillColor != oldDelegate.fillColor || elevation != oldDelegate.elevation || strokeWidth != oldDelegate.strokeWidth || strokeColor != oldDelegate.strokeColor;
+    return fillColor != oldDelegate.fillColor ||
+        elevation != oldDelegate.elevation ||
+        strokeWidth != oldDelegate.strokeWidth ||
+        strokeColor != oldDelegate.strokeColor;
   }
 }
 
@@ -47,9 +50,8 @@ class _Triangle extends StatelessWidget {
 
   const _Triangle({
     required this.color,
-    this.borderColor,
-    this.borderWidth = 1,
     this.elevation = 0,
+    required this.borderWidth,
   });
 
   @override

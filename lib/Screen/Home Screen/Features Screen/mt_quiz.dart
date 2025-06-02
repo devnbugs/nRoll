@@ -346,8 +346,8 @@ class _MtQuizState extends State<MtQuiz> {
                         const SizedBox(width: 5.0),
                         Text(
                           isBalanceShow
-                              ? myFormat.format(
-                                      info.data?.user?.wallet?.balance)
+                              ? myFormat
+                                  .format(info.data?.user?.wallet?.balance)
                               : lang.S.of(context).balance,
                           style: mediumTextStyle,
                           textAlign: TextAlign.start,

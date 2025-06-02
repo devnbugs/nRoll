@@ -12,7 +12,8 @@ import '../Constant Data/button_global.dart';
 import '../Constant Data/constant.dart';
 
 class OffertoroOfferDetails extends StatefulWidget {
-  const OffertoroOfferDetails({super.key, required this.offertoroModel, required this.userId});
+  const OffertoroOfferDetails(
+      {super.key, required this.offertoroModel, required this.userId});
   final Offers offertoroModel;
   final String userId;
 
@@ -43,7 +44,11 @@ class _OffertoroOfferDetailsState extends State<OffertoroOfferDetails> {
           titleSpacing: 0,
           toolbarHeight: 90,
           flexibleSpace: Container(
-            decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30)), gradient: containerGradiant),
+            decoration: BoxDecoration(
+                borderRadius: const BorderRadius.only(
+                    bottomLeft: Radius.circular(30),
+                    bottomRight: Radius.circular(30)),
+                gradient: containerGradiant),
           ),
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
@@ -77,12 +82,14 @@ class _OffertoroOfferDetailsState extends State<OffertoroOfferDetails> {
           actions: [
             Padding(
               padding: const EdgeInsets.only(right: 10.0),
-              child: const Icon(Icons.close, color: Colors.white).onTap(() => Navigator.pop(context)),
+              child: const Icon(Icons.close, color: Colors.white)
+                  .onTap(() => Navigator.pop(context)),
             )
           ]),
       body: Consumer(
         builder: (BuildContext context, WidgetRef ref, Widget? child) {
-          AsyncValue<OffertoroModel> offertoroOfferDetails = ref.watch(offertoroProvider);
+          AsyncValue<OffertoroModel> offertoroOfferDetails =
+              ref.watch(offertoroProvider);
           return offertoroOfferDetails.when(data: (offertoroOfferDetails) {
             return Padding(
               padding: const EdgeInsets.all(10.0),
@@ -107,20 +114,25 @@ class _OffertoroOfferDetailsState extends State<OffertoroOfferDetails> {
                       itemCount: widget.offertoroModel.verticals!.length,
                       itemBuilder: (_, i) {
                         return Container(
-                          padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
+                          padding: const EdgeInsets.only(
+                              left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(30.0),
                             color: const Color(0xFFFFABA5),
                           ),
                           child: Text(
-                            widget.offertoroModel.verticals![i].verticalName.toString(),
+                            widget.offertoroModel.verticals![i].verticalName
+                                .toString(),
                           ),
                         );
                       },
                     ),
                     Text(
                       lang.S.of(context).instructions,
-                      style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
+                      style: kTextStyle.copyWith(
+                          color: kWhite,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18.0),
                     ),
                     const SizedBox(height: 5.0),
                     Text(
@@ -163,11 +175,14 @@ class _OffertoroOfferDetailsState extends State<OffertoroOfferDetails> {
                                   const SizedBox(height: 5.0),
                                   Text(
                                     'BDT  ${widget.offertoroModel.amount.toString()}',
-                                    style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
+                                    style: kTextStyle.copyWith(
+                                        color: kWhite,
+                                        fontWeight: FontWeight.bold),
                                   ),
                                   Text(
                                     lang.S.of(context).totalRewards,
-                                    style: kTextStyle.copyWith(color: kLightTextColor),
+                                    style: kTextStyle.copyWith(
+                                        color: kLightTextColor),
                                   ),
                                 ],
                               ),
@@ -197,7 +212,9 @@ class _OffertoroOfferDetailsState extends State<OffertoroOfferDetails> {
                                   ),
                                   const SizedBox(height: 5.0),
                                   Text(
-                                    widget.offertoroModel.disclaimer.toString().toString(),
+                                    widget.offertoroModel.disclaimer
+                                        .toString()
+                                        .toString(),
                                     style: kTextStyle.copyWith(
                                       color: kWhite,
                                     ),
@@ -212,10 +229,14 @@ class _OffertoroOfferDetailsState extends State<OffertoroOfferDetails> {
                     ),
                     const SizedBox(height: 10.0),
                     ButtonGlobal(
-                        buttontext: '${lang.S.of(context).earbdt}  ${widget.offertoroModel.amount.toString()}',
+                        buttontext:
+                            '${lang.S.of(context).earbdt}  ${widget.offertoroModel.amount.toString()}',
                         buttonDecoration: kButtonDecoration,
                         onPressed: () async {
-                          await launchUrl(Uri.parse(widget.offertoroModel.offerUrlEasy!.replaceAll('[USER_ID]', widget.userId)), mode: LaunchMode.externalApplication);
+                          await launchUrl(
+                              Uri.parse(widget.offertoroModel.offerUrlEasy!
+                                  .replaceAll('[USER_ID]', widget.userId)),
+                              mode: LaunchMode.externalApplication);
                         })
                   ],
                 ),

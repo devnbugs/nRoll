@@ -39,7 +39,8 @@ class _HomeState extends State<Home> {
         width: double.infinity,
         decoration: BoxDecoration(
           color: Theme.of(context).colorScheme.primaryContainer,
-          border: Border(top: BorderSide(color: bottomButtonColor.withOpacity(0.3))),
+          border: Border(
+              top: BorderSide(color: bottomButtonColor.withOpacity(0.3))),
         ),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -54,9 +55,14 @@ class _HomeState extends State<Home> {
                   });
                 },
                 child: Container(
-                  decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      boxShadow: [BoxShadow(color: _currentPage == 0 ? kMainColor.withOpacity(0.2) : Colors.transparent, blurRadius: 12, spreadRadius: 0.0)]),
+                  decoration: BoxDecoration(shape: BoxShape.circle, boxShadow: [
+                    BoxShadow(
+                        color: _currentPage == 0
+                            ? kMainColor.withOpacity(0.2)
+                            : Colors.transparent,
+                        blurRadius: 12,
+                        spreadRadius: 0.0)
+                  ]),
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
@@ -64,10 +70,16 @@ class _HomeState extends State<Home> {
                       children: [
                         Icon(
                           FeatherIcons.home,
-                          color: _currentPage == 0 ? kMainColor : bottomButtonColor,
+                          color: _currentPage == 0
+                              ? kMainColor
+                              : bottomButtonColor,
                           size: 24,
                         ),
-                        Text(lang.S.of(context).home, style: mediumTextStyle.copyWith(color: _currentPage == 0 ? kMainColor : bottomButtonColor)),
+                        Text(lang.S.of(context).home,
+                            style: mediumTextStyle.copyWith(
+                                color: _currentPage == 0
+                                    ? kMainColor
+                                    : bottomButtonColor)),
                       ],
                     ),
                   ),
@@ -80,9 +92,14 @@ class _HomeState extends State<Home> {
                   });
                 },
                 child: Container(
-                  decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      boxShadow: [BoxShadow(color: _currentPage == 1 ? kMainColor.withOpacity(0.2) : Colors.transparent, blurRadius: 12, spreadRadius: 2.0)]),
+                  decoration: BoxDecoration(shape: BoxShape.circle, boxShadow: [
+                    BoxShadow(
+                        color: _currentPage == 1
+                            ? kMainColor.withOpacity(0.2)
+                            : Colors.transparent,
+                        blurRadius: 12,
+                        spreadRadius: 2.0)
+                  ]),
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
@@ -90,10 +107,16 @@ class _HomeState extends State<Home> {
                       children: [
                         Icon(
                           BootstrapIcons.credit_card,
-                          color: _currentPage == 1 ? kMainColor : bottomButtonColor,
+                          color: _currentPage == 1
+                              ? kMainColor
+                              : bottomButtonColor,
                           size: 24,
                         ),
-                        Text(lang.S.of(context).quizzes, style: mediumTextStyle.copyWith(color: _currentPage == 1 ? kMainColor : bottomButtonColor)),
+                        Text(lang.S.of(context).quizzes,
+                            style: mediumTextStyle.copyWith(
+                                color: _currentPage == 1
+                                    ? kMainColor
+                                    : bottomButtonColor)),
                       ],
                     ),
                   ),
@@ -106,9 +129,14 @@ class _HomeState extends State<Home> {
                   });
                 },
                 child: Container(
-                  decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      boxShadow: [BoxShadow(color: _currentPage == 2 ? kMainColor.withOpacity(0.2) : Colors.transparent, blurRadius: 12, spreadRadius: 2.0)]),
+                  decoration: BoxDecoration(shape: BoxShape.circle, boxShadow: [
+                    BoxShadow(
+                        color: _currentPage == 2
+                            ? kMainColor.withOpacity(0.2)
+                            : Colors.transparent,
+                        blurRadius: 12,
+                        spreadRadius: 2.0)
+                  ]),
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
@@ -116,10 +144,16 @@ class _HomeState extends State<Home> {
                       children: [
                         Icon(
                           IconlyLight.document,
-                          color: _currentPage == 2 ? kMainColor : bottomButtonColor,
+                          color: _currentPage == 2
+                              ? kMainColor
+                              : bottomButtonColor,
                           size: 24,
                         ),
-                        Text(lang.S.of(context).history, style: mediumTextStyle.copyWith(color: _currentPage == 2 ? kMainColor : bottomButtonColor)),
+                        Text(lang.S.of(context).history,
+                            style: mediumTextStyle.copyWith(
+                                color: _currentPage == 2
+                                    ? kMainColor
+                                    : bottomButtonColor)),
                       ],
                     ),
                   ),
@@ -133,9 +167,15 @@ class _HomeState extends State<Home> {
                     });
                   },
                   child: Container(
-                    decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        boxShadow: [BoxShadow(color: _currentPage == 3 ? kMainColor.withOpacity(0.2) : Colors.transparent, blurRadius: 12, spreadRadius: 2.0)]),
+                    decoration:
+                        BoxDecoration(shape: BoxShape.circle, boxShadow: [
+                      BoxShadow(
+                          color: _currentPage == 3
+                              ? kMainColor.withOpacity(0.2)
+                              : Colors.transparent,
+                          blurRadius: 12,
+                          spreadRadius: 2.0)
+                    ]),
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
@@ -143,12 +183,17 @@ class _HomeState extends State<Home> {
                         children: [
                           Icon(
                             IconlyLight.profile,
-                            color: _currentPage == 3 ? kMainColor : bottomButtonColor,
+                            color: _currentPage == 3
+                                ? kMainColor
+                                : bottomButtonColor,
                             size: 24,
                           ),
                           Text(
                             lang.S.of(context).profile,
-                            style: mediumTextStyle.copyWith(color: _currentPage == 3 ? kMainColor : bottomButtonColor),
+                            style: mediumTextStyle.copyWith(
+                                color: _currentPage == 3
+                                    ? kMainColor
+                                    : bottomButtonColor),
                             overflow: TextOverflow.ellipsis,
                             maxLines: 1,
                           ),

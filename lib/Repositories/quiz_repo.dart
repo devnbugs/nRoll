@@ -12,11 +12,13 @@ class QuizRepo {
       print(token);
     }
     Uri url = Uri.parse(Config.serverUrl + Config.allQuizUrl);
-    var response = await http.get(url, headers: {'Authorization': 'Bearer $token'});
+    var response =
+        await http.get(url, headers: {'Authorization': 'Bearer $token'});
     if (response.statusCode == 200) {
       return QuizModel.fromJson(jsonDecode(response.body));
     } else if (response.statusCode == 404) {
-      return QuizModel(data: Data(categoryQuiz: []), message: '', success: true);
+      return QuizModel(
+          data: Data(categoryQuiz: []), message: '', success: true);
     } else {
       throw Exception('Password Update Failed');
     }

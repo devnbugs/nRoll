@@ -168,7 +168,9 @@ class _KiwiOfferWallState extends State<KiwiOfferWall> {
                             child: Container(
                               width: 325,
                               padding: const EdgeInsets.all(10.0),
-                              decoration: BoxDecoration(borderRadius: BorderRadius.circular(10.0), color: const Color(0xFFFFFFFF)),
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10.0),
+                                  color: const Color(0xFFFFFFFF)),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
@@ -187,14 +189,16 @@ class _KiwiOfferWallState extends State<KiwiOfferWall> {
                                   Padding(
                                     padding: const EdgeInsets.only(left: 5.0),
                                     child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
                                       children: [
                                         SizedBox(
                                           width: context.width() / 1.5,
                                           child: Text(
                                             offer.offers?[i].name ?? '',
                                             maxLines: 1,
-                                            style: kTextStyle.copyWith(color: kTitleColor),
+                                            style: kTextStyle.copyWith(
+                                                color: kTitleColor),
                                           ),
                                         ),
                                         const SizedBox(height: 4.0),
@@ -203,9 +207,11 @@ class _KiwiOfferWallState extends State<KiwiOfferWall> {
                                             SizedBox(
                                               width: context.width() / 2.2,
                                               child: Text(
-                                                offer.offers?[i].instructions ?? '',
+                                                offer.offers?[i].instructions ??
+                                                    '',
                                                 maxLines: 1,
-                                                style: kTextStyle.copyWith(color: kGreyTextColor),
+                                                style: kTextStyle.copyWith(
+                                                    color: kGreyTextColor),
                                               ),
                                             ),
                                             const SizedBox(width: 2.0),
@@ -213,7 +219,10 @@ class _KiwiOfferWallState extends State<KiwiOfferWall> {
                                               width: context.width() / 5.0,
                                               child: Text(
                                                 'BDT  ${offer.offers?[i].amount.toString() ?? ''}',
-                                                style: kTextStyle.copyWith(color: kMainColor, fontWeight: FontWeight.bold),
+                                                style: kTextStyle.copyWith(
+                                                    color: kMainColor,
+                                                    fontWeight:
+                                                        FontWeight.bold),
                                               ),
                                             ),
                                           ],
@@ -221,13 +230,19 @@ class _KiwiOfferWallState extends State<KiwiOfferWall> {
                                         SizedBox(
                                           width: context.width() / 1.5,
                                           child: HorizontalList(
-                                              itemCount: offer.offers?[i].category?.length ?? 1,
+                                              itemCount: offer.offers?[i]
+                                                      .category?.length ??
+                                                  1,
                                               itemBuilder: (_, index) {
                                                 return Container(
                                                   decoration: BoxDecoration(
-                                                    borderRadius: BorderRadius.circular(30.0),
-                                                    gradient: const LinearGradient(
-                                                      begin: Alignment.topCenter,
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            30.0),
+                                                    gradient:
+                                                        const LinearGradient(
+                                                      begin:
+                                                          Alignment.topCenter,
                                                       colors: [
                                                         Color(0xFFFFABA5),
                                                         Color(0xFFFF7C92),
@@ -235,10 +250,20 @@ class _KiwiOfferWallState extends State<KiwiOfferWall> {
                                                     ),
                                                   ),
                                                   child: Padding(
-                                                    padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            left: 10.0,
+                                                            right: 10.0,
+                                                            top: 2.0,
+                                                            bottom: 2.0),
                                                     child: Text(
-                                                      offer.offers?[i].category?.toString() ?? '',
-                                                      style: kTextStyle.copyWith(color: Colors.white),
+                                                      offer.offers?[i].category
+                                                              ?.toString() ??
+                                                          '',
+                                                      style:
+                                                          kTextStyle.copyWith(
+                                                              color:
+                                                                  Colors.white),
                                                     ),
                                                   ),
                                                 );

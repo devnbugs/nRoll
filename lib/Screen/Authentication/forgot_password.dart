@@ -96,16 +96,19 @@ class _ForGotPassWordState extends State<ForGotPassWord> {
                     buttonDecoration: kButtonDecoration,
                     onPressed: () async {
                       try {
-                       // EasyLoading.show(status: 'Sending Otp');
+                        // EasyLoading.show(status: 'Sending Otp');
                         EasyLoading.show(status: lang.S.of(context).sendingOtp);
-                        var response = await AuthRepo().resetPasswordWithEmail(context,emailEditingController.text);
+                        var response = await AuthRepo().resetPasswordWithEmail(
+                            context, emailEditingController.text);
                         if (response && mounted) {
                           const OtpVerify().launch(context);
                           //EasyLoading.showSuccess('Otp sent. Please check your email');
-                          EasyLoading.showSuccess(lang.S.of(context).otpSentPleaseCheckYourEmail);
+                          EasyLoading.showSuccess(
+                              lang.S.of(context).otpSentPleaseCheckYourEmail);
                         } else {
                           //EasyLoading.showError('Please Try Again');
-                          EasyLoading.showError(lang.S.of(context).pleaseTryAgain);
+                          EasyLoading.showError(
+                              lang.S.of(context).pleaseTryAgain);
                         }
                       } catch (e) {
                         EasyLoading.showError(e.toString());

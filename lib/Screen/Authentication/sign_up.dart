@@ -27,7 +27,8 @@ class SignUp extends StatefulWidget {
 class _SignUpState extends State<SignUp> {
   bool isChecked = true;
 
-  String profilePicture = 'https://st2.depositphotos.com/2703645/7304/v/600/depositphotos_73040075-stock-illustration-male-avatar-icon.jpg';
+  String profilePicture =
+      'https://st2.depositphotos.com/2703645/7304/v/600/depositphotos_73040075-stock-illustration-male-avatar-icon.jpg';
 
   // ignore: prefer_typing_uninitialized_variables
   var dialogContext;
@@ -96,24 +97,33 @@ class _SignUpState extends State<SignUp> {
                                     // ignore: sized_box_for_whitespace
                                     child: Container(
                                       height: 200.0,
-                                      width: MediaQuery.of(context).size.width - 80,
+                                      width: MediaQuery.of(context).size.width -
+                                          80,
                                       child: Center(
                                         child: Row(
-                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          mainAxisAlignment:
+                                              MainAxisAlignment.center,
                                           children: [
                                             GestureDetector(
                                               onTap: () async {
-                                                pickedImage = await _picker.pickImage(source: ImageSource.gallery);
+                                                pickedImage =
+                                                    await _picker.pickImage(
+                                                        source: ImageSource
+                                                            .gallery);
                                                 setState(() {
-                                                  imageFile = File(pickedImage!.path);
+                                                  imageFile =
+                                                      File(pickedImage!.path);
                                                   imagePath = pickedImage!.path;
                                                 });
-                                                Future.delayed(const Duration(milliseconds: 100), () {
+                                                Future.delayed(
+                                                    const Duration(
+                                                        milliseconds: 100), () {
                                                   Navigator.pop(context);
                                                 });
                                               },
                                               child: Column(
-                                                mainAxisAlignment: MainAxisAlignment.center,
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
                                                 children: [
                                                   const Icon(
                                                     Icons.photo_library_rounded,
@@ -135,17 +145,24 @@ class _SignUpState extends State<SignUp> {
                                             ),
                                             GestureDetector(
                                               onTap: () async {
-                                                pickedImage = await _picker.pickImage(source: ImageSource.camera);
+                                                pickedImage =
+                                                    await _picker.pickImage(
+                                                        source:
+                                                            ImageSource.camera);
                                                 setState(() {
-                                                  imageFile = File(pickedImage!.path);
+                                                  imageFile =
+                                                      File(pickedImage!.path);
                                                   imagePath = pickedImage!.path;
                                                 });
-                                                Future.delayed(const Duration(milliseconds: 100), () {
+                                                Future.delayed(
+                                                    const Duration(
+                                                        milliseconds: 100), () {
                                                   Navigator.pop(context);
                                                 });
                                               },
                                               child: Column(
-                                                mainAxisAlignment: MainAxisAlignment.center,
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
                                                 children: [
                                                   const Icon(
                                                     Icons.camera,
@@ -175,8 +192,10 @@ class _SignUpState extends State<SignUp> {
                                 height: 120,
                                 width: 120,
                                 decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.black54, width: 1),
-                                  borderRadius: const BorderRadius.all(Radius.circular(120)),
+                                  border: Border.all(
+                                      color: Colors.black54, width: 1),
+                                  borderRadius: const BorderRadius.all(
+                                      Radius.circular(120)),
                                   image: imagePath == 'No Data'
                                       ? DecorationImage(
                                           image: NetworkImage(profilePicture),
@@ -195,8 +214,10 @@ class _SignUpState extends State<SignUp> {
                                   height: 35,
                                   width: 35,
                                   decoration: BoxDecoration(
-                                    border: Border.all(color: Colors.white, width: 2),
-                                    borderRadius: const BorderRadius.all(Radius.circular(120)),
+                                    border: Border.all(
+                                        color: Colors.white, width: 2),
+                                    borderRadius: const BorderRadius.all(
+                                        Radius.circular(120)),
                                     color: kMainColor,
                                   ),
                                   child: const Icon(
@@ -218,7 +239,8 @@ class _SignUpState extends State<SignUp> {
                             labelText: lang.S.of(context).fullName,
                             labelStyle: kTextStyle.copyWith(color: kTitleColor),
                             hintText: lang.S.of(context).enterFullName,
-                            hintStyle: kTextStyle.copyWith(color: kGreyTextColor),
+                            hintStyle:
+                                kTextStyle.copyWith(color: kGreyTextColor),
                           ),
                         ),
                         const SizedBox(height: 15.0),
@@ -230,7 +252,8 @@ class _SignUpState extends State<SignUp> {
                             labelText: lang.S.of(context).mobile,
                             labelStyle: kTextStyle.copyWith(color: kTitleColor),
                             hintText: lang.S.of(context).enterYourMobile,
-                            hintStyle: kTextStyle.copyWith(color: kGreyTextColor),
+                            hintStyle:
+                                kTextStyle.copyWith(color: kGreyTextColor),
                           ),
                         ),
                         const SizedBox(height: 15.0),
@@ -242,7 +265,8 @@ class _SignUpState extends State<SignUp> {
                             labelText: lang.S.of(context).email,
                             labelStyle: kTextStyle.copyWith(color: kTitleColor),
                             hintText: lang.S.of(context).enterYourAddress,
-                            hintStyle: kTextStyle.copyWith(color: kGreyTextColor),
+                            hintStyle:
+                                kTextStyle.copyWith(color: kGreyTextColor),
                           ),
                         ),
                         const SizedBox(height: 15.0),
@@ -255,7 +279,8 @@ class _SignUpState extends State<SignUp> {
                             labelText: lang.S.of(context).password,
                             hintText: '********',
                             labelStyle: kTextStyle.copyWith(color: kTitleColor),
-                            hintStyle: kTextStyle.copyWith(color: kGreyTextColor),
+                            hintStyle:
+                                kTextStyle.copyWith(color: kGreyTextColor),
                           ),
                         ),
                         const SizedBox(height: 15.0),
@@ -267,7 +292,8 @@ class _SignUpState extends State<SignUp> {
                             labelText: lang.S.of(context).invitationCode,
                             labelStyle: kTextStyle.copyWith(color: kTitleColor),
                             hintText: lang.S.of(context).enterinvantationCode,
-                            hintStyle: kTextStyle.copyWith(color: kGreyTextColor),
+                            hintStyle:
+                                kTextStyle.copyWith(color: kGreyTextColor),
                           ),
                         ),
                         const SizedBox(height: 15.0),
@@ -277,39 +303,59 @@ class _SignUpState extends State<SignUp> {
                             onPressed: () async {
                               if (fullNameController.text.isEmpty) {
                                 //EasyLoading.showInfo('Full Name is Required');
-                                EasyLoading.showInfo(lang.S.of(context).fullNameIsRequired);
+                                EasyLoading.showInfo(
+                                    lang.S.of(context).fullNameIsRequired);
                               } else if (mobileController.text.isEmpty) {
-                               // EasyLoading.showInfo('Mobile Number is Required');
-                                EasyLoading.showInfo(lang.S.of(context).mobileNumberIsRequired);
+                                // EasyLoading.showInfo('Mobile Number is Required');
+                                EasyLoading.showInfo(
+                                    lang.S.of(context).mobileNumberIsRequired);
                               } else if (emailController.text.isEmpty) {
                                 //EasyLoading.showInfo('Email Address is Required');
-                                EasyLoading.showInfo(lang.S.of(context).emailAddressIsRequired);
+                                EasyLoading.showInfo(
+                                    lang.S.of(context).emailAddressIsRequired);
                               } else if (passwordController.text.isEmpty) {
                                 //EasyLoading.showInfo('Password is Required');
-                                EasyLoading.showInfo(lang.S.of(context).passwordIsRequired);
+                                EasyLoading.showInfo(
+                                    lang.S.of(context).passwordIsRequired);
                               } else if (passwordController.text.length < 6) {
                                 //EasyLoading.showInfo('Password length must be at least 6 Character');
-                                EasyLoading.showInfo(lang.S.of(context).passwordLengthMustBeAtLeast6Character);
+                                EasyLoading.showInfo(lang.S
+                                    .of(context)
+                                    .passwordLengthMustBeAtLeast6Character);
                               } else {
                                 try {
-                                 // EasyLoading.show(status: 'Signing Up');
-                                  EasyLoading.show(status: lang.S.of(context).signingOut);
+                                  // EasyLoading.show(status: 'Signing Up');
+                                  EasyLoading.show(
+                                      status: lang.S.of(context).signingOut);
                                   var res = await AuthRepo().signUpWithEmail(
-                                      fullNameController.text, mobileController.text, emailController.text, referController.text, passwordController.text, imagePath);
+                                      fullNameController.text,
+                                      mobileController.text,
+                                      emailController.text,
+                                      referController.text,
+                                      passwordController.text,
+                                      imagePath);
                                   if (res) {
-                                    var response = await AuthRepo().signInWithEmail(emailController.text, passwordController.text);
-                                    DataBase().saveString(response.data!.userId.toString(), 'userId');
-                                    DataBase().saveString(response.data!.token.toString(), 'token');
+                                    var response = await AuthRepo()
+                                        .signInWithEmail(emailController.text,
+                                            passwordController.text);
+                                    DataBase().saveString(
+                                        response.data!.userId.toString(),
+                                        'userId');
+                                    DataBase().saveString(
+                                        response.data!.token.toString(),
+                                        'token');
                                     await RewardRepo().getAdNetWorks();
                                     if (mounted) {
                                       const Home().launch(context);
                                     }
                                     //EasyLoading.showSuccess('Sign Up Successful');
-                                    EasyLoading.showSuccess(lang.S.of(context).signUpSuccessful);
+                                    EasyLoading.showSuccess(
+                                        lang.S.of(context).signUpSuccessful);
                                   }
                                 } catch (e) {
-                                 // EasyLoading.showError(e.toString().replaceAll('Exception:', ''));
-                                  EasyLoading.showError(e.toString().replaceAll('${lang.S.of(context).exception}:', ''));
+                                  // EasyLoading.showError(e.toString().replaceAll('Exception:', ''));
+                                  EasyLoading.showError(e.toString().replaceAll(
+                                      '${lang.S.of(context).exception}:', ''));
                                 }
                               }
                             }),

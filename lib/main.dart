@@ -95,7 +95,8 @@ class _MyAppState extends State<MyApp> {
       child: Builder(
         builder: (context) => MaterialApp(
           debugShowCheckedModeBanner: false,
-          locale: pro.Provider.of<LanguageChangeProvider>(context, listen: true).currentLocale,
+          locale: pro.Provider.of<LanguageChangeProvider>(context, listen: true)
+              .currentLocale,
           localizationsDelegates: const [
             S.delegate,
             GlobalMaterialLocalizations.delegate,
@@ -134,7 +135,8 @@ class _ThemeButtonState extends State<ThemeButton> {
       ),
       title: Text(
         isDark ? 'Dark Theme' : 'Light Theme',
-        style: kTextStyle.copyWith(color: isDark ? darkTitleColor : lightTitleColor),
+        style: kTextStyle.copyWith(
+            color: isDark ? darkTitleColor : lightTitleColor),
       ),
       trailing: Transform.scale(
         scale: 0.7,
@@ -146,7 +148,9 @@ class _ThemeButtonState extends State<ThemeButton> {
           value: _themeManager.themeMode == ThemeMode.dark,
           onChanged: (newValue) async {
             SharedPreferences prefs = await SharedPreferences.getInstance();
-            newValue ? await prefs.setString('theme', 'dark') : await prefs.setString('theme', 'light');
+            newValue
+                ? await prefs.setString('theme', 'dark')
+                : await prefs.setString('theme', 'light');
             setState(() {
               _themeManager.toggleTheme(newValue);
             });

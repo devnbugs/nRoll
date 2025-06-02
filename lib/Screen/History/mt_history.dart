@@ -121,7 +121,11 @@ class _HistoryState extends State<History> {
           toolbarHeight: 90,
           iconTheme: const IconThemeData(color: Colors.white),
           flexibleSpace: Container(
-            decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30)), gradient: containerGradiant),
+            decoration: BoxDecoration(
+                borderRadius: const BorderRadius.only(
+                    bottomLeft: Radius.circular(30),
+                    bottomRight: Radius.circular(30)),
+                gradient: containerGradiant),
           ),
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
@@ -136,8 +140,10 @@ class _HistoryState extends State<History> {
           ),
         ),
         body: Consumer(builder: (_, ref, watch) {
-          AsyncValue<WithdrawHistoryModel> withdrawHistory = ref.watch(withdrawHistoryProvider);
-          AsyncValue<UserHistoryModel> userHistory = ref.watch(userHistoryProvider);
+          AsyncValue<WithdrawHistoryModel> withdrawHistory =
+              ref.watch(withdrawHistoryProvider);
+          AsyncValue<UserHistoryModel> userHistory =
+              ref.watch(userHistoryProvider);
           return withdrawHistory.when(data: (history) {
             return RefreshIndicator(
               onRefresh: () async {
@@ -161,7 +167,8 @@ class _HistoryState extends State<History> {
                       ),
                       child: TabBar(
                         indicatorSize: TabBarIndicatorSize.tab,
-                        labelStyle: kTextStyle.copyWith(color: kMainColor, fontWeight: FontWeight.bold),
+                        labelStyle: kTextStyle.copyWith(
+                            color: kMainColor, fontWeight: FontWeight.bold),
                         unselectedLabelColor: kLightTextColor,
                         indicatorColor: kMainColor,
                         labelColor: kMainColor,
@@ -190,7 +197,8 @@ class _HistoryState extends State<History> {
                             return Padding(
                               padding: const EdgeInsets.all(15.0),
                               child: ListView.builder(
-                                itemCount: history.data?.userQuizHistory?.length ?? 0,
+                                itemCount:
+                                    history.data?.userQuizHistory?.length ?? 0,
                                 shrinkWrap: true,
                                 physics: const NeverScrollableScrollPhysics(),
                                 itemBuilder: (_, i) {
@@ -198,10 +206,19 @@ class _HistoryState extends State<History> {
                                     padding: const EdgeInsets.only(bottom: 16),
                                     child: Container(
                                       decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(8),
-                                          boxShadow: const [BoxShadow(color: kShadowColor), BoxShadow(color: kMainBacgrundColor, spreadRadius: 0.0, blurRadius: 10.0)]),
+                                          borderRadius:
+                                              BorderRadius.circular(8),
+                                          boxShadow: const [
+                                            BoxShadow(color: kShadowColor),
+                                            BoxShadow(
+                                                color: kMainBacgrundColor,
+                                                spreadRadius: 0.0,
+                                                blurRadius: 10.0)
+                                          ]),
                                       child: (ListTile(
-                                        contentPadding: const EdgeInsets.symmetric(horizontal: 10),
+                                        contentPadding:
+                                            const EdgeInsets.symmetric(
+                                                horizontal: 10),
                                         horizontalTitleGap: 12,
                                         leading: const CircleAvatar(
                                           radius: 20.0,
@@ -210,16 +227,28 @@ class _HistoryState extends State<History> {
                                           ),
                                         ),
                                         title: Text(
-                                          history.data!.userQuizHistory![i].winStatus == '1' ? lang.S.of(context).winner: lang.S.of(context).looser,
-                                          style: kTextStyle.copyWith(color: kWhite),
+                                          history.data!.userQuizHistory![i]
+                                                      .winStatus ==
+                                                  '1'
+                                              ? lang.S.of(context).winner
+                                              : lang.S.of(context).looser,
+                                          style: kTextStyle.copyWith(
+                                              color: kWhite),
                                         ),
                                         subtitle: Text(
-                                          DateTimeFormat.format(DateTime.parse(history.data!.userQuizHistory![i].createdAt.toString()), format: AmericanDateFormats.standard),
-                                          style: kTextStyle.copyWith(color: kGreyTextColor),
+                                          DateTimeFormat.format(
+                                              DateTime.parse(history.data!
+                                                  .userQuizHistory![i].createdAt
+                                                  .toString()),
+                                              format:
+                                                  AmericanDateFormats.standard),
+                                          style: kTextStyle.copyWith(
+                                              color: kGreyTextColor),
                                         ),
                                         trailing: Text(
                                           '${history.data!.userQuizHistory![i].amount} Points',
-                                          style: kTextStyle.copyWith(color: kGreyTextColor),
+                                          style: kTextStyle.copyWith(
+                                              color: kGreyTextColor),
                                           textAlign: TextAlign.end,
                                         ),
                                       )),
@@ -241,17 +270,27 @@ class _HistoryState extends State<History> {
                             return Padding(
                               padding: const EdgeInsets.all(15.0),
                               child: ListView.builder(
-                                itemCount: history.data?.userGainHistory?.length ?? 0,
+                                itemCount:
+                                    history.data?.userGainHistory?.length ?? 0,
                                 shrinkWrap: true,
                                 itemBuilder: (_, i) {
                                   return Padding(
                                     padding: const EdgeInsets.only(bottom: 16),
                                     child: Container(
                                       decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(8),
-                                          boxShadow: const [BoxShadow(color: kShadowColor), BoxShadow(color: kMainBacgrundColor, blurRadius: 10.0, spreadRadius: 0.0)]),
+                                          borderRadius:
+                                              BorderRadius.circular(8),
+                                          boxShadow: const [
+                                            BoxShadow(color: kShadowColor),
+                                            BoxShadow(
+                                                color: kMainBacgrundColor,
+                                                blurRadius: 10.0,
+                                                spreadRadius: 0.0)
+                                          ]),
                                       child: (ListTile(
-                                        contentPadding: const EdgeInsets.symmetric(horizontal: 10),
+                                        contentPadding:
+                                            const EdgeInsets.symmetric(
+                                                horizontal: 10),
                                         horizontalTitleGap: 12,
                                         leading: const CircleAvatar(
                                           radius: 20.0,
@@ -260,18 +299,36 @@ class _HistoryState extends State<History> {
                                           ),
                                         ),
                                         title: Text(
-                                          history.data?.userGainHistory?[i].description ?? '',
-                                          style: kTextStyle.copyWith(color: kWhite),
+                                          history.data?.userGainHistory?[i]
+                                                  .description ??
+                                              '',
+                                          style: kTextStyle.copyWith(
+                                              color: kWhite),
                                         ),
                                         subtitle: Text(
-                                          DateTimeFormat.format(DateTime.parse(history.data!.userGainHistory![i].createdAt.toString()), format: AmericanDateFormats.standard),
-                                          style: kTextStyle.copyWith(color: kLightTextColor),
+                                          DateTimeFormat.format(
+                                              DateTime.parse(history.data!
+                                                  .userGainHistory![i].createdAt
+                                                  .toString()),
+                                              format:
+                                                  AmericanDateFormats.standard),
+                                          style: kTextStyle.copyWith(
+                                              color: kLightTextColor),
                                         ),
                                         trailing: Text(
-                                          history.data!.userGainHistory![i].gainStatus == 'Gain'
+                                          history.data!.userGainHistory![i]
+                                                      .gainStatus ==
+                                                  'Gain'
                                               ? '${history.data!.userGainHistory![i].amount} Points'
                                               : '- ${history.data!.userGainHistory![i].amount} Points',
-                                          style: kTextStyle.copyWith(color: history.data!.userGainHistory![i].gainStatus == 'Gain' ? kLightTextColor : Colors.red),
+                                          style: kTextStyle.copyWith(
+                                              color: history
+                                                          .data!
+                                                          .userGainHistory![i]
+                                                          .gainStatus ==
+                                                      'Gain'
+                                                  ? kLightTextColor
+                                                  : Colors.red),
                                           textAlign: TextAlign.end,
                                         ),
                                       )),
@@ -292,33 +349,53 @@ class _HistoryState extends State<History> {
                           Padding(
                             padding: const EdgeInsets.all(10.0),
                             child: ListView.builder(
-                              itemCount: history.data?.withdrawInfo?.length ?? 0,
+                              itemCount:
+                                  history.data?.withdrawInfo?.length ?? 0,
                               shrinkWrap: true,
                               itemBuilder: (_, i) {
                                 return Container(
-                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), boxShadow: const [
-                                    BoxShadow(color: kShadowColor),
-                                    BoxShadow(color: kMainBacgrundColor, offset: Offset(0, 4), blurRadius: 16.0, spreadRadius: 0.0)
-                                  ]),
+                                  decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(8),
+                                      boxShadow: const [
+                                        BoxShadow(color: kShadowColor),
+                                        BoxShadow(
+                                            color: kMainBacgrundColor,
+                                            offset: Offset(0, 4),
+                                            blurRadius: 16.0,
+                                            spreadRadius: 0.0)
+                                      ]),
                                   child: ListTile(
                                     leading: CircleAvatar(
                                       radius: 20.0,
                                       backgroundColor: Colors.white,
                                       backgroundImage: NetworkImage(
-                                        history.data?.withdrawInfo?[i].withdrawMethods?.image ?? 'https://cdn-icons-png.flaticon.com/512/174/174861.png',
+                                        history.data?.withdrawInfo?[i]
+                                                .withdrawMethods?.image ??
+                                            'https://cdn-icons-png.flaticon.com/512/174/174861.png',
                                       ),
                                     ),
                                     title: Text(
-                                      getStatus(statusCode: history.data!.withdrawInfo![i].approveStatus ?? 1),
+                                      getStatus(
+                                          statusCode: history
+                                                  .data!
+                                                  .withdrawInfo![i]
+                                                  .approveStatus ??
+                                              1),
                                       style: kTextStyle.copyWith(color: kWhite),
                                     ),
                                     subtitle: Text(
-                                      DateTimeFormat.format(DateTime.parse(history.data!.withdrawInfo![i].createdAt.toString()), format: AmericanDateFormats.standard),
-                                      style: kTextStyle.copyWith(color: kLightTextColor),
+                                      DateTimeFormat.format(
+                                          DateTime.parse(history
+                                              .data!.withdrawInfo![i].createdAt
+                                              .toString()),
+                                          format: AmericanDateFormats.standard),
+                                      style: kTextStyle.copyWith(
+                                          color: kLightTextColor),
                                     ),
                                     trailing: Text(
                                       '${history.data!.withdrawInfo![i].currencyConvert?.currency?.isoCode} ${history.data!.withdrawInfo![i].amount.toString()}',
-                                      style: kTextStyle.copyWith(color: kLightTextColor),
+                                      style: kTextStyle.copyWith(
+                                          color: kLightTextColor),
                                       textAlign: TextAlign.end,
                                     ),
                                   ),

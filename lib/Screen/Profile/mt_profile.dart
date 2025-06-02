@@ -80,7 +80,7 @@ class _ProfileState extends State<Profile> {
         //EasyLoading.showSuccess('Deletion Successful');
         EasyLoading.showSuccess(lang.S.of(context).deletionSuccessful);
       } else {
-       // EasyLoading.showError('Please Try Again');
+        // EasyLoading.showError('Please Try Again');
         EasyLoading.showError(lang.S.of(context).pleaseTryAgain);
       }
     } catch (e) {
@@ -92,7 +92,8 @@ class _ProfileState extends State<Profile> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Consumer(builder: (_, ref, watch) {
-        AsyncValue<UserProfileModel> profile = ref.watch(personalProfileProvider);
+        AsyncValue<UserProfileModel> profile =
+            ref.watch(personalProfileProvider);
         return profile.when(data: (info) {
           if (info.data?.user?.status == 0) {
             DataBase().deleteToken();
@@ -126,15 +127,20 @@ class _ProfileState extends State<Profile> {
                             child: CircleAvatar(
                               backgroundColor: Colors.transparent,
                               radius: 40,
-                              backgroundImage: NetworkImage(info.data?.user?.image == Config.siteUrl
+                              backgroundImage: NetworkImage(info
+                                          .data?.user?.image ==
+                                      Config.siteUrl
                                   ? 'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/68.png'
-                                  : info.data?.user?.image ?? 'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/68.png'),
+                                  : info.data?.user?.image ??
+                                      'https://raw.githubusercontent.com/Ashwinvalento/cartoon-avatar/master/lib/images/female/68.png'),
                             ),
                           ),
                           const SizedBox(height: 5.0),
                           Text(
                             info.data?.user?.name ?? '',
-                            style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                            style: kTextStyle.copyWith(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
                           ),
                           Text(
                             info.data?.user?.email ?? '',
@@ -169,14 +175,21 @@ class _ProfileState extends State<Profile> {
                         Column(
                           children: [
                             Container(
-                              decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.white.withOpacity(0.3), border: Border.all(color: Colors.white)),
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.white.withOpacity(0.3),
+                                  border: Border.all(color: Colors.white)),
                               child: Column(
                                 children: [
                                   Padding(
                                     padding: const EdgeInsets.all(20.0),
                                     child: Text(
-                                      info.data?.user?.wallet?.balance.toString() ?? '',
-                                      style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                                      info.data?.user?.wallet?.balance
+                                              .toString() ??
+                                          '',
+                                      style: kTextStyle.copyWith(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold),
                                     ),
                                   ),
                                 ],
@@ -192,14 +205,20 @@ class _ProfileState extends State<Profile> {
                         Column(
                           children: [
                             Container(
-                              decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.white.withOpacity(0.3), border: Border.all(color: Colors.white)),
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.white.withOpacity(0.3),
+                                  border: Border.all(color: Colors.white)),
                               child: Column(
                                 children: [
                                   Padding(
                                     padding: const EdgeInsets.all(20.0),
                                     child: Text(
-                                      info.data?.referUserCount.toString() ?? '',
-                                      style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                                      info.data?.referUserCount.toString() ??
+                                          '',
+                                      style: kTextStyle.copyWith(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold),
                                     ),
                                   ),
                                 ],
@@ -215,14 +234,21 @@ class _ProfileState extends State<Profile> {
                         Column(
                           children: [
                             Container(
-                              decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.white.withOpacity(0.3), border: Border.all(color: Colors.white)),
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.white.withOpacity(0.3),
+                                  border: Border.all(color: Colors.white)),
                               child: Column(
                                 children: [
                                   Padding(
                                     padding: const EdgeInsets.all(20.0),
                                     child: Text(
-                                      info.data?.withdrawRequestCount.toString() ?? '',
-                                      style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
+                                      info.data?.withdrawRequestCount
+                                              .toString() ??
+                                          '',
+                                      style: kTextStyle.copyWith(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold),
                                     ),
                                   ),
                                 ],
@@ -243,11 +269,16 @@ class _ProfileState extends State<Profile> {
                   height: 20,
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
                       color: Theme.of(context).colorScheme.primaryContainer,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0), side: BorderSide(color: kGreyTextColor.withOpacity(0.1), width: 1.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(
+                              color: kGreyTextColor.withOpacity(0.1),
+                              width: 1.0)),
                       child: ListTile(
                         onTap: (() => EditProfile(user: info).launch(context)),
                         horizontalTitleGap: 10,
@@ -266,11 +297,16 @@ class _ProfileState extends State<Profile> {
                       )),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
                       color: Theme.of(context).colorScheme.primaryContainer,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0), side: BorderSide(color: kGreyTextColor.withOpacity(0.1), width: 1.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(
+                              color: kGreyTextColor.withOpacity(0.1),
+                              width: 1.0)),
                       child: ListTile(
                         onTap: (() => const OfferStatus().launch(context)),
                         horizontalTitleGap: 10,
@@ -289,11 +325,13 @@ class _ProfileState extends State<Profile> {
                       )),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
                       color: Theme.of(context).colorScheme.primaryContainer,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0)),
                       child: ListTile(
                         onTap: (() => const OfferStatus().launch(context)),
                         horizontalTitleGap: 10,
@@ -306,13 +344,19 @@ class _ProfileState extends State<Profile> {
                       )),
                 ).visible(false),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
                       color: Theme.of(context).colorScheme.primaryContainer,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0), side: BorderSide(color: kGreyTextColor.withOpacity(0.1), width: 1.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(
+                              color: kGreyTextColor.withOpacity(0.1),
+                              width: 1.0)),
                       child: ListTile(
-                        onTap: (() => const MtTermsAndCondition().launch(context)),
+                        onTap: (() =>
+                            const MtTermsAndCondition().launch(context)),
                         horizontalTitleGap: 10,
                         leading: const Icon(
                           IconlyBold.shield_done,
@@ -329,18 +373,28 @@ class _ProfileState extends State<Profile> {
                       )),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0), side: BorderSide(color: kGreyTextColor.withOpacity(0.1), width: 1.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(
+                              color: kGreyTextColor.withOpacity(0.1),
+                              width: 1.0)),
                       child: const ThemeButton()),
                 ).visible(false),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
                       color: Theme.of(context).colorScheme.primaryContainer,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0), side: BorderSide(color: kGreyTextColor.withOpacity(0.1), width: 1.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(
+                              color: kGreyTextColor.withOpacity(0.1),
+                              width: 1.0)),
                       child: ListTile(
                         onTap: (() => const Language().launch(context)),
                         horizontalTitleGap: 10,
@@ -359,11 +413,16 @@ class _ProfileState extends State<Profile> {
                       )),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
                       color: Theme.of(context).colorScheme.primaryContainer,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0), side: BorderSide(color: kGreyTextColor.withOpacity(0.1), width: 1.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(
+                              color: kGreyTextColor.withOpacity(0.1),
+                              width: 1.0)),
                       child: ListTile(
                         onTap: (() => const MtPrivacyPolicy().launch(context)),
                         horizontalTitleGap: 10,
@@ -382,11 +441,16 @@ class _ProfileState extends State<Profile> {
                       )),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
                       color: Theme.of(context).colorScheme.primaryContainer,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0), side: BorderSide(color: kGreyTextColor.withOpacity(0.1), width: 1.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(
+                              color: kGreyTextColor.withOpacity(0.1),
+                              width: 1.0)),
                       child: ListTile(
                         onTap: (() => signOut()),
                         horizontalTitleGap: 10,
@@ -405,11 +469,16 @@ class _ProfileState extends State<Profile> {
                       )),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
+                  padding:
+                      const EdgeInsets.only(left: 15.0, right: 15.0, bottom: 5),
                   child: Card(
                       elevation: 0.0,
                       color: Theme.of(context).colorScheme.primaryContainer,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0), side: BorderSide(color: kGreyTextColor.withOpacity(0.1), width: 1.0)),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                          side: BorderSide(
+                              color: kGreyTextColor.withOpacity(0.1),
+                              width: 1.0)),
                       child: ListTile(
                         onTap: () {
                           setState(() {
@@ -424,9 +493,14 @@ class _ProfileState extends State<Profile> {
                                       mainAxisSize: MainAxisSize.min,
                                       children: [
                                         Text(
-                                          lang.S.of(context).areYouSureYouWantToDeleteThisAccount,
+                                          lang.S
+                                              .of(context)
+                                              .areYouSureYouWantToDeleteThisAccount,
                                           //'Are you sure you want to delete this Account?',
-                                          style: kTextStyle.copyWith(fontWeight: FontWeight.bold, fontSize: 18, color: kWhite),
+                                          style: kTextStyle.copyWith(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 18,
+                                              color: kWhite),
                                           textAlign: TextAlign.center,
                                         ),
                                         const SizedBox(
@@ -441,13 +515,23 @@ class _ProfileState extends State<Profile> {
                                               },
                                               child: Container(
                                                 alignment: Alignment.center,
-                                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), border: Border.all(color: kMainColor)),
+                                                decoration: BoxDecoration(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            8),
+                                                    border: Border.all(
+                                                        color: kMainColor)),
                                                 child: Padding(
-                                                  padding: const EdgeInsets.all(10.0),
+                                                  padding: const EdgeInsets.all(
+                                                      10.0),
                                                   child: Text(
                                                     lang.S.of(context).No,
-                                                   //'No',
-                                                    style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kMainColor, fontSize: 12),
+                                                    //'No',
+                                                    style: kTextStyle.copyWith(
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        color: kMainColor,
+                                                        fontSize: 12),
                                                   ),
                                                 ),
                                               ),
@@ -460,13 +544,23 @@ class _ProfileState extends State<Profile> {
                                               onTap: () => delete(),
                                               child: Container(
                                                 alignment: Alignment.center,
-                                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), gradient: buttonGradiant),
+                                                decoration: BoxDecoration(
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            8),
+                                                    gradient: buttonGradiant),
                                                 child: Padding(
-                                                  padding: const EdgeInsets.all(10.0),
+                                                  padding: const EdgeInsets.all(
+                                                      10.0),
                                                   child: Text(
-                                                    lang.S.of(context).yesDeleteIt,
+                                                    lang.S
+                                                        .of(context)
+                                                        .yesDeleteIt,
                                                     //'Yes, Delete it!',
-                                                    style: kTextStyle.copyWith(fontWeight: FontWeight.bold, fontSize: 12),
+                                                    style: kTextStyle.copyWith(
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: 12),
                                                   ),
                                                 ),
                                               ),

@@ -104,8 +104,12 @@ class WithdrawInfo {
     _status = json['status'];
     _createdAt = json['created_at'];
     _updatedAt = json['updated_at'];
-    _withdrawMethods = json['withdraw_methods'] != null ? WithdrawMethods.fromJson(json['withdraw_methods']) : null;
-    _currencyConvert = json['currency_convert'] != null ? CurrencyConvert.fromJson(json['currency_convert']) : null;
+    _withdrawMethods = json['withdraw_methods'] != null
+        ? WithdrawMethods.fromJson(json['withdraw_methods'])
+        : null;
+    _currencyConvert = json['currency_convert'] != null
+        ? CurrencyConvert.fromJson(json['currency_convert'])
+        : null;
   }
   int? _id;
   int? _userId;
@@ -187,7 +191,8 @@ class CurrencyConvert {
     _status = json['status'];
     _createdAt = json['created_at'];
     _updatedAt = json['updated_at'];
-    _currency = json['currency'] != null ? Currency.fromJson(json['currency']) : null;
+    _currency =
+        json['currency'] != null ? Currency.fromJson(json['currency']) : null;
   }
   int? _id;
   int? _currencyId;

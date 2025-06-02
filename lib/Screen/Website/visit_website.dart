@@ -38,7 +38,8 @@ class _VisitWebsiteState extends State<VisitWebsite> {
       params = const PlatformWebViewControllerCreationParams();
     }
 
-    final WebViewController controller = WebViewController.fromPlatformCreationParams(params);
+    final WebViewController controller =
+        WebViewController.fromPlatformCreationParams(params);
     // #enddocregion platform_features
 
     controller
@@ -48,7 +49,8 @@ class _VisitWebsiteState extends State<VisitWebsite> {
         NavigationDelegate(
           onProgress: (int progress) {
             //debugPrint('WebView is loading (progress : $progress%)');
-            debugPrint('${lang.S.of(context).webViewIsLoadingProgress} : $progress%)');
+            debugPrint(
+                '${lang.S.of(context).webViewIsLoadingProgress} : $progress%)');
           },
           onPageStarted: (String url) {
             //debugPrint('Page started loading: $url');
@@ -71,11 +73,13 @@ class _VisitWebsiteState extends State<VisitWebsite> {
           onNavigationRequest: (NavigationRequest request) {
             if (request.url.startsWith('https://www.youtube.com/')) {
               //debugPrint('blocking navigation to ${request.url}');
-              debugPrint('${lang.S.of(context).blockingNavigationTo} ${request.url}');
+              debugPrint(
+                  '${lang.S.of(context).blockingNavigationTo} ${request.url}');
               return NavigationDecision.prevent;
             }
             //debugPrint('allowing navigation to ${request.url}');
-            debugPrint('${lang.S.of(context).allowingNavigationTo} ${request.url}');
+            debugPrint(
+                '${lang.S.of(context).allowingNavigationTo} ${request.url}');
             return NavigationDecision.navigate;
           },
           onUrlChange: (UrlChange change) {
@@ -97,7 +101,8 @@ class _VisitWebsiteState extends State<VisitWebsite> {
     // #docregion platform_features
     if (controller.platform is AndroidWebViewController) {
       AndroidWebViewController.enableDebugging(true);
-      (controller.platform as AndroidWebViewController).setMediaPlaybackRequiresUserGesture(false);
+      (controller.platform as AndroidWebViewController)
+          .setMediaPlaybackRequiresUserGesture(false);
     }
     // #enddocregion platform_features
 
@@ -152,12 +157,14 @@ class _VisitWebsiteState extends State<VisitWebsite> {
                   try {
                     //EasyLoading.show(status: "Getting reward");
                     EasyLoading.show(status: lang.S.of(context).gettingReward);
-                    bool status = await AuthRepo().visitWebsite(widget.url.id.toString());
+                    bool status =
+                        await AuthRepo().visitWebsite(widget.url.id.toString());
                     if (status) {
                       ref.refresh(websiteProvider);
                       ref.refresh(personalProfileProvider);
                       //EasyLoading.showSuccess("Rewarded Successfully");
-                      EasyLoading.showSuccess(lang.S.of(context).rewardedSuccessfully);
+                      EasyLoading.showSuccess(
+                          lang.S.of(context).rewardedSuccessfully);
                     } else {
                       //EasyLoading.showError("Error Occured");
                       EasyLoading.showError(lang.S.of(context).errorOccurred);

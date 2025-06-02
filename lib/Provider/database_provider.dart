@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:cash_rocket/generated/l10n.dart' as lang;
+
 class DataBase {
   final Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
 
@@ -34,7 +35,7 @@ void showLicense({required BuildContext context}) {
               color: Colors.white,
               borderRadius: BorderRadius.all(Radius.circular(30)),
             ),
-            child:  Column(
+            child: Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.all(20),
@@ -43,14 +44,15 @@ void showLicense({required BuildContext context}) {
                       Text(
                         lang.S.of(context).pleaseCheckYourPurchaseCode,
                         //'Please Check Your Purchase Code',
-                        style: const TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+                        style: const TextStyle(
+                            fontSize: 20.0, fontWeight: FontWeight.bold),
                       ),
                       const SizedBox(
                         height: 10.0,
                       ),
                       Text(
                         lang.S.of(context).yourPurchaseCodeIsNotValid,
-                       // 'Your purchase code is not valid. Please buy our product from envato to get a new purchase code',
+                        // 'Your purchase code is not valid. Please buy our product from envato to get a new purchase code',
                         maxLines: 6,
                       ),
                     ],
