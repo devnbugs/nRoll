@@ -51,12 +51,10 @@ class Data {
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};
     if (userGainHistory != null) {
-      map['user_gain_history'] =
-          userGainHistory?.map((v) => v.toJson()).toList();
+      map['user_gain_history'] = userGainHistory?.map((v) => v.toJson()).toList();
     }
     if (userQuizHistory != null) {
-      map['user_quiz_history'] =
-          userQuizHistory?.map((v) => v.toJson()).toList();
+      map['user_quiz_history'] = userQuizHistory?.map((v) => v.toJson()).toList();
     }
     return map;
   }

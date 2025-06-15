@@ -30,8 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "PleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage(
           "Vui lòng nhập OTP của bạn",
         ),
-        "RedeemYourPints":
-            MessageLookupByLibrary.simpleMessage("Đổi điểm của bạn"),
+        "RedeemYourPints": MessageLookupByLibrary.simpleMessage("Đổi điểm của bạn"),
         "SecureYourMoney": MessageLookupByLibrary.simpleMessage(
           "Bảo vệ tiền của bạn",
         ),
@@ -58,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Đã nhận thưởng, hãy quay lại sau",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Đã Được Thưởng. Vui lòng thử lại vào ngày mai",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -78,25 +76,21 @@ class MessageLookup extends MessageLookupByLibrary {
           "Ghi chú hình ảnh cho AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Đăng nhập Apple sẽ hoạt động trên các thiết bị Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Bạn đồng ý?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Bạn có chắc chắn muốn xóa tài khoản này không?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Xác Thực Thất Bại",
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("Số dư"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Khảo Sát Bitlabs"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Khảo Sát Bitlabs"),
         "bitrise": MessageLookupByLibrary.simpleMessage("Bitrise"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -105,13 +99,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Máy ảnh"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Cash Rocket"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Thay đổi mật khẩu"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Thay đổi mật khẩu"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Tính phí vào cửa",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Video Chartboost"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Video Chartboost"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Kiểm tra điện thoại của bạn",
         ),
@@ -126,8 +118,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Hoàn thành các ưu đãi và nhận điểm",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Hoàn thành hồ sơ"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Hoàn thành hồ sơ"),
         "completeanaction": MessageLookupByLibrary.simpleMessage(
           "Hoàn thành một hành động",
         ),
@@ -194,8 +185,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage(
           "Nhập số lượng đồng",
         ),
-        "enterFirstName":
-            MessageLookupByLibrary.simpleMessage("Nhập tên đầu tiên"),
+        "enterFirstName": MessageLookupByLibrary.simpleMessage("Nhập tên đầu tiên"),
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Nhập họ và tên của bạn",
         ),
@@ -219,8 +209,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterYourRegistrationEmail": MessageLookupByLibrary.simpleMessage(
           "Nhập địa chỉ email đã đăng ký của bạn",
         ),
-        "enterinvantationCode":
-            MessageLookupByLibrary.simpleMessage("Nhập mã mời"),
+        "enterinvantationCode": MessageLookupByLibrary.simpleMessage("Nhập mã mời"),
         "entryFee": MessageLookupByLibrary.simpleMessage("Phí vào cửa"),
         "errorHappened": MessageLookupByLibrary.simpleMessage("Đã xảy ra lỗi"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -253,8 +242,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Ưu đãi Fyber"),
         "gallary": MessageLookupByLibrary.simpleMessage("Thư viện"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Đang Nhận Thưởng"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Đang Nhận Thưởng"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage("Nhận thưởng"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "Nhận thưởng hôm nay",
@@ -272,8 +260,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ifYouPlayThisQuizThen": MessageLookupByLibrary.simpleMessage(
           "Nếu bạn chơi quiz này",
         ),
-        "ifYouRetakeThen":
-            MessageLookupByLibrary.simpleMessage("Nếu bạn làm lại"),
+        "ifYouRetakeThen": MessageLookupByLibrary.simpleMessage("Nếu bạn làm lại"),
         "ifYouScratchThisCard": MessageLookupByLibrary.simpleMessage(
           "Nếu bạn gạch thẻ này thì",
         ),
@@ -303,8 +290,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "nếu bạn sử dụng nó, bạn sẽ phát hiện",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Ưu đãi Kiwi Wall"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Ưu đãi Kiwi Wall"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Bức tường Kiwi"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -349,17 +335,13 @@ class MessageLookup extends MessageLookupByLibrary {
           "Không tìm thấy trắc nghiệm",
         ),
         "none": MessageLookupByLibrary.simpleMessage("Không có"),
-        "notDefined":
-            MessageLookupByLibrary.simpleMessage("Chưa được định nghĩa"),
-        "notEnoughBalance":
-            MessageLookupByLibrary.simpleMessage("Không đủ số dư"),
+        "notDefined": MessageLookupByLibrary.simpleMessage("Chưa được định nghĩa"),
+        "notEnoughBalance": MessageLookupByLibrary.simpleMessage("Không đủ số dư"),
         "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Không đủ xu"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP đã được gửi"),
-        "oTPVerified":
-            MessageLookupByLibrary.simpleMessage("OTP đã được xác minh"),
-        "offerStatus":
-            MessageLookupByLibrary.simpleMessage("Trạng thái ưu đãi"),
+        "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP đã được xác minh"),
+        "offerStatus": MessageLookupByLibrary.simpleMessage("Trạng thái ưu đãi"),
         "offerToro": MessageLookupByLibrary.simpleMessage("Offertoro"),
         "offers": MessageLookupByLibrary.simpleMessage("Các ưu đãi"),
         "ogAds": MessageLookupByLibrary.simpleMessage("Quảng cáo Og"),
@@ -383,14 +365,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "Đã Thanh Toán Cho Thẻ Cào",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("Chơi quiz trả phí"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("Chơi quiz trả phí"),
         "password": MessageLookupByLibrary.simpleMessage("Mật khẩu"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Mật khẩu không được để trống",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Mật khẩu không được ngắn hơn 6 ký tự",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -399,8 +379,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Mật khẩu là bắt buộc",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Độ dài mật khẩu phải ít nhất 6 ký tự",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -428,12 +407,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Vui lòng kiểm tra mã mua hàng của bạn",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Vui lòng quay lại vào ngày mai để xem video",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Vui lòng hoàn thành nhiệm vụ trong vòng 22 ngày",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -451,12 +428,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Vui lòng nhập mã bên dưới để đặt lại",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Vui lòng chọn phương thức rút tiền và tiền tệ",
         ),
-        "pleaseTryAgain":
-            MessageLookupByLibrary.simpleMessage("Vui lòng thử lại"),
+        "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("Vui lòng thử lại"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("Vui lòng đợi"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Vui lòng chờ cho đến khi tải xong",
@@ -472,8 +447,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Khảo Sát Pollfish"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Khảo Sát Pollfish"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Nhấn nút QUAY xe đẩy",
         ),
@@ -481,8 +455,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacyPolicty": MessageLookupByLibrary.simpleMessage(
           "Chính sách bảo mật",
         ),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("Chính sách bảo mật"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("Chính sách bảo mật"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Chính sách bảo mật | Cash Rocket",
         ),
@@ -503,16 +476,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "Đạt cấp độ 100 trong trò chơi!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("Đổi"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("Đổi điểm của bạn"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("Đổi điểm của bạn"),
         "refer": MessageLookupByLibrary.simpleMessage("Giới thiệu"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Ghi nhớ"),
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
           "Yêu cầu rút tiền",
         ),
         "resendCode": MessageLookupByLibrary.simpleMessage("Gửi lại mã"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Đặt lại mật khẩu"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Đặt lại mật khẩu"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "Đang đặt lại mật khẩu",
         ),
@@ -520,8 +491,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Đánh giá không có sẵn",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("Phần thưởng"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("Thưởng đã được thêm"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("Thưởng đã được thêm"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("Điểm thưởng"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Nhận Thưởng Thành Công",
@@ -535,8 +505,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("Lưu"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("Gạch và thắng!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Thẻ gạch"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Gạch thẻ ở phía trên bằng cách vuốt trên nó",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("giây"),
@@ -580,8 +549,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Thành công"),
         "survey": MessageLookupByLibrary.simpleMessage("Khảo sát"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Khảo sát đã hoàn thành. Sẽ được thưởng sớm",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -593,8 +561,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Bảng Khảo Sát Đang Mở",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Các ưu đãi sắp tới"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Các ưu đãi sắp tới"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Điều khoản và Điều kiện sử dụng",
         ),
@@ -609,18 +576,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Cập nhật mã thông báo không thành công",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Ưu đãi hàng đầu!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("Tổng phần thưởng"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("Tổng phần thưởng"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("Tổng số video"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("Tổng số trang web"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("Tổng số trang web"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Thử lại"),
         "tutorial": MessageLookupByLibrary.simpleMessage("Hướng dẫn"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
           "Ullamcorper eros senectus urna sit elementum ali quet. Nibh mauris tristique elit pellentesque sa pien malesuada eleifend iaculis malesuada. Mau ris, utid hendrerit habitant gravida urna congue arcu sit. At quisque leo semper urna gravida",
         ),
-        "updatePassword":
-            MessageLookupByLibrary.simpleMessage("Cập Nhật Mật Khẩu"),
+        "updatePassword": MessageLookupByLibrary.simpleMessage("Cập Nhật Mật Khẩu"),
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "Đang Cập Nhật Mật Khẩu",
         ),
@@ -630,8 +594,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. Nâng cấp thành phố của bạn lên cấp độ 17",
         ),
-        "urlChangeTo":
-            MessageLookupByLibrary.simpleMessage("thay đổi URL thành"),
+        "urlChangeTo": MessageLookupByLibrary.simpleMessage("thay đổi URL thành"),
         "userAlreadyExist": MessageLookupByLibrary.simpleMessage(
           "Người Dùng Đã Tồn Tại",
         ),
@@ -647,12 +610,10 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "verification": MessageLookupByLibrary.simpleMessage("Xác minh"),
         "verify": MessageLookupByLibrary.simpleMessage("Xác minh"),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("Đang xác minh OTP"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("Đang xác minh OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("THẮNG LỢI"),
         "videos": MessageLookupByLibrary.simpleMessage("Video"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("Truy cập trang web"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("Truy cập trang web"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "Truy cập trang web & Nhận",
         ),
@@ -674,8 +635,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Xem video và nhận điểm",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Chúng tôi đã gửi mã 6 chữ số đến điện thoại di động của bạn",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -709,12 +669,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Bạn đang làm lại quiz",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Bạn đã thắng quiz này rồi. Thử chơi quiz khác",
         ),
-        "youHaveEarned":
-            MessageLookupByLibrary.simpleMessage("Bạn đã kiếm được"),
+        "youHaveEarned": MessageLookupByLibrary.simpleMessage("Bạn đã kiếm được"),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(
           "Bạn Đã Kiếm Được 10 Đồng",
         ),

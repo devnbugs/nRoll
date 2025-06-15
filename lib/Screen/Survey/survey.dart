@@ -1,13 +1,14 @@
 import 'package:bitlabs/bitlabs.dart';
 import 'package:cash_rocket/Model/user_profile_model.dart';
 import 'package:cash_rocket/constant%20app%20information/const_information.dart';
+import 'package:cash_rocket/generated/l10n.dart' as lang;
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_pollfish/flutter_pollfish.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
 import 'package:url_launcher/url_launcher.dart';
+
 import '../../Model/purchase_model.dart';
 import '../../Repositories/rewards_repo.dart';
 import '../Constant Data/constant.dart';
@@ -27,7 +28,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
 
   bool _showButton = false;
   bool _completedSurvey = false;
-  final int _currentIndex = 0;
+  int _currentIndex = 0;
   int _cpa = 0;
 
   @override
@@ -45,8 +46,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
 
   //Bitlab Integration
   void initBitlabs() {
-    BitLabs.instance
-        .init(appToken, widget.profile.data?.user?.id.toString() ?? "user");
+    BitLabs.instance.init(appToken, widget.profile.data?.user?.id.toString() ?? "user");
 
     BitLabs.instance.setOnReward((reward) async {
       if (reward > 0) {
@@ -56,20 +56,17 @@ class _SurveyScreenState extends State<SurveyScreen> {
           bool isValid = await PurchaseModel().isActiveBuyer();
           if (isValid) {
             //var response = await RewardRepo().addPoint(reward.toString(), 'Bitlabs Survey');
-            var response = await RewardRepo()
-                .addPoint(reward.toString(), lang.S.of(context).bitlabsSurvey);
+            var response = await RewardRepo().addPoint(reward.toString(), lang.S.of(context).bitlabsSurvey);
             if (response) {
               //EasyLoading.showSuccess('You Have Earned $reward Coins');
-              EasyLoading.showSuccess(
-                  '${lang.S.of(context).youHaveEarned} $reward ${lang.S.of(context).coins}');
+              EasyLoading.showSuccess('${lang.S.of(context).youHaveEarned} $reward ${lang.S.of(context).coins}');
             } else {
               //EasyLoading.showError('Error Happened. Try Again');
               EasyLoading.showError(lang.S.of(context).errorHappenedTryAgain);
             }
           } else {
             // EasyLoading.showError('Please check your purchase code');
-            EasyLoading.showError(
-                lang.S.of(context).pleaseCheckYourPurchaseCode);
+            EasyLoading.showError(lang.S.of(context).pleaseCheckYourPurchaseCode);
           }
         } catch (e) {
           EasyLoading.showError(e.toString());
@@ -90,30 +87,21 @@ class _SurveyScreenState extends State<SurveyScreen> {
     // Offerwall integrations perform better compared to single survey integrations when no IDFA permission is given
     // We recommend requesting IDFA usage permission prior to Pollfish initialization.
 
-    FlutterPollfish.instance.init(
-        androidApiKey: androidApiKey,
-        iosApiKey: iOSApiKey,
-        rewardMode: true,
-        releaseMode: releaseMode);
+    FlutterPollfish.instance.init(androidApiKey: androidApiKey, iosApiKey: iOSApiKey, rewardMode: true, releaseMode: releaseMode);
 
-    FlutterPollfish.instance
-        .setPollfishSurveyReceivedListener(onPollfishSurveyReceived);
+    FlutterPollfish.instance.setPollfishSurveyReceivedListener(onPollfishSurveyReceived);
 
-    FlutterPollfish.instance
-        .setPollfishSurveyCompletedListener(onPollfishSurveyCompleted);
+    FlutterPollfish.instance.setPollfishSurveyCompletedListener(onPollfishSurveyCompleted);
 
     FlutterPollfish.instance.setPollfishOpenedListener(onPollfishOpened);
 
     FlutterPollfish.instance.setPollfishClosedListener(onPollfishClosed);
 
-    FlutterPollfish.instance
-        .setPollfishSurveyNotAvailableListener(onPollfishSurveyNotAvailable);
+    FlutterPollfish.instance.setPollfishSurveyNotAvailableListener(onPollfishSurveyNotAvailable);
 
-    FlutterPollfish.instance
-        .setPollfishUserRejectedSurveyListener(onPollfishUserRejectedSurvey);
+    FlutterPollfish.instance.setPollfishUserRejectedSurveyListener(onPollfishUserRejectedSurvey);
 
-    FlutterPollfish.instance
-        .setPollfishUserNotEligibleListener(onPollfishUserNotEligible);
+    FlutterPollfish.instance.setPollfishUserNotEligibleListener(onPollfishUserNotEligible);
 
     setState(() {
       _logText = logText;
@@ -126,8 +114,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
         if (surveyInfo == null) {
           _logText = 'Offerwall Ready';
         } else {
-          _logText =
-              'Survey Received: - ${surveyInfo.toString().replaceAll("\n", " ")}';
+          _logText = 'Survey Received: - ${surveyInfo.toString().replaceAll("\n", " ")}';
           _cpa = surveyInfo.surveyCPA ?? 0;
         }
 
@@ -142,8 +129,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
   void onPollfishSurveyCompleted(SurveyInfo? surveyInfo) => setState(() async {
         _logText = 'Survey Completed: - ${surveyInfo.toString()}';
         // EasyLoading.showSuccess("Survey Completed. Will be rewarded soon");
-        EasyLoading.showSuccess(
-            lang.S.of(context).surveyCompletedWillBeRewardedSoon);
+        EasyLoading.showSuccess(lang.S.of(context).surveyCompletedWillBeRewardedSoon);
         if (kDebugMode) {
           print(_logText);
         }
@@ -155,20 +141,17 @@ class _SurveyScreenState extends State<SurveyScreen> {
           bool isValid = await PurchaseModel().isActiveBuyer();
           if (isValid) {
             //var response = await RewardRepo().addPoint(_cpa.toString(), 'Pollfish Survey');
-            var response = await RewardRepo()
-                .addPoint(_cpa.toString(), lang.S.of(context).pollfishSurvey);
+            var response = await RewardRepo().addPoint(_cpa.toString(), lang.S.of(context).pollfishSurvey);
             if (response) {
               //EasyLoading.showSuccess('You Have Earned $_cpa Coins');
-              EasyLoading.showSuccess(
-                  '${lang.S.of(context).youHaveEarned} $_cpa ${lang.S.of(context).coins}');
+              EasyLoading.showSuccess('${lang.S.of(context).youHaveEarned} $_cpa ${lang.S.of(context).coins}');
             } else {
               // EasyLoading.showError('Error Happened. Try Again');
               EasyLoading.showError(lang.S.of(context).errorHappenedTryAgain);
             }
           } else {
             //EasyLoading.showError('Please check your purchase code');
-            EasyLoading.showError(
-                lang.S.of(context).pleaseCheckYourPurchaseCode);
+            EasyLoading.showError(lang.S.of(context).pleaseCheckYourPurchaseCode);
           }
         } catch (e) {
           EasyLoading.showError(e.toString());
@@ -221,8 +204,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
   void onPollfishUserNotEligible() => setState(() {
         _logText = 'User Not Eligible';
         // EasyLoading.showError("You are not eligible for this survey");
-        EasyLoading.showError(
-            lang.S.of(context).youAreNotEligibleForThisSurvey);
+        EasyLoading.showError(lang.S.of(context).youAreNotEligibleForThisSurvey);
         if (kDebugMode) {
           print(_logText);
         }
@@ -241,11 +223,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
         toolbarHeight: 90,
         iconTheme: const IconThemeData(color: Colors.white),
         flexibleSpace: Container(
-          decoration: BoxDecoration(
-              borderRadius: const BorderRadius.only(
-                  bottomLeft: Radius.circular(30),
-                  bottomRight: Radius.circular(30)),
-              gradient: containerGradiant),
+          decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30)), gradient: containerGradiant),
         ),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
@@ -302,11 +280,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
                     ),
                     const SizedBox(width: 5.0),
                     Text(
-                      isBalanceShow
-                          ? widget.profile.data?.user?.wallet?.balance
-                                  .toString() ??
-                              "user"
-                          : lang.S.of(context).balance,
+                      isBalanceShow ? widget.profile.data?.user?.wallet?.balance.toString() ?? "user" : lang.S.of(context).balance,
                       style: kTextStyle.copyWith(color: Colors.white),
                     ),
                     const SizedBox(width: 5.0),
@@ -341,9 +315,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
             children: [
               InkWell(
                 onTap: () async {
-                  await launchUrl(
-                      Uri.parse("$inbrainUrl${widget.profile.data?.user?.id}"),
-                      mode: LaunchMode.inAppBrowserView);
+                  await launchUrl(Uri.parse("$inbrainUrl${widget.profile.data?.user?.id}"), mode: LaunchMode.inAppBrowserView);
                 },
                 child: Container(
                   decoration: BoxDecoration(
@@ -361,8 +333,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
                   ),
                   child: ListTile(
                     visualDensity: const VisualDensity(horizontal: -1),
-                    contentPadding:
-                        const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                     leading: Image.asset(
                       'images/b1.png',
                       height: 40,
@@ -371,8 +342,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
                     title: Text(
                       lang.S.of(context).inbrain,
                       //'Inbrain',
-                      style: const TextStyle(
-                          fontWeight: FontWeight.w500, color: kWhite),
+                      style: const TextStyle(fontWeight: FontWeight.w500, color: kWhite),
                     ),
                     trailing: Icon(
                       Icons.arrow_forward_ios,
@@ -405,8 +375,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
                   ),
                   child: ListTile(
                     visualDensity: const VisualDensity(horizontal: -1),
-                    contentPadding:
-                        const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                     leading: Image.asset(
                       'images/b2.png',
                       height: 40,
@@ -415,8 +384,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
                     title: Text(
                       lang.S.of(context).bitrise,
                       //'Bitrise',
-                      style: const TextStyle(
-                          fontWeight: FontWeight.w500, color: kWhite),
+                      style: const TextStyle(fontWeight: FontWeight.w500, color: kWhite),
                     ),
                     trailing: Icon(
                       Icons.arrow_forward_ios,
@@ -453,8 +421,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
                   ),
                   child: ListTile(
                     visualDensity: const VisualDensity(horizontal: -1),
-                    contentPadding:
-                        const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                    contentPadding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                     leading: Image.asset(
                       'images/b3.png',
                       height: 40,
@@ -463,8 +430,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
                     title: Text(
                       lang.S.of(context).pollfish,
                       //'Pollfish',
-                      style: const TextStyle(
-                          fontWeight: FontWeight.w500, color: kWhite),
+                      style: const TextStyle(fontWeight: FontWeight.w500, color: kWhite),
                     ),
                     trailing: Icon(
                       Icons.arrow_forward_ios,

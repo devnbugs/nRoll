@@ -25,8 +25,7 @@ const lightContainerColor = Color(0xFFF4F4F4);
 ThemeData lightTheme = ThemeData(
   brightness: Brightness.light,
   primaryColor: primaryColor,
-  floatingActionButtonTheme:
-      const FloatingActionButtonThemeData(backgroundColor: primaryColor),
+  floatingActionButtonTheme: const FloatingActionButtonThemeData(backgroundColor: primaryColor),
   colorScheme: ColorScheme.fromSwatch().copyWith(
     brightness: Brightness.light,
     primary: const Color(0xff0DA6C2),

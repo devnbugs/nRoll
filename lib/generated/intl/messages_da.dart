@@ -33,8 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "RedeemYourPints": MessageLookupByLibrary.simpleMessage(
           "Indløs dine point",
         ),
-        "SecureYourMoney":
-            MessageLookupByLibrary.simpleMessage("Sikre dine penge"),
+        "SecureYourMoney": MessageLookupByLibrary.simpleMessage("Sikre dine penge"),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "WelcomeToCashRocket": MessageLookupByLibrary.simpleMessage(
           "Velkommen til Cash Rocket",
@@ -54,13 +53,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
           "Har allerede en konto",
         ),
-        "alreadyPlayed":
-            MessageLookupByLibrary.simpleMessage("Allerede spillet"),
+        "alreadyPlayed": MessageLookupByLibrary.simpleMessage("Allerede spillet"),
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Allerede belønnet, kom tilbage senere",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Allerede belønnet. Prøv igen i morgen",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -79,18 +76,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Annoter billeder til AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple-login vil fungere på Apple-enheder",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Er du enig?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Er du sikker på, at du vil slette denne konto?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Autorisation mislykkedes",
         ),
@@ -107,15 +101,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Kamera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Kontant Raket"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Skift adgangskode"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Skift adgangskode"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Opkræver entrégebyr",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
-        "checkYourMobile":
-            MessageLookupByLibrary.simpleMessage("Tjek din mobil"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "checkYourMobile": MessageLookupByLibrary.simpleMessage("Tjek din mobil"),
         "code": MessageLookupByLibrary.simpleMessage("kode"),
         "coins": MessageLookupByLibrary.simpleMessage("Mønter"),
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
@@ -127,8 +118,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Fuldfør tilbud og få point",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Fuldfør profil"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Fuldfør profil"),
         "completeanaction": MessageLookupByLibrary.simpleMessage(
           "Udfør en handling",
         ),
@@ -152,11 +142,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "continueWithMobile": MessageLookupByLibrary.simpleMessage(
           "Fortsæt med mobil",
         ),
-        "customVideos":
-            MessageLookupByLibrary.simpleMessage("Tilpassede videoer"),
+        "customVideos": MessageLookupByLibrary.simpleMessage("Tilpassede videoer"),
         "d": MessageLookupByLibrary.simpleMessage("D"),
-        "dailyReward":
-            MessageLookupByLibrary.simpleMessage("Daglig belønning!"),
+        "dailyReward": MessageLookupByLibrary.simpleMessage("Daglig belønning!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Opdatering af daglig belønning mislykkedes",
         ),
@@ -167,8 +155,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Dage til færdiggørelse",
         ),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("Slet konti"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Sletter konto"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Sletter konto"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Sletning er gennemført",
         ),
@@ -194,13 +181,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage(
           "Indtast møntbeløb",
         ),
-        "enterFirstName":
-            MessageLookupByLibrary.simpleMessage("Indtast fornavn"),
+        "enterFirstName": MessageLookupByLibrary.simpleMessage("Indtast fornavn"),
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Indtast dit fulde navn",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Indtast efternavn"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Indtast efternavn"),
         "enterPassword": MessageLookupByLibrary.simpleMessage(
           "Indtast adgangskode",
         ),
@@ -226,13 +211,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Indtast invitation kode",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Entrégebyr"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Der opstod en fejl"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Der opstod en fejl"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Der opstod en fejl. Prøv igen",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Der opstod en fejl"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Der opstod en fejl"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Der opstod en fejl. Prøv igen",
         ),
@@ -251,8 +234,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Fejl ved indlæsning af video",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("Fornavn"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Glemt adgangskode"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("Glemt adgangskode"),
         "free": MessageLookupByLibrary.simpleMessage("Gratis"),
         "fullName": MessageLookupByLibrary.simpleMessage("Fulde Navn"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -260,8 +242,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Tilbud"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galleri"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Modtager belønning"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Modtager belønning"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage(
           "Modtager belønninger",
         ),
@@ -272,8 +253,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "Har du ikke nogen konto?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Hej! Flere penge!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Hej! Flere penge!"),
         "history": MessageLookupByLibrary.simpleMessage("Historie"),
         "home": MessageLookupByLibrary.simpleMessage("Hjem"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -296,8 +276,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Instruktioner"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("Ugyldig OTP"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Invitationskode"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Invitationskode"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Invitationskode kopieret",
         ),
@@ -315,8 +294,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Hvis du bruger det, vil du registrere",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Tilbud"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Tilbud"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -356,17 +334,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "Ingen internetforbindelse fundet",
         ),
-        "noOfferFound":
-            MessageLookupByLibrary.simpleMessage("Ingen tilbud fundet"),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("Ingen quiz fundet"),
+        "noOfferFound": MessageLookupByLibrary.simpleMessage("Ingen tilbud fundet"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("Ingen quiz fundet"),
         "none": MessageLookupByLibrary.simpleMessage("Ingen"),
         "notDefined": MessageLookupByLibrary.simpleMessage("Ikke defineret"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Ikke nok balance",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Ikke nok mønter"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Ikke nok mønter"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP sendt"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP verificeret"),
@@ -399,8 +374,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Adgangskoden kan ikke være tom",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Adgangskoden kan ikke være mindre end 6 tegn",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -409,8 +383,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Kodeord er påkrævet",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Kodeordets længde skal være mindst 6 tegn",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -438,12 +411,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Kontroller venligst din købs kode",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Vend venligst tilbage i morgen\nfor at se videoen",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Udfør venligst opgaven inden for 22dage",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -461,8 +432,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Indtast venligst koden nedenfor for at nulstille din",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Vælg venligst udbetalingsmetode og valuta",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("Prøv igen"),
@@ -472,8 +442,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Modtagne point"),
         "points": MessageLookupByLibrary.simpleMessage("Point"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Punkter modtaget"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Punkter modtaget"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "point vil blive fratrukket!",
         ),
@@ -489,10 +458,8 @@ class MessageLookup extends MessageLookupByLibrary {
           "Tryk på SPIN-hjulet",
         ),
         "price": MessageLookupByLibrary.simpleMessage("pris"),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("Privatlivspolitik"),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("Privatlivspolitik"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("Privatlivspolitik"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("Privatlivspolitik"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Privatlivspolitik | Cash Rocket",
         ),
@@ -513,8 +480,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Opnå niveau 100 i spillet!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("Indløs"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("Indløs dine point"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("Indløs dine point"),
         "refer": MessageLookupByLibrary.simpleMessage("Henvis"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Husk mig"),
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
@@ -531,8 +497,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Anmeldelse ikke tilgængelig",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("Belønning"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("Belønning tilføjet"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("Belønning tilføjet"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("Belønningspoint"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Belønnet succesfuldt",
@@ -546,13 +511,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("Gem"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("Skrab og vind!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Skrabekort"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Skrab det ovenstående kort ved at stryge på det",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Sekunder"),
-        "secureYourMoney":
-            MessageLookupByLibrary.simpleMessage("Sikre dine penge"),
+        "secureYourMoney": MessageLookupByLibrary.simpleMessage("Sikre dine penge"),
         "sendOtp": MessageLookupByLibrary.simpleMessage("Send OTP"),
         "sendingOtp": MessageLookupByLibrary.simpleMessage("Sender OTP"),
         "share": MessageLookupByLibrary.simpleMessage("Del"),
@@ -572,8 +535,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signingOut": MessageLookupByLibrary.simpleMessage("Logger ud"),
         "signingUp": MessageLookupByLibrary.simpleMessage("Tilmelder"),
         "skip": MessageLookupByLibrary.simpleMessage("Spring over"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("Spring over for nu"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("Spring over for nu"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "Noget gik galt",
         ),
@@ -589,8 +551,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Succesfuld"),
         "survey": MessageLookupByLibrary.simpleMessage("Undersøgelse"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Undersøgelsen er afsluttet. Du vil blive belønnet snart",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -602,8 +563,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Undersøgelsespanel åbent",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Aktuelle tilbud"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Aktuelle tilbud"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Brugsbetingelser",
         ),
@@ -616,8 +576,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Opdatering af token mislykkedes",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Top tilbud!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("Samlede belønninger"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("Samlede belønninger"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("Samlede videoer"),
         "totalWebsites": MessageLookupByLibrary.simpleMessage(
           "Samlede hjemmesider",
@@ -633,8 +592,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "Opdaterer adgangskode",
         ),
-        "updatingProfile":
-            MessageLookupByLibrary.simpleMessage("Opdaterer profil"),
+        "updatingProfile": MessageLookupByLibrary.simpleMessage("Opdaterer profil"),
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. Opgrader din by til niveau 17",
         ),
@@ -657,8 +615,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verifyingOTP": MessageLookupByLibrary.simpleMessage("Verificerer OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("SEJR"),
         "videos": MessageLookupByLibrary.simpleMessage("Videoer"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("Besøg hjemmeside"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("Besøg hjemmeside"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "Besøg hjemmesiden og få",
         ),
@@ -680,8 +637,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Se videoer og få point",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Vi har sendt den 6-cifrede kode til din\nmobil",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -701,8 +657,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Forkert OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Ja"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Ja, slet det!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("Du er deaktiveret!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("Du er deaktiveret!"),
         "youAreDisabled": MessageLookupByLibrary.simpleMessage(
           "Du er deaktiveret!",
         ),
@@ -712,8 +667,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Du tager quizzen igen",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Du har allerede vundet denne quiz. Prøv at spille en anden quiz",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Du har tjent"),

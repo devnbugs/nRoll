@@ -33,8 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "RedeemYourPints": MessageLookupByLibrary.simpleMessage(
           "Wissel je punten in",
         ),
-        "SecureYourMoney":
-            MessageLookupByLibrary.simpleMessage("Beveilig je geld"),
+        "SecureYourMoney": MessageLookupByLibrary.simpleMessage("Beveilig je geld"),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "WelcomeToCashRocket": MessageLookupByLibrary.simpleMessage(
           "Welkom bij Cash Rocket",
@@ -58,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Al beloond, kom later terug",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Al beloond. Probeer het morgen opnieuw",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -78,25 +76,21 @@ class MessageLookup extends MessageLookupByLibrary {
           "Beeld annoteren voor AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple login werkt op Apple-apparaten",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Bent u het eens?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Weet u zeker dat u dit account wilt verwijderen?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Autorisatie mislukt",
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("Balans"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs Enquête"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs Enquête"),
         "bitrise": MessageLookupByLibrary.simpleMessage("Bitrise"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -111,8 +105,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Toegangskosten in rekening brengen",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Controleer je mobiel",
         ),
@@ -139,8 +132,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirmPassword": MessageLookupByLibrary.simpleMessage(
           "Bevestig wachtwoord",
         ),
-        "congratulations":
-            MessageLookupByLibrary.simpleMessage("Gefeliciteerd"),
+        "congratulations": MessageLookupByLibrary.simpleMessage("Gefeliciteerd"),
         "continu": MessageLookupByLibrary.simpleMessage("Doorgaan"),
         "continueWithApple": MessageLookupByLibrary.simpleMessage(
           "Doorgaan met Apple",
@@ -154,11 +146,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "continueWithMobile": MessageLookupByLibrary.simpleMessage(
           "Doorgaan met mobiel",
         ),
-        "customVideos":
-            MessageLookupByLibrary.simpleMessage("Aangepaste video\'s"),
+        "customVideos": MessageLookupByLibrary.simpleMessage("Aangepaste video\'s"),
         "d": MessageLookupByLibrary.simpleMessage("D"),
-        "dailyReward":
-            MessageLookupByLibrary.simpleMessage("Dagelijkse beloning!"),
+        "dailyReward": MessageLookupByLibrary.simpleMessage("Dagelijkse beloning!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Dagelijkse beloning bijwerken mislukt",
         ),
@@ -187,8 +177,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "earn": MessageLookupByLibrary.simpleMessage("verdien"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("Punten verdienen"),
         "earnbdt": MessageLookupByLibrary.simpleMessage("Verdien BDT"),
-        "earnpoints":
-            MessageLookupByLibrary.simpleMessage("Verdien 2921 punten"),
+        "earnpoints": MessageLookupByLibrary.simpleMessage("Verdien 2921 punten"),
         "editProfile": MessageLookupByLibrary.simpleMessage("Profiel bewerken"),
         "email": MessageLookupByLibrary.simpleMessage("E-mail"),
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -200,15 +189,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage(
           "Voer het muntaantal in",
         ),
-        "enterFirstName":
-            MessageLookupByLibrary.simpleMessage("Voer voornaam in"),
+        "enterFirstName": MessageLookupByLibrary.simpleMessage("Voer voornaam in"),
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Voer uw volledige naam in",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Voer achternaam in"),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("Voer wachtwoord in"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Voer achternaam in"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("Voer wachtwoord in"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Voer uw e-mailadres in",
         ),
@@ -231,13 +217,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Voer uitnodigingscode in",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Toegangskosten"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Fout Opgetreden"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Fout Opgetreden"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Fout Opgetreden. Probeer het Opnieuw",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Fout Opgetreden"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Fout Opgetreden"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Fout Opgetreden. Probeer het Opnieuw",
         ),
@@ -266,8 +250,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Aanbieding"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galerij"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Beloning ontvangen"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Beloning ontvangen"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage(
           "Beloningen Ontvangen",
         ),
@@ -301,8 +284,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Instructies"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("Ongeldige OTP"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Uitnodigingscode"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Uitnodigingscode"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Uitnodigingscode Gekopieerd",
         ),
@@ -329,8 +311,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "language": MessageLookupByLibrary.simpleMessage("Taal"),
         "lastName": MessageLookupByLibrary.simpleMessage("Achternaam"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("Laten we beginnen"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("Laten we beginnen"),
         "loading": MessageLookupByLibrary.simpleMessage("Laden"),
         "logIn": MessageLookupByLibrary.simpleMessage("Inloggen"),
         "logOut": MessageLookupByLibrary.simpleMessage("Uitloggen"),
@@ -364,8 +345,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noOfferFound": MessageLookupByLibrary.simpleMessage(
           "Geen aanbieding gevonden",
         ),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("Geen quiz gevonden"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("Geen quiz gevonden"),
         "none": MessageLookupByLibrary.simpleMessage("Geen"),
         "notDefined": MessageLookupByLibrary.simpleMessage("Niet Gedefinieerd"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
@@ -377,8 +357,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP Verzonden"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP Geverifieerd"),
-        "offerStatus":
-            MessageLookupByLibrary.simpleMessage("Aanbiedingsstatus"),
+        "offerStatus": MessageLookupByLibrary.simpleMessage("Aanbiedingsstatus"),
         "offerToro": MessageLookupByLibrary.simpleMessage("OfferToro"),
         "offers": MessageLookupByLibrary.simpleMessage("Aanbiedingen"),
         "ogAds": MessageLookupByLibrary.simpleMessage("Og Ads"),
@@ -402,14 +381,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "Betaald voor kraslot",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("Betaald Quiz Spelen"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("Betaald Quiz Spelen"),
         "password": MessageLookupByLibrary.simpleMessage("Wachtwoord"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Wachtwoord mag niet leeg zijn",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Wachtwoord mag niet korter zijn dan 6 tekens",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -418,8 +395,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Wachtwoord is Verplicht",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Wachtwoord moet minstens 6 Tekens Lang zijn",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -447,12 +423,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Controleer uw aankoopcode",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Kom morgen terug\nom de video te bekijken",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Voltooi de taak binnen 22 dagen",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -470,8 +444,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Voer de code hieronder in om uw",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Selecteer de Opnamemethode en Valuta",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -481,11 +454,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Wacht tot het geladen is",
         ),
-        "pointRecived":
-            MessageLookupByLibrary.simpleMessage("Punten ontvangen"),
+        "pointRecived": MessageLookupByLibrary.simpleMessage("Punten ontvangen"),
         "points": MessageLookupByLibrary.simpleMessage("Punten"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Ontvangen Punten"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Ontvangen Punten"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "punten worden afgetrokken!",
         ),
@@ -494,8 +465,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish Enquête"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish Enquête"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Druk op het DRAAI-wiel",
         ),
@@ -543,8 +513,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Beoordeling Niet Beschikbaar",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("Beloning"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("Beloning Toegevoegd"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("Beloning Toegevoegd"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("Beloningspunt"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Beloning succesvol ontvangen",
@@ -558,13 +527,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("Opslaan"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("Kras en win!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Kraslot"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Kras de bovenstaande kaart door erop te vegen",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Seconden"),
-        "secureYourMoney":
-            MessageLookupByLibrary.simpleMessage("Beveilig uw geld"),
+        "secureYourMoney": MessageLookupByLibrary.simpleMessage("Beveilig uw geld"),
         "sendOtp": MessageLookupByLibrary.simpleMessage("Stuur Otp"),
         "sendingOtp": MessageLookupByLibrary.simpleMessage("OTP Verzenden"),
         "share": MessageLookupByLibrary.simpleMessage("Delen"),
@@ -591,8 +558,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Er is Iets Misgegaan",
         ),
         "sorry": MessageLookupByLibrary.simpleMessage("Sorry"),
-        "spinTheWheel":
-            MessageLookupByLibrary.simpleMessage("Draai aan het wiel"),
+        "spinTheWheel": MessageLookupByLibrary.simpleMessage("Draai aan het wiel"),
         "spinTime": MessageLookupByLibrary.simpleMessage("spinTijd"),
         "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage(
           "Toegangskosten voor Spin Wheel",
@@ -603,8 +569,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Succesvol"),
         "survey": MessageLookupByLibrary.simpleMessage("Enquête"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Enquête voltooid. U zult binnenkort beloond worden",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -633,11 +598,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Token-update mislukt",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Topaanbieding!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("Totale beloningen"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("Totale beloningen"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("Totaal video\'s"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("Totaal websites"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("Totaal websites"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Probeer opnieuw"),
         "tutorial": MessageLookupByLibrary.simpleMessage("Zelfstudie"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
@@ -655,8 +618,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. Upgrade uw stad naar niveau 17",
         ),
-        "urlChangeTo":
-            MessageLookupByLibrary.simpleMessage("URL-wijziging naar"),
+        "urlChangeTo": MessageLookupByLibrary.simpleMessage("URL-wijziging naar"),
         "userAlreadyExist": MessageLookupByLibrary.simpleMessage(
           "Gebruiker bestaat al",
         ),
@@ -675,8 +637,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verifyingOTP": MessageLookupByLibrary.simpleMessage("OTP Verifiëren"),
         "victory": MessageLookupByLibrary.simpleMessage("OVERWINNING"),
         "videos": MessageLookupByLibrary.simpleMessage("Video\'s"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("Bezoek de website"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("Bezoek de website"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "Bezoek de website en krijg",
         ),
@@ -698,8 +659,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Bekijk video\'s en krijg punten",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "We hebben de 6-cijferige code naar je mobiel gestuurd",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -712,15 +672,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "wheel": MessageLookupByLibrary.simpleMessage("Rad"),
         "winner": MessageLookupByLibrary.simpleMessage("Winnaar!"),
         "withdraw": MessageLookupByLibrary.simpleMessage("Opnemen"),
-        "withdrawAccount":
-            MessageLookupByLibrary.simpleMessage("Opnameaccount"),
+        "withdrawAccount": MessageLookupByLibrary.simpleMessage("Opnameaccount"),
         "withdrawRequestedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Opname Succesvol Aangevraagd",
         ),
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Verkeerde OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Ja"),
-        "yesDeleteIt":
-            MessageLookupByLibrary.simpleMessage("Ja, verwijder het!"),
+        "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Ja, verwijder het!"),
         "youAreDisable": MessageLookupByLibrary.simpleMessage(
           "Je Bent Uitgeschakeld!",
         ),
@@ -733,12 +691,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Je doet de quiz opnieuw",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Je hebt deze quiz al gewonnen. Probeer een andere quiz",
         ),
-        "youHaveEarned":
-            MessageLookupByLibrary.simpleMessage("Je hebt verdiend"),
+        "youHaveEarned": MessageLookupByLibrary.simpleMessage("Je hebt verdiend"),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(
           "Je hebt 10 munten verdiend",
         ),

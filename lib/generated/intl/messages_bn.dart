@@ -41,8 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "ক্যাশ রকেটে স্বাগতম",
         ),
         "a": MessageLookupByLibrary.simpleMessage("A"),
-        "adColonyVideo":
-            MessageLookupByLibrary.simpleMessage("অ্যাডকলোনি ভিডিও"),
+        "adColonyVideo": MessageLookupByLibrary.simpleMessage("অ্যাডকলোনি ভিডিও"),
         "adGem": MessageLookupByLibrary.simpleMessage("অ্যাডজেম"),
         "adMob": MessageLookupByLibrary.simpleMessage("অ্যাডমোব"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("অ্যাডমোব ভিডিও"),
@@ -62,8 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "ইতিমধ্যে পুরস্কৃত, পরে ফিরে আসুন",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "ইতিমধ্যে পুরস্কৃত হয়েছে। অনুগ্রহ করে আগামীকাল আবার চেষ্টা করুন",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -82,13 +80,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "এআই এর জন্য ইমেজ এনোটেট করুন",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("অ্যাপলভিন"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "অ্যাপল ডিভাইসে অ্যাপল লগইন কাজ করবে",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("তুমি কি রাজি?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "আপনি কি এই অ্যাকাউন্ট মুছে ফেলতে নিশ্চিত?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("অ্যাটলাস ভিপিএন"),
@@ -100,8 +96,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("ভারসাম্য"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("বিটল্যাবস সার্ভে"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("বিটল্যাবস সার্ভে"),
         "bitrise": MessageLookupByLibrary.simpleMessage("বিটরাইস"),
         "bkash": MessageLookupByLibrary.simpleMessage("বিকাশ"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -116,8 +111,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "এন্ট্রি ফি চার্জ করা হচ্ছে",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("চার্টবুস্ট ভিডিও"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("চার্টবুস্ট ভিডিও"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "আপনার মোবাইল পরীক্ষা করুন",
         ),
@@ -144,8 +138,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirmPassword": MessageLookupByLibrary.simpleMessage(
           "পাসওয়ার্ড নিশ্চিত করুন",
         ),
-        "congratulations":
-            MessageLookupByLibrary.simpleMessage("Congratulations"),
+        "congratulations": MessageLookupByLibrary.simpleMessage("Congratulations"),
         "continu": MessageLookupByLibrary.simpleMessage("চালিয়ে যান"),
         "continueWithApple": MessageLookupByLibrary.simpleMessage(
           "অ্যাপলের সাথে চালিয়ে যান",
@@ -168,10 +161,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "তারিখ আপডেট করা হয়েছে\" (7 জুন 2021)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("পূর্ণ হওয়ার দিন"),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("অ্যাকাউন্ট মুছুন"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("পূর্ণ হওয়ার দিন"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("অ্যাকাউন্ট মুছুন"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage(
           "অ্যাকাউন্ট মুছে ফেলা হচ্ছে",
         ),
@@ -213,8 +204,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterLastName": MessageLookupByLibrary.simpleMessage(
           "নামের শেষ অংশ লিখুন",
         ),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("পাসওয়ার্ড লিখুন"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("পাসওয়ার্ড লিখুন"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "তোমার ই-মেইল ঠিকানা লেখো",
         ),
@@ -237,13 +227,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "আমন্ত্রণ কোড লিখুন",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("এন্ট্রি ফি"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("একটি ত্রুটি ঘটেছে"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("একটি ত্রুটি ঘটেছে"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "একটি ত্রুটি ঘটেছে। আবার চেষ্টা করুন",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("একটি ত্রুটি ঘটেছে"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("একটি ত্রুটি ঘটেছে"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "একটি ত্রুটি ঘটেছে। অনুগ্রহ করে আবার চেষ্টা করুন",
         ),
@@ -282,8 +270,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "আজকের পুরস্কার পাওয়া যাচ্ছে",
         ),
         "hard": MessageLookupByLibrary.simpleMessage("কঠিন"),
-        "havenotAnyAcconts":
-            MessageLookupByLibrary.simpleMessage("কোন হিসাব নেই?"),
+        "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage("কোন হিসাব নেই?"),
         "heyMoreCash": MessageLookupByLibrary.simpleMessage("হেই! আরও টাকা!"),
         "history": MessageLookupByLibrary.simpleMessage("ইতিহাস"),
         "home": MessageLookupByLibrary.simpleMessage("হোম"),
@@ -311,8 +298,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "আমন্ত্রণ কোড কপি হয়েছে",
         ),
-        "inviteNow":
-            MessageLookupByLibrary.simpleMessage("এখনই আমন্ত্রণ জানান"),
+        "inviteNow": MessageLookupByLibrary.simpleMessage("এখনই আমন্ত্রণ জানান"),
         "inviteYourFriends": MessageLookupByLibrary.simpleMessage(
           "আপনার বন্ধুদের আমন্ত্রণ",
         ),
@@ -326,16 +312,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "এটা ব্যবহার, আপনি সনাক্ত করতে হবে",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("কিউই ওয়াল"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("কিউই ওয়াল অফার"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("কিউই ওয়াল অফার"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("ভাষা"),
         "lastName": MessageLookupByLibrary.simpleMessage("নামের শেষ অংশ"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("আসুন শুরু করা যাক"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("আসুন শুরু করা যাক"),
         "loading": MessageLookupByLibrary.simpleMessage("লোড হচ্ছে"),
         "logIn": MessageLookupByLibrary.simpleMessage("প্রবেশ করুন"),
         "logOut": MessageLookupByLibrary.simpleMessage("প্রস্থান"),
@@ -377,12 +361,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "পর্যাপ্ত ব্যালেন্স নেই",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("পর্যাপ্ত কয়েন নেই"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("পর্যাপ্ত কয়েন নেই"),
         "oGAds": MessageLookupByLibrary.simpleMessage("ওজি অ্যাডস"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("ওটিপি পাঠানো হয়েছে"),
-        "oTPVerified":
-            MessageLookupByLibrary.simpleMessage("ওটিপি যাচাই হয়েছে"),
+        "oTPVerified": MessageLookupByLibrary.simpleMessage("ওটিপি যাচাই হয়েছে"),
         "offerStatus": MessageLookupByLibrary.simpleMessage("অফার স্ট্যাটাস"),
         "offerToro": MessageLookupByLibrary.simpleMessage("অফারটোরো"),
         "offers": MessageLookupByLibrary.simpleMessage("অফার"),
@@ -407,14 +389,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "স্ক্র্যাচ কার্ডের জন্য অর্থ প্রদান করা হয়েছে",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("পরিশোধিত কুইজ খেলা"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("পরিশোধিত কুইজ খেলা"),
         "password": MessageLookupByLibrary.simpleMessage("পাসওয়ার্ড"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "পাসওয়ার্ড খালি হতে পারে না",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "পাসওয়ার্ড ৬ অক্ষরের কম হতে পারে না",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -423,8 +403,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "পাসওয়ার্ড প্রয়োজন",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "পাসওয়ার্ডের দৈর্ঘ্য কমপক্ষে ৬ অক্ষর হতে হবে",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -452,12 +431,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "আপনার ক্রয় কোড পরীক্ষা করুন",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "ভিডিও দেখতে আপনি আগামীকাল ফিরে আসুন",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4.  Please complete the task within 22 days",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -475,15 +452,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "আপনার রিসেট করার জন্য নীচের কোড লিখুন",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "অনুগ্রহ করে উত্তোলন পদ্ধতি এবং মুদ্রা নির্বাচন করুন",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "অনুগ্রহ করে আবার চেষ্টা করুন",
         ),
-        "pleaseWait":
-            MessageLookupByLibrary.simpleMessage("দয়া করে অপেক্ষা করুন"),
+        "pleaseWait": MessageLookupByLibrary.simpleMessage("দয়া করে অপেক্ষা করুন"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "লোড হওয়া পর্যন্ত অপেক্ষা করুন",
         ),
@@ -505,8 +480,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "স্পিন হুইল টিপুন",
         ),
         "price": MessageLookupByLibrary.simpleMessage("মূল্য"),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("গোপনীয়তা নীতি"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("গোপনীয়তা নীতি"),
         "privicyPolcy": MessageLookupByLibrary.simpleMessage("গোপনীয়তা নীতি"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "গোপনীয়তা নীতি | ক্যাশ রকেট",
@@ -563,11 +537,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Lost Crus...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("সংরক্ষণ"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("স্ক্র্যাচ এবং জয়"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("স্ক্র্যাচ এবং জয়"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("স্ক্রার্চ কার্ড"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "উপরের কার্ডটি পাস করে খোকা করুন",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("সেকেন্ড"),
@@ -575,12 +547,10 @@ class MessageLookup extends MessageLookupByLibrary {
           "আপনার টাকা নিরাপদ",
         ),
         "sendOtp": MessageLookupByLibrary.simpleMessage("Otp পাঠান"),
-        "sendingOtp":
-            MessageLookupByLibrary.simpleMessage("ওটিপি পাঠানো হচ্ছে"),
+        "sendingOtp": MessageLookupByLibrary.simpleMessage("ওটিপি পাঠানো হচ্ছে"),
         "share": MessageLookupByLibrary.simpleMessage("শেয়ার করুন"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("শেয়ার স্কোর"),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("বিজ্ঞাপন দেখানো হচ্ছে"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("বিজ্ঞাপন দেখানো হচ্ছে"),
         "signIn": MessageLookupByLibrary.simpleMessage("সাইন ইন করুন"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "সাইন আউট সফল হয়েছে",
@@ -592,8 +562,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage(
           "ইমেইলের মাধ্যমে সাইন আপ করুন",
         ),
-        "signingOut":
-            MessageLookupByLibrary.simpleMessage("সাইন আউট করা হচ্ছে"),
+        "signingOut": MessageLookupByLibrary.simpleMessage("সাইন আউট করা হচ্ছে"),
         "signingUp": MessageLookupByLibrary.simpleMessage("সাইন আপ করা হচ্ছে"),
         "skip": MessageLookupByLibrary.simpleMessage("এড়িয়ে যান"),
         "skipForNow": MessageLookupByLibrary.simpleMessage("এখন জন্য লাফালাফি"),
@@ -612,8 +581,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("স্টার্টঅ্যাপ"),
         "successful": MessageLookupByLibrary.simpleMessage("সফল"),
         "survey": MessageLookupByLibrary.simpleMessage("জরিপ"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "সার্ভে সম্পন্ন হয়েছে। শীঘ্রই পুরস্কৃত করা হবে",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -705,8 +673,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "ভিডিও দেখুন এবং পয়েন্ট পান",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "আমরা আপনার মোবাইলে 6 টি সংকেতনবিম্বে পাঠানো হয়েছে",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -731,20 +698,17 @@ class MessageLookup extends MessageLookupByLibrary {
           "হ্যাঁ, এটি মুছে ফেলুন!",
         ),
         "youAreDisable": MessageLookupByLibrary.simpleMessage("আপনি অক্ষম!"),
-        "youAreDisabled":
-            MessageLookupByLibrary.simpleMessage("আপনি নিষ্ক্রিয়!"),
+        "youAreDisabled": MessageLookupByLibrary.simpleMessage("আপনি নিষ্ক্রিয়!"),
         "youAreNotEligibleForThisSurvey": MessageLookupByLibrary.simpleMessage(
           "আপনি এই সার্ভের জন্য যোগ্য নন",
         ),
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "আপনি কুইজটি আবার দিচ্ছেন",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "আপনি ইতিমধ্যে এই কুইজটি জিতেছেন। অন্য কুইজ খেলার চেষ্টা করুন",
         ),
-        "youHaveEarned":
-            MessageLookupByLibrary.simpleMessage("আপনি অর্জন করেছেন"),
+        "youHaveEarned": MessageLookupByLibrary.simpleMessage("আপনি অর্জন করেছেন"),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(
           "আপনি ১০ কয়েন অর্জন করেছেন",
         ),

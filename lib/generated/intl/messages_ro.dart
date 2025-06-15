@@ -61,8 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Deja recompensat, reveniți mai târziu",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Deja recompensat. Vă rugăm să încercați din nou mâine",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -81,19 +80,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Etichetați imagini pentru AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Autentificarea Apple va funcționa pe dispozitivele Apple",
         ),
-        "areYouAgree":
-            MessageLookupByLibrary.simpleMessage("Sunteți de acord?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouAgree": MessageLookupByLibrary.simpleMessage("Sunteți de acord?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Sunteți sigur că doriți să ștergeți acest cont?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Autorizarea a eșuat",
         ),
@@ -108,13 +103,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Camera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Racheta de bani"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Schimbă parola"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Schimbă parola"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Se percepe taxa de intrare",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Video Chartboost"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Video Chartboost"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Verificați Telefonul Dvs. Mobil",
         ),
@@ -159,8 +152,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Video-uri Personalizate",
         ),
         "d": MessageLookupByLibrary.simpleMessage("D"),
-        "dailyReward":
-            MessageLookupByLibrary.simpleMessage("Recompensă zilnică!"),
+        "dailyReward": MessageLookupByLibrary.simpleMessage("Recompensă zilnică!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Actualizarea recompensei zilnice a eșuat",
         ),
@@ -173,8 +165,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "deleteAccounts": MessageLookupByLibrary.simpleMessage(
           "Ștergeți Conturile",
         ),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Se șterge contul"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Se șterge contul"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Ștergerea a fost un succes",
         ),
@@ -211,8 +202,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterLastName": MessageLookupByLibrary.simpleMessage(
           "Introduceți Numele de Familie",
         ),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("Introduceți parola"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("Introduceți parola"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Introduceți adresa dvs. de email",
         ),
@@ -235,13 +225,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Introduceți codul de invitație",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Taxă de intrare"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("A apărut o eroare"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("A apărut o eroare"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "A apărut o eroare. Încercați din nou",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("A apărut o eroare"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("A apărut o eroare"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "A apărut o eroare. Vă rugăm să încercați din nou",
         ),
@@ -260,8 +248,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Eroare la încărcarea videoclipului",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("Prenume"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Ați uitat parola"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("Ați uitat parola"),
         "free": MessageLookupByLibrary.simpleMessage("Gratuit"),
         "fullName": MessageLookupByLibrary.simpleMessage("Nume complet"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -282,8 +269,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "Nu aveți niciun cont?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Hei! Mai mulți bani!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Hei! Mai mulți bani!"),
         "history": MessageLookupByLibrary.simpleMessage("Istoric"),
         "home": MessageLookupByLibrary.simpleMessage("Acasă"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -306,8 +292,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Instrucțiuni"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("OTP invalid"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Cod de invitație"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Cod de invitație"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Codul de invitație a fost copiat",
         ),
@@ -325,8 +310,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "dacă îl folosiți, veți detecta",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Ofertă Kiwi Wall"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Ofertă Kiwi Wall"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -364,8 +348,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "Nu s-a găsit conexiune la internet",
         ),
-        "noOfferFound":
-            MessageLookupByLibrary.simpleMessage("Nicio ofertă găsită"),
+        "noOfferFound": MessageLookupByLibrary.simpleMessage("Nicio ofertă găsită"),
         "noQuizFound": MessageLookupByLibrary.simpleMessage(
           "Nu s-a găsit niciun quiz",
         ),
@@ -409,8 +392,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Parola nu poate fi goală",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Parola nu poate fi mai mică de 6 caractere",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -419,8 +401,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Parola este necesară",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Lungimea parolei trebuie să fie de cel puțin 6 caractere",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -448,12 +429,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Vă rugăm să verificați codul de achiziție",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Vă rugăm să reveniți mâine\npentru a viziona videoclipul",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Vă rugăm să finalizați sarcina în termen de 22 de zile",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -471,22 +450,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Vă rugăm să introduceți codul de mai jos pentru a vă reseta",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Vă rugăm să selectați metoda de retragere și moneda",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Vă rugăm să încercați din nou",
         ),
-        "pleaseWait":
-            MessageLookupByLibrary.simpleMessage("Vă rugăm să așteptați"),
+        "pleaseWait": MessageLookupByLibrary.simpleMessage("Vă rugăm să așteptați"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Vă rugăm să așteptați până se încarcă",
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Puncte primite"),
         "points": MessageLookupByLibrary.simpleMessage("Puncte"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Puncte primite"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Puncte primite"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "punctele vor fi deduse!",
         ),
@@ -495,8 +471,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Sondaj Pollfish"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Sondaj Pollfish"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Apăsați butonul ÎNVÂRTEȘTE",
         ),
@@ -536,18 +511,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "Solicitarea retragerii",
         ),
         "resendCode": MessageLookupByLibrary.simpleMessage("Retrimiteți Codul"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Resetați parola"),
-        "resettingPassword":
-            MessageLookupByLibrary.simpleMessage("Resetez parola"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Resetați parola"),
+        "resettingPassword": MessageLookupByLibrary.simpleMessage("Resetez parola"),
         "reviewNotAvailable": MessageLookupByLibrary.simpleMessage(
           "Recenzia nu este disponibilă",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("Recompensă"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("Recompensă adăugată"),
-        "rewardPoint":
-            MessageLookupByLibrary.simpleMessage("Punct de recompensă"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("Recompensă adăugată"),
+        "rewardPoint": MessageLookupByLibrary.simpleMessage("Punct de recompensă"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Recompensa a fost acordată cu succes",
         ),
@@ -558,11 +529,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Lost Crus...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Salvează"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Zgârie și câștigă!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Zgârie și câștigă!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Bilet de Scratc"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Zgârie cartea de mai sus prin ștergere pe ea",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Secunde"),
@@ -588,8 +557,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signingOut": MessageLookupByLibrary.simpleMessage("Se deconectează"),
         "signingUp": MessageLookupByLibrary.simpleMessage("Înscriere"),
         "skip": MessageLookupByLibrary.simpleMessage("Omite"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("Omiteți pentru moment"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("Omiteți pentru moment"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "A apărut o problemă",
         ),
@@ -605,8 +573,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Reușit"),
         "survey": MessageLookupByLibrary.simpleMessage("Studiu"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Sondaj completat. Veți fi recompensat în curând",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -634,10 +601,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Actualizarea token-ului a eșuat",
         ),
-        "topOffer":
-            MessageLookupByLibrary.simpleMessage("Cea mai bună ofertă!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("Recompense totale"),
+        "topOffer": MessageLookupByLibrary.simpleMessage("Cea mai bună ofertă!"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("Recompense totale"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("Total Video-uri"),
         "totalWebsites": MessageLookupByLibrary.simpleMessage("Total Site-uri"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Încercați din nou"),
@@ -657,8 +622,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. Actualizați orașul dvs. la nivelul 17",
         ),
-        "urlChangeTo":
-            MessageLookupByLibrary.simpleMessage("schimbare URL către"),
+        "urlChangeTo": MessageLookupByLibrary.simpleMessage("schimbare URL către"),
         "userAlreadyExist": MessageLookupByLibrary.simpleMessage(
           "Utilizatorul există deja",
         ),
@@ -679,8 +643,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "victory": MessageLookupByLibrary.simpleMessage("VICTORIE"),
         "videos": MessageLookupByLibrary.simpleMessage("Videoclipuri"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("Vizitează Site-ul"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("Vizitează Site-ul"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "Vizitează site-ul și primește",
         ),
@@ -695,16 +658,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchAVideoOnlyOneTimeInADay": MessageLookupByLibrary.simpleMessage(
           "Uitați-vă la un videoclip doar O singură Dată Pe Zi",
         ),
-        "watchVideo":
-            MessageLookupByLibrary.simpleMessage("Uitați-vă la Video"),
+        "watchVideo": MessageLookupByLibrary.simpleMessage("Uitați-vă la Video"),
         "watchVideoAndEarn": MessageLookupByLibrary.simpleMessage(
           "Uitați un videoclip (Obțineți 10 de monede)",
         ),
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Vizionați videoclipuri și obțineți puncte",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Am trimis codul cu 6 cifre la numărul Dvs. de\nmobil ",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -738,8 +699,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Refaci testul",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Ați câștigat deja acest test. Încercați să jucați alte teste",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Ai Câștigat"),

@@ -32,8 +32,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "a": MessageLookupByLibrary.simpleMessage("A"),
-        "adColonyVideo":
-            MessageLookupByLibrary.simpleMessage("Video ya AdColony"),
+        "adColonyVideo": MessageLookupByLibrary.simpleMessage("Video ya AdColony"),
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("Video ya AdMob"),
@@ -47,13 +46,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
           "Tayari una akaunti",
         ),
-        "alreadyPlayed":
-            MessageLookupByLibrary.simpleMessage("Tayari Umecheza"),
+        "alreadyPlayed": MessageLookupByLibrary.simpleMessage("Tayari Umecheza"),
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Tayari Umepewa Tuzo, Rudi Baadaye",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Tuzo Imepewa Tayari. Tafadhali Jaribu Tena Kesho",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -72,13 +69,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Tambua picha kwa AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Kujiunga na Apple kutafanya kazi kwenye vifaa vya Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Je, unaafikiana?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Je, una uhakika kuwa unataka kufuta akaunti hii?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
@@ -90,8 +85,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("Salio"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs Uchunguzi"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs Uchunguzi"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "kuzuia mwelekeo kwenda",
@@ -121,8 +115,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeProfile": MessageLookupByLibrary.simpleMessage(
           "Kamilisha Profaili",
         ),
-        "completeanaction":
-            MessageLookupByLibrary.simpleMessage("Kamilisha hatua"),
+        "completeanaction": MessageLookupByLibrary.simpleMessage("Kamilisha hatua"),
         "completingProfile": MessageLookupByLibrary.simpleMessage(
           "Kukamilisha Profaili",
         ),
@@ -141,8 +134,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Endelea na Google",
         ),
         "d": MessageLookupByLibrary.simpleMessage("D"),
-        "dailyReward":
-            MessageLookupByLibrary.simpleMessage("Tuzo ya Kila siku!"),
+        "dailyReward": MessageLookupByLibrary.simpleMessage("Tuzo ya Kila siku!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Sasisho la Tuzo ya Kila Siku Limeshindwa",
         ),
@@ -152,8 +144,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "daysToComplete": MessageLookupByLibrary.simpleMessage(
           "Siku za kukamilisha",
         ),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Inafuta Akaunti"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Inafuta Akaunti"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Ufuta Umefanikiwa",
         ),
@@ -179,8 +170,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Ingiza jina kamili yako",
         ),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("Ingiza nenosiri"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("Ingiza nenosiri"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Ingiza anwani yako ya barua pepe",
         ),
@@ -203,13 +193,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Ingiza kodi ya mwaliko",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Ada ya Kujiunga"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Hitilafu Imetokea"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Hitilafu Imetokea"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Hitilafu Imetokea. Jaribu Tena",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Hitilafu Imetokea"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Hitilafu Imetokea"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Hitilafu Imetokea. Tafadhali Jaribu Tena",
         ),
@@ -227,8 +215,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "failedToLoadVideo": MessageLookupByLibrary.simpleMessage(
           "Hitilafu Wakati wa Kupakia Video",
         ),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Umesahau nenosiri"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("Umesahau nenosiri"),
         "free": MessageLookupByLibrary.simpleMessage("Bure"),
         "fullName": MessageLookupByLibrary.simpleMessage("Jina kamili"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -264,8 +251,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "inbrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Maelekezo"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("OTP Isiyo Sahihi"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Kodi ya Mwaliko"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Kodi ya Mwaliko"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Msimbo wa Mwito Umeundwa",
         ),
@@ -276,11 +262,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Waalike marafiki zako kutumia Cash Rocket na utapokea alama 100 kwa kila mmoja",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("ni kwa Sehemu Kuu"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("ni kwa Sehemu Kuu"),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Ofa ya Kiwi Wall"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Ofa ya Kiwi Wall"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Ukuta"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -312,8 +296,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "myGymFitnessStudioManager": MessageLookupByLibrary.simpleMessage(
           "My Gym: Fitness Studio Manager",
         ),
-        "newPassword":
-            MessageLookupByLibrary.simpleMessage("Neno la Siri Jipya"),
+        "newPassword": MessageLookupByLibrary.simpleMessage("Neno la Siri Jipya"),
         "next": MessageLookupByLibrary.simpleMessage("Ifuatayo"),
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "Hakuna Uunganisho wa Intaneti Umeapatikana",
@@ -329,12 +312,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Hauna Mbalanzi ya Kutosha",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Sarafu Hakutoshi"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Sarafu Hakutoshi"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP Imetumwa"),
-        "oTPVerified":
-            MessageLookupByLibrary.simpleMessage("OTP Imehakikishwa"),
+        "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP Imehakikishwa"),
         "offerStatus": MessageLookupByLibrary.simpleMessage("Hali ya Ofa"),
         "offerToro": MessageLookupByLibrary.simpleMessage("Ofa Toro"),
         "offers": MessageLookupByLibrary.simpleMessage("Ofa"),
@@ -366,8 +347,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Neno la Siri haliwezi kuwa tupu",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Neno la Siri haliwezi kuwa na herufi chini ya 6",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -376,8 +356,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Neno la Siri Linahitajika",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Urefu wa Neno la Siri Lazima Uwe Angalau Karakteri 6",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -404,8 +383,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Tafadhali angalia kanuni yako ya ununuzi",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Tafadhali kamilisha kazi ndani ya siku 22",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -423,8 +401,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Tafadhali ingiza nambari hapa chini ili kusawazisha yako",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Tafadhali Chagua Njia ya Kutoa na Sarafu",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -433,8 +410,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Tafadhali subiri hadi ipakie",
         ),
-        "pointRecived":
-            MessageLookupByLibrary.simpleMessage("Alama zimepokelewa"),
+        "pointRecived": MessageLookupByLibrary.simpleMessage("Alama zimepokelewa"),
         "pointsReceived": MessageLookupByLibrary.simpleMessage(
           "Pointi Zilizo Pokelewa",
         ),
@@ -448,8 +424,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Bonyeza Geuza Gurudumu",
         ),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("Sera ya Faragha"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("Sera ya Faragha"),
         "privicyPolcy": MessageLookupByLibrary.simpleMessage("Sera ya Faragha"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Sera ya Faragha | Cash Rocket",
@@ -469,14 +444,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Fikia Kiwango cha 100 katika Mchezo!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("Tumia"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("Tumia alama zako"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("Tumia alama zako"),
         "refer": MessageLookupByLibrary.simpleMessage("Elekeza"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Nikumbuke"),
-        "requestingWithdraw":
-            MessageLookupByLibrary.simpleMessage("Kuomba Kutoa"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Weka upya nenosiri"),
+        "requestingWithdraw": MessageLookupByLibrary.simpleMessage("Kuomba Kutoa"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Weka upya nenosiri"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "Kurekebisha Neno la Siri",
         ),
@@ -496,8 +468,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Lost Crus...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Hifadhi"),
-        "secureYourMoney":
-            MessageLookupByLibrary.simpleMessage("Linda pesa yako"),
+        "secureYourMoney": MessageLookupByLibrary.simpleMessage("Linda pesa yako"),
         "sendingOtp": MessageLookupByLibrary.simpleMessage("Kutuma OTP"),
         "share": MessageLookupByLibrary.simpleMessage("Shiriki"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("Shiriki Alama"),
@@ -531,8 +502,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Mafanikio"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Uchunguzi Umekamilika. Utaadhibiwa hivi karibuni",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -544,8 +514,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Bodi ya Uchunguzi Iko Wazi",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Ofa Zinazoendelea"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Ofa Zinazoendelea"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Masharti na Masharti ya Matumizi",
         ),
@@ -588,19 +557,16 @@ class MessageLookup extends MessageLookupByLibrary {
           "5. Mtumiaji anaweza kupata tuzo moja tu kutoka kwa Ofa ya Rise of Kingdoms",
         ),
         "userId": MessageLookupByLibrary.simpleMessage("userId"),
-        "userNotEligible":
-            MessageLookupByLibrary.simpleMessage("Mtumiaji Hafai"),
+        "userNotEligible": MessageLookupByLibrary.simpleMessage("Mtumiaji Hafai"),
         "userRejectedSurvey": MessageLookupByLibrary.simpleMessage(
           "Mtumiaji Amechukua Uchunguzi",
         ),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("Kuthibitisha OTP"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("Kuthibitisha OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("USHINDI"),
         "videos": MessageLookupByLibrary.simpleMessage("Video"),
         "vungleVideo": MessageLookupByLibrary.simpleMessage("Video ya Vungle"),
         "wannads": MessageLookupByLibrary.simpleMessage("Wannads"),
-        "wannadsOfferwall":
-            MessageLookupByLibrary.simpleMessage("Kuta ya Wannads"),
+        "wannadsOfferwall": MessageLookupByLibrary.simpleMessage("Kuta ya Wannads"),
         "watchVideoAndEarn": MessageLookupByLibrary.simpleMessage(
           "Tazama Video (Pata Sarafu 10)",
         ),
@@ -616,8 +582,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wheel": MessageLookupByLibrary.simpleMessage("Gurudumu"),
         "winner": MessageLookupByLibrary.simpleMessage("Mshindi!"),
         "withdraw": MessageLookupByLibrary.simpleMessage("Toa"),
-        "withdrawAccount":
-            MessageLookupByLibrary.simpleMessage("Akaunti ya Kutoa"),
+        "withdrawAccount": MessageLookupByLibrary.simpleMessage("Akaunti ya Kutoa"),
         "withdrawRequestedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Ombi la Kutoa Limefanikiwa",
         ),
@@ -632,8 +597,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Unachukua tena mtihani",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Umesha shinda mtihani huu. Jaribu kucheza mtihani mwingine",
         ),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(

@@ -15,8 +15,6 @@ class FortuneIndicator {
 
   @override
   bool operator ==(Object other) {
-    return other is FortuneIndicator &&
-        alignment == other.alignment &&
-        child == other.child;
+    return other is FortuneIndicator && alignment == other.alignment && child == other.child;
   }
 }

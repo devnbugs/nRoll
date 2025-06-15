@@ -59,8 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Уже вознагражден. Возвращайтесь позже",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Уже награждено. Пожалуйста, попробуйте снова завтра",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -79,18 +78,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Аннотировать изображения для AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Вход через Apple будет работать на устройствах Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Вы согласны?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Вы уверены, что хотите удалить этот аккаунт?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Сеть аудитории"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Сеть аудитории"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Ошибка авторизации",
         ),
@@ -105,13 +101,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Камера"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Cash Rocket"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Изменить пароль"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Изменить пароль"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Взимание входного взноса",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Видео Chartboost"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Видео Chartboost"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Проверьте ваш мобильный",
         ),
@@ -156,8 +150,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Индивидуальные видеоролики",
         ),
         "d": MessageLookupByLibrary.simpleMessage("D"),
-        "dailyReward":
-            MessageLookupByLibrary.simpleMessage("Ежедневная награда!"),
+        "dailyReward": MessageLookupByLibrary.simpleMessage("Ежедневная награда!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Обновление ежедневной награды не удалось",
         ),
@@ -167,8 +160,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "daysToComplete": MessageLookupByLibrary.simpleMessage(
           "Дни для завершения",
         ),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("Удалить аккаунты"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("Удалить аккаунты"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage(
           "Удаление аккаунта",
         ),
@@ -178,8 +170,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "description": MessageLookupByLibrary.simpleMessage("описание"),
         "dismissed": MessageLookupByLibrary.simpleMessage("Отклонено"),
         "doNotKnow": MessageLookupByLibrary.simpleMessage("Не знаю"),
-        "dontReceiveCode":
-            MessageLookupByLibrary.simpleMessage("Не получили код?"),
+        "dontReceiveCode": MessageLookupByLibrary.simpleMessage("Не получили код?"),
         "earbdt": MessageLookupByLibrary.simpleMessage("Заработать BDT"),
         "earn": MessageLookupByLibrary.simpleMessage("заработать"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("Заработать очки"),
@@ -204,8 +195,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Введите ваше полное имя",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Введите фамилию"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Введите фамилию"),
         "enterPassword": MessageLookupByLibrary.simpleMessage("Введите пароль"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Введите ваш адрес электронной почты",
@@ -229,13 +219,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Введите код приглашения",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Входной взнос"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Произошла ошибка"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Произошла ошибка"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Произошла ошибка. Попробуйте снова",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Произошла ошибка"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Произошла ошибка"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Произошла ошибка. Пожалуйста, попробуйте снова",
         ),
@@ -262,8 +250,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Предложение Fyber"),
         "gallary": MessageLookupByLibrary.simpleMessage("Галерея"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Получение награды"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Получение награды"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage(
           "Получение вознаграждений",
         ),
@@ -274,8 +261,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "У вас нет аккаунта?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Эй! Больше денег!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Эй! Больше денег!"),
         "history": MessageLookupByLibrary.simpleMessage("История"),
         "home": MessageLookupByLibrary.simpleMessage("Главная"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -298,8 +284,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Инструкции"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("Неверный OTP"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Код приглашения"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Код приглашения"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Код приглашения скопирован",
         ),
@@ -326,8 +311,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "language": MessageLookupByLibrary.simpleMessage("Язык"),
         "lastName": MessageLookupByLibrary.simpleMessage("Фамилия"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("Давайте начнем"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("Давайте начнем"),
         "loading": MessageLookupByLibrary.simpleMessage("Загрузка"),
         "logIn": MessageLookupByLibrary.simpleMessage("Войти"),
         "logOut": MessageLookupByLibrary.simpleMessage("Выйти"),
@@ -361,20 +345,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "noOfferFound": MessageLookupByLibrary.simpleMessage(
           "Предложение не найдено",
         ),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("Викторина не найдена"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("Викторина не найдена"),
         "none": MessageLookupByLibrary.simpleMessage("Нет"),
         "notDefined": MessageLookupByLibrary.simpleMessage("Не определено"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Недостаточный баланс",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Недостаточно монет"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Недостаточно монет"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP отправлен"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP подтвержден"),
-        "offerStatus":
-            MessageLookupByLibrary.simpleMessage("Статус предложения"),
+        "offerStatus": MessageLookupByLibrary.simpleMessage("Статус предложения"),
         "offerToro": MessageLookupByLibrary.simpleMessage("OfferToro"),
         "offers": MessageLookupByLibrary.simpleMessage("Предложения"),
         "ogAds": MessageLookupByLibrary.simpleMessage("Og Ads"),
@@ -405,8 +386,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Пароль не может быть пустым",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Пароль не может быть короче 6 символов",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -415,8 +395,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Пароль обязателен",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Длина пароля должна быть не менее 6 символов",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -437,20 +416,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "playRiseofKingdoms": MessageLookupByLibrary.simpleMessage(
           "1. Играйте в Rise of Kingdoms",
         ),
-        "playVideo":
-            MessageLookupByLibrary.simpleMessage("Воспроизвести видео"),
+        "playVideo": MessageLookupByLibrary.simpleMessage("Воспроизвести видео"),
         "pleaseCheckYourOtp": MessageLookupByLibrary.simpleMessage(
           "Пожалуйста, проверьте ваш OTP",
         ),
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Пожалуйста, проверьте ваш код покупки",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Пожалуйста, вернитесь завтра,\nчтобы посмотреть видео",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Пожалуйста, выполните задачу в течение 22 дней",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -468,22 +444,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Пожалуйста, введите код ниже, чтобы сбросить ваш",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Пожалуйста, выберите метод вывода и валюту",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Пожалуйста, попробуйте снова",
         ),
-        "pleaseWait":
-            MessageLookupByLibrary.simpleMessage("Пожалуйста, подождите"),
+        "pleaseWait": MessageLookupByLibrary.simpleMessage("Пожалуйста, подождите"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Пожалуйста, подождите, пока загрузится",
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Полученные очки"),
         "points": MessageLookupByLibrary.simpleMessage("Баллы"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Баллы получены"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Баллы получены"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "баллы будут вычтены!",
         ),
@@ -492,8 +465,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Опрос Pollfish"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Опрос Pollfish"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Нажмите на колесо, чтобы подкрутить",
         ),
@@ -517,8 +489,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "quiz": MessageLookupByLibrary.simpleMessage("Викторина"),
         "quizzes": MessageLookupByLibrary.simpleMessage("Викторины"),
         "rateUs": MessageLookupByLibrary.simpleMessage("Оцените нас"),
-        "reEnterPassword":
-            MessageLookupByLibrary.simpleMessage("Повторите пароль"),
+        "reEnterPassword": MessageLookupByLibrary.simpleMessage("Повторите пароль"),
         "reachLevel100InTheGame": MessageLookupByLibrary.simpleMessage(
           "Достигните уровня 100 в игре!",
         ),
@@ -534,10 +505,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "resendCode": MessageLookupByLibrary.simpleMessage(
           "Отправить код повторно",
         ),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Сбросить пароль"),
-        "resettingPassword":
-            MessageLookupByLibrary.simpleMessage("Сброс пароля"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Сбросить пароль"),
+        "resettingPassword": MessageLookupByLibrary.simpleMessage("Сброс пароля"),
         "reviewNotAvailable": MessageLookupByLibrary.simpleMessage(
           "Обзор недоступен",
         ),
@@ -545,8 +514,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "rewardAdded": MessageLookupByLibrary.simpleMessage(
           "Вознаграждение добавлено",
         ),
-        "rewardPoint":
-            MessageLookupByLibrary.simpleMessage("Баллы вознаграждения"),
+        "rewardPoint": MessageLookupByLibrary.simpleMessage("Баллы вознаграждения"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Награда получена успешно",
         ),
@@ -557,11 +525,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Lost Crus...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Сохранить"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Скретч и выиграй!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Скретч и выиграй!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Скретч-карта"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Скретчте карту выше, проведя по ней",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Секунд"),
@@ -594,8 +560,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Что-то пошло не так",
         ),
         "sorry": MessageLookupByLibrary.simpleMessage("Извините"),
-        "spinTheWheel":
-            MessageLookupByLibrary.simpleMessage("Подкрутить колесо"),
+        "spinTheWheel": MessageLookupByLibrary.simpleMessage("Подкрутить колесо"),
         "spinTime": MessageLookupByLibrary.simpleMessage("время вращения"),
         "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage(
           "Входной взнос за колесо",
@@ -606,8 +571,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Успешно"),
         "survey": MessageLookupByLibrary.simpleMessage("Опрос"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Опрос завершен. Награда будет выдана скоро",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -637,17 +601,14 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Топ предложение!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("Общая награда"),
-        "totalVideos":
-            MessageLookupByLibrary.simpleMessage("Всего видеороликов"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("Всего веб-сайтов"),
+        "totalVideos": MessageLookupByLibrary.simpleMessage("Всего видеороликов"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("Всего веб-сайтов"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Попробуйте снова"),
         "tutorial": MessageLookupByLibrary.simpleMessage("Обучение"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
           "Ullamcorper eros senectus urna sit elementum ali quet. Nibh mauris tristique elit pellentesque sa pien malesuada eleifend iaculis malesuada. Mau ris, ut id hendrerit habitant gravida urna congue arcu sit. At quisque leo semper urna gravida",
         ),
-        "updatePassword":
-            MessageLookupByLibrary.simpleMessage("Обновить пароль"),
+        "updatePassword": MessageLookupByLibrary.simpleMessage("Обновить пароль"),
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "Обновление пароля",
         ),
@@ -676,8 +637,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verifyingOTP": MessageLookupByLibrary.simpleMessage("Проверка OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("ПОБЕДА"),
         "videos": MessageLookupByLibrary.simpleMessage("Видео"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("Посетить веб-сайт"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("Посетить веб-сайт"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "Посетите веб-сайт и получите",
         ),
@@ -699,8 +659,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Смотрите видео и получайте баллы",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Мы отправили 6-значный код на ваш\nмобильный ",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -713,8 +672,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wheel": MessageLookupByLibrary.simpleMessage("Колесо"),
         "winner": MessageLookupByLibrary.simpleMessage("Победитель!"),
         "withdraw": MessageLookupByLibrary.simpleMessage("Вывести"),
-        "withdrawAccount":
-            MessageLookupByLibrary.simpleMessage("Вывести на счет"),
+        "withdrawAccount": MessageLookupByLibrary.simpleMessage("Вывести на счет"),
         "withdrawRequestedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Запрос на вывод успешно отправлен",
         ),
@@ -729,8 +687,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Вы проходите тест повторно",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Вы уже выиграли этот тест. Попробуйте другие тесты",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Вы заработали"),

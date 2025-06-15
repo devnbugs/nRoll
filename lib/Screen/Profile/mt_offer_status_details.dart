@@ -52,11 +52,7 @@ class _MtOfferStatusDetailsState extends State<MtOfferStatusDetails> {
           titleSpacing: 0,
           toolbarHeight: 90,
           flexibleSpace: Container(
-            decoration: BoxDecoration(
-                borderRadius: const BorderRadius.only(
-                    bottomRight: Radius.circular(30),
-                    bottomLeft: Radius.circular(30)),
-                gradient: containerGradiant),
+            decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomRight: Radius.circular(30), bottomLeft: Radius.circular(30)), gradient: containerGradiant),
           ),
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
@@ -122,10 +118,7 @@ class _MtOfferStatusDetailsState extends State<MtOfferStatusDetails> {
                     alignment: Alignment.center,
                     height: 27,
                     padding: const EdgeInsets.symmetric(horizontal: 5),
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(30.0),
-                        gradient: colorList[i],
-                        border: Border.all(color: kWhite.withOpacity(0.25))),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(30.0), gradient: colorList[i], border: Border.all(color: kWhite.withOpacity(0.25))),
                     child: Text(
                       categoryList[i],
                       style: kTextStyle.copyWith(color: kWhite),
@@ -138,8 +131,7 @@ class _MtOfferStatusDetailsState extends State<MtOfferStatusDetails> {
               ),
               Text(
                 lang.S.of(context).instructions,
-                style: kTextStyle.copyWith(
-                    color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
+                style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
               ),
               const SizedBox(height: 5.0),
               Text(
@@ -211,16 +203,12 @@ class _MtOfferStatusDetailsState extends State<MtOfferStatusDetails> {
                             const SizedBox(height: 5.0),
                             Text(
                               '2921',
-                              style: kTextStyle.copyWith(
-                                  color: kWhite,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18.0),
+                              style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
                             ),
                             const SizedBox(height: 5.0),
                             Text(
                               lang.S.of(context).totalRewards,
-                              style:
-                                  kTextStyle.copyWith(color: kLightTextColor),
+                              style: kTextStyle.copyWith(color: kLightTextColor),
                             ),
                           ],
                         ),
@@ -249,16 +237,12 @@ class _MtOfferStatusDetailsState extends State<MtOfferStatusDetails> {
                             const SizedBox(height: 5.0),
                             Text(
                               '22',
-                              style: kTextStyle.copyWith(
-                                  color: kWhite,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18.0),
+                              style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
                             ),
                             const SizedBox(height: 5.0),
                             Text(
                               lang.S.of(context).daysToComplete,
-                              style:
-                                  kTextStyle.copyWith(color: kLightTextColor),
+                              style: kTextStyle.copyWith(color: kLightTextColor),
                             ),
                           ],
                         ),

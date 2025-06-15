@@ -34,11 +34,7 @@ class _BlankVideoListState extends State<BlankVideoList> {
         elevation: 0.0,
         iconTheme: const IconThemeData(color: kWhite),
         flexibleSpace: Container(
-          decoration: BoxDecoration(
-              gradient: containerGradiant,
-              borderRadius: const BorderRadius.only(
-                  bottomLeft: Radius.circular(30),
-                  bottomRight: Radius.circular(30))),
+          decoration: BoxDecoration(gradient: containerGradiant, borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30))),
         ),
         title: Text(
           lang.S.of(context).customVideos,
@@ -71,8 +67,7 @@ class _BlankVideoListState extends State<BlankVideoList> {
                     ),
                     Text(
                       lang.S.of(context).pleaseComeBackTomorrowToWatchTheVideo,
-                      style: kTextStyle.copyWith(
-                          fontSize: 18, color: kLightTextColor),
+                      style: kTextStyle.copyWith(fontSize: 18, color: kLightTextColor),
                       textAlign: TextAlign.center,
                     )
                   ],

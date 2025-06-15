@@ -23,13 +23,14 @@ class _CircleSlice extends StatelessWidget {
   final double strokeWidth;
 
   const _CircleSlice({
-    super.key,
+    Key? key,
     required this.radius,
     required this.fillColor,
     required this.strokeColor,
     this.strokeWidth = 1,
     required this.angle,
-  })  : assert(radius > 0);
+  })  : assert(radius > 0),
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -54,11 +55,11 @@ class _CircleSliceLayout extends StatelessWidget {
   final GestureHandler? handler;
 
   const _CircleSliceLayout({
-    super.key,
+    Key? key,
     required this.slice,
     this.child,
     this.handler,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

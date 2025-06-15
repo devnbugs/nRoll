@@ -36,8 +36,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("AdMob ቪዲዮ"),
-        "admobVideoAds":
-            MessageLookupByLibrary.simpleMessage("Admob ቪዲዮ ማስታወቂያዎች"),
+        "admobVideoAds": MessageLookupByLibrary.simpleMessage("Admob ቪዲዮ ማስታወቂያዎች"),
         "allFeatures": MessageLookupByLibrary.simpleMessage("ሁሉም ቁልፍ"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "ወደ አንደኛው እንደሚሆን መንገድ እንደሚፈቀድ",
@@ -49,8 +48,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "አሁን ወደኋላችሁ ምርጥ እንደ ሚሆን ይቀርቡ",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "እንደሰጥከው ተሳክቷል፣ እባክህ በስተቀር በሰኞ ሙከራ ይህን ያድርጉ",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -69,16 +67,13 @@ class MessageLookup extends MessageLookupByLibrary {
           "ምስሎችን እንደ AI ማስተዋወቅ",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "እባኮትን አፕል መሳሪያዎችን በእባብ እንደ ድርጊት አስተዋወቅ",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("እርግዝና ነህ?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage("ይህን መለያ ማጥፋት ትፈልጋለህ?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage("ይህን መለያ ማጥፋት ትፈልጋለህ?"),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "የማስረጃ ተጠቃሚ ላይ አልተሳካም",
         ),
@@ -93,16 +88,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "camera": MessageLookupByLibrary.simpleMessage("ካሜራ"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("ካሽ ሮኬት"),
         "changePassword": MessageLookupByLibrary.simpleMessage("የይለፍ ቃል ይቀይሩ"),
-        "chargingEntryFee":
-            MessageLookupByLibrary.simpleMessage("ገቢ ክፍያ ይሰበሰባል"),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost ቪዲዮ"),
+        "chargingEntryFee": MessageLookupByLibrary.simpleMessage("ገቢ ክፍያ ይሰበሰባል"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost ቪዲዮ"),
         "code": MessageLookupByLibrary.simpleMessage("ኮድ"),
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
           "የቀንበር ድምፅን ማሳወቅ ይችላል!",
         ),
-        "completeAnAction":
-            MessageLookupByLibrary.simpleMessage("እንትውን እንተምንትኩም"),
+        "completeAnAction": MessageLookupByLibrary.simpleMessage("እንትውን እንተምንትኩም"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "አቅርቦቶችን አጠናቅቆ አንት ይያዙ",
         ),
@@ -120,22 +112,17 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "congratulations": MessageLookupByLibrary.simpleMessage("እንኳን አስተካክለህ"),
         "continu": MessageLookupByLibrary.simpleMessage("በመቀጠል ላግኙ"),
-        "continueWithApple":
-            MessageLookupByLibrary.simpleMessage("በአፕል ጋር ቀጥሉ"),
-        "continueWithFacebok":
-            MessageLookupByLibrary.simpleMessage("በፌስቡክ ይቀጥሉ"),
-        "continueWithGoogle":
-            MessageLookupByLibrary.simpleMessage("በገጽሞቱ ይቀጥሉ"),
+        "continueWithApple": MessageLookupByLibrary.simpleMessage("በአፕል ጋር ቀጥሉ"),
+        "continueWithFacebok": MessageLookupByLibrary.simpleMessage("በፌስቡክ ይቀጥሉ"),
+        "continueWithGoogle": MessageLookupByLibrary.simpleMessage("በገጽሞቱ ይቀጥሉ"),
         "d": MessageLookupByLibrary.simpleMessage("ድ"),
         "dailyReward": MessageLookupByLibrary.simpleMessage("የቀንበር ድምፅ!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "የዕለት እንደሰጥከው አይታያም",
         ),
-        "dateUpdated":
-            MessageLookupByLibrary.simpleMessage("የተደረገ ቀን (7 ጁን 2021)"),
+        "dateUpdated": MessageLookupByLibrary.simpleMessage("የተደረገ ቀን (7 ጁን 2021)"),
         "daysToComplete": MessageLookupByLibrary.simpleMessage("ቀን ለመስማማት"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("መለያ እየተጠረጠረ ነው"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("መለያ እየተጠረጠረ ነው"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage("መለያ ሰርዝቷል"),
         "description": MessageLookupByLibrary.simpleMessage("መግለጫ"),
         "dismissed": MessageLookupByLibrary.simpleMessage("ተያይዞል"),
@@ -151,15 +138,12 @@ class MessageLookup extends MessageLookupByLibrary {
           "ኢሜይል አድራሻ እንደ ግዴታ ነው",
         ),
         "emailDoesNotExist": MessageLookupByLibrary.simpleMessage("ኢሜል አልተገኝም"),
-        "enterCoinAmount":
-            MessageLookupByLibrary.simpleMessage("ብቶን መጠንቀቂያ ይምረጡ"),
+        "enterCoinAmount": MessageLookupByLibrary.simpleMessage("ብቶን መጠንቀቂያ ይምረጡ"),
         "enterFullName": MessageLookupByLibrary.simpleMessage("ሙሉ ስም ያስገቡ"),
         "enterPassword": MessageLookupByLibrary.simpleMessage("የይለፍ ቃል ያስገቡ"),
-        "enterYourAddress":
-            MessageLookupByLibrary.simpleMessage("የእርስዎ ኢሜል አድርግ"),
+        "enterYourAddress": MessageLookupByLibrary.simpleMessage("የእርስዎ ኢሜል አድርግ"),
         "enterYourEmail": MessageLookupByLibrary.simpleMessage("ኢሜል አድርግ"),
-        "enterYourMobile":
-            MessageLookupByLibrary.simpleMessage("የሞባይል ቁጥር ያስገቡ"),
+        "enterYourMobile": MessageLookupByLibrary.simpleMessage("የሞባይል ቁጥር ያስገቡ"),
         "enterYourNewPassword": MessageLookupByLibrary.simpleMessage(
           "እባክህ አዲስ ፕስወርድ እንደገና አስገባ",
         ),
@@ -188,14 +172,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "errorWhileEditingProfile": MessageLookupByLibrary.simpleMessage(
           "በፕሮፋይል እንደተለዋወጥ ስህተት",
         ),
-        "errorWhileLoggingOut":
-            MessageLookupByLibrary.simpleMessage("በመውጣት ስህተት"),
+        "errorWhileLoggingOut": MessageLookupByLibrary.simpleMessage("በመውጣት ስህተት"),
         "exception": MessageLookupByLibrary.simpleMessage("እንቅስቃሴ"),
         "failedToLoadVideo": MessageLookupByLibrary.simpleMessage(
           "ቪዲዮ መጠቀም አልተቻለም",
         ),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("የይለፍ ቃል የማስታወሻ"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("የይለፍ ቃል የማስታወሻ"),
         "free": MessageLookupByLibrary.simpleMessage("ነጻ"),
         "fullName": MessageLookupByLibrary.simpleMessage("ሙሉ ስም"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -203,15 +185,13 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber አቅርቦት"),
         "gallary": MessageLookupByLibrary.simpleMessage("ማዕከለ አሳይ"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("እንደ ሰጥከው እንደማስመዝገብ"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("እንደ ሰጥከው እንደማስመዝገብ"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage("ውድድር ተወጥቷል"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "የዛሬ ውድድር እንደ ተቀበለ ይሁን",
         ),
         "hard": MessageLookupByLibrary.simpleMessage("ቀጣይ"),
-        "havenotAnyAcconts":
-            MessageLookupByLibrary.simpleMessage("የምንም መገለጫ የለም?"),
+        "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage("የምንም መገለጫ የለም?"),
         "heyMoreCash": MessageLookupByLibrary.simpleMessage("ሰላም! በጣም ገንዘብ!"),
         "history": MessageLookupByLibrary.simpleMessage("ታሪክ"),
         "home": MessageLookupByLibrary.simpleMessage("መነሻ"),
@@ -240,18 +220,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "አዲስ ማህደርን ይግቡ ከሚገኘው ጋር ብርሀን 100 ሪኮዎች ይጠቀሙ",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("በመዋኛው አቅጣጫ እንደሚሆን"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("በመዋኛው አቅጣጫ እንደሚሆን"),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall አቅርቦት"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall አቅርቦት"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("ኪዊ ዋናስ"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "ላክቱስ በማህበረሰብ የአምስት ወደ አስተዋወቅ ይሆናል። የተሳሳተ አዋጅ ባለው ሥር ሥር የምንቅስቃሴ አቅራቢነትን ይምረጣል።",
         ),
         "language": MessageLookupByLibrary.simpleMessage("ቋንቋ"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("ለመጀመሪያ ይህንን ይምረጡ"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("ለመጀመሪያ ይህንን ይምረጡ"),
         "loading": MessageLookupByLibrary.simpleMessage("እየተጫነ ነው"),
         "logIn": MessageLookupByLibrary.simpleMessage("ግባ"),
         "logOut": MessageLookupByLibrary.simpleMessage("ውጣ"),
@@ -264,8 +241,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Love Sick: Love Stories Games",
         ),
         "medium": MessageLookupByLibrary.simpleMessage("መካከለኛ"),
-        "minimum1000Points":
-            MessageLookupByLibrary.simpleMessage("ቢንከ 1000 ነጥብ"),
+        "minimum1000Points": MessageLookupByLibrary.simpleMessage("ቢንከ 1000 ነጥብ"),
         "minimumWithdrawBalanceIs": MessageLookupByLibrary.simpleMessage(
           "በታች እንደ ተያይዞ እንደ ተደርግ ምንነት አለ",
         ),
@@ -285,13 +261,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "noQuizFound": MessageLookupByLibrary.simpleMessage("ትርዛ ማስተርድ አልተገኘም"),
         "none": MessageLookupByLibrary.simpleMessage("ምንም አይገኝም"),
         "notDefined": MessageLookupByLibrary.simpleMessage("አልተገለጠም"),
-        "notEnoughBalance":
-            MessageLookupByLibrary.simpleMessage("በቂ ተወዳዳሪ ለማይገኝ"),
+        "notEnoughBalance": MessageLookupByLibrary.simpleMessage("በቂ ተወዳዳሪ ለማይገኝ"),
         "notEnoughCoin": MessageLookupByLibrary.simpleMessage("በቂ ሳንታይን የለም"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP ተላከ"),
-        "oTPVerified":
-            MessageLookupByLibrary.simpleMessage("OTP እንደ ተመረረ ተረጋግጧል"),
+        "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP እንደ ተመረረ ተረጋግጧል"),
         "offerStatus": MessageLookupByLibrary.simpleMessage("የጥቅም ሁኔታ"),
         "offerToro": MessageLookupByLibrary.simpleMessage("ኦፍረቶሮ"),
         "offers": MessageLookupByLibrary.simpleMessage("ምርመራዎች"),
@@ -304,8 +278,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pageFinishedLoading": MessageLookupByLibrary.simpleMessage(
           "ገጽ የሚጠብቅ እንደተጠበቅ",
         ),
-        "pageResourceError":
-            MessageLookupByLibrary.simpleMessage("ገጽ ምንጭ ስህተት"),
+        "pageResourceError": MessageLookupByLibrary.simpleMessage("ገጽ ምንጭ ስህተት"),
         "pageStartedLoading": MessageLookupByLibrary.simpleMessage(
           "ገጽ እንደሚጠብቅ ጀመረ",
         ),
@@ -320,8 +293,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "ፕስወርድ ከፍተኛ አይሆንም",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "ፕስወርድ በ6 ፊደላት በታች አይሆንም",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -330,8 +302,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "የይለፍ ቃል እንደ ግዴታ ነው",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "የይለፍ ቃል ርዝመት ከ6 ፊደላት አንስቶ መሆን ይገባል",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -358,8 +329,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "እባክህ የግዥ ኮድህን ይፈትሹ",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. እባክዎ የሚታይ 22 ቀን ውስጥ ማስተርድን ይችላሉ",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -377,10 +347,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "እባክዎ ከዚህ በታች የእርስዎ ኮድን የተሰጡትን መለያዎች ይምረጡ",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage("እባኮትን መመኪያን እና ምንዛሬውን ይምረጡ"),
-        "pleaseTryAgain":
-            MessageLookupByLibrary.simpleMessage("እባኮትን ድጋፍ አድርጉ"),
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage("እባኮትን መመኪያን እና ምንዛሬውን ይምረጡ"),
+        "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("እባኮትን ድጋፍ አድርጉ"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "እባክህ እስከተጠበቀ ጠብቅ",
         ),
@@ -414,8 +382,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "በጨዋታው ደረጃ 100 ድረስ ይደርሱ!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("መግቢያ"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("የምርመራዎችን ያስቀመጡ"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("የምርመራዎችን ያስቀመጡ"),
         "refer": MessageLookupByLibrary.simpleMessage("አድስ"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("ወደኛ ይሙሉ"),
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
@@ -425,8 +392,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "የይለፍ ቃል እየተመልሰ ነው",
         ),
-        "reviewNotAvailable":
-            MessageLookupByLibrary.simpleMessage("እቅድ አልተገኘም"),
+        "reviewNotAvailable": MessageLookupByLibrary.simpleMessage("እቅድ አልተገኘም"),
         "reward": MessageLookupByLibrary.simpleMessage("ምርጫ"),
         "rewardAdded": MessageLookupByLibrary.simpleMessage("ውድድር ተጨምሯል"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("ውድድር ነጥብ"),
@@ -450,12 +416,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "signIn": MessageLookupByLibrary.simpleMessage("ግባ"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage("በተሳካ መውጣት"),
         "signUp": MessageLookupByLibrary.simpleMessage("መመዝገቢያ"),
-        "signUpSuccessful":
-            MessageLookupByLibrary.simpleMessage("መዝግብ በስኬት ተደርሷል"),
+        "signUpSuccessful": MessageLookupByLibrary.simpleMessage("መዝግብ በስኬት ተደርሷል"),
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage("በኢሜል ይመዝገቡ"),
         "signingOut": MessageLookupByLibrary.simpleMessage("እየሰራን ነን"),
-        "signingUp":
-            MessageLookupByLibrary.simpleMessage("የመዝግብ ሂደት እንደ ተመለከተ ነው"),
+        "signingUp": MessageLookupByLibrary.simpleMessage("የመዝግብ ሂደት እንደ ተመለከተ ነው"),
         "skip": MessageLookupByLibrary.simpleMessage("ቀጥል"),
         "skipForNow": MessageLookupByLibrary.simpleMessage("አሁን መቆጣጠር"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
@@ -464,23 +428,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "sorry": MessageLookupByLibrary.simpleMessage("ዋጋ"),
         "spinTheWheel": MessageLookupByLibrary.simpleMessage("ዋና ሰውየውን ይወዳል"),
         "spinTime": MessageLookupByLibrary.simpleMessage("ጊዜ ተነሥቷል"),
-        "spinWheelEntryFee":
-            MessageLookupByLibrary.simpleMessage("ትርፍ በማጠን ክፍያ"),
-        "spinWheelVideoAds":
-            MessageLookupByLibrary.simpleMessage("ትርፍ አዝም ቪዲዮዎች"),
+        "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage("ትርፍ በማጠን ክፍያ"),
+        "spinWheelVideoAds": MessageLookupByLibrary.simpleMessage("ትርፍ አዝም ቪዲዮዎች"),
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("በስኬት"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "የጥናቱ እንደሰጥከው እንደማስመዝገብ",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
           "የጥናት ተሞክሮ አልተገኘም",
         ),
-        "surveyPanelClosed":
-            MessageLookupByLibrary.simpleMessage("የጥናት ፓነል ተዝግቷል"),
-        "surveyPanelOpen":
-            MessageLookupByLibrary.simpleMessage("የጥናት ፓነል ክፍት ነው"),
+        "surveyPanelClosed": MessageLookupByLibrary.simpleMessage("የጥናት ፓነል ተዝግቷል"),
+        "surveyPanelOpen": MessageLookupByLibrary.simpleMessage("የጥናት ፓነል ክፍት ነው"),
         "tendingOffers": MessageLookupByLibrary.simpleMessage(
           "ቅድመ ምርጫ እንደ ተረጋገጠ ሂደት",
         ),
@@ -490,8 +449,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "የመታወቂያ እና መረጃዎች",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("የአገልግሎት ግብረሃነት"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("የአገልግሎት ግብረሃነት"),
         "token": MessageLookupByLibrary.simpleMessage("ቶክን"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "ኮድ እንደማይታወቅ ይውላል",
@@ -507,8 +465,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "ፕስወርድ እየተዘረዘረ ነው",
         ),
-        "updatingProfile":
-            MessageLookupByLibrary.simpleMessage("ፕሮፋይል እየተዘረዘረ ነው"),
+        "updatingProfile": MessageLookupByLibrary.simpleMessage("ፕሮፋይል እየተዘረዘረ ነው"),
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. ሪዝ ኦፍ ኪንግደም በመጥፎ 17 ድልየን ይዘትህን አድርጉ",
         ),
@@ -519,8 +476,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "userId": MessageLookupByLibrary.simpleMessage("ተጠቃሚ መለኪያ"),
         "userNotEligible": MessageLookupByLibrary.simpleMessage("ተጠቃሚ የማይተገበር"),
-        "userRejectedSurvey":
-            MessageLookupByLibrary.simpleMessage("ተጠቃሚ ጥናት አርግል"),
+        "userRejectedSurvey": MessageLookupByLibrary.simpleMessage("ተጠቃሚ ጥናት አርግል"),
         "verifyingOTP": MessageLookupByLibrary.simpleMessage("OTP እየተመረረተ ነው"),
         "victory": MessageLookupByLibrary.simpleMessage("ጥምርናል"),
         "videos": MessageLookupByLibrary.simpleMessage("ቪድዮዎች"),
@@ -550,20 +506,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "yes": MessageLookupByLibrary.simpleMessage("እወድ"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("አዎን አጥፋው!"),
         "youAreDisable": MessageLookupByLibrary.simpleMessage("እባኮትን እንዲስታስዎት"),
-        "youAreDisabled":
-            MessageLookupByLibrary.simpleMessage("እባኮትን እንደ ተስተካከልኝ"),
+        "youAreDisabled": MessageLookupByLibrary.simpleMessage("እባኮትን እንደ ተስተካከልኝ"),
         "youAreNotEligibleForThisSurvey": MessageLookupByLibrary.simpleMessage(
           "በዚህ ጥናት መገንዝብ አይቻልህም",
         ),
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "ቅርጸ ጊዜ እንደ ተደርጓል ነው",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "ይህን ቅርጸ ጊዜ ተሸንፋልክ ድጋፍ ይደርስዎት። ቀርበው ይጫወቱ",
         ),
-        "youHaveEarned10Coins":
-            MessageLookupByLibrary.simpleMessage("10 ኮንስ አገኘህ"),
+        "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage("10 ኮንስ አገኘህ"),
         "youLose": MessageLookupByLibrary.simpleMessage("ሁሉም አይገኝም"),
         "youRejectedThisSurvey": MessageLookupByLibrary.simpleMessage(
           "ይህን ጥናት ተቀብላልና",

@@ -1,9 +1,10 @@
 import 'package:cash_rocket/Model/scratch_card_model.dart';
+import 'package:cash_rocket/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:scratcher/widgets.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+
 import '../../Provider/profile_provider.dart';
 import '../../Repositories/authentication_repo.dart';
 import '../Constant Data/constant.dart';
@@ -36,11 +37,7 @@ class _UseScratchCardState extends State<UseScratchCard> {
           ),
           elevation: 0.0,
           flexibleSpace: Container(
-            decoration: BoxDecoration(
-                gradient: containerGradiant,
-                borderRadius: const BorderRadius.only(
-                    bottomLeft: Radius.circular(30),
-                    bottomRight: Radius.circular(30))),
+            decoration: BoxDecoration(gradient: containerGradiant, borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30))),
           ),
           title: Text(
             lang.S.of(context).scratchCard,
@@ -55,8 +52,7 @@ class _UseScratchCardState extends State<UseScratchCard> {
                 height: 20,
               ),
               Container(
-                decoration:
-                    BoxDecoration(borderRadius: BorderRadius.circular(20)),
+                decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
                 child: Scratcher(
                   key: scratchKey,
                   brushSize: 30,
@@ -68,16 +64,13 @@ class _UseScratchCardState extends State<UseScratchCard> {
                     scratchKey.currentState!.reveal();
                     try {
                       //EasyLoading.show(status: "Getting reward");
-                      EasyLoading.show(
-                          status: lang.S.of(context).gettingReward);
-                      bool status = await AuthRepo()
-                          .visitWebsite(widget.scratchCardModel.id.toString());
+                      EasyLoading.show(status: lang.S.of(context).gettingReward);
+                      bool status = await AuthRepo().visitWebsite(widget.scratchCardModel.id.toString());
                       if (status) {
                         ref.refresh(personalProfileProvider);
                         ref.refresh(scratchCardProvider);
                         // EasyLoading.showSuccess("Rewarded Successfully");
-                        EasyLoading.showSuccess(
-                            lang.S.of(context).rewardedSuccessfully);
+                        EasyLoading.showSuccess(lang.S.of(context).rewardedSuccessfully);
                         Navigator.pop(context);
                       } else {
                         //EasyLoading.showError("Error Occurred");
@@ -90,29 +83,21 @@ class _UseScratchCardState extends State<UseScratchCard> {
                   child: Container(
                     height: 238,
                     width: double.infinity,
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(20),
-                        color: Colors.white),
+                    decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), color: Colors.white),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
                           lang.S.of(context).youHaveEarned,
-                          style: kTextStyle.copyWith(
-                              fontWeight: FontWeight.bold,
-                              color: kGreyTextColor,
-                              fontSize: 20),
+                          style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kGreyTextColor, fontSize: 20),
                         ),
                         const SizedBox(
                           height: 5,
                         ),
                         Text(
                           '${widget.scratchCardModel.rewardPoint} ${lang.S.of(context).coins}',
-                          style: kTextStyle.copyWith(
-                              fontWeight: FontWeight.bold,
-                              color: kWhite,
-                              fontSize: 25),
+                          style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kWhite, fontSize: 25),
                         ),
                       ],
                     ),
@@ -122,8 +107,7 @@ class _UseScratchCardState extends State<UseScratchCard> {
               const SizedBox(height: 10),
               Text(
                 lang.S.of(context).scratchTheAboveCardBySwipingOnnIt,
-                style: kTextStyle.copyWith(
-                    fontWeight: FontWeight.bold, color: kWhite),
+                style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kWhite),
               )
             ],
           ),

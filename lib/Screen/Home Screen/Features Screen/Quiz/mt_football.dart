@@ -13,11 +13,12 @@ import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:nb_utils/nb_utils.dart';
+
 import '../../../Constant Data/config.dart';
 import '../../../Constant Data/constant.dart';
 
 class MtFootball extends StatefulWidget {
-  const MtFootball({super.key, required this.quizzes});
+  const MtFootball({Key? key, required this.quizzes}) : super(key: key);
   final Quizzes quizzes;
 
   @override
@@ -43,10 +44,7 @@ class _MtFootballState extends State<MtFootball> {
                 children: [
                   Text(
                     '50/50',
-                    style: kTextStyle.copyWith(
-                        color: kTitleColor,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18.0),
+                    style: kTextStyle.copyWith(color: kTitleColor, fontWeight: FontWeight.bold, fontSize: 18.0),
                   ),
                   const SizedBox(height: 10.0),
                   Text(
@@ -91,17 +89,12 @@ class _MtFootballState extends State<MtFootball> {
                         Expanded(
                           flex: 2,
                           child: Container(
-                            decoration: BoxDecoration(
-                                border: Border.all(
-                                    color: kGreyTextColor.withOpacity(0.5)),
-                                borderRadius: BorderRadius.circular(30.0),
-                                color: Colors.transparent),
+                            decoration: BoxDecoration(border: Border.all(color: kGreyTextColor.withOpacity(0.5)), borderRadius: BorderRadius.circular(30.0), color: Colors.transparent),
                             child: Padding(
                               padding: const EdgeInsets.all(10.0),
                               child: Text(
                                 lang.S.of(context).No,
-                                style:
-                                    kTextStyle.copyWith(color: kGreyTextColor),
+                                style: kTextStyle.copyWith(color: kGreyTextColor),
                                 textAlign: TextAlign.center,
                               ),
                             ),
@@ -175,8 +168,7 @@ class _MtFootballState extends State<MtFootball> {
                       horizontalTitleGap: 0.0,
                       title: Text(
                         widget.quizzes.name ?? '',
-                        style: kTextStyle.copyWith(
-                            color: Colors.white, fontWeight: FontWeight.bold),
+                        style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold),
                       ),
                       subtitle: Text(
                         '${widget.quizzes.questions!.length.toString()} Questions (${widget.quizzes.rewardPoint.toString()} Points)',
@@ -241,13 +233,10 @@ class _MtFootballState extends State<MtFootball> {
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(15.0),
                                 image: DecorationImage(
-                                  image: NetworkImage(widget
-                                      .quizzes.questions![i].image
-                                      .toString()),
+                                  image: NetworkImage(widget.quizzes.questions![i].image.toString()),
                                 ),
                               ),
-                            ).visible(widget.quizzes.questions![i].image !=
-                                Config.siteUrl),
+                            ).visible(widget.quizzes.questions![i].image != Config.siteUrl),
                             const SizedBox(height: 10.0),
                             Center(
                               child: Text(
@@ -259,28 +248,17 @@ class _MtFootballState extends State<MtFootball> {
                             ),
                             const SizedBox(height: 10.0),
                             Card(
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .primaryContainer,
+                              color: Theme.of(context).colorScheme.primaryContainer,
                               elevation: 0,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30.0),
-                                side: BorderSide(
-                                    color: select ==
-                                            widget.quizzes.questions![i].optionA
-                                        ? Colors.green
-                                        : kGreyTextColor.withOpacity(0.5)),
+                                side: BorderSide(color: select == widget.quizzes.questions![i].optionA ? Colors.green : kGreyTextColor.withOpacity(0.5)),
                               ),
                               child: ListTile(
                                 onTap: () {
-                                  checkAnswer(
-                                      "A",
-                                      widget.quizzes.questions![i].answer
-                                          .toString());
+                                  checkAnswer("A", widget.quizzes.questions![i].answer.toString());
                                   setState(() {
-                                    select = widget
-                                        .quizzes.questions![i].optionA
-                                        .toString();
+                                    select = widget.quizzes.questions![i].optionA.toString();
                                   });
                                 },
                                 title: Text(
@@ -293,42 +271,29 @@ class _MtFootballState extends State<MtFootball> {
                                 trailing: Padding(
                                   padding: const EdgeInsets.only(top: 15.0),
                                   child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    crossAxisAlignment: CrossAxisAlignment.center,
                                     children: [
                                       const Icon(
                                         FeatherIcons.check,
                                         color: Colors.green,
-                                      ).visible(select ==
-                                          widget.quizzes.questions![i].optionA),
+                                      ).visible(select == widget.quizzes.questions![i].optionA),
                                     ],
                                   ),
                                 ),
                               ),
                             ),
                             Card(
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .primaryContainer,
+                              color: Theme.of(context).colorScheme.primaryContainer,
                               elevation: 0,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30.0),
-                                side: BorderSide(
-                                    color: select ==
-                                            widget.quizzes.questions![i].optionB
-                                        ? Colors.green
-                                        : kGreyTextColor.withOpacity(0.5)),
+                                side: BorderSide(color: select == widget.quizzes.questions![i].optionB ? Colors.green : kGreyTextColor.withOpacity(0.5)),
                               ),
                               child: ListTile(
                                 onTap: () {
-                                  checkAnswer(
-                                      "B",
-                                      widget.quizzes.questions![i].answer
-                                          .toString());
+                                  checkAnswer("B", widget.quizzes.questions![i].answer.toString());
                                   setState(() {
-                                    select = widget
-                                        .quizzes.questions![i].optionB
-                                        .toString();
+                                    select = widget.quizzes.questions![i].optionB.toString();
                                   });
                                 },
                                 title: Text(
@@ -341,14 +306,12 @@ class _MtFootballState extends State<MtFootball> {
                                 trailing: Padding(
                                   padding: const EdgeInsets.only(top: 15.0),
                                   child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    crossAxisAlignment: CrossAxisAlignment.center,
                                     children: [
                                       const Icon(
                                         FeatherIcons.check,
                                         color: Colors.green,
-                                      ).visible(select ==
-                                          widget.quizzes.questions![i].optionB),
+                                      ).visible(select == widget.quizzes.questions![i].optionB),
                                     ],
                                   ),
                                 ),
@@ -356,28 +319,17 @@ class _MtFootballState extends State<MtFootball> {
                             ),
                             Card(
                               elevation: 0,
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .primaryContainer,
+                              color: Theme.of(context).colorScheme.primaryContainer,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30.0),
-                                side: BorderSide(
-                                    color: select ==
-                                            widget.quizzes.questions![i].optionC
-                                        ? Colors.green
-                                        : kGreyTextColor.withOpacity(0.5)),
+                                side: BorderSide(color: select == widget.quizzes.questions![i].optionC ? Colors.green : kGreyTextColor.withOpacity(0.5)),
                               ),
                               child: ListTile(
                                 onTap: () {
-                                  checkAnswer(
-                                      "C",
-                                      widget.quizzes.questions![i].answer
-                                          .toString());
+                                  checkAnswer("C", widget.quizzes.questions![i].answer.toString());
 
                                   setState(() {
-                                    select = widget
-                                        .quizzes.questions![i].optionC
-                                        .toString();
+                                    select = widget.quizzes.questions![i].optionC.toString();
                                   });
                                 },
                                 title: Text(
@@ -390,14 +342,12 @@ class _MtFootballState extends State<MtFootball> {
                                 trailing: Padding(
                                   padding: const EdgeInsets.only(top: 15.0),
                                   child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    crossAxisAlignment: CrossAxisAlignment.center,
                                     children: [
                                       const Icon(
                                         FeatherIcons.check,
                                         color: Colors.green,
-                                      ).visible(select ==
-                                          widget.quizzes.questions![i].optionC),
+                                      ).visible(select == widget.quizzes.questions![i].optionC),
                                     ],
                                   ),
                                 ),
@@ -405,28 +355,17 @@ class _MtFootballState extends State<MtFootball> {
                             ),
                             Card(
                               elevation: 0,
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .primaryContainer,
+                              color: Theme.of(context).colorScheme.primaryContainer,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(30.0),
-                                side: BorderSide(
-                                    color: select ==
-                                            widget.quizzes.questions![i].optionD
-                                        ? Colors.green
-                                        : kGreyTextColor.withOpacity(0.5)),
+                                side: BorderSide(color: select == widget.quizzes.questions![i].optionD ? Colors.green : kGreyTextColor.withOpacity(0.5)),
                               ),
                               child: ListTile(
                                 onTap: () {
-                                  checkAnswer(
-                                      "D",
-                                      widget.quizzes.questions![i].answer
-                                          .toString());
+                                  checkAnswer("D", widget.quizzes.questions![i].answer.toString());
 
                                   setState(() {
-                                    select = widget
-                                        .quizzes.questions![i].optionD
-                                        .toString();
+                                    select = widget.quizzes.questions![i].optionD.toString();
                                   });
                                 },
                                 title: Text(
@@ -439,14 +378,12 @@ class _MtFootballState extends State<MtFootball> {
                                 trailing: Padding(
                                   padding: const EdgeInsets.only(top: 15.0),
                                   child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    crossAxisAlignment: CrossAxisAlignment.center,
                                     children: [
                                       const Icon(
                                         FeatherIcons.check,
                                         color: Colors.green,
-                                      ).visible(select ==
-                                          widget.quizzes.questions![i].optionD),
+                                      ).visible(select == widget.quizzes.questions![i].optionD),
                                     ],
                                   ),
                                 ),
@@ -458,50 +395,28 @@ class _MtFootballState extends State<MtFootball> {
                                 buttonText: lang.S.of(context).next,
                                 onpressed: () async {
                                   // assetsAudioPlayer.dispose();
-                                  if (currentIndex + 1 ==
-                                      widget.quizzes.questions!.length) {
+                                  if (currentIndex + 1 == widget.quizzes.questions!.length) {
                                     try {
                                       // EasyLoading.show(status: 'Loading');
-                                      EasyLoading.show(
-                                          status: lang.S.of(context).loading);
-                                      var status = score ==
-                                              widget.quizzes.questions!.length
-                                          ? await RewardRepo().addQuizPoint(
-                                              widget.quizzes.rewardPoint
-                                                  .toString(),
-                                              widget.quizzes.id.toString(),
-                                              '1',
-                                              '1')
-                                          : await RewardRepo().addQuizPoint(
-                                              '0',
-                                              widget.quizzes.id.toString(),
-                                              '0',
-                                              '3');
+                                      EasyLoading.show(status: lang.S.of(context).loading);
+                                      var status = score == widget.quizzes.questions!.length ? await RewardRepo().addQuizPoint(widget.quizzes.rewardPoint.toString(), widget.quizzes.id.toString(), '1', '1') : await RewardRepo().addQuizPoint('0', widget.quizzes.id.toString(), '0', '3');
                                       if (status) {
                                         // EasyLoading.showSuccess('Successful');
-                                        EasyLoading.showSuccess(
-                                            lang.S.of(context).successful);
+                                        EasyLoading.showSuccess(lang.S.of(context).successful);
                                       } else {
                                         //EasyLoading.showError('Something went wrong');
-                                        EasyLoading.showError(lang.S
-                                            .of(context)
-                                            .somethingWentWrong);
+                                        EasyLoading.showError(lang.S.of(context).somethingWentWrong);
                                       }
                                     } catch (e) {
                                       EasyLoading.showError(e.toString());
                                     }
                                   }
-                                  currentIndex + 1 ==
-                                          widget.quizzes.questions!.length
-                                      ? score ==
-                                              widget.quizzes.questions!.length
+                                  currentIndex + 1 == widget.quizzes.questions!.length
+                                      ? score == widget.quizzes.questions!.length
                                           ? Victory(
                                               score: score.toString(),
-                                              questions: widget
-                                                  .quizzes.questions!.length
-                                                  .toString(),
-                                              point: widget.quizzes.rewardPoint
-                                                  .toString(),
+                                              questions: widget.quizzes.questions!.length.toString(),
+                                              point: widget.quizzes.rewardPoint.toString(),
                                             ).launch(context)
                                           : MtLoser(
                                               quizzes: widget.quizzes,
@@ -521,8 +436,7 @@ class _MtFootballState extends State<MtFootball> {
                                     flex: 2,
                                     child: Container(
                                       decoration: BoxDecoration(
-                                        borderRadius:
-                                            BorderRadius.circular(30.0),
+                                        borderRadius: BorderRadius.circular(30.0),
                                         color: const Color(0xFFA86CD7),
                                       ),
                                       child: Padding(
@@ -543,19 +457,12 @@ class _MtFootballState extends State<MtFootball> {
                                   Expanded(
                                     flex: 2,
                                     child: Container(
-                                      decoration: BoxDecoration(
-                                          border: Border.all(
-                                              color: kGreyTextColor
-                                                  .withOpacity(0.5)),
-                                          borderRadius:
-                                              BorderRadius.circular(30.0),
-                                          color: Colors.transparent),
+                                      decoration: BoxDecoration(border: Border.all(color: kGreyTextColor.withOpacity(0.5)), borderRadius: BorderRadius.circular(30.0), color: Colors.transparent),
                                       child: Padding(
                                         padding: const EdgeInsets.all(10.0),
                                         child: Text(
                                           lang.S.of(context).skip,
-                                          style: kTextStyle.copyWith(
-                                              color: kGreyTextColor),
+                                          style: kTextStyle.copyWith(color: kGreyTextColor),
                                           textAlign: TextAlign.center,
                                         ),
                                       ),

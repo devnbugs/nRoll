@@ -27,8 +27,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "No": MessageLookupByLibrary.simpleMessage("いいえ"),
         "Paytm": MessageLookupByLibrary.simpleMessage("Paytm"),
-        "PleaseEnterYourOTP":
-            MessageLookupByLibrary.simpleMessage("OTPを入力してください"),
+        "PleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage("OTPを入力してください"),
         "RedeemYourPints": MessageLookupByLibrary.simpleMessage("ポイントを交換"),
         "SecureYourMoney": MessageLookupByLibrary.simpleMessage("お金を保護"),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
@@ -52,8 +51,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "すでに報酬を受け取りました。後で戻ってきてください",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage("すでに報酬を受け取りました。明日再試行してください"),
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage("すでに報酬を受け取りました。明日再試行してください"),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
           "すでに報酬を受け取りました。後で再試行してください",
         ),
@@ -70,18 +68,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "AIのために画像に注釈を付ける",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "AppleログインはAppleデバイスで動作します",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("同意しますか？"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage("本当にこのアカウントを削除してもよろしいですか？"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage("本当にこのアカウントを削除してもよろしいですか？"),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
-        "authorizationFailed":
-            MessageLookupByLibrary.simpleMessage("認証に失敗しました"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "authorizationFailed": MessageLookupByLibrary.simpleMessage("認証に失敗しました"),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("残高"),
         "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs調査"),
@@ -95,8 +89,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cashRocket": MessageLookupByLibrary.simpleMessage("キャッシュロケット"),
         "changePassword": MessageLookupByLibrary.simpleMessage("パスワードの変更"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage("参加費を請求中"),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboostビデオ"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboostビデオ"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage("携帯電話を確認"),
         "code": MessageLookupByLibrary.simpleMessage("コード"),
         "coins": MessageLookupByLibrary.simpleMessage("コイン"),
@@ -114,8 +107,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "congratulations": MessageLookupByLibrary.simpleMessage("おめでとうございます"),
         "continu": MessageLookupByLibrary.simpleMessage("続ける"),
         "continueWithApple": MessageLookupByLibrary.simpleMessage("Appleで続行"),
-        "continueWithFacebok":
-            MessageLookupByLibrary.simpleMessage("Facebookで続行"),
+        "continueWithFacebok": MessageLookupByLibrary.simpleMessage("Facebookで続行"),
         "continueWithGoogle": MessageLookupByLibrary.simpleMessage("Googleで続行"),
         "continueWithMobile": MessageLookupByLibrary.simpleMessage("モバイルで続行"),
         "customVideos": MessageLookupByLibrary.simpleMessage("カスタムビデオ"),
@@ -143,10 +135,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
           "メールアドレスは必須です",
         ),
-        "emailDoesNotExist":
-            MessageLookupByLibrary.simpleMessage("メールアドレスが存在しません"),
-        "enterCoinAmount":
-            MessageLookupByLibrary.simpleMessage("コインの金額を入力してください"),
+        "emailDoesNotExist": MessageLookupByLibrary.simpleMessage("メールアドレスが存在しません"),
+        "enterCoinAmount": MessageLookupByLibrary.simpleMessage("コインの金額を入力してください"),
         "enterFirstName": MessageLookupByLibrary.simpleMessage("名を入力"),
         "enterFullName": MessageLookupByLibrary.simpleMessage("フルネームを入力してください"),
         "enterLastName": MessageLookupByLibrary.simpleMessage("姓を入力"),
@@ -154,10 +144,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "メールアドレスを入力してください",
         ),
-        "enterYourEmail":
-            MessageLookupByLibrary.simpleMessage("メールアドレスを入力してください"),
-        "enterYourMobile":
-            MessageLookupByLibrary.simpleMessage("携帯電話番号を入力してください"),
+        "enterYourEmail": MessageLookupByLibrary.simpleMessage("メールアドレスを入力してください"),
+        "enterYourMobile": MessageLookupByLibrary.simpleMessage("携帯電話番号を入力してください"),
         "enterYourNewPassword": MessageLookupByLibrary.simpleMessage(
           "新しいパスワードを入力してください",
         ),
@@ -197,8 +185,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "forgotPassword": MessageLookupByLibrary.simpleMessage("パスワードをお忘れですか"),
         "free": MessageLookupByLibrary.simpleMessage("無料"),
         "fullName": MessageLookupByLibrary.simpleMessage("フルネーム"),
-        "fullNameIsRequired":
-            MessageLookupByLibrary.simpleMessage("フルネームは必須です"),
+        "fullNameIsRequired": MessageLookupByLibrary.simpleMessage("フルネームは必須です"),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyberオファー"),
         "gallary": MessageLookupByLibrary.simpleMessage("ギャラリー"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("報酬を獲得中"),
@@ -218,8 +205,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "このクイズをプレイすると",
         ),
         "ifYouRetakeThen": MessageLookupByLibrary.simpleMessage("再試行すると"),
-        "ifYouScratchThisCard":
-            MessageLookupByLibrary.simpleMessage("このカードをこすると"),
+        "ifYouScratchThisCard": MessageLookupByLibrary.simpleMessage("このカードをこすると"),
         "imageSizeShouldBeSmallerThan2Mb": MessageLookupByLibrary.simpleMessage(
           "画像のサイズは2MB未満である必要があります",
         ),
@@ -267,8 +253,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "最低引き出し残高は",
         ),
         "mobile": MessageLookupByLibrary.simpleMessage("携帯電話"),
-        "mobileNumberIsRequired":
-            MessageLookupByLibrary.simpleMessage("携帯番号は必須です"),
+        "mobileNumberIsRequired": MessageLookupByLibrary.simpleMessage("携帯番号は必須です"),
         "myGymFitnessStudioManager": MessageLookupByLibrary.simpleMessage(
           "My Gym: Fitness Studio Manager",
         ),
@@ -313,17 +298,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "パスワードは空にできません",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "パスワードは6文字未満にはできません",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
           "パスワードが一致しません",
         ),
-        "passwordIsRequired":
-            MessageLookupByLibrary.simpleMessage("パスワードは必須です"),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage("パスワードの長さは最低6文字でなければなりません"),
+        "passwordIsRequired": MessageLookupByLibrary.simpleMessage("パスワードは必須です"),
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage("パスワードの長さは最低6文字でなければなりません"),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
           "パスワードのリセットに失敗しました",
         ),
@@ -343,32 +325,26 @@ class MessageLookup extends MessageLookupByLibrary {
           "1. Rise of Kingdomsをプレイする",
         ),
         "playVideo": MessageLookupByLibrary.simpleMessage("ビデオ再生"),
-        "pleaseCheckYourOtp":
-            MessageLookupByLibrary.simpleMessage("OTPをご確認ください"),
+        "pleaseCheckYourOtp": MessageLookupByLibrary.simpleMessage("OTPをご確認ください"),
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "購入コードをご確認ください",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage("明日もう一度ビデオを視聴してください"),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage("明日もう一度ビデオを視聴してください"),
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. タスクを22日以内に完了してください",
         ),
-        "pleaseEnterTheAmount":
-            MessageLookupByLibrary.simpleMessage("金額を入力してください"),
+        "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage("金額を入力してください"),
         "pleaseEnterTheWithdrawAccount": MessageLookupByLibrary.simpleMessage(
           "引き出し口座を入力してください",
         ),
         "pleaseEnterYourAddressbelow": MessageLookupByLibrary.simpleMessage(
           "以下にメールアドレスを入力して受け取る",
         ),
-        "pleaseEnterYourOTP":
-            MessageLookupByLibrary.simpleMessage("OTPを入力してください"),
+        "pleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage("OTPを入力してください"),
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "以下のコードを入力してリセットする",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage("引き出し方法と通貨を選択してください"),
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage("引き出し方法と通貨を選択してください"),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("もう一度お試しください"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("お待ちください"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
@@ -380,8 +356,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "ポイントが差し引かれます！",
         ),
-        "pointsWillBeDucted":
-            MessageLookupByLibrary.simpleMessage("ポイントが差し引かれます！"),
+        "pointsWillBeDucted": MessageLookupByLibrary.simpleMessage("ポイントが差し引かれます！"),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish調査"),
@@ -402,8 +377,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "quiz": MessageLookupByLibrary.simpleMessage("クイズ"),
         "quizzes": MessageLookupByLibrary.simpleMessage("クイズ"),
         "rateUs": MessageLookupByLibrary.simpleMessage("評価する"),
-        "reEnterPassword":
-            MessageLookupByLibrary.simpleMessage("パスワードを再入力してください"),
+        "reEnterPassword": MessageLookupByLibrary.simpleMessage("パスワードを再入力してください"),
         "reachLevel100InTheGame": MessageLookupByLibrary.simpleMessage(
           "ゲーム内でレベル100に到達！",
         ),
@@ -411,14 +385,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "redemYOurPoint": MessageLookupByLibrary.simpleMessage("ポイントを交換する"),
         "refer": MessageLookupByLibrary.simpleMessage("紹介"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("ログイン情報を記憶する"),
-        "requestingWithdraw":
-            MessageLookupByLibrary.simpleMessage("引き出しをリクエスト中"),
+        "requestingWithdraw": MessageLookupByLibrary.simpleMessage("引き出しをリクエスト中"),
         "resendCode": MessageLookupByLibrary.simpleMessage("コードを再送信"),
         "resetPassword": MessageLookupByLibrary.simpleMessage("パスワードをリセット"),
-        "resettingPassword":
-            MessageLookupByLibrary.simpleMessage("パスワードをリセット中"),
-        "reviewNotAvailable":
-            MessageLookupByLibrary.simpleMessage("レビューは利用できません"),
+        "resettingPassword": MessageLookupByLibrary.simpleMessage("パスワードをリセット中"),
+        "reviewNotAvailable": MessageLookupByLibrary.simpleMessage("レビューは利用できません"),
         "reward": MessageLookupByLibrary.simpleMessage("報酬"),
         "rewardAdded": MessageLookupByLibrary.simpleMessage("報酬が追加されました"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("報酬ポイント"),
@@ -434,8 +405,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("保存"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("こすって勝利！"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("スクラッチカード"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "上記のカードをこすってください",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("秒"),
@@ -446,44 +416,35 @@ class MessageLookup extends MessageLookupByLibrary {
         "shareSqure": MessageLookupByLibrary.simpleMessage("スコアを共有"),
         "showingAds": MessageLookupByLibrary.simpleMessage("広告を表示中"),
         "signIn": MessageLookupByLibrary.simpleMessage("サインイン"),
-        "signOutSuccessful":
-            MessageLookupByLibrary.simpleMessage("サインアウトが成功しました"),
+        "signOutSuccessful": MessageLookupByLibrary.simpleMessage("サインアウトが成功しました"),
         "signUp": MessageLookupByLibrary.simpleMessage("サインアップ"),
         "signUpSuccessful": MessageLookupByLibrary.simpleMessage("サインアップ成功"),
-        "signUpwitEmail":
-            MessageLookupByLibrary.simpleMessage("メールアドレスでサインアップする"),
+        "signUpwitEmail": MessageLookupByLibrary.simpleMessage("メールアドレスでサインアップする"),
         "signingOut": MessageLookupByLibrary.simpleMessage("サインアウト中"),
         "signingUp": MessageLookupByLibrary.simpleMessage("サインアップ中"),
         "skip": MessageLookupByLibrary.simpleMessage("スキップ"),
         "skipForNow": MessageLookupByLibrary.simpleMessage("今はスキップ"),
-        "somethingWentWrong":
-            MessageLookupByLibrary.simpleMessage("何かがうまくいかなかった"),
+        "somethingWentWrong": MessageLookupByLibrary.simpleMessage("何かがうまくいかなかった"),
         "sorry": MessageLookupByLibrary.simpleMessage("申し訳ありません"),
         "spinTheWheel": MessageLookupByLibrary.simpleMessage("ルーレットを回す"),
         "spinTime": MessageLookupByLibrary.simpleMessage("スピン時間"),
         "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage("スピンホイール参加費"),
-        "spinWheelVideoAds":
-            MessageLookupByLibrary.simpleMessage("スピンホイールビデオ広告"),
+        "spinWheelVideoAds": MessageLookupByLibrary.simpleMessage("スピンホイールビデオ広告"),
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("成功"),
         "survey": MessageLookupByLibrary.simpleMessage("調査"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "調査が完了しました。すぐに報酬が付与されます",
         ),
-        "surveyNotAvailable":
-            MessageLookupByLibrary.simpleMessage("調査は利用できません"),
-        "surveyPanelClosed":
-            MessageLookupByLibrary.simpleMessage("調査パネルが閉じられました"),
-        "surveyPanelOpen":
-            MessageLookupByLibrary.simpleMessage("調査パネルがオープンしています"),
+        "surveyNotAvailable": MessageLookupByLibrary.simpleMessage("調査は利用できません"),
+        "surveyPanelClosed": MessageLookupByLibrary.simpleMessage("調査パネルが閉じられました"),
+        "surveyPanelOpen": MessageLookupByLibrary.simpleMessage("調査パネルがオープンしています"),
         "tendingOffers": MessageLookupByLibrary.simpleMessage("オファーを確認中"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage("利用規約"),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage("利用規約"),
         "termsOfService": MessageLookupByLibrary.simpleMessage("利用規約"),
         "token": MessageLookupByLibrary.simpleMessage("トークン"),
-        "tokenUpdateFailed":
-            MessageLookupByLibrary.simpleMessage("トークンの更新に失敗しました"),
+        "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage("トークンの更新に失敗しました"),
         "topOffer": MessageLookupByLibrary.simpleMessage("トップオファー！"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("合計報酬"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("合計ビデオ"),
@@ -500,8 +461,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "2. 都市をレベル17にアップグレードする",
         ),
         "urlChangeTo": MessageLookupByLibrary.simpleMessage("URLが変更されました"),
-        "userAlreadyExist":
-            MessageLookupByLibrary.simpleMessage("ユーザーはすでに存在します"),
+        "userAlreadyExist": MessageLookupByLibrary.simpleMessage("ユーザーはすでに存在します"),
         "userCanaonly": MessageLookupByLibrary.simpleMessage(
           "5. ユーザーはRise of Kingdomsオファーからの報酬を1つしか入手できません",
         ),
@@ -516,15 +476,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "victory": MessageLookupByLibrary.simpleMessage("勝利"),
         "videos": MessageLookupByLibrary.simpleMessage("動画"),
         "visitWebsite": MessageLookupByLibrary.simpleMessage("ウェブサイトを訪れる"),
-        "visitWebsiteAndGet":
-            MessageLookupByLibrary.simpleMessage("ウェブサイトを訪れて取得"),
+        "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage("ウェブサイトを訪れて取得"),
         "visitWebsiteOnlyOneInADay": MessageLookupByLibrary.simpleMessage(
           "1日につき1回のウェブサイト訪問",
         ),
         "vungleVideo": MessageLookupByLibrary.simpleMessage("Vungleビデオ"),
         "wannads": MessageLookupByLibrary.simpleMessage("Wannads"),
-        "wannadsOfferwall":
-            MessageLookupByLibrary.simpleMessage("Wannadsオファーウォール"),
+        "wannadsOfferwall": MessageLookupByLibrary.simpleMessage("Wannadsオファーウォール"),
         "watchAVideoOnlyOneTimeInADay": MessageLookupByLibrary.simpleMessage(
           "1日につき1回のビデオ視聴",
         ),
@@ -535,8 +493,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "ビデオを視聴してポイントを獲得",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "6桁のコードを携帯電話に送信し\nました",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -564,9 +521,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "クイズを再試行しています",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
-                "このクイズにすでに勝ちました。他のクイズを試してみてください"),
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage("このクイズにすでに勝ちました。他のクイズを試してみてください"),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("あなたは獲得しました"),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(
           "10コインを獲得しました",

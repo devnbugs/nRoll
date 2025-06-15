@@ -41,16 +41,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "காசு ராக்கெட் குரைக்கின்றது",
         ),
         "a": MessageLookupByLibrary.simpleMessage("அ"),
-        "adColonyVideo":
-            MessageLookupByLibrary.simpleMessage("AdColony வீடியோ"),
+        "adColonyVideo": MessageLookupByLibrary.simpleMessage("AdColony வீடியோ"),
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("AdMob வீடியோ"),
         "admobVideoAds": MessageLookupByLibrary.simpleMessage(
           "Admob வீடியோ விளம்பரங்கள்",
         ),
-        "allFeatures":
-            MessageLookupByLibrary.simpleMessage("அனைத்து அம்சங்கள்"),
+        "allFeatures": MessageLookupByLibrary.simpleMessage("அனைத்து அம்சங்கள்"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "நாவிகேஷனை அனுமதிக்கிறது",
         ),
@@ -63,8 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "முந்தையவர்களுக்கு கிடைத்தது, பின்னர் திரும்புங்கள்",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "முந்தைய பரிசு பெற்றுள்ளீர்கள். தயவுசெய்து நாளை மீண்டும் முயற்சிக்கவும்",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -83,20 +80,17 @@ class MessageLookup extends MessageLookupByLibrary {
           "AI க்கான படங்களை குறிக்கவும்",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "ஆப்பிள் உள்நுழைவு ஆப்பிள் சாதனங்களில் வேலை செய்யும்",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage(
           "ஏதேனும் ஒப்புக்கொள்ளுகிறீர்களா?",
         ),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "இந்த கணக்கை நீக்க விரும்புகிறீர்களா?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("அட்லஸ் VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("அம்ச நெட்வொர்க்"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("அம்ச நெட்வொர்க்"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "அங்கீகாரம் தோல்வி",
         ),
@@ -120,8 +114,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chartboostVideo": MessageLookupByLibrary.simpleMessage(
           "Chartboost வீடியோ",
         ),
-        "checkYourMobile":
-            MessageLookupByLibrary.simpleMessage("செக் யோர் மொபைல்"),
+        "checkYourMobile": MessageLookupByLibrary.simpleMessage("செக் யோர் மொபைல்"),
         "code": MessageLookupByLibrary.simpleMessage("கோடு"),
         "coins": MessageLookupByLibrary.simpleMessage("நகர்மதி"),
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
@@ -145,8 +138,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirmPassword": MessageLookupByLibrary.simpleMessage(
           "கடவுச்சொல்லை உறுதிப்படுத்தவும்",
         ),
-        "congratulations":
-            MessageLookupByLibrary.simpleMessage("வாழ்த்துக்கள்"),
+        "congratulations": MessageLookupByLibrary.simpleMessage("வாழ்த்துக்கள்"),
         "continu": MessageLookupByLibrary.simpleMessage("தொடர்ந்து"),
         "continueWithApple": MessageLookupByLibrary.simpleMessage(
           "ஆப்பிளுடன் தொடரவும்",
@@ -171,10 +163,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "புதுப்பிக்கப்பட்ட தினம் (7 ஜூன் 2021)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("முடித்தல் நாட்கள்"),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("கணக்குகளை நீக்கு"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("முடித்தல் நாட்கள்"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("கணக்குகளை நீக்கு"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage(
           "கணக்கை நீக்குகிறது",
         ),
@@ -187,14 +177,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "dontReceiveCode": MessageLookupByLibrary.simpleMessage(
           "குடியுத்திசை பெறவில்லை?",
         ),
-        "earbdt":
-            MessageLookupByLibrary.simpleMessage("பணம் சம்பாதிக்கும் BDT"),
+        "earbdt": MessageLookupByLibrary.simpleMessage("பணம் சம்பாதிக்கும் BDT"),
         "earn": MessageLookupByLibrary.simpleMessage("சம்பாதிக்கவும்"),
         "earnPoint": MessageLookupByLibrary.simpleMessage(
           "புள்ளிகளை சம்பாதிக்கவும்",
         ),
-        "earnbdt":
-            MessageLookupByLibrary.simpleMessage("பணம் சம்பாதிக்கும் BDT"),
+        "earnbdt": MessageLookupByLibrary.simpleMessage("பணம் சம்பாதிக்கும் BDT"),
         "earnpoints": MessageLookupByLibrary.simpleMessage(
           "2921 புள்ளிகளைச் சம்பாதிக்கவும்",
         ),
@@ -217,8 +205,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "உங்கள் முழு பெயரைஉள்ளிடவும்",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("என்டர் லாஸ்ட் நேம்"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("என்டர் லாஸ்ட் நேம்"),
         "enterPassword": MessageLookupByLibrary.simpleMessage(
           "கடவுச்சொல்லைஉள்ளிடவும்",
         ),
@@ -277,8 +264,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber சலுகை"),
         "gallary": MessageLookupByLibrary.simpleMessage("கேலரி"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("பரிசு பெறுகிறது"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("பரிசு பெறுகிறது"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage(
           "ரிவார்டுகளைப் பெறுதல்",
         ),
@@ -312,8 +298,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("இங்கிரைன்"),
         "instructions": MessageLookupByLibrary.simpleMessage("வழிகாட்டுகள்"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("செல்லாத OTP"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("அழைப்பு குறியீடு"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("அழைப்பு குறியீடு"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "அம்மாள அழைப்புக் குறியீடு நகலெடுக்கப்பட்டது",
         ),
@@ -331,8 +316,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "அதை பயன்படுத்தினால், நீங்கள் அதை கண்டுபிடிக்கின்றீர்கள்",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall சலுகை"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall சலுகை"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("கீவி வால்"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -365,8 +349,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "myGymFitnessStudioManager": MessageLookupByLibrary.simpleMessage(
           "என் ஜிம்: உடற்பயிற்சி ஸ்டுடியோ மேலாளர்",
         ),
-        "newPassword":
-            MessageLookupByLibrary.simpleMessage("புதிய கடவுச்சொல்"),
+        "newPassword": MessageLookupByLibrary.simpleMessage("புதிய கடவுச்சொல்"),
         "next": MessageLookupByLibrary.simpleMessage("அடுத்து"),
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "இணைய இணைப்பு கிடைக்கவில்லை",
@@ -374,8 +357,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noOfferFound": MessageLookupByLibrary.simpleMessage(
           "எந்தவும் சலுகை கண்டுபிடிக்கப்படவில்லை",
         ),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("வினா காணப்படவில்லை"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("வினா காணப்படவில்லை"),
         "none": MessageLookupByLibrary.simpleMessage("எதுவும் இல்லை"),
         "notDefined": MessageLookupByLibrary.simpleMessage("வளர்க்கப்படவில்லை"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
@@ -399,8 +381,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "otpSentPleaseCheckYourEmail": MessageLookupByLibrary.simpleMessage(
           "OTP அனுப்பப்பட்டுள்ளது. உங்கள் மின்னஞ்சலைப் பாருங்கள்",
         ),
-        "otpVerify":
-            MessageLookupByLibrary.simpleMessage("OTP ஐ சரிபார்க்கவும்"),
+        "otpVerify": MessageLookupByLibrary.simpleMessage("OTP ஐ சரிபார்க்கவும்"),
         "pageFinishedLoading": MessageLookupByLibrary.simpleMessage(
           "பக்கம் ஏற்றுதல் முடிந்தது",
         ),
@@ -423,8 +404,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "கடவுச்சொல் காலியாக இருக்கக்கூடாது",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "கடவுச்சொல் 6 எழுத்துகளில் குறைவாக இருக்கக்கூடாது",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -433,8 +413,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "கடவுச்சொல் தேவை",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "கடவுச்சொல்லின் நீளம் குறைந்தது 6 எழுத்துகள் இருக்க வேண்டும்",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -462,10 +441,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "தயவுசெய்து உங்கள் வாங்கிய குறியீட்டைச் சரிபார்க்கவும்",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage("நாளை கோவிடியோ பார்த்து வா"),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage("நாளை கோவிடியோ பார்த்து வா"),
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. தயவுசெய்து 22 நாட்களுக்குள் பணியை முடிக்கவும்",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -483,8 +460,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "தயவுசெய்து குறியீட்டை மீண்டும் உள்ளிடவும் உங்கள்",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "விடுபட்ட முறை மற்றும் நாணயத்தைத் தேர்வுசெய்க",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -500,8 +476,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "புள்ளிகள் பெறப்பட்டன",
         ),
         "points": MessageLookupByLibrary.simpleMessage("புள்ளிகள்"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("அங்குகள் பெற்றார்"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("அங்குகள் பெற்றார்"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "அंकங்கள் குறைக்கப்படும்!",
         ),
@@ -510,16 +485,13 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("போலிஷ்"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish ஆய்வு"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish ஆய்வு"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "சக்தியை சுழற்றுங்கள்",
         ),
         "price": MessageLookupByLibrary.simpleMessage("விலை"),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("தனியுரிமை கொள்கை"),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("தனியுரிமை கொள்கை"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("தனியுரிமை கொள்கை"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("தனியுரிமை கொள்கை"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "தனியுரிமை கொள்கை | பண ராக்கெட்",
         ),
@@ -551,8 +523,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "விடுபட்டுள்ளதற்கு கோரிக்கை",
         ),
         "resendCode": MessageLookupByLibrary.simpleMessage("மீண்டும் அனுப்பு"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("கடவுச்சொல் மீட்டமை"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("கடவுச்சொல் மீட்டமை"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "கடவுச்சொல்லை மீட்டமைக்கிறேன்",
         ),
@@ -563,8 +534,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "rewardAdded": MessageLookupByLibrary.simpleMessage(
           "பரிசு சேர்க்கப்பட்டது",
         ),
-        "rewardPoint":
-            MessageLookupByLibrary.simpleMessage("ரிவார்டு பாயிண்ட்"),
+        "rewardPoint": MessageLookupByLibrary.simpleMessage("ரிவார்டு பாயிண்ட்"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "வெற்றிகரமாக பரிசளிக்கப்பட்டது",
         ),
@@ -575,11 +545,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "பெருவெளி தமிழில் இருக்கும் \'ரைஸ் ஆஃப் கிங்டம்ஸ்: இழக்கப்பட்ட பேடையின் திட்டம்\'",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("சேமிக்க"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("அலையும் வெற்றி!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("அலையும் வெற்றி!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("கடைசியை அலையவும்"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "மேலே உள்ள அட்டையை அலைக்கவும்",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("விநிடங்கள்"),
@@ -587,14 +555,12 @@ class MessageLookup extends MessageLookupByLibrary {
           "உங்கள் பணத்தை பாதுகாக்கவும்",
         ),
         "sendOtp": MessageLookupByLibrary.simpleMessage("Otp அனுப்பு"),
-        "sendingOtp":
-            MessageLookupByLibrary.simpleMessage("OTP அனுப்பப்படுகிறது"),
+        "sendingOtp": MessageLookupByLibrary.simpleMessage("OTP அனுப்பப்படுகிறது"),
         "share": MessageLookupByLibrary.simpleMessage("பகிருங்கள்"),
         "shareSqure": MessageLookupByLibrary.simpleMessage(
           "விடுமுறையாகப் பகிருங்கள்",
         ),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("விளம்பரங்களை காட்டு"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("விளம்பரங்களை காட்டு"),
         "signIn": MessageLookupByLibrary.simpleMessage("உள்நுழையவும்"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "வெளியே செல்லுதல் வெற்றிகரமாக முடிந்தது",
@@ -607,8 +573,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "மின்னஞ்சல் மூலமாக பதிவுபெறுங்கள்",
         ),
         "signingOut": MessageLookupByLibrary.simpleMessage("வெளியே செல்கிறது"),
-        "signingUp":
-            MessageLookupByLibrary.simpleMessage("சைன் அப் செய்கிறேன்"),
+        "signingUp": MessageLookupByLibrary.simpleMessage("சைன் அப் செய்கிறேன்"),
         "skip": MessageLookupByLibrary.simpleMessage("தவிர்க்க"),
         "skipForNow": MessageLookupByLibrary.simpleMessage("இப்போது தவிர்க்க"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
@@ -626,8 +591,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("வெற்றிகரமான"),
         "survey": MessageLookupByLibrary.simpleMessage("விசாசித்திரம்"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "ஆய்வு முடிந்தது. விரைவில் பரிசளிக்கப்படும்",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -648,20 +612,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "விதிமுறைகளும் நிபந்தனைகளும்",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("சேவை விதிமுறைகள்"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("சேவை விதிமுறைகள்"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "டோக்கன் புதுப்பிப்பு தோல்வி",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("மிகுந்தப் பிரச்சனை!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("மொத்த வெகிப்புகள்"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("மொத்த வெகிப்புகள்"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("மொத்த கோப்புகள்"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("மொத்த இணையதளங்கள்"),
-        "tryAgain":
-            MessageLookupByLibrary.simpleMessage("மீண்டும் முயற்சி செய்க"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("மொத்த இணையதளங்கள்"),
+        "tryAgain": MessageLookupByLibrary.simpleMessage("மீண்டும் முயற்சி செய்க"),
         "tutorial": MessageLookupByLibrary.simpleMessage("பயிற்சி"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
           "Ullamcorper eros senectus urna sit elementum ali quet. Nibh mauris tristique elit pellentesque sa pien malesuada eleifend iaculis malesuada. Mau ris, ut id hendrerit habitant gravida urna congue arcu sit. At quisque leo semper urna gravida",
@@ -721,8 +681,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "வீடியோவைப் பார்வையிடுங்கள் மற்றும் அங்குகளைப் பெறுங்கள்",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "உங்கள் மொபைல் க்கு 6 இலக்கு குடியுத்திசை அனுப்பப்பட்டுள்ளது",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -756,8 +715,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "நீங்கள் க்விஸ் மறுபடியும் எடுக்கும்",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "நீங்கள் இந்த க்விஸ் ஏற்கனவே வென்றீர்கள். மற்ற க்விஸ் விளையாட முயற்சிக்கவும்",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage(

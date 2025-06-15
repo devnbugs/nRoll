@@ -27,11 +27,9 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "No": MessageLookupByLibrary.simpleMessage("아니요"),
         "Paytm": MessageLookupByLibrary.simpleMessage("Paytm"),
-        "PleaseEnterYourOTP":
-            MessageLookupByLibrary.simpleMessage("OTP를 입력해 주세요"),
+        "PleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage("OTP를 입력해 주세요"),
         "RedeemYourPints": MessageLookupByLibrary.simpleMessage("포인트 교환"),
-        "SecureYourMoney":
-            MessageLookupByLibrary.simpleMessage("자금을 안전하게 보호하세요"),
+        "SecureYourMoney": MessageLookupByLibrary.simpleMessage("자금을 안전하게 보호하세요"),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "WelcomeToCashRocket": MessageLookupByLibrary.simpleMessage(
           "캐시 로켓에 오신 것을 환영합니다",
@@ -51,8 +49,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "이미 보상을 받으셨습니다. 나중에 다시 오세요",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage("이미 보상을 받았습니다. 내일 다시 시도해 주세요"),
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage("이미 보상을 받았습니다. 내일 다시 시도해 주세요"),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
           "이미 보상을 받으셨습니다. 나중에 다시 시도해 주세요",
         ),
@@ -69,16 +66,13 @@ class MessageLookup extends MessageLookupByLibrary {
           "AI를 위한 이미지 주석",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple 로그인은 Apple 기기에서만 작동합니다",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("동의하시겠습니까?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage("이 계정을 삭제하시겠습니까?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage("이 계정을 삭제하시겠습니까?"),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage("권한 부여 실패"),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("잔액"),
@@ -91,8 +85,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "cashRocket": MessageLookupByLibrary.simpleMessage("캐시 로켓"),
         "changePassword": MessageLookupByLibrary.simpleMessage("비밀번호 변경"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage("참가비 청구 중"),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost 비디오"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost 비디오"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage("모바일을 확인하세요"),
         "code": MessageLookupByLibrary.simpleMessage("코드"),
         "coins": MessageLookupByLibrary.simpleMessage("코인"),
@@ -109,13 +102,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "confirmPassword": MessageLookupByLibrary.simpleMessage("비밀번호 확인"),
         "congratulations": MessageLookupByLibrary.simpleMessage("축하합니다"),
         "continu": MessageLookupByLibrary.simpleMessage("계속하기"),
-        "continueWithApple":
-            MessageLookupByLibrary.simpleMessage("Apple로 계속하기"),
+        "continueWithApple": MessageLookupByLibrary.simpleMessage("Apple로 계속하기"),
         "continueWithFacebok": MessageLookupByLibrary.simpleMessage(
           "Facebook으로 계속하기",
         ),
-        "continueWithGoogle":
-            MessageLookupByLibrary.simpleMessage("Google로 계속하기"),
+        "continueWithGoogle": MessageLookupByLibrary.simpleMessage("Google로 계속하기"),
         "continueWithMobile": MessageLookupByLibrary.simpleMessage("모바일로 계속"),
         "customVideos": MessageLookupByLibrary.simpleMessage("맞춤 비디오"),
         "d": MessageLookupByLibrary.simpleMessage("D"),
@@ -133,8 +124,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "description": MessageLookupByLibrary.simpleMessage("설명"),
         "dismissed": MessageLookupByLibrary.simpleMessage("해제됨"),
         "doNotKnow": MessageLookupByLibrary.simpleMessage("모름"),
-        "dontReceiveCode":
-            MessageLookupByLibrary.simpleMessage("코드를 받지 못하셨나요?"),
+        "dontReceiveCode": MessageLookupByLibrary.simpleMessage("코드를 받지 못하셨나요?"),
         "earbdt": MessageLookupByLibrary.simpleMessage("BDT 획득"),
         "earn": MessageLookupByLibrary.simpleMessage("획득"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("포인트 획득"),
@@ -145,18 +135,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
           "이메일 주소가 필요합니다",
         ),
-        "emailDoesNotExist":
-            MessageLookupByLibrary.simpleMessage("이메일이 존재하지 않습니다"),
+        "emailDoesNotExist": MessageLookupByLibrary.simpleMessage("이메일이 존재하지 않습니다"),
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage("코인 금액 입력"),
         "enterFirstName": MessageLookupByLibrary.simpleMessage("이름 입력"),
         "enterFullName": MessageLookupByLibrary.simpleMessage("전체 이름을 입력하세요"),
         "enterLastName": MessageLookupByLibrary.simpleMessage("성 입력"),
         "enterPassword": MessageLookupByLibrary.simpleMessage("비밀번호 입력"),
-        "enterYourAddress":
-            MessageLookupByLibrary.simpleMessage("이메일 주소를 입력하세요"),
+        "enterYourAddress": MessageLookupByLibrary.simpleMessage("이메일 주소를 입력하세요"),
         "enterYourEmail": MessageLookupByLibrary.simpleMessage("이메일 주소를 입력하세요"),
-        "enterYourMobile":
-            MessageLookupByLibrary.simpleMessage("휴대폰 번호를 입력하세요"),
+        "enterYourMobile": MessageLookupByLibrary.simpleMessage("휴대폰 번호를 입력하세요"),
         "enterYourNewPassword": MessageLookupByLibrary.simpleMessage(
           "새 비밀번호를 입력하세요",
         ),
@@ -194,8 +181,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "forgotPassword": MessageLookupByLibrary.simpleMessage("비밀번호를 잊으셨나요"),
         "free": MessageLookupByLibrary.simpleMessage("무료"),
         "fullName": MessageLookupByLibrary.simpleMessage("전체 이름"),
-        "fullNameIsRequired":
-            MessageLookupByLibrary.simpleMessage("전체 이름이 필요합니다"),
+        "fullNameIsRequired": MessageLookupByLibrary.simpleMessage("전체 이름이 필요합니다"),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber 오퍼"),
         "gallary": MessageLookupByLibrary.simpleMessage("갤러리"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("보상 받는 중"),
@@ -225,16 +211,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "instructions": MessageLookupByLibrary.simpleMessage("지침"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("유효하지 않은 OTP"),
         "invitationCode": MessageLookupByLibrary.simpleMessage("초대 코드"),
-        "invitationCodeCopied":
-            MessageLookupByLibrary.simpleMessage("초대 코드 복사됨"),
+        "invitationCodeCopied": MessageLookupByLibrary.simpleMessage("초대 코드 복사됨"),
         "inviteNow": MessageLookupByLibrary.simpleMessage("지금 초대하기"),
         "inviteYourFriends": MessageLookupByLibrary.simpleMessage("친구 초대하기"),
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "친구를 Cash Rocket을 사용하도록 초대하고 각각 100 포인트를 받으세요",
         ),
         "isForMainFrame": MessageLookupByLibrary.simpleMessage("주 프레임용"),
-        "itUseYouWillDetect":
-            MessageLookupByLibrary.simpleMessage("사용하면 감지됩니다"),
+        "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage("사용하면 감지됩니다"),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall 오퍼"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
@@ -256,8 +240,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Love Sick: Love Stories Games",
         ),
         "medium": MessageLookupByLibrary.simpleMessage("중간"),
-        "minimum1000Points":
-            MessageLookupByLibrary.simpleMessage("최소 1000 포인트"),
+        "minimum1000Points": MessageLookupByLibrary.simpleMessage("최소 1000 포인트"),
         "minimumWithdrawBalanceIs": MessageLookupByLibrary.simpleMessage(
           "최소 출금 잔액은",
         ),
@@ -291,32 +274,25 @@ class MessageLookup extends MessageLookupByLibrary {
           "OTP가 전송되었습니다. 이메일을 확인해 주세요",
         ),
         "otpVerify": MessageLookupByLibrary.simpleMessage("OTP 인증"),
-        "pageFinishedLoading":
-            MessageLookupByLibrary.simpleMessage("페이지 로딩 완료"),
+        "pageFinishedLoading": MessageLookupByLibrary.simpleMessage("페이지 로딩 완료"),
         "pageResourceError": MessageLookupByLibrary.simpleMessage("페이지 리소스 오류"),
         "pageStartedLoading": MessageLookupByLibrary.simpleMessage("페이지 로딩 시작"),
-        "paidForQuizRetake":
-            MessageLookupByLibrary.simpleMessage("퀴즈 재응시 비용 지불"),
-        "paidForScratchCard":
-            MessageLookupByLibrary.simpleMessage("스크래치 카드 결제 완료"),
+        "paidForQuizRetake": MessageLookupByLibrary.simpleMessage("퀴즈 재응시 비용 지불"),
+        "paidForScratchCard": MessageLookupByLibrary.simpleMessage("스크래치 카드 결제 완료"),
         "paidQuizPlay": MessageLookupByLibrary.simpleMessage("유료 퀴즈 플레이"),
         "password": MessageLookupByLibrary.simpleMessage("비밀번호"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "비밀번호는 비워둘 수 없습니다",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "비밀번호는 6자 이상이어야 합니다",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
           "비밀번호가 일치하지 않습니다",
         ),
-        "passwordIsRequired":
-            MessageLookupByLibrary.simpleMessage("비밀번호가 필요합니다"),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage("비밀번호 길이는 최소 6자여야 합니다"),
-        "passwordResetFailed":
-            MessageLookupByLibrary.simpleMessage("비밀번호 재설정 실패"),
+        "passwordIsRequired": MessageLookupByLibrary.simpleMessage("비밀번호가 필요합니다"),
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage("비밀번호 길이는 최소 6자여야 합니다"),
+        "passwordResetFailed": MessageLookupByLibrary.simpleMessage("비밀번호 재설정 실패"),
         "passwordResetSuccessfully": MessageLookupByLibrary.simpleMessage(
           "비밀번호가 성공적으로 재설정되었습니다",
         ),
@@ -333,32 +309,26 @@ class MessageLookup extends MessageLookupByLibrary {
           "1.  Rise of Kingdoms 플레이",
         ),
         "playVideo": MessageLookupByLibrary.simpleMessage("비디오 재생"),
-        "pleaseCheckYourOtp":
-            MessageLookupByLibrary.simpleMessage("OTP를 확인해 주세요"),
+        "pleaseCheckYourOtp": MessageLookupByLibrary.simpleMessage("OTP를 확인해 주세요"),
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "구매 코드를 확인해 주세요",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage("내일 다시 오셔서 비디오를 시청하세요"),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage("내일 다시 오셔서 비디오를 시청하세요"),
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4.  22일 이내에 작업을 완료해주세요",
         ),
-        "pleaseEnterTheAmount":
-            MessageLookupByLibrary.simpleMessage("금액을 입력해 주세요"),
+        "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage("금액을 입력해 주세요"),
         "pleaseEnterTheWithdrawAccount": MessageLookupByLibrary.simpleMessage(
           "출금 계좌를 입력해 주세요",
         ),
         "pleaseEnterYourAddressbelow": MessageLookupByLibrary.simpleMessage(
           "아래에 이메일 주소를 입력하여 귀하의",
         ),
-        "pleaseEnterYourOTP":
-            MessageLookupByLibrary.simpleMessage("OTP를 입력해 주세요"),
+        "pleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage("OTP를 입력해 주세요"),
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "아래 코드를 입력하여 귀하의",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage("출금 방법과 통화를 선택해 주세요"),
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage("출금 방법과 통화를 선택해 주세요"),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("다시 시도해 주세요"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("기다려 주세요"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
@@ -367,10 +337,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "pointRecived": MessageLookupByLibrary.simpleMessage("포인트 받음"),
         "points": MessageLookupByLibrary.simpleMessage("포인트"),
         "pointsReceived": MessageLookupByLibrary.simpleMessage("받은 포인트"),
-        "pointsWillBeDeducted":
-            MessageLookupByLibrary.simpleMessage("포인트가 차감됩니다!"),
-        "pointsWillBeDucted":
-            MessageLookupByLibrary.simpleMessage("포인트가 차감됩니다!"),
+        "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage("포인트가 차감됩니다!"),
+        "pointsWillBeDucted": MessageLookupByLibrary.simpleMessage("포인트가 차감됩니다!"),
         "polish": MessageLookupByLibrary.simpleMessage("폴피쉬"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish 설문조사"),
@@ -417,13 +385,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("저장"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("스크래치하고 승리하세요!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("스크래치 카드"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "위의 카드를 스와이프하여 스크래치하세요",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("초"),
-        "secureYourMoney":
-            MessageLookupByLibrary.simpleMessage("자산을 안전하게 지키세요"),
+        "secureYourMoney": MessageLookupByLibrary.simpleMessage("자산을 안전하게 지키세요"),
         "sendOtp": MessageLookupByLibrary.simpleMessage("OTP 보내기"),
         "sendingOtp": MessageLookupByLibrary.simpleMessage("OTP 전송 중"),
         "share": MessageLookupByLibrary.simpleMessage("공유하기"),
@@ -438,25 +404,20 @@ class MessageLookup extends MessageLookupByLibrary {
         "signingUp": MessageLookupByLibrary.simpleMessage("가입 중"),
         "skip": MessageLookupByLibrary.simpleMessage("건너뛰기"),
         "skipForNow": MessageLookupByLibrary.simpleMessage("지금은 건너뛰기"),
-        "somethingWentWrong":
-            MessageLookupByLibrary.simpleMessage("문제가 발생했습니다"),
+        "somethingWentWrong": MessageLookupByLibrary.simpleMessage("문제가 발생했습니다"),
         "sorry": MessageLookupByLibrary.simpleMessage("죄송합니다"),
         "spinTheWheel": MessageLookupByLibrary.simpleMessage("룰렛 돌리기"),
         "spinTime": MessageLookupByLibrary.simpleMessage("스핀 시간"),
         "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage("스핀 휠 참가비"),
-        "spinWheelVideoAds":
-            MessageLookupByLibrary.simpleMessage("스핀 휠 비디오 광고"),
+        "spinWheelVideoAds": MessageLookupByLibrary.simpleMessage("스핀 휠 비디오 광고"),
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("성공"),
         "survey": MessageLookupByLibrary.simpleMessage("설문조사"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "설문조사가 완료되었습니다. 곧 보상을 받을 수 있습니다",
         ),
-        "surveyNotAvailable":
-            MessageLookupByLibrary.simpleMessage("설문조사 사용 불가"),
-        "surveyPanelClosed":
-            MessageLookupByLibrary.simpleMessage("설문조사 패널이 닫혔습니다"),
+        "surveyNotAvailable": MessageLookupByLibrary.simpleMessage("설문조사 사용 불가"),
+        "surveyPanelClosed": MessageLookupByLibrary.simpleMessage("설문조사 패널이 닫혔습니다"),
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage("설문조사 패널 열림"),
         "tendingOffers": MessageLookupByLibrary.simpleMessage("오퍼 확인 중"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage("이용 약관"),
@@ -480,14 +441,12 @@ class MessageLookup extends MessageLookupByLibrary {
           "2. 도시를 레벨 17로 업그레이드",
         ),
         "urlChangeTo": MessageLookupByLibrary.simpleMessage("URL 변경됨"),
-        "userAlreadyExist":
-            MessageLookupByLibrary.simpleMessage("사용자가 이미 존재합니다"),
+        "userAlreadyExist": MessageLookupByLibrary.simpleMessage("사용자가 이미 존재합니다"),
         "userCanaonly": MessageLookupByLibrary.simpleMessage(
           "5.  사용자는 한 번의 Rise of Kingdoms 제공에서만 보상을 받을 수 있습니다",
         ),
         "userId": MessageLookupByLibrary.simpleMessage("사용자 ID"),
-        "userNotEligible":
-            MessageLookupByLibrary.simpleMessage("사용자가 적합하지 않습니다"),
+        "userNotEligible": MessageLookupByLibrary.simpleMessage("사용자가 적합하지 않습니다"),
         "userRejectedSurvey": MessageLookupByLibrary.simpleMessage(
           "사용자가 설문조사를 거부했습니다",
         ),
@@ -497,15 +456,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "victory": MessageLookupByLibrary.simpleMessage("승리"),
         "videos": MessageLookupByLibrary.simpleMessage("동영상"),
         "visitWebsite": MessageLookupByLibrary.simpleMessage("웹사이트 방문"),
-        "visitWebsiteAndGet":
-            MessageLookupByLibrary.simpleMessage("웹사이트 방문 및 받기"),
+        "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage("웹사이트 방문 및 받기"),
         "visitWebsiteOnlyOneInADay": MessageLookupByLibrary.simpleMessage(
           "하루에 한 번만 웹사이트 방문",
         ),
         "vungleVideo": MessageLookupByLibrary.simpleMessage("Vungle 비디오"),
         "wannads": MessageLookupByLibrary.simpleMessage("Wannads"),
-        "wannadsOfferwall":
-            MessageLookupByLibrary.simpleMessage("Wannads 제공 벽"),
+        "wannadsOfferwall": MessageLookupByLibrary.simpleMessage("Wannads 제공 벽"),
         "watchAVideoOnlyOneTimeInADay": MessageLookupByLibrary.simpleMessage(
           "하루에 한 번만 비디오 시청",
         ),
@@ -516,8 +473,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "비디오를 보고 포인트를 받으세요",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "6자리 코드를 귀하의\n모바일로 전송했습니다",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -545,8 +501,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "퀴즈를 다시 응시하고 있습니다",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "이 퀴즈에서 이미 승리했습니다. 다른 퀴즈를 시도해 보세요",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("당신은 획득했습니다"),

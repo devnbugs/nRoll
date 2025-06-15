@@ -1,6 +1,7 @@
 // ignore_for_file: unused_result
 
 import 'dart:async';
+
 import 'package:cash_rocket/Model/user_profile_model.dart';
 import 'package:cash_rocket/Provider/database_provider.dart';
 import 'package:cash_rocket/Provider/profile_provider.dart';
@@ -13,6 +14,7 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 import 'package:nb_utils/nb_utils.dart';
+
 import '../../../Repositories/rewards_repo.dart';
 import '../../../Videos/Admob/admob.dart';
 import '../../../test/src/core/core.dart';
@@ -87,10 +89,7 @@ class _WheelState extends State<Wheel> {
                         children: [
                           Text(
                             lang.S.of(context).congratulations,
-                            style: kTextStyle.copyWith(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 14.0),
+                            style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14.0),
                           ),
                           const SizedBox(height: 5.0),
                           Text(
@@ -106,8 +105,7 @@ class _WheelState extends State<Wheel> {
                               borderRadius: BorderRadius.circular(30.0),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 20.0, right: 20.0),
+                              padding: const EdgeInsets.only(left: 20.0, right: 20.0),
                               child: Text(
                                 lang.S.of(context).ok,
                                 style: kTextStyle.copyWith(
@@ -137,8 +135,7 @@ class _WheelState extends State<Wheel> {
   Widget build(BuildContext context) {
     return Consumer(
       builder: (_, ref, watch) {
-        AsyncValue<UserProfileModel> userInfo =
-            ref.watch(personalProfileProvider);
+        AsyncValue<UserProfileModel> userInfo = ref.watch(personalProfileProvider);
         return Scaffold(
           appBar: AppBar(
             title: Text(
@@ -148,16 +145,9 @@ class _WheelState extends State<Wheel> {
             ),
             toolbarHeight: 90,
             iconTheme: const IconThemeData(color: kWhite),
-            shape: const RoundedRectangleBorder(
-                borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(30),
-                    bottomRight: Radius.circular(30))),
+            shape: const RoundedRectangleBorder(borderRadius: BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30))),
             flexibleSpace: Container(
-              decoration: BoxDecoration(
-                  gradient: containerGradiant,
-                  borderRadius: const BorderRadius.only(
-                      bottomLeft: Radius.circular(30),
-                      bottomRight: Radius.circular(30))),
+              decoration: BoxDecoration(gradient: containerGradiant, borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30))),
             ),
             actions: [
               Padding(
@@ -203,9 +193,7 @@ class _WheelState extends State<Wheel> {
                         const SizedBox(width: 5.0),
                         userInfo.when(data: (info) {
                           return Text(
-                            isBalanceShow
-                                ? '\$${info.data?.user?.wallet?.balance ?? ''}'
-                                : lang.S.of(context).balance,
+                            isBalanceShow ? '\$${info.data?.user?.wallet?.balance ?? ''}' : lang.S.of(context).balance,
                             style: kTextStyle.copyWith(color: Colors.white),
                           );
                         }, error: (e, stack) {
@@ -247,8 +235,7 @@ class _WheelState extends State<Wheel> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+                  padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
                   child: Center(
                     child: Container(
                       padding: const EdgeInsets.all(20.0),
@@ -271,8 +258,7 @@ class _WheelState extends State<Wheel> {
                         children: [
                           Text(
                             lang.S.of(context).spinTheWheel,
-                            style: kTextStyle.copyWith(
-                                color: kWhite, fontWeight: FontWeight.bold),
+                            style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
                           ),
                           const SizedBox(height: 5.0),
                           Text(
@@ -300,65 +286,42 @@ class _WheelState extends State<Wheel> {
                               userInfo.when(data: (info) {
                                 return GestureDetector(
                                   onTap: () async {
-                                    if (spinFee.toInt() <
-                                        (info.data?.user?.wallet?.balance ??
-                                            0)) {
+                                    if (spinFee.toInt() < (info.data?.user?.wallet?.balance ?? 0)) {
                                       // EasyLoading.show(status: "Charging Entry fee");
-                                      EasyLoading.show(
-                                          status: lang.S
-                                              .of(context)
-                                              .chargingEntryFee);
+                                      EasyLoading.show(status: lang.S.of(context).chargingEntryFee);
                                       //await RewardRepo().removePoint(spinFee, 'Spin Wheel Entry fee');
-                                      await RewardRepo().removePoint(spinFee,
-                                          lang.S.of(context).spinWheelEntryFee);
+                                      await RewardRepo().removePoint(spinFee, lang.S.of(context).spinWheelEntryFee);
                                       EasyLoading.dismiss();
                                       //DataBase().saveString('spinTime', DateTime.now().toString());
-                                      DataBase().saveString(
-                                          lang.S.of(context).spinTime,
-                                          DateTime.now().toString());
-                                      int se =
-                                          Fortune.randomInt(0, spinData.length);
+                                      DataBase().saveString(lang.S.of(context).spinTime, DateTime.now().toString());
+                                      int se = Fortune.randomInt(0, spinData.length);
                                       selected.add(se);
-                                      await Future.delayed(
-                                          const Duration(seconds: 5));
+                                      await Future.delayed(const Duration(seconds: 5));
                                       try {
                                         //EasyLoading.show(status: 'Getting rewards');
-                                        EasyLoading.show(
-                                            status: lang.S
-                                                .of(context)
-                                                .gettingRewards);
+                                        EasyLoading.show(status: lang.S.of(context).gettingRewards);
                                         //var response = await RewardRepo().addPoint(spinData[se], 'Spin Wheel Video Ads');
-                                        var response = await RewardRepo()
-                                            .addPoint(
-                                                spinData[se],
-                                                lang.S
-                                                    .of(context)
-                                                    .spinWheelVideoAds);
+                                        var response = await RewardRepo().addPoint(spinData[se], lang.S.of(context).spinWheelVideoAds);
                                         if (response) {
                                           showRewardPopUp(spinData[se]);
                                           //EasyLoading.showSuccess('You Have Earned ${spinData[se]} Coins');
-                                          EasyLoading.showSuccess(
-                                              '${lang.S.of(context).youHaveEarned} ${spinData[se]} ${lang.S.of(context).coins}');
+                                          EasyLoading.showSuccess('${lang.S.of(context).youHaveEarned} ${spinData[se]} ${lang.S.of(context).coins}');
                                           admob.showInterstitialAd();
                                           ref.refresh(personalProfileProvider);
                                         } else {
                                           // EasyLoading.showError('Error Happened. Try Again');
-                                          EasyLoading.showError(lang.S
-                                              .of(context)
-                                              .errorHappenedTryAgain);
+                                          EasyLoading.showError(lang.S.of(context).errorHappenedTryAgain);
                                         }
                                       } catch (e) {
                                         EasyLoading.showError(e.toString());
                                       }
                                     } else {
                                       //EasyLoading.showError("Not enough Balance");
-                                      EasyLoading.showError(
-                                          lang.S.of(context).notEnoughBalance);
+                                      EasyLoading.showError(lang.S.of(context).notEnoughBalance);
                                     }
                                   },
                                   child: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.center,
+                                    crossAxisAlignment: CrossAxisAlignment.center,
                                     children: [
                                       SizedBox(
                                         height: 200,
@@ -371,8 +334,7 @@ class _WheelState extends State<Wheel> {
                                               alignment: Alignment.topCenter,
                                               // <-- changing the position of the indicator
                                               child: TriangleIndicator(
-                                                color: Colors
-                                                    .yellow, // <-- changing the color of the indicator
+                                                color: Colors.yellow, // <-- changing the color of the indicator
                                               ),
                                             ),
                                           ],
@@ -395,8 +357,7 @@ class _WheelState extends State<Wheel> {
                               }, error: (e, stack) {
                                 return Text(
                                   e.toString(),
-                                  style:
-                                      kTextStyle.copyWith(color: Colors.white),
+                                  style: kTextStyle.copyWith(color: Colors.white),
                                 );
                               }, loading: () {
                                 return Container();

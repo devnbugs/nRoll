@@ -32,8 +32,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "a": MessageLookupByLibrary.simpleMessage("A"),
-        "adColonyVideo":
-            MessageLookupByLibrary.simpleMessage("Bidiyon AdColony"),
+        "adColonyVideo": MessageLookupByLibrary.simpleMessage("Bidiyon AdColony"),
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("Bidiyon AdMob"),
@@ -47,13 +46,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
           "Tayi wurin aikace-aikace?",
         ),
-        "alreadyPlayed":
-            MessageLookupByLibrary.simpleMessage("An Riga An Buga"),
+        "alreadyPlayed": MessageLookupByLibrary.simpleMessage("An Riga An Buga"),
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "An riga an bayar da kyauta, koma daga baya",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "An Ba Da Kyauta Tuni. Don Allah Yi Kokarin Sake Gwada Gobe",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -72,13 +69,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Yi bayanin hotuna ga Al",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Shiga da Apple zai yi aiki a kan na\'urorin Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Kana sona?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Shin kuna da tabbacin kuna son cire wannan asusun?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
@@ -90,8 +85,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("Salanta"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs Bincike"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs Bincike"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "ana toshe tafiya zuwa",
@@ -112,8 +106,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
           "Shiga Gwaji na Kowane Rana Yanzu!",
         ),
-        "completeAnAction":
-            MessageLookupByLibrary.simpleMessage("Kammala aiki"),
+        "completeAnAction": MessageLookupByLibrary.simpleMessage("Kammala aiki"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Kammala tayin da samun maki",
         ),
@@ -153,8 +146,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "daysToComplete": MessageLookupByLibrary.simpleMessage(
           "Kwanakin don kammala",
         ),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Ana Cire Akaunti"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Ana Cire Akaunti"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Cire Akaunti Ya Yi Nasara",
         ),
@@ -207,13 +199,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Shigar da lambar aikace-aikace",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Kudin Shiga"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Kuskure ya faru"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Kuskure ya faru"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Kuskure ya faru. Yi kokarin sake",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("An samu kuskure"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("An samu kuskure"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "An samu kuskure. Da fatan za a sake gwadawa",
         ),
@@ -241,8 +231,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Tayin Fyber"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galarin hoto"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Ana Samun Kyauta"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Ana Samun Kyauta"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage(
           "Ana samun kyaututtuka",
         ),
@@ -253,8 +242,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "Ba ku da wani aikace-aikace?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Sannu! Karin Kudi!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Sannu! Karin Kudi!"),
         "history": MessageLookupByLibrary.simpleMessage("Asalin"),
         "home": MessageLookupByLibrary.simpleMessage("Gida"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -280,8 +268,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Lambar Gayyata An Kwafa",
         ),
         "inviteNow": MessageLookupByLibrary.simpleMessage("Zabi Yanzu"),
-        "inviteYourFriends":
-            MessageLookupByLibrary.simpleMessage("Zabi abokanka"),
+        "inviteYourFriends": MessageLookupByLibrary.simpleMessage("Zabi abokanka"),
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Zabi abokanka su yi amfani da Cash Rocket sai ka samu 100 kwatin ga kowane m",
         ),
@@ -289,8 +276,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "yana don Frame Main",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Tayin Kiwi Wall"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Tayin Kiwi Wall"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -342,8 +328,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP An Tura"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP An Duba"),
-        "offerStatus":
-            MessageLookupByLibrary.simpleMessage("Halin Aikace-Aikacen"),
+        "offerStatus": MessageLookupByLibrary.simpleMessage("Halin Aikace-Aikacen"),
         "offerToro": MessageLookupByLibrary.simpleMessage("Offertoro"),
         "offers": MessageLookupByLibrary.simpleMessage("Aikace-aikace"),
         "ogAds": MessageLookupByLibrary.simpleMessage("Og Ads"),
@@ -374,8 +359,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Kalmar sirri ba za ta iya zama babu komai ba",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Kalmar sirri ba za ta iya zama ƙasa da haruffa 6 ba",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -384,8 +368,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Kalmar wucewa tana da muhimmanci",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Tsawon kalmar wucewa ya zama aƙalla haruffa 6",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -412,8 +395,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Don Allah duba lambarka ta sayan",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Don Allah kammala aiki a nan don 22 rana",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -431,8 +413,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Don Allah sake saita lambar ta hanyar cire",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Da fatan za a zabi hanyar fitarwa da kudin",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -447,10 +428,8 @@ class MessageLookup extends MessageLookupByLibrary {
           "za a cire maki!",
         ),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish Bincike"),
-        "pressTheSpinWheel":
-            MessageLookupByLibrary.simpleMessage("Danna Mahaifi"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish Bincike"),
+        "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage("Danna Mahaifi"),
         "privacyPolicty": MessageLookupByLibrary.simpleMessage(
           "Shari’ar Mahallin Mai Cutarwa",
         ),
@@ -519,8 +498,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Fita Ya Yi Nasara",
         ),
         "signUp": MessageLookupByLibrary.simpleMessage("Daftar"),
-        "signUpSuccessful":
-            MessageLookupByLibrary.simpleMessage("Rajistar Nasara"),
+        "signUpSuccessful": MessageLookupByLibrary.simpleMessage("Rajistar Nasara"),
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage("Ajiye da imel"),
         "signingOut": MessageLookupByLibrary.simpleMessage("Ana Fita"),
         "signingUp": MessageLookupByLibrary.simpleMessage("Ana Rajista"),
@@ -540,8 +518,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Nasara"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Bincike Ya Kammala. Za a bayar da kyauta nan ba da jimawa ba",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -553,22 +530,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Bodyn Bincike Tana A Buɗe",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Tayin da ake yi"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Tayin da ake yi"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Shari\'ar Da Shari\'ar Da Faturo",
         ),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "Shari\'ar da Shari\'ar",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("Shari’ar Sabis"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("Shari’ar Sabis"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Sabunta Token ya gaza",
         ),
-        "topOffer":
-            MessageLookupByLibrary.simpleMessage("Bayanin aikace-aikace!"),
+        "topOffer": MessageLookupByLibrary.simpleMessage("Bayanin aikace-aikace!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("Ganyen Gwaji"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Ƙunshi"),
         "tutorial": MessageLookupByLibrary.simpleMessage("Tashar"),
@@ -641,8 +615,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Kana sake gwajin",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Ka riga ka ci wannan gwajin. Yi kokarin buga wasu gwaje-gwaje",
         ),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(
@@ -652,8 +625,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youRejectedThisSurvey": MessageLookupByLibrary.simpleMessage(
           "Ka ki wannan binciken",
         ),
-        "yourFyberUserIDis":
-            MessageLookupByLibrary.simpleMessage("Fyber User ID"),
+        "yourFyberUserIDis": MessageLookupByLibrary.simpleMessage("Fyber User ID"),
         "yourPasswordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
           "Kalmar wucewa ba ta dace ba",
         ),

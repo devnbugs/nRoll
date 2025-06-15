@@ -94,11 +94,7 @@ class _OffertoroOfferwallState extends State<OffertoroOfferwall> {
             titleSpacing: 0,
             toolbarHeight: 90,
             flexibleSpace: Container(
-              decoration: BoxDecoration(
-                  borderRadius: const BorderRadius.only(
-                      bottomRight: Radius.circular(30),
-                      bottomLeft: Radius.circular(30)),
-                  gradient: containerGradiant),
+              decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomRight: Radius.circular(30), bottomLeft: Radius.circular(30)), gradient: containerGradiant),
             ),
             iconTheme: const IconThemeData(color: Colors.white),
             shape: const RoundedRectangleBorder(
@@ -156,10 +152,7 @@ class _OffertoroOfferwallState extends State<OffertoroOfferwall> {
                         ),
                         const SizedBox(width: 5.0),
                         Text(
-                          isBalanceShow
-                              ? myFormat
-                                  .format(info.data?.user?.wallet?.balance)
-                              : lang.S.of(context).balance,
+                          isBalanceShow ? myFormat.format(info.data?.user?.wallet?.balance) : lang.S.of(context).balance,
                           style: mediumTextStyle,
                         ),
                         const SizedBox(width: 5.0),
@@ -228,9 +221,7 @@ class _OffertoroOfferwallState extends State<OffertoroOfferwall> {
                                       borderRadius: BorderRadius.circular(8.0),
                                       image: DecorationImage(
                                           image: NetworkImage(
-                                            offer.response?.offers?[i]
-                                                    .imageUrl ??
-                                                '',
+                                            offer.response?.offers?[i].imageUrl ?? '',
                                           ),
                                           fit: BoxFit.cover),
                                     ),
@@ -239,18 +230,14 @@ class _OffertoroOfferwallState extends State<OffertoroOfferwall> {
                                     width: 10,
                                   ),
                                   Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       SizedBox(
                                         width: context.width() / 1.5,
                                         child: Text(
-                                          offer.response?.offers?[i]
-                                                  .offerName ??
-                                              '',
+                                          offer.response?.offers?[i].offerName ?? '',
                                           maxLines: 1,
-                                          style: kTextStyle.copyWith(
-                                              color: kWhite),
+                                          style: kTextStyle.copyWith(color: kWhite),
                                         ),
                                       ),
                                       const SizedBox(height: 4.0),
@@ -259,19 +246,14 @@ class _OffertoroOfferwallState extends State<OffertoroOfferwall> {
                                           SizedBox(
                                             width: context.width() / 2.05,
                                             child: Text(
-                                              offer.response?.offers?[i]
-                                                      .callToAction ??
-                                                  '',
+                                              offer.response?.offers?[i].callToAction ?? '',
                                               maxLines: 1,
-                                              style: kTextStyle.copyWith(
-                                                  color: kLightTextColor),
+                                              style: kTextStyle.copyWith(color: kLightTextColor),
                                             ),
                                           ),
                                           Text(
                                             'BDT ${offer.response?.offers?[i].amount.toString() ?? ''}',
-                                            style: kTextStyle.copyWith(
-                                                color: kMainColor,
-                                                fontWeight: FontWeight.bold),
+                                            style: kTextStyle.copyWith(color: kMainColor, fontWeight: FontWeight.bold),
                                           ),
                                         ],
                                       ),
@@ -280,32 +262,18 @@ class _OffertoroOfferwallState extends State<OffertoroOfferwall> {
                                       ),
                                       HorizontalList(
                                           padding: EdgeInsets.zero,
-                                          itemCount: offer.response?.offers?[i]
-                                                  .verticals?.length ??
-                                              1,
+                                          itemCount: offer.response?.offers?[i].verticals?.length ?? 1,
                                           itemBuilder: (_, index) {
                                             return Container(
                                               decoration: BoxDecoration(
-                                                borderRadius:
-                                                    BorderRadius.circular(30.0),
+                                                borderRadius: BorderRadius.circular(30.0),
                                                 gradient: containerGradiant,
                                               ),
                                               child: Padding(
-                                                padding: const EdgeInsets.only(
-                                                    left: 10.0,
-                                                    right: 10.0,
-                                                    top: 2.0,
-                                                    bottom: 2.0),
+                                                padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
                                                 child: Text(
-                                                  offer
-                                                          .response
-                                                          ?.offers?[i]
-                                                          .verticals?[index]
-                                                          .verticalName
-                                                          .toString() ??
-                                                      '',
-                                                  style: kTextStyle.copyWith(
-                                                      color: Colors.white),
+                                                  offer.response?.offers?[i].verticals?[index].verticalName.toString() ?? '',
+                                                  style: kTextStyle.copyWith(color: Colors.white),
                                                 ),
                                               ),
                                             );
@@ -314,10 +282,7 @@ class _OffertoroOfferwallState extends State<OffertoroOfferwall> {
                                   ),
                                 ],
                               ),
-                            ).onTap(() => OffertoroOfferDetails(
-                                    offertoroModel: offer.response!.offers![i],
-                                    userId: info.data!.user!.id.toString())
-                                .launch(context)),
+                            ).onTap(() => OffertoroOfferDetails(offertoroModel: offer.response!.offers![i], userId: info.data!.user!.id.toString()).launch(context)),
                           );
                         })
                   ],

@@ -57,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Už odmenené, vráťte sa neskôr",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Už odmenený. Skúste znova zajtra",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -77,25 +76,21 @@ class MessageLookup extends MessageLookupByLibrary {
           "Anotovať obrázky pre AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Prihlásenie cez Apple bude fungovať na zariadeniach Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Súhlasíte?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Ste si istí, že chcete odstrániť tento účet?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Autorizácia zlyhala",
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("Zostatok"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs prieskum"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs prieskum"),
         "bitrise": MessageLookupByLibrary.simpleMessage("Bitrise"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -108,8 +103,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Naúčtovanie vstupného poplatku",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Skontrolujte svoj mobil",
         ),
@@ -118,20 +112,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
           "Zbierajte dennú odmenu teraz!",
         ),
-        "completeAnAction":
-            MessageLookupByLibrary.simpleMessage("Dokončite akciu"),
+        "completeAnAction": MessageLookupByLibrary.simpleMessage("Dokončite akciu"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Dokončite ponuky a získajte body",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Dokončiť profil"),
-        "completeanaction":
-            MessageLookupByLibrary.simpleMessage("Dokončiť akciu"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Dokončiť profil"),
+        "completeanaction": MessageLookupByLibrary.simpleMessage("Dokončiť akciu"),
         "completingProfile": MessageLookupByLibrary.simpleMessage(
           "Dokončovanie profilu",
         ),
-        "confirmPassword":
-            MessageLookupByLibrary.simpleMessage("Potvrdiť heslo"),
+        "confirmPassword": MessageLookupByLibrary.simpleMessage("Potvrdiť heslo"),
         "congratulations": MessageLookupByLibrary.simpleMessage("Gratulujeme"),
         "continu": MessageLookupByLibrary.simpleMessage("Pokračovať"),
         "continueWithApple": MessageLookupByLibrary.simpleMessage(
@@ -155,8 +145,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "Dátum aktualizácie (7. jún 2021)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("Dni na dokončenie"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("Dni na dokončenie"),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("Zmazať účty"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage("Maže sa účet"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
@@ -172,8 +161,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "earn": MessageLookupByLibrary.simpleMessage("zarobte"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("Zarobte body"),
         "earnbdt": MessageLookupByLibrary.simpleMessage("Zarobte BDT"),
-        "earnpoints":
-            MessageLookupByLibrary.simpleMessage("Zarobte 2921 bodov"),
+        "earnpoints": MessageLookupByLibrary.simpleMessage("Zarobte 2921 bodov"),
         "editProfile": MessageLookupByLibrary.simpleMessage("Upraviť profil"),
         "email": MessageLookupByLibrary.simpleMessage("E-mail"),
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -191,8 +179,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Zadajte svoje celé meno",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Zadajte priezvisko"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Zadajte priezvisko"),
         "enterPassword": MessageLookupByLibrary.simpleMessage("Zadajte heslo"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Zadajte svoju e-mailovú adresu",
@@ -216,13 +203,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Zadajte kód pozvánky",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Vstupný poplatok"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Vyskytla sa chyba"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Vyskytla sa chyba"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Vyskytla sa chyba. Skúste znova",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Vyskytla sa chyba"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Vyskytla sa chyba"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Vyskytla sa chyba. Skúste znova",
         ),
@@ -241,8 +226,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Chyba pri načítavaní videa",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("Krstné meno"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Zabudli ste heslo"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("Zabudli ste heslo"),
         "free": MessageLookupByLibrary.simpleMessage("Zadarmo"),
         "fullName": MessageLookupByLibrary.simpleMessage("Celé meno"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -250,10 +234,8 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Ponuka"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galéria"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Získavanie odmeny"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("Získavanie odmien"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Získavanie odmeny"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("Získavanie odmien"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "Získavanie dnešnej odmeny",
         ),
@@ -261,8 +243,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "Nemáte žiadne konto?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Ahoj! Viac peňazí!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Ahoj! Viac peňazí!"),
         "history": MessageLookupByLibrary.simpleMessage("História"),
         "home": MessageLookupByLibrary.simpleMessage("Domov"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -303,8 +284,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "ak ju použijete, zistíte",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Ponuka"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Ponuka"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -353,8 +333,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Nedostatok zostatku",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Nedostatok mincí"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Nedostatok mincí"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP odoslané"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP overené"),
@@ -389,8 +368,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Heslo nemôže byť prázdne",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Heslo nemôže byť kratšie ako 6 znakov",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -399,8 +377,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Heslo je povinné",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Dĺžka hesla musí byť aspoň 6 znakov",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -428,12 +405,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Skontrolujte svoj nákupný kód",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Prosím, vráťte sa zajtra\na pozrite si video",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4.  Prosím, dokončite úlohu do 22 dní",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -451,8 +426,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Prosím, zadajte nižšie kód pre obnovenie svojho",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Vyberte prosím spôsob výberu a menu",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("Skúste znova"),
@@ -471,8 +445,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish prieskum"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish prieskum"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Stlačte tlačidlo OTOČENIE kolesa",
         ),
@@ -534,8 +507,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Skartujte a vyhrajte!",
         ),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Skartovací karta"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Skartujte vyššie uvedenú kartu potiahnutím po nej",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Sekúnd"),
@@ -546,8 +518,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendingOtp": MessageLookupByLibrary.simpleMessage("Odosielanie OTP"),
         "share": MessageLookupByLibrary.simpleMessage("Zdieľať"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("Zdieľať skóre"),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("Zobrazovanie reklám"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("Zobrazovanie reklám"),
         "signIn": MessageLookupByLibrary.simpleMessage("Prihlásiť sa"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "Odhlásenie úspešné",
@@ -578,8 +549,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Úspešné"),
         "survey": MessageLookupByLibrary.simpleMessage("Prieskum"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Prieskum dokončený. Odmena bude čoskoro",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -600,16 +570,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "Všeobecné obchodné podmienky",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("Podmienky služby"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("Podmienky služby"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Aktualizácia tokenu zlyhala",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Top ponuka!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("Celkové odmeny"),
-        "totalVideos":
-            MessageLookupByLibrary.simpleMessage("Celkový počet videí"),
+        "totalVideos": MessageLookupByLibrary.simpleMessage("Celkový počet videí"),
         "totalWebsites": MessageLookupByLibrary.simpleMessage(
           "Celkový počet webových stránok",
         ),
@@ -673,8 +641,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Sledujte videá a získajte body",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Odoslali sme 6-ciferný kód na váš\nmobil ",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -687,26 +654,22 @@ class MessageLookup extends MessageLookupByLibrary {
         "wheel": MessageLookupByLibrary.simpleMessage("Koleso"),
         "winner": MessageLookupByLibrary.simpleMessage("Víťaz!"),
         "withdraw": MessageLookupByLibrary.simpleMessage("Výber"),
-        "withdrawAccount":
-            MessageLookupByLibrary.simpleMessage("Účet na výber"),
+        "withdrawAccount": MessageLookupByLibrary.simpleMessage("Účet na výber"),
         "withdrawRequestedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Žiadosť o výber bola úspešná",
         ),
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Nesprávny OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Áno"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Áno, odstrániť!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("Ste deaktivovaní!"),
-        "youAreDisabled":
-            MessageLookupByLibrary.simpleMessage("Ste deaktivovaní!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("Ste deaktivovaní!"),
+        "youAreDisabled": MessageLookupByLibrary.simpleMessage("Ste deaktivovaní!"),
         "youAreNotEligibleForThisSurvey": MessageLookupByLibrary.simpleMessage(
           "Nie ste oprávnený na tento prieskum",
         ),
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Opakujete kvíz",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Tento kvíz ste už vyhrali. Skúste iný kvíz",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Získali ste"),

@@ -27,8 +27,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "No": MessageLookupByLibrary.simpleMessage("Nej"),
         "Paytm": MessageLookupByLibrary.simpleMessage("Paytm"),
-        "PleaseEnterYourOTP":
-            MessageLookupByLibrary.simpleMessage("Ange din OTP"),
+        "PleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage("Ange din OTP"),
         "RedeemYourPints": MessageLookupByLibrary.simpleMessage(
           "Lösa in dina poäng",
         ),
@@ -58,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Redan belönad, kom tillbaka senare",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Redan belönad. Försök igen imorgon",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -78,18 +76,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Annotera bilder för AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple-inloggning fungerar på Apple-enheter",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Godkänner du?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Är du säker på att du vill radera detta konto?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Auktorisering misslyckades",
         ),
@@ -104,13 +99,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Kamera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Kontantraket"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Ändra lösenord"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Ändra lösenord"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Tar ut inträdesavgift",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Kontrollera din mobil",
         ),
@@ -125,13 +118,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Slutför erbjudanden och få poäng",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Slutför profil"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Slutför profil"),
         "completeanaction": MessageLookupByLibrary.simpleMessage(
           "Slutför en åtgärd",
         ),
-        "completingProfile":
-            MessageLookupByLibrary.simpleMessage("Slutför profil"),
+        "completingProfile": MessageLookupByLibrary.simpleMessage("Slutför profil"),
         "confirmPassword": MessageLookupByLibrary.simpleMessage(
           "Bekräfta lösenord",
         ),
@@ -149,8 +140,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "continueWithMobile": MessageLookupByLibrary.simpleMessage(
           "Fortsätt med mobil",
         ),
-        "customVideos":
-            MessageLookupByLibrary.simpleMessage("Anpassade videor"),
+        "customVideos": MessageLookupByLibrary.simpleMessage("Anpassade videor"),
         "d": MessageLookupByLibrary.simpleMessage("D"),
         "dailyReward": MessageLookupByLibrary.simpleMessage("Daglig belöning!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
@@ -163,8 +153,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Dagar att slutföra",
         ),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("Radera konton"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Raderar konto"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Raderar konto"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Radering lyckades",
         ),
@@ -187,8 +176,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailDoesNotExist": MessageLookupByLibrary.simpleMessage(
           "E-postadress finns inte",
         ),
-        "enterCoinAmount":
-            MessageLookupByLibrary.simpleMessage("Ange myntbelopp"),
+        "enterCoinAmount": MessageLookupByLibrary.simpleMessage("Ange myntbelopp"),
         "enterFirstName": MessageLookupByLibrary.simpleMessage("Ange förnamn"),
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Ange ditt fullständiga namn",
@@ -217,13 +205,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Ange inbjudningskod",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Inträdesavgift"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Ett fel inträffade"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Ett fel inträffade"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Ett fel inträffade. Försök igen",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Ett fel inträffade"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Ett fel inträffade"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Ett fel inträffade. Försök igen",
         ),
@@ -242,8 +228,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Fel vid inläsning av video",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("Förnamn"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Glömt lösenord"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("Glömt lösenord"),
         "free": MessageLookupByLibrary.simpleMessage("Gratis"),
         "fullName": MessageLookupByLibrary.simpleMessage("Fullständigt namn"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -252,8 +237,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Erbjudande"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galleri"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("Får belöning"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("Får belöningar"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("Får belöningar"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "Får dagens belöning",
         ),
@@ -270,8 +254,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ifYouPlayThisQuizThen": MessageLookupByLibrary.simpleMessage(
           "Om du spelar detta quiz",
         ),
-        "ifYouRetakeThen":
-            MessageLookupByLibrary.simpleMessage("Om du gör om det"),
+        "ifYouRetakeThen": MessageLookupByLibrary.simpleMessage("Om du gör om det"),
         "ifYouScratchThisCard": MessageLookupByLibrary.simpleMessage(
           "Om du skrapar detta kort då",
         ),
@@ -283,8 +266,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Instruktioner"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("Ogiltigt OTP"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Inbjudningskod"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Inbjudningskod"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Inbjudningskod kopierad",
         ),
@@ -295,8 +277,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Bjud in dina vänner att använda Cash Rocket och du kommer att få 100 poäng för var och en",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("är för huvudramen"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("är för huvudramen"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "om du använder det kommer du att upptäcka",
         ),
@@ -344,8 +325,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noOfferFound": MessageLookupByLibrary.simpleMessage(
           "Ingen erbjudande hittades",
         ),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("Inget quiz hittades"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("Inget quiz hittades"),
         "none": MessageLookupByLibrary.simpleMessage("Ingen"),
         "notDefined": MessageLookupByLibrary.simpleMessage("Ej definierad"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
@@ -369,8 +349,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pageFinishedLoading": MessageLookupByLibrary.simpleMessage(
           "Sidan har laddats klart",
         ),
-        "pageResourceError":
-            MessageLookupByLibrary.simpleMessage("Sidaresursfel"),
+        "pageResourceError": MessageLookupByLibrary.simpleMessage("Sidaresursfel"),
         "pageStartedLoading": MessageLookupByLibrary.simpleMessage(
           "Sidan började laddas",
         ),
@@ -385,8 +364,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Lösenordet kan inte vara tomt",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Lösenordet kan inte vara kortare än 6 tecken",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -395,8 +373,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Lösenord krävs",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Lösenordets längd måste vara minst 6 tecken",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -424,12 +401,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Kontrollera din inköpskod",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Kom tillbaka imorgon\nför att titta på videon",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Slutför uppgiften inom 22 dagar",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -441,13 +416,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseEnterYourAddressbelow": MessageLookupByLibrary.simpleMessage(
           "Ange din e-postadress nedan för att ta emot ditt",
         ),
-        "pleaseEnterYourOTP":
-            MessageLookupByLibrary.simpleMessage("Ange din OTP"),
+        "pleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage("Ange din OTP"),
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Ange koden nedan för att återställa din",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Vänligen välj uttagsmetod och valuta",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("Försök igen"),
@@ -457,8 +430,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Poäng mottagna"),
         "points": MessageLookupByLibrary.simpleMessage("Poäng"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Poäng mottagna"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Poäng mottagna"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "poäng kommer att dras av!",
         ),
@@ -467,16 +439,13 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish Enkät"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish Enkät"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Tryck på SNURR-hjulet",
         ),
         "price": MessageLookupByLibrary.simpleMessage("pris"),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("Integritetspolicy"),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("Integritetspolicy"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("Integritetspolicy"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("Integritetspolicy"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Integritetspolicy | Cash Rocket",
         ),
@@ -497,15 +466,12 @@ class MessageLookup extends MessageLookupByLibrary {
           "Nå nivå 100 i spelet!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("Lösa in"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("Lös in dina poäng"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("Lös in dina poäng"),
         "refer": MessageLookupByLibrary.simpleMessage("Hänvisa"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Kom ihåg mig"),
-        "requestingWithdraw":
-            MessageLookupByLibrary.simpleMessage("Begär uttag"),
+        "requestingWithdraw": MessageLookupByLibrary.simpleMessage("Begär uttag"),
         "resendCode": MessageLookupByLibrary.simpleMessage("Skicka koden igen"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Återställ lösenord"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Återställ lösenord"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "Återställer lösenord",
         ),
@@ -525,11 +491,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Lost Crus...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Spara"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Skrapa och vinn!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Skrapa och vinn!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Skrapkort"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Skrapa ovanstående kort genom att svepa på det",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Sekunder"),
@@ -560,8 +524,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Något gick fel",
         ),
         "sorry": MessageLookupByLibrary.simpleMessage("Ledsen"),
-        "spinTheWheel":
-            MessageLookupByLibrary.simpleMessage("Snurra på hjulet"),
+        "spinTheWheel": MessageLookupByLibrary.simpleMessage("Snurra på hjulet"),
         "spinTime": MessageLookupByLibrary.simpleMessage("Snurrtid"),
         "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage(
           "Inträdesavgift för att snurra hjulet",
@@ -572,8 +535,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Framgångsrik"),
         "survey": MessageLookupByLibrary.simpleMessage("Undersökning"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Enkäten är klar. Belöning kommer snart",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -582,8 +544,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelClosed": MessageLookupByLibrary.simpleMessage(
           "Enkäten är stängd",
         ),
-        "surveyPanelOpen":
-            MessageLookupByLibrary.simpleMessage("Enkäten är öppen"),
+        "surveyPanelOpen": MessageLookupByLibrary.simpleMessage("Enkäten är öppen"),
         "tendingOffers": MessageLookupByLibrary.simpleMessage(
           "Erbjudanden underhålls",
         ),
@@ -593,17 +554,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "Villkor och bestämmelser",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("Användarvillkor"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("Användarvillkor"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Uppdatering av token misslyckades",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Topperbjudande!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("Totala belöningar"),
-        "totalVideos":
-            MessageLookupByLibrary.simpleMessage("Totalt antal videor"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("Totala belöningar"),
+        "totalVideos": MessageLookupByLibrary.simpleMessage("Totalt antal videor"),
         "totalWebsites": MessageLookupByLibrary.simpleMessage(
           "Totalt antal webbplatser",
         ),
@@ -643,8 +601,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verifyingOTP": MessageLookupByLibrary.simpleMessage("Verifierar OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("SEGER"),
         "videos": MessageLookupByLibrary.simpleMessage("Videor"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("Besök webbplatsen"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("Besök webbplatsen"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "Besök webbplatsen och få",
         ),
@@ -666,8 +623,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Titta på videor och få poäng",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Vi har skickat den sexsiffriga koden till din\nmobil ",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -687,8 +643,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Fel OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Ja"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Ja, radera det!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("Du är inaktiverad!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("Du är inaktiverad!"),
         "youAreDisabled": MessageLookupByLibrary.simpleMessage(
           "Du är inaktiverad!",
         ),
@@ -698,8 +653,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Du gör om quizet",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Du har redan vunnit detta quiz. Försök med ett annat quiz",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Du har tjänat"),

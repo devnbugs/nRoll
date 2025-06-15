@@ -45,8 +45,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("AdMob Video"),
-        "admobVideoAds":
-            MessageLookupByLibrary.simpleMessage("Admob video oglasi"),
+        "admobVideoAds": MessageLookupByLibrary.simpleMessage("Admob video oglasi"),
         "allFeatures": MessageLookupByLibrary.simpleMessage("Sve funkcije"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "dozvoljavanje navigacije ka",
@@ -58,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Već ste nagrađeni, vratite se kasnije",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Već ste nagrađeni. Molimo pokušajte ponovo sutra",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -78,19 +76,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Označite slike za AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Prijavljivanje putem Apple-a će raditi na Apple uređajima",
         ),
-        "areYouAgree":
-            MessageLookupByLibrary.simpleMessage("Da li se slažete?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouAgree": MessageLookupByLibrary.simpleMessage("Da li se slažete?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Da li ste sigurni da želite da obrišete ovaj nalog?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Mreža publike"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Mreža publike"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Autorizacija nije uspela",
         ),
@@ -105,13 +99,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Kamera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Keš Raketa"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Promeni lozinku"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Promeni lozinku"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Naplaćivanje ulazne naknade",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Proverite svoj mobilni telefon",
         ),
@@ -120,15 +112,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
           "Pokupi dnevnu nagradu sada!",
         ),
-        "completeAnAction":
-            MessageLookupByLibrary.simpleMessage("Završite akciju"),
+        "completeAnAction": MessageLookupByLibrary.simpleMessage("Završite akciju"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Završite ponude i dobijate poene",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Završi profil"),
-        "completeanaction":
-            MessageLookupByLibrary.simpleMessage("Završi akciju"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Završi profil"),
+        "completeanaction": MessageLookupByLibrary.simpleMessage("Završi akciju"),
         "completingProfile": MessageLookupByLibrary.simpleMessage(
           "Završavanje profila",
         ),
@@ -160,12 +149,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "Datum ažuriranja (7. jun 2021)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("Dana za završetak"),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("Obrišite naloge"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Brisanje naloga"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("Dana za završetak"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("Obrišite naloge"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Brisanje naloga"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Brisanje uspešno",
         ),
@@ -195,10 +181,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Unesite svoje puno ime",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Unesite prezime"),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("Unesite lozinku"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Unesite prezime"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("Unesite lozinku"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Unesite svoju email adresu",
         ),
@@ -221,13 +205,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Unesite šifru poziva",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Ulazna naknada"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Došlo je do greške"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Došlo je do greške"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Došla je greška. Pokušajte ponovo",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Došla je greška"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Došla je greška"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Došlo je do greške. Molimo pokušajte ponovo",
         ),
@@ -264,8 +246,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Dobijanje nagrade za danas",
         ),
         "hard": MessageLookupByLibrary.simpleMessage("Teško"),
-        "havenotAnyAcconts":
-            MessageLookupByLibrary.simpleMessage("Nemate nalog?"),
+        "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage("Nemate nalog?"),
         "heyMoreCash": MessageLookupByLibrary.simpleMessage("Hej! Više novca!"),
         "history": MessageLookupByLibrary.simpleMessage("Istorija"),
         "home": MessageLookupByLibrary.simpleMessage("Početna"),
@@ -298,22 +279,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Pozovite svoje prijatelje da koriste Keš Raketu i dobićete 100 poena za svakog",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("za glavni okvir"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("za glavni okvir"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "ako je koristite, otkrićete je",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Ponuda"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Ponuda"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Zid"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("Jezik"),
         "lastName": MessageLookupByLibrary.simpleMessage("Prezime"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("Hajde da počnemo"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("Hajde da počnemo"),
         "loading": MessageLookupByLibrary.simpleMessage("Učitavanje"),
         "logIn": MessageLookupByLibrary.simpleMessage("Prijavi se"),
         "logOut": MessageLookupByLibrary.simpleMessage("Odjavi se"),
@@ -385,14 +363,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "Plaćeno za karticu za grebanje",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("Plaćena igra kviza"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("Plaćena igra kviza"),
         "password": MessageLookupByLibrary.simpleMessage("Lozinka"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Lozinka ne može biti prazna",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Lozinka ne može imati manje od 6 karaktera",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -401,8 +377,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Lozinka je obavezna",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Lozinka mora imati najmanje 6 karaktera",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -423,20 +398,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "playRiseofKingdoms": MessageLookupByLibrary.simpleMessage(
           "1. Igraj Rise of Kingdoms",
         ),
-        "playVideo":
-            MessageLookupByLibrary.simpleMessage("Reproducirajte video"),
+        "playVideo": MessageLookupByLibrary.simpleMessage("Reproducirajte video"),
         "pleaseCheckYourOtp": MessageLookupByLibrary.simpleMessage(
           "Molimo proverite svoj OTP",
         ),
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Proverite svoj kod za kupovinu",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Molimo vas vratite se sutra\nda biste pogledali video",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Molimo završite zadatak u roku od 22 dana",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -454,8 +426,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Unesite kod ispod da biste resetovali",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Molimo izaberite metodu isplate i valutu",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -467,8 +438,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Poeni primljeni"),
         "points": MessageLookupByLibrary.simpleMessage("Bodovi"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Poeni primljeni"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Poeni primljeni"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "poeni će biti oduzeti!",
         ),
@@ -477,10 +447,8 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish anketa"),
-        "pressTheSpinWheel":
-            MessageLookupByLibrary.simpleMessage("Pritisni SPIN"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish anketa"),
+        "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage("Pritisni SPIN"),
         "price": MessageLookupByLibrary.simpleMessage("cena"),
         "privacyPolicty": MessageLookupByLibrary.simpleMessage(
           "Politika privatnosti",
@@ -516,10 +484,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
           "Zahtjev za isplatu",
         ),
-        "resendCode":
-            MessageLookupByLibrary.simpleMessage("Ponovo pošalji kod"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Resetuj lozinku"),
+        "resendCode": MessageLookupByLibrary.simpleMessage("Ponovo pošalji kod"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Resetuj lozinku"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "Resetovanje lozinke",
         ),
@@ -542,10 +508,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "scratchAndWin": MessageLookupByLibrary.simpleMessage(
           "Izgrebite i osvojite!",
         ),
-        "scratchCard":
-            MessageLookupByLibrary.simpleMessage("Karta za grebanje"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchCard": MessageLookupByLibrary.simpleMessage("Karta za grebanje"),
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Grebanje gore navedene karte povlačenjem po njoj",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Sekundi"),
@@ -556,8 +520,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendingOtp": MessageLookupByLibrary.simpleMessage("Slanje OTP-a"),
         "share": MessageLookupByLibrary.simpleMessage("Podeli"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("Podeli rezultat"),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("Prikazivanje oglasa"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("Prikazivanje oglasa"),
         "signIn": MessageLookupByLibrary.simpleMessage("Prijavi se"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "Odjavljivanje uspešno",
@@ -588,8 +551,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Uspešno"),
         "survey": MessageLookupByLibrary.simpleMessage("Anketa"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Anketa je završena. Bićete nagrađeni uskoro",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -601,16 +563,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Panel anketa je otvoren",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Aktuelne ponude"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Aktuelne ponude"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Uslovi i odredbe korišćenja",
         ),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "Uslovi korišćenja",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("Uslovi korišćenja"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("Uslovi korišćenja"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Ažuriranje tokena nije uspelo",
@@ -656,12 +616,10 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "verification": MessageLookupByLibrary.simpleMessage("Verifikacija"),
         "verify": MessageLookupByLibrary.simpleMessage("Proverite"),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("Verifikovanje OTP-a"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("Verifikovanje OTP-a"),
         "victory": MessageLookupByLibrary.simpleMessage("POBEDA"),
         "videos": MessageLookupByLibrary.simpleMessage("Video zapisi"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("Posetite veb sajt"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("Posetite veb sajt"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "Posetite veb sajt i dobijte",
         ),
@@ -670,8 +628,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "vungleVideo": MessageLookupByLibrary.simpleMessage("Vungle Video"),
         "wannads": MessageLookupByLibrary.simpleMessage("Wannads"),
-        "wannadsOfferwall":
-            MessageLookupByLibrary.simpleMessage("Wannads Ponude"),
+        "wannadsOfferwall": MessageLookupByLibrary.simpleMessage("Wannads Ponude"),
         "watchAVideoOnlyOneTimeInADay": MessageLookupByLibrary.simpleMessage(
           "Pogledajte video snimak samo jednom dnevno",
         ),
@@ -682,8 +639,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Gledajte videozapise i dobijate poene",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Poslali smo vam šestocifreni kod na vaš\nmobilni telefon ",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -717,8 +673,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Ponovno radite kviz",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Već ste pobedili u ovom kvizu. Pokušajte da igrate drugi kviz",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Zaradili ste"),

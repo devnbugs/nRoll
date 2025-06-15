@@ -140,8 +140,7 @@ class _OtpVerifyState extends State<OtpVerify> {
                                     keyboardType: TextInputType.number,
                                     textAlign: TextAlign.center,
                                     decoration: otpInputDecoration,
-                                    onChanged: (value) =>
-                                        nextField(value, pin3FocusNode),
+                                    onChanged: (value) => nextField(value, pin3FocusNode),
                                   ),
                                 ),
                                 SizedBox(
@@ -154,8 +153,7 @@ class _OtpVerifyState extends State<OtpVerify> {
                                     keyboardType: TextInputType.number,
                                     textAlign: TextAlign.center,
                                     decoration: otpInputDecoration,
-                                    onChanged: (value) =>
-                                        nextField(value, pin4FocusNode),
+                                    onChanged: (value) => nextField(value, pin4FocusNode),
                                   ),
                                 ),
                                 SizedBox(
@@ -168,8 +166,7 @@ class _OtpVerifyState extends State<OtpVerify> {
                                     keyboardType: TextInputType.number,
                                     textAlign: TextAlign.center,
                                     decoration: otpInputDecoration,
-                                    onChanged: (value) =>
-                                        nextField(value, pin5FocusNode),
+                                    onChanged: (value) => nextField(value, pin5FocusNode),
                                   ),
                                 ),
                                 SizedBox(
@@ -182,8 +179,7 @@ class _OtpVerifyState extends State<OtpVerify> {
                                     keyboardType: TextInputType.number,
                                     textAlign: TextAlign.center,
                                     decoration: otpInputDecoration,
-                                    onChanged: (value) =>
-                                        nextField(value, pin6FocusNode),
+                                    onChanged: (value) => nextField(value, pin6FocusNode),
                                   ),
                                 ),
                                 SizedBox(
@@ -214,41 +210,27 @@ class _OtpVerifyState extends State<OtpVerify> {
                       padding: const EdgeInsets.all(10.0),
                       child: ButtonGlobal(
                           buttontext: lang.S.of(context).otpVerify,
-                          buttonDecoration:
-                              kButtonDecoration.copyWith(color: kMainColor),
+                          buttonDecoration: kButtonDecoration.copyWith(color: kMainColor),
                           onPressed: () async {
-                            if (pin1Controller.text.isEmpty ||
-                                pin2Controller.text.isEmpty ||
-                                pin3Controller.text.isEmpty ||
-                                pin4Controller.text.isEmpty ||
-                                pin5Controller.text.isEmpty ||
-                                pin6Controller.text.isEmpty) {
+                            if (pin1Controller.text.isEmpty || pin2Controller.text.isEmpty || pin3Controller.text.isEmpty || pin4Controller.text.isEmpty || pin5Controller.text.isEmpty || pin6Controller.text.isEmpty) {
                               // toast('Please Enter Your OTP');
                               toast(lang.S.of(context).pleaseEnterYourOTP);
                               // 7893927264
                             } else {
                               try {
                                 // EasyLoading.show(status: 'Verifying OTP');
-                                EasyLoading.show(
-                                    status: lang.S.of(context).verifyingOTP);
-                                String code = pin1Controller.text +
-                                    pin2Controller.text +
-                                    pin3Controller.text +
-                                    pin4Controller.text +
-                                    pin5Controller.text +
-                                    pin6Controller.text;
+                                EasyLoading.show(status: lang.S.of(context).verifyingOTP);
+                                String code = pin1Controller.text + pin2Controller.text + pin3Controller.text + pin4Controller.text + pin5Controller.text + pin6Controller.text;
                                 var response = await AuthRepo().verifyOtp(code);
                                 if (response) {
                                   setState(() {
                                     isVerified = true;
                                   });
                                   //EasyLoading.showSuccess('OTP Verified');
-                                  EasyLoading.showSuccess(
-                                      lang.S.of(context).oTPVerified);
+                                  EasyLoading.showSuccess(lang.S.of(context).oTPVerified);
                                 } else {
                                   // EasyLoading.showError('Please check your otp');
-                                  EasyLoading.showError(
-                                      lang.S.of(context).pleaseCheckYourOtp);
+                                  EasyLoading.showError(lang.S.of(context).pleaseCheckYourOtp);
                                 }
                               } catch (e) {
                                 EasyLoading.showError(e.toString());
@@ -261,8 +243,7 @@ class _OtpVerifyState extends State<OtpVerify> {
                 Column(
                   children: [
                     Padding(
-                      padding: const EdgeInsets.only(
-                          left: 20.0, right: 20.0, bottom: 10.0),
+                      padding: const EdgeInsets.only(left: 20.0, right: 20.0, bottom: 10.0),
                       child: AppTextField(
                         textFieldType: TextFieldType.PASSWORD,
                         controller: passwordController,
@@ -285,8 +266,7 @@ class _OtpVerifyState extends State<OtpVerify> {
                       ),
                     ),
                     Padding(
-                      padding: const EdgeInsets.only(
-                          left: 20.0, right: 20.0, bottom: 10.0),
+                      padding: const EdgeInsets.only(left: 20.0, right: 20.0, bottom: 10.0),
                       child: AppTextField(
                         textFieldType: TextFieldType.PASSWORD,
                         controller: confirmPasswordController,
@@ -313,43 +293,27 @@ class _OtpVerifyState extends State<OtpVerify> {
                       child: ButtonGlobal(
                           //buttontext: 'Reset Password',
                           buttontext: lang.S.of(context).resetPassword,
-                          buttonDecoration:
-                              kButtonDecoration.copyWith(color: kMainColor),
+                          buttonDecoration: kButtonDecoration.copyWith(color: kMainColor),
                           onPressed: () async {
-                            if (passwordController.text.isEmpty ||
-                                confirmPasswordController.text.isEmpty) {
+                            if (passwordController.text.isEmpty || confirmPasswordController.text.isEmpty) {
                               //toast('Please Enter Your OTP');
                               toast(lang.S.of(context).pleaseEnterYourOTP);
-                            } else if (passwordController.text !=
-                                confirmPasswordController.text) {
+                            } else if (passwordController.text != confirmPasswordController.text) {
                               // toast('Your Password Doesn\'t match');
-                              toast(
-                                  lang.S.of(context).yourPasswordDoesNotMatch);
+                              toast(lang.S.of(context).yourPasswordDoesNotMatch);
                             } else {
                               try {
                                 // EasyLoading.show(status: 'Resetting Password');
-                                EasyLoading.show(
-                                    status:
-                                        lang.S.of(context).resettingPassword);
-                                String code = pin1Controller.text +
-                                    pin2Controller.text +
-                                    pin3Controller.text +
-                                    pin4Controller.text +
-                                    pin5Controller.text +
-                                    pin6Controller.text;
-                                var response = await AuthRepo().resetPassword(
-                                    code, passwordController.text);
+                                EasyLoading.show(status: lang.S.of(context).resettingPassword);
+                                String code = pin1Controller.text + pin2Controller.text + pin3Controller.text + pin4Controller.text + pin5Controller.text + pin6Controller.text;
+                                var response = await AuthRepo().resetPassword(code, passwordController.text);
                                 if (response && mounted) {
                                   //EasyLoading.showSuccess('Password Reset Successfully');
-                                  EasyLoading.showSuccess(lang.S
-                                      .of(context)
-                                      .passwordResetSuccessfully);
-                                  const LogIn()
-                                      .launch(context, isNewTask: true);
+                                  EasyLoading.showSuccess(lang.S.of(context).passwordResetSuccessfully);
+                                  const LogIn().launch(context, isNewTask: true);
                                 } else {
                                   //EasyLoading.showError('Error Happened');
-                                  EasyLoading.showError(
-                                      lang.S.of(context).errorHappened);
+                                  EasyLoading.showError(lang.S.of(context).errorHappened);
                                 }
                               } catch (e) {
                                 EasyLoading.showError(e.toString());

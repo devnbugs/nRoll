@@ -41,8 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Cash Rocket වෙත ස්වභාවික",
         ),
         "a": MessageLookupByLibrary.simpleMessage("A"),
-        "adColonyVideo":
-            MessageLookupByLibrary.simpleMessage("AdColony වීඩියෝ"),
+        "adColonyVideo": MessageLookupByLibrary.simpleMessage("AdColony වීඩියෝ"),
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("AdMob වීඩියෝ"),
@@ -64,8 +63,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "ඉක්මනින් සම්මාන ලැබී ඇත, පසුව ආපසු එන්න",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "පෙරමන් සම්මානය ලබා දී ඇත. කරුණාකර හෙට නැවත උත්සාහ කරන්න",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -84,16 +82,13 @@ class MessageLookup extends MessageLookupByLibrary {
           "ඡායාරූප සටහන් කරන්න",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple පිවිසුම Apple උපාංග වල ක්‍රියා කරනු ඇත",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage(
           "ඔබට සම්පූර්ණයෙන්ම සම්පුර්නයේද?",
         ),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
-                "ඔබට මෙම ගිණුම මැකීමට විශ්වාසද?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage("ඔබට මෙම ගිණුම මැකීමට විශ්වාසද?"),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
         "audienceNetwork": MessageLookupByLibrary.simpleMessage(
           "Audiences Network",
@@ -175,10 +170,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "daysToComplete": MessageLookupByLibrary.simpleMessage(
           "සම්පූර්ණ කිරීම සදහා දින",
         ),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("ගිණුම් ඉවත් කරන්න"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("ගිණුම මැකෙනවා"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("ගිණුම් ඉවත් කරන්න"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("ගිණුම මැකෙනවා"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "මැකීම සාර්ථකයි",
         ),
@@ -242,8 +235,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "ප්‍රහාර කේතය ඇතුළත් කරන්න",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("ආදාන ගාස්තුව"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("දෝෂයක් සිදුවී ඇත"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("දෝෂයක් සිදුවී ඇත"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "දෝෂයක් සිදුවිය. නැවත උත්සාහ කරන්න",
         ),
@@ -266,8 +258,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "වීඩියෝ පූරණය කිරීමට අසාර්ථකයි",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("පළමු නම"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("මුරපදය අමතක වීම"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("මුරපදය අමතක වීම"),
         "free": MessageLookupByLibrary.simpleMessage("නිදාගත්"),
         "fullName": MessageLookupByLibrary.simpleMessage("මුල් නම"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -277,10 +268,8 @@ class MessageLookup extends MessageLookupByLibrary {
           "Fyber පාරිභෝගික කටයුතු",
         ),
         "gallary": MessageLookupByLibrary.simpleMessage("ගැලරිය"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("සම්මානය ලබා ගනී"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("සම්මාන ලබා ගැනීම"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("සම්මානය ලබා ගනී"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("සම්මාන ලබා ගැනීම"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "අද සම්මාන ලබා ගැනීම",
         ),
@@ -324,8 +313,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "ඔබගේ මිත්‍රත්ව Cash Rocket භාවිතා කිරීමට ආරම්භ කරන්නේය, ඔබට එක් වින්ඩෝලයක් සඳහා 100 ලකුණු ලබා ගන්නෙමු",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("ප්‍රධාන පටුම සඳහා"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("ප්‍රධාන පටුම සඳහා"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "එය භාවිතා කරන්නේ, ඔබට හැඟෙයි",
         ),
@@ -413,14 +401,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "ස්ක්‍රැච් කාඩ් සඳහා ගෙවා ඇත",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("ගෙවූ මසීකර් ක්‍රීඩා"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("ගෙවූ මසීකර් ක්‍රීඩා"),
         "password": MessageLookupByLibrary.simpleMessage("මුරපදය"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "මුරපදය හිස් විය නොහැක",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "මුරපදය 6 අක්ෂර වලට අඩු විය නොහැක",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -429,8 +415,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "මුරපදය අවශ්‍යයි",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "මුරපදයේ දිග සත්‍ය පරිමාණයක් 6 අකුරු විය යුතුය",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -451,18 +436,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "playRiseofKingdoms": MessageLookupByLibrary.simpleMessage(
           "1.  Play Rise of Kingdoms",
         ),
-        "playVideo":
-            MessageLookupByLibrary.simpleMessage("වීඩියෝ සුරක්ද කරන්න"),
+        "playVideo": MessageLookupByLibrary.simpleMessage("වීඩියෝ සුරක්ද කරන්න"),
         "pleaseCheckYourOtp": MessageLookupByLibrary.simpleMessage(
           "ඔබේ OTP පරීක්ෂා කරන්න",
         ),
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "ඔබගේ මිලදී ගැනීමේ කේතය පරීක්ෂා කරන්න",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage("මෘදු ඉක්මනට පිටනන් බලන්න"),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage("මෘදු ඉක්මනට පිටනන් බලන්න"),
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4.  Please complete the task within 22 days",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -480,8 +462,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "කරුණාකර ඔබේ අංකය නැවත සකස් කිරීමට පහත ඇතුළත් කරන්න",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "කරුණාකර මුදල් තල් මාර්ගය සහ මුදල් තෝරන්න",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -493,8 +474,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("ලබාගත් ලකුණු"),
         "points": MessageLookupByLibrary.simpleMessage("ලකුණු"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("පොයින්ට් ලැබී ඇත"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("පොයින්ට් ලැබී ඇත"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "පොයින්ට් අඩු වේ!",
         ),
@@ -503,8 +483,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("පෝල්‌ෆිෂ්"),
         "pollfish": MessageLookupByLibrary.simpleMessage("පොල්ෆිෂ්"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("පොල්ෆිෂ් සර්වේ"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("පොල්ෆිෂ් සර්වේ"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "සැපයින් වීල් රෝයමය",
         ),
@@ -512,8 +491,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacyPolicty": MessageLookupByLibrary.simpleMessage(
           "පෞද්ගලිකත්ව පොලිස්",
         ),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("පෞද්ගලිකත්ව පොලිස්"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("පෞද්ගලිකත්ව පොලිස්"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "පෞද්ගලිකත්ව පොලිස් | මුදල් රොකට්",
         ),
@@ -543,8 +521,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "මුදල් තැන්පත් ඉල්ලා සිටීම",
         ),
         "resendCode": MessageLookupByLibrary.simpleMessage("කේතය නැවත යවන්න"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("මුරපදය නැවත සකසන්න"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("මුරපදය නැවත සකසන්න"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "මුරපදය නැවත සකස් කරමින්",
         ),
@@ -552,8 +529,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "සමාලෝචනය ලබා ගත නොහැක",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("ලකුණු ලබාගන්න"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("සම්මානය එකතු කරන ලදි"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("සම්මානය එකතු කරන ලදි"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("සම්මාන පොයින්ට්"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "සම්මාන ලබා දීම සාර්ථකයි",
@@ -565,11 +541,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "රටවාහිනිය: අක්ෂිප්‍රසිද්ධා ක්‍රීසික්",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("සුරකින්න"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("අලංකනු සහ සාදනවා!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("අලංකනු සහ සාදනවා!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("කුමුද කාඩ්"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "ඉහළ කාඩ් එක අලවනට අමතන්න",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("තත්පර"),
@@ -588,16 +562,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "නිකුත් වීම සාර්ථකයි",
         ),
         "signUp": MessageLookupByLibrary.simpleMessage("ලියාපදිංචි වන්න"),
-        "signUpSuccessful":
-            MessageLookupByLibrary.simpleMessage("උත්සහය සාර්ථකයි"),
+        "signUpSuccessful": MessageLookupByLibrary.simpleMessage("උත්සහය සාර්ථකයි"),
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage(
           "ඊමේල් සමඟ ලියාපදිංචි වන්න",
         ),
         "signingOut": MessageLookupByLibrary.simpleMessage("නිකුත් වීම"),
         "signingUp": MessageLookupByLibrary.simpleMessage("භාගත වෙමින්"),
         "skip": MessageLookupByLibrary.simpleMessage("නැවත අවලංගු කරන්න"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("දැනටමත් අත් හරින්න"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("දැනටමත් අත් හරින්න"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "කිසියම් දෝෂයක් සිදු විය",
         ),
@@ -615,8 +587,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("සාර්ථකයි"),
         "survey": MessageLookupByLibrary.simpleMessage("මාතෘකා"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "සර්වේ සම්පූර්ණ විය. ඉක්මනින් සම්මානය ලබා දීමට යනවා",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -643,8 +614,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "topOffer": MessageLookupByLibrary.simpleMessage("හොඳම ප්‍රමාණය!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("මුළු ලැබුණු දේ"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("සම්භාව්ය වීඩියෝ"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("සම්භාව්ය වෙබ්‌අඩව්"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("සම්භාව්ය වෙබ්‌අඩව්"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("නැවත උත්සාහ කරන්න"),
         "tutorial": MessageLookupByLibrary.simpleMessage("පාඩම"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
@@ -707,8 +677,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "දෘෂ්ටියන් බලන්න සහ පොයින්ට් ලබා ගන්න",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "අපි 6 ශ්‍රීතයේ කේතය ඔබගේ\nජංගමයට යවාලීමේදී ",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -721,8 +690,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wheel": MessageLookupByLibrary.simpleMessage("වීල්"),
         "winner": MessageLookupByLibrary.simpleMessage("සුපිරියේදී!"),
         "withdraw": MessageLookupByLibrary.simpleMessage("මුදල් දිනාගන්න"),
-        "withdrawAccount":
-            MessageLookupByLibrary.simpleMessage("ගිණුම් අප්‍රමානය"),
+        "withdrawAccount": MessageLookupByLibrary.simpleMessage("ගිණුම් අප්‍රමානය"),
         "withdrawRequestedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "මුදල් ඉල්ලා සිටීම සාර්ථකයි",
         ),
@@ -737,8 +705,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "ඔබ මසීකර් නැවත ගෙන ඇත",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "ඔබ දැනටමත් මෙම මසීකර් ජය ගෙන ඇත. වෙනත් මසීකර් ක්‍රීඩාවක් විවෘත කරන්න",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("ඔබට ලබාදුනුයේ"),

@@ -31,8 +31,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "RedeemYourPints": MessageLookupByLibrary.simpleMessage(
           "Lunasta pisteitäsi",
         ),
-        "SecureYourMoney":
-            MessageLookupByLibrary.simpleMessage("Suojaa rahasi"),
+        "SecureYourMoney": MessageLookupByLibrary.simpleMessage("Suojaa rahasi"),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "WelcomeToCashRocket": MessageLookupByLibrary.simpleMessage(
           "Tervetuloa Cash Rocketiin",
@@ -45,8 +44,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "admobVideoAds": MessageLookupByLibrary.simpleMessage(
           "Admob Videomainokset",
         ),
-        "allFeatures":
-            MessageLookupByLibrary.simpleMessage("Kaikki ominaisuudet"),
+        "allFeatures": MessageLookupByLibrary.simpleMessage("Kaikki ominaisuudet"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "navigoinnin salliminen",
         ),
@@ -57,8 +55,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Olet jo saanut palkinnon, tule takaisin myöhemmin",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Jo palkittu. Yritä uudelleen huomenna",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -77,19 +74,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Kommentoi kuvia AI:lle",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple-kirjautuminen toimii Apple-laitteilla",
         ),
-        "areYouAgree":
-            MessageLookupByLibrary.simpleMessage("Oletko samaa mieltä?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouAgree": MessageLookupByLibrary.simpleMessage("Oletko samaa mieltä?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Oletko varma, että haluat poistaa tämän tilin?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Valtuutus epäonnistui",
         ),
@@ -104,13 +97,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Kamera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Käteisraketti"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Vaihda salasana"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Vaihda salasana"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Sisäänpääsymaksun veloittaminen",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Tarkista matkapuhelimesi",
         ),
@@ -125,21 +116,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Täytä tarjoukset ja saa pisteitä",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Täytä profiili"),
-        "completeanaction":
-            MessageLookupByLibrary.simpleMessage("Täytä toiminto"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Täytä profiili"),
+        "completeanaction": MessageLookupByLibrary.simpleMessage("Täytä toiminto"),
         "completingProfile": MessageLookupByLibrary.simpleMessage(
           "Profiilin täyttäminen",
         ),
         "confirmPassword": MessageLookupByLibrary.simpleMessage(
           "Vahvista salasana",
         ),
-        "congratulations":
-            MessageLookupByLibrary.simpleMessage("Onneksi olkoon"),
+        "congratulations": MessageLookupByLibrary.simpleMessage("Onneksi olkoon"),
         "continu": MessageLookupByLibrary.simpleMessage("Jatka"),
-        "continueWithApple":
-            MessageLookupByLibrary.simpleMessage("Jatka Applella"),
+        "continueWithApple": MessageLookupByLibrary.simpleMessage("Jatka Applella"),
         "continueWithFacebok": MessageLookupByLibrary.simpleMessage(
           "Jatka Facebookilla",
         ),
@@ -149,8 +136,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "continueWithMobile": MessageLookupByLibrary.simpleMessage(
           "Jatka matkapuhelimella",
         ),
-        "customVideos":
-            MessageLookupByLibrary.simpleMessage("Räätälöidyt videot"),
+        "customVideos": MessageLookupByLibrary.simpleMessage("Räätälöidyt videot"),
         "d": MessageLookupByLibrary.simpleMessage("D"),
         "dailyReward": MessageLookupByLibrary.simpleMessage(
           "Päivittäinen palkinto!",
@@ -184,8 +170,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "earnpoints": MessageLookupByLibrary.simpleMessage(
           "Ansaitse 2921 pistettä",
         ),
-        "editProfile":
-            MessageLookupByLibrary.simpleMessage("Muokkaa profiilia"),
+        "editProfile": MessageLookupByLibrary.simpleMessage("Muokkaa profiilia"),
         "email": MessageLookupByLibrary.simpleMessage("Sähköposti"),
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
           "Sähköpostiosoite on pakollinen",
@@ -199,8 +184,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFirstName": MessageLookupByLibrary.simpleMessage(
           "Kirjoita etunimesi",
         ),
-        "enterFullName":
-            MessageLookupByLibrary.simpleMessage("Syötä koko nimesi"),
+        "enterFullName": MessageLookupByLibrary.simpleMessage("Syötä koko nimesi"),
         "enterLastName": MessageLookupByLibrary.simpleMessage(
           "Kirjoita sukunimesi",
         ),
@@ -260,8 +244,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber-tarjous"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galleria"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Palkkion saamista"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Palkkion saamista"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage(
           "Saamassasi palkintoja",
         ),
@@ -272,8 +255,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "Eikö sinulla ole tiliä?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Hei! Lisää rahaa!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Hei! Lisää rahaa!"),
         "history": MessageLookupByLibrary.simpleMessage("Historia"),
         "home": MessageLookupByLibrary.simpleMessage("Koti"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -301,19 +283,16 @@ class MessageLookup extends MessageLookupByLibrary {
           "Kutsukoodi kopioitu",
         ),
         "inviteNow": MessageLookupByLibrary.simpleMessage("Kutsu nyt"),
-        "inviteYourFriends":
-            MessageLookupByLibrary.simpleMessage("Kutsu ystäväsi"),
+        "inviteYourFriends": MessageLookupByLibrary.simpleMessage("Kutsu ystäväsi"),
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Kutsu ystäväsi käyttämään Cash Rocketia ja saat 100 pistettä jokaisesta",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("on pääkehykseen"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("on pääkehykseen"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "Jos käytät sitä, huomaat sen",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall -tarjous"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall -tarjous"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -399,8 +378,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Salasana ei voi olla tyhjö",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Salasanan on oltava vähintään 6 merkkiä pitkä",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -409,8 +387,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Salasana on pakollinen",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Salasanan pituuden on oltava vähintään 6 merkkiä",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -438,16 +415,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Tarkista ostopalautuskoodisi",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Tule takaisin huomenna katsoaksesi videon",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Täytä tehtävä 22 päivän kuluessa",
         ),
-        "pleaseEnterTheAmount":
-            MessageLookupByLibrary.simpleMessage("Syötä summa"),
+        "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage("Syötä summa"),
         "pleaseEnterTheWithdrawAccount": MessageLookupByLibrary.simpleMessage(
           "Syötä nostotili",
         ),
@@ -458,11 +432,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Nollaa koodi alla olevalla koodilla",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
-                "Valitse nostotapa ja valuutta"),
-        "pleaseTryAgain":
-            MessageLookupByLibrary.simpleMessage("Yritä uudelleen"),
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage("Valitse nostotapa ja valuutta"),
+        "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("Yritä uudelleen"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("Odota hetki"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Odota, kunnes latautuu",
@@ -471,8 +442,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Pisteet vastaanotettu",
         ),
         "points": MessageLookupByLibrary.simpleMessage("Pisteet"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Pisteitä saatu"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Pisteitä saatu"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "pisteitä vähennetään!",
         ),
@@ -481,8 +451,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish Kysely"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish Kysely"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Paina PYÖRÄT-painiketta",
         ),
@@ -490,8 +459,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacyPolicty": MessageLookupByLibrary.simpleMessage(
           "Tietosuojakäytäntö",
         ),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("Tietosuojakäytäntö"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("Tietosuojakäytäntö"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Tietosuojakäytäntö | Cash Rocket",
         ),
@@ -512,8 +480,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Saavuta taso 100 pelissä!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("Lunasta"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("Lunasta pisteet"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("Lunasta pisteet"),
         "refer": MessageLookupByLibrary.simpleMessage("Suosittele"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Muista minut"),
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
@@ -522,8 +489,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "resendCode": MessageLookupByLibrary.simpleMessage(
           "Lähetä koodi uudelleen",
         ),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Nollaa salasana"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Nollaa salasana"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "Salasanan palautus",
         ),
@@ -543,23 +509,18 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Lost Crus...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Tallenna"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Raaputa ja voita!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Raaputa ja voita!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Raaputa kortti"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Raaputa yllä olevaa korttia pyyhkäisemällä sitä",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Sekuntia"),
-        "secureYourMoney":
-            MessageLookupByLibrary.simpleMessage("Suojaa rahasi"),
-        "sendOtp":
-            MessageLookupByLibrary.simpleMessage("Lähetä kertakäyttökoodi"),
+        "secureYourMoney": MessageLookupByLibrary.simpleMessage("Suojaa rahasi"),
+        "sendOtp": MessageLookupByLibrary.simpleMessage("Lähetä kertakäyttökoodi"),
         "sendingOtp": MessageLookupByLibrary.simpleMessage("Lähetetään OTP"),
         "share": MessageLookupByLibrary.simpleMessage("Jaa"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("Jaa pisteesi"),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("Näytetään mainoksia"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("Näytetään mainoksia"),
         "signIn": MessageLookupByLibrary.simpleMessage("Kirjaudu sisään"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "Kirjautuminen ulos onnistui",
@@ -571,12 +532,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage(
           "Rekisteröidy sähköpostilla",
         ),
-        "signingOut":
-            MessageLookupByLibrary.simpleMessage("Kirjautuminen ulos"),
+        "signingOut": MessageLookupByLibrary.simpleMessage("Kirjautuminen ulos"),
         "signingUp": MessageLookupByLibrary.simpleMessage("Rekisteröityminen"),
         "skip": MessageLookupByLibrary.simpleMessage("Ohita"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("Ohita toistaiseksi"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("Ohita toistaiseksi"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "Jokin meni pieleen",
         ),
@@ -592,8 +551,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Onnistunut"),
         "survey": MessageLookupByLibrary.simpleMessage("Kysely"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Kysely suoritettu. Palkitaan pian",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -609,18 +567,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Käyttöehdot",
         ),
-        "termsAndConditions":
-            MessageLookupByLibrary.simpleMessage("Käyttöehdot"),
+        "termsAndConditions": MessageLookupByLibrary.simpleMessage("Käyttöehdot"),
         "termsOfService": MessageLookupByLibrary.simpleMessage("Käyttöehdot"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Tokenin päivittäminen epäonnistui",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Paras tarjous!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("Kokonaispalkinnot"),
-        "totalVideos":
-            MessageLookupByLibrary.simpleMessage("Yhteensä videoita"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("Kokonaispalkinnot"),
+        "totalVideos": MessageLookupByLibrary.simpleMessage("Yhteensä videoita"),
         "totalWebsites": MessageLookupByLibrary.simpleMessage(
           "Yhteensä verkkosivustoja",
         ),
@@ -629,8 +584,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
           "Ullamcorper eros senectus urna sit elementum ali quet. Nibh mauris tristique elit pellentesque sa pien malesuada eleifend iaculis malesuada. Mau ris, ut id hendrerit habitant gravida urna congue arcu sit. At quisque leo semper urna gravida",
         ),
-        "updatePassword":
-            MessageLookupByLibrary.simpleMessage("Päivitä salasana"),
+        "updatePassword": MessageLookupByLibrary.simpleMessage("Päivitä salasana"),
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "Salasanan päivittäminen",
         ),
@@ -656,8 +610,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "verification": MessageLookupByLibrary.simpleMessage("Vahvistus"),
         "verify": MessageLookupByLibrary.simpleMessage("Vahvista"),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("Tarkistetaan OTP"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("Tarkistetaan OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("VOITTO"),
         "videos": MessageLookupByLibrary.simpleMessage("Videot"),
         "visitWebsite": MessageLookupByLibrary.simpleMessage(
@@ -684,8 +637,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Katso videoita ja saa pisteitä",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Olemme lähettäneet 6 koodia Lähetä\nmatkapuhelimeesi",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -704,8 +656,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Väärä OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Kyllä"),
-        "yesDeleteIt":
-            MessageLookupByLibrary.simpleMessage("Kyllä, poista se!"),
+        "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Kyllä, poista se!"),
         "youAreDisable": MessageLookupByLibrary.simpleMessage(
           "Olet poissa käytöstä!",
         ),
@@ -718,8 +669,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Otat uudelleen kyselyn",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Olet jo voittanut tämän kyselyn. Yritä pelata toista kyselyä",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Olet ansainnut"),

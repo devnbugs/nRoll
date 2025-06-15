@@ -43,8 +43,7 @@ class WannadsModel {
 
   WannadsModel.fromJson(dynamic json) {
     _country = json['country'];
-    _categories =
-        json['categories'] != null ? json['categories'].cast<String>() : [];
+    _categories = json['categories'] != null ? json['categories'].cast<String>() : [];
     _devices = json['devices'] != null ? json['devices'].cast<String>() : [];
     _completed = json['completed'];
     _conversionPoint = json['conversion_point'];

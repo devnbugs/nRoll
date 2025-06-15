@@ -33,8 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "RedeemYourPints": MessageLookupByLibrary.simpleMessage(
           "تبدیل امتیازهای خود",
         ),
-        "SecureYourMoney":
-            MessageLookupByLibrary.simpleMessage("امنیت پول شما"),
+        "SecureYourMoney": MessageLookupByLibrary.simpleMessage("امنیت پول شما"),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "WelcomeToCashRocket": MessageLookupByLibrary.simpleMessage(
           "خوش آمدید به کش‌روکت",
@@ -58,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "قبلاً پاداش دریافت شده است، لطفاً بعداً بازگردید",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "قبلاً پاداش داده شده است. لطفاً فردا دوباره تلاش کنید",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -78,13 +76,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "توضیحات تصاویر برای AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "ورود به اپل بر روی دستگاه‌های اپل کار می‌کند",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("آیا موافقید؟"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "آیا مطمئن هستید که می‌خواهید این حساب را حذف کنید؟",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
@@ -94,8 +90,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("موجودی"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("نظرسنجی Bitlabs"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("نظرسنجی Bitlabs"),
         "bitrise": MessageLookupByLibrary.simpleMessage("بیت‌رایز"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -104,13 +99,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("دوربین"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("کش راکت"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("تغییر رمز عبور"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("تغییر رمز عبور"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "دریافت هزینه ورودی",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("ویدیو Chartboost"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("ویدیو Chartboost"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "موبایل خود را بررسی کنید",
         ),
@@ -119,30 +112,23 @@ class MessageLookup extends MessageLookupByLibrary {
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
           "همین الآن جایزه روزانه را دریافت کنید!",
         ),
-        "completeAnAction":
-            MessageLookupByLibrary.simpleMessage("انجام یک عمل"),
+        "completeAnAction": MessageLookupByLibrary.simpleMessage("انجام یک عمل"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "پیشنهادات را کامل کنید و امتیاز دریافت کنید",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("تکمیل پروفایل"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("تکمیل پروفایل"),
         "completeanaction": MessageLookupByLibrary.simpleMessage(
           "اقدامی را کامل کنید",
         ),
-        "completingProfile":
-            MessageLookupByLibrary.simpleMessage("تکمیل پروفایل"),
-        "confirmPassword":
-            MessageLookupByLibrary.simpleMessage("تأیید رمز عبور"),
-        "congratulations":
-            MessageLookupByLibrary.simpleMessage("تبریک می‌گویم"),
+        "completingProfile": MessageLookupByLibrary.simpleMessage("تکمیل پروفایل"),
+        "confirmPassword": MessageLookupByLibrary.simpleMessage("تأیید رمز عبور"),
+        "congratulations": MessageLookupByLibrary.simpleMessage("تبریک می‌گویم"),
         "continu": MessageLookupByLibrary.simpleMessage("ادامه"),
-        "continueWithApple":
-            MessageLookupByLibrary.simpleMessage("ادامه با اپل"),
+        "continueWithApple": MessageLookupByLibrary.simpleMessage("ادامه با اپل"),
         "continueWithFacebok": MessageLookupByLibrary.simpleMessage(
           "ادامه با فیسبوک",
         ),
-        "continueWithGoogle":
-            MessageLookupByLibrary.simpleMessage("ادامه با گوگل"),
+        "continueWithGoogle": MessageLookupByLibrary.simpleMessage("ادامه با گوگل"),
         "continueWithMobile": MessageLookupByLibrary.simpleMessage(
           "ادامه با موبایل",
         ),
@@ -155,11 +141,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "تاریخ به‌روزرسانی (7 ژوئن 2021)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("روز برای تکمیل"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("روز برای تکمیل"),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("حذف حساب‌ها"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("در حال حذف حساب"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("در حال حذف حساب"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "حذف با موفقیت انجام شد",
         ),
@@ -219,8 +203,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "کد دعوت را وارد کنید",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("هزینه ورودی"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("خطا رخ داده است"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("خطا رخ داده است"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "خطا رخ داد. لطفاً دوباره تلاش کنید",
         ),
@@ -235,15 +218,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "errorWhileEditingProfile": MessageLookupByLibrary.simpleMessage(
           "خطا در ویرایش پروفایل",
         ),
-        "errorWhileLoggingOut":
-            MessageLookupByLibrary.simpleMessage("خطا در خروج"),
+        "errorWhileLoggingOut": MessageLookupByLibrary.simpleMessage("خطا در خروج"),
         "exception": MessageLookupByLibrary.simpleMessage("استثنا"),
         "failedToLoadVideo": MessageLookupByLibrary.simpleMessage(
           "بارگذاری ویدیو با شکست مواجه شد",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("نام"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("فراموشی رمز عبور"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("فراموشی رمز عبور"),
         "free": MessageLookupByLibrary.simpleMessage("رایگان"),
         "fullName": MessageLookupByLibrary.simpleMessage("نام کامل"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -252,8 +233,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fyberOffer": MessageLookupByLibrary.simpleMessage("پیشنهاد Fyber"),
         "gallary": MessageLookupByLibrary.simpleMessage("گالری"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("دریافت پاداش"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("دریافت پاداش‌ها"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("دریافت پاداش‌ها"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "دریافت پاداش امروز",
         ),
@@ -289,27 +269,23 @@ class MessageLookup extends MessageLookupByLibrary {
           "کد دعوت کپی شد",
         ),
         "inviteNow": MessageLookupByLibrary.simpleMessage("اکنون دعوت کنید"),
-        "inviteYourFriends":
-            MessageLookupByLibrary.simpleMessage("دعوت دوستانتان"),
+        "inviteYourFriends": MessageLookupByLibrary.simpleMessage("دعوت دوستانتان"),
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "دوستان خود را دعوت کنید تا از کش راکت استفاده کنند و برای هر کدام 100 امتیاز دریافت کنید",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("برای فریم اصلی"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("برای فریم اصلی"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "اگر از آن استفاده کنید، شما شناخته خواهید شد",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("پیشنهاد Kiwi Wall"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("پیشنهاد Kiwi Wall"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("دیوار کیوی"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("زبان"),
         "lastName": MessageLookupByLibrary.simpleMessage("نام خانوادگی"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("بیایید شروع کنیم"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("بیایید شروع کنیم"),
         "loading": MessageLookupByLibrary.simpleMessage("در حال بارگذاری"),
         "logIn": MessageLookupByLibrary.simpleMessage("ورود"),
         "logOut": MessageLookupByLibrary.simpleMessage("خروج"),
@@ -343,8 +319,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noOfferFound": MessageLookupByLibrary.simpleMessage(
           "هیچ پیشنهادی یافت نشد",
         ),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("هیچ کوییزی یافت نشد"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("هیچ کوییزی یافت نشد"),
         "none": MessageLookupByLibrary.simpleMessage("هیچ"),
         "notDefined": MessageLookupByLibrary.simpleMessage("تعریف نشده"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
@@ -366,8 +341,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pageFinishedLoading": MessageLookupByLibrary.simpleMessage(
           "صفحه بارگذاری کامل شد",
         ),
-        "pageResourceError":
-            MessageLookupByLibrary.simpleMessage("خطای منبع صفحه"),
+        "pageResourceError": MessageLookupByLibrary.simpleMessage("خطای منبع صفحه"),
         "pageStartedLoading": MessageLookupByLibrary.simpleMessage(
           "صفحه شروع به بارگذاری کرد",
         ),
@@ -377,14 +351,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "برای کارت خراش پرداخت شد",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("بازی آزمون پرداختی"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("بازی آزمون پرداختی"),
         "password": MessageLookupByLibrary.simpleMessage("رمز عبور"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "رمز عبور نمی‌تواند خالی باشد",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "رمز عبور نمی‌تواند کمتر از 6 کاراکتر باشد",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -393,8 +365,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "رمز عبور ضروری است",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "طول رمز عبور باید حداقل 6 کاراکتر باشد",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -422,12 +393,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "لطفاً کد خرید خود را بررسی کنید",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "لطفاً فردا برگردید\nبرای تماشای ویدئو",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. لطفاً وظیفه را در مدت 22 روز تکمیل کنید",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -445,15 +414,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "لطفا کد زیر را برای بازنشانی",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "لطفاً روش و واحد پول برداشت را انتخاب کنید",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "لطفاً دوباره تلاش کنید",
         ),
-        "pleaseWait":
-            MessageLookupByLibrary.simpleMessage("لطفاً منتظر بمانید"),
+        "pleaseWait": MessageLookupByLibrary.simpleMessage("لطفاً منتظر بمانید"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "لطفاً تا بارگذاری صبر کنید",
         ),
@@ -472,8 +439,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("پل‌فیش"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("نظرسنجی Pollfish"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("نظرسنجی Pollfish"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "چرخ را فشار دهید",
         ),
@@ -513,8 +479,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "در حال درخواست برداشت",
         ),
         "resendCode": MessageLookupByLibrary.simpleMessage("ارسال مجدد کد"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("بازیابی رمز عبور"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("بازیابی رمز عبور"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "بازنشانی رمز عبور",
         ),
@@ -536,8 +501,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("ذخیره"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("تراش و ببر"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("کارت تراشیدن"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "کارت بالا را با کشیدن روی آن تراشیده و باز کنید",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("ثانیه"),
@@ -559,8 +523,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signUpSuccessful": MessageLookupByLibrary.simpleMessage(
           "ثبت نام با موفقیت انجام شد",
         ),
-        "signUpwitEmail":
-            MessageLookupByLibrary.simpleMessage("ثبت‌نام با ایمیل"),
+        "signUpwitEmail": MessageLookupByLibrary.simpleMessage("ثبت‌نام با ایمیل"),
         "signingOut": MessageLookupByLibrary.simpleMessage("در حال خروج"),
         "signingUp": MessageLookupByLibrary.simpleMessage("ثبت نام"),
         "skip": MessageLookupByLibrary.simpleMessage("رد کردن"),
@@ -580,8 +543,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("موفقیت‌آمیز"),
         "survey": MessageLookupByLibrary.simpleMessage("نظرسنجی"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "نظرسنجی تکمیل شد. به زودی پاداش دریافت خواهید کرد",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -599,8 +561,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "شرایط و ضوابط استفاده",
         ),
-        "termsAndConditions":
-            MessageLookupByLibrary.simpleMessage("شرایط و ضوابط"),
+        "termsAndConditions": MessageLookupByLibrary.simpleMessage("شرایط و ضوابط"),
         "termsOfService": MessageLookupByLibrary.simpleMessage("شرایط خدمات"),
         "token": MessageLookupByLibrary.simpleMessage("توکن"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
@@ -646,8 +607,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verifyingOTP": MessageLookupByLibrary.simpleMessage("تأیید OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("پیروزی"),
         "videos": MessageLookupByLibrary.simpleMessage("ویدیوها"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("بازدید از وب‌سایت"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("بازدید از وب‌سایت"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "بازدید از وب‌سایت و دریافت",
         ),
@@ -669,8 +629,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "تماشای ویدیوها و دریافت امتیاز",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "ما 6 \nکد را ارسال کردیم",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -690,8 +649,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wrongOTP": MessageLookupByLibrary.simpleMessage("OTP اشتباه"),
         "yes": MessageLookupByLibrary.simpleMessage("بله"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("بله، حذف کن!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("شما غیرفعال هستید!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("شما غیرفعال هستید!"),
         "youAreDisabled": MessageLookupByLibrary.simpleMessage(
           "شما غیرفعال هستید!",
         ),
@@ -701,8 +659,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "شما در حال دوباره‌گیری آزمون هستید",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "شما قبلاً این آزمون را برنده شده‌اید. سعی کنید آزمون دیگری را بازی کنید",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage(

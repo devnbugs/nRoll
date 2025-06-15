@@ -24,11 +24,7 @@ class Admob {
 
   //Video ads
   void createRewardedAd() async {
-    String rewardedId = Platform.isAndroid
-        ? await DataBase().retrieveString('admobRewardedAndroid') ??
-            AdHelper.rewardedAdUnitId
-        : await DataBase().retrieveString('admobRewardedAdIos') ??
-            AdHelper.rewardedAdUnitId;
+    String rewardedId = Platform.isAndroid ? await DataBase().retrieveString('admobRewardedAndroid') ?? AdHelper.rewardedAdUnitId : await DataBase().retrieveString('admobRewardedAdIos') ?? AdHelper.rewardedAdUnitId;
 
     RewardedAd.load(
         adUnitId: rewardedId,
@@ -69,8 +65,7 @@ class Admob {
       },
     );
     _rewardedAd!.setImmersiveMode(true);
-    _rewardedAd!.show(
-        onUserEarnedReward: (AdWithoutView ad, RewardItem reward) async {
+    _rewardedAd!.show(onUserEarnedReward: (AdWithoutView ad, RewardItem reward) async {
       try {
         EasyLoading.show(status: 'Getting rewards');
         bool isValid = await PurchaseModel().isActiveBuyer();
@@ -96,11 +91,7 @@ class Admob {
   InterstitialAd? _interstitialAd;
   int _numInterstitialLoadAttempts = 0;
   void createInterstitialAd() async {
-    String interstitialAdUnitId = Platform.isAndroid
-        ? await DataBase().retrieveString('admobInterstitialAndroid') ??
-            AdHelper.interstitialAdUnitId
-        : await DataBase().retrieveString('admobInterstitialIos') ??
-            AdHelper.interstitialAdUnitId;
+    String interstitialAdUnitId = Platform.isAndroid ? await DataBase().retrieveString('admobInterstitialAndroid') ?? AdHelper.interstitialAdUnitId : await DataBase().retrieveString('admobInterstitialIos') ?? AdHelper.interstitialAdUnitId;
 
     InterstitialAd.load(
         adUnitId: interstitialAdUnitId,

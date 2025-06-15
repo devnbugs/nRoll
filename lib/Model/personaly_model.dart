@@ -16,9 +16,7 @@ class PersonalyModel {
   PersonalyModel.fromJson(dynamic json) {
     _code = json['code'];
     _codeMessage = json['code_message'];
-    _information = json['information'] != null
-        ? Information.fromJson(json['information'])
-        : null;
+    _information = json['information'] != null ? Information.fromJson(json['information']) : null;
     _offerCount = json['offer_count'];
     if (json['offers'] != null) {
       _offers = [];

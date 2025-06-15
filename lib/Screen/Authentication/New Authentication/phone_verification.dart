@@ -1,4 +1,5 @@
 import 'dart:async';
+
 import 'package:cash_rocket/Screen/Constant%20Data/button_global.dart';
 import 'package:cash_rocket/Screen/Constant%20Data/global_contanier.dart';
 import 'package:cash_rocket/constant%20app%20information/const_information.dart';
@@ -8,15 +9,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:pinput/pinput.dart';
+
 import '../../../Repositories/authentication_repo.dart';
 import '../../Constant Data/constant.dart';
 
 class MobileVerification extends StatefulWidget {
-  const MobileVerification(
-      {super.key,
-      required this.mobile,
-      required this.id,
-      required this.resendId});
+  const MobileVerification({super.key, required this.mobile, required this.id, required this.resendId});
   final String mobile;
   final String id;
   final int resendId;
@@ -97,22 +95,12 @@ class _MobileVerificationState extends State<MobileVerification> {
             children: [
               Text(
                 lang.S.of(context).checkYourMobile,
-                style: kTextStyle.copyWith(
-                    fontWeight: FontWeight.bold, fontSize: 22, color: kWhite),
+                style: kTextStyle.copyWith(fontWeight: FontWeight.bold, fontSize: 22, color: kWhite),
               ),
               const SizedBox(
                 height: 8,
               ),
-              RichText(
-                  text: TextSpan(
-                      text: lang.S.of(context).weHaveSentFourCodeSendYourMobile,
-                      style: kTextStyle.copyWith(color: kLightTextColor),
-                      children: [
-                    TextSpan(
-                        text: widget.mobile,
-                        style: kTextStyle.copyWith(
-                            color: kWhite, fontWeight: FontWeight.bold))
-                  ])),
+              RichText(text: TextSpan(text: lang.S.of(context).weHaveSentFourCodeSendYourMobile, style: kTextStyle.copyWith(color: kLightTextColor), children: [TextSpan(text: widget.mobile, style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold))])),
               const SizedBox(height: 30.0),
               Center(
                 child: Pinput(
@@ -127,17 +115,13 @@ class _MobileVerificationState extends State<MobileVerification> {
                     //EasyLoading.show(status: "Verifying OTP");
                     EasyLoading.show(status: lang.S.of(context).verifyingOTP);
                     try {
-                      PhoneAuthCredential credential =
-                          PhoneAuthProvider.credential(
-                              verificationId: widget.id, smsCode: code);
-                      var user = await FirebaseAuth.instance
-                          .signInWithCredential(credential);
+                      PhoneAuthCredential credential = PhoneAuthProvider.credential(verificationId: widget.id, smsCode: code);
+                      var user = await FirebaseAuth.instance.signInWithCredential(credential);
                       if (user.user == null) {
                         // EasyLoading.showError("Invalid OTP");
                         EasyLoading.showError(lang.S.of(context).invalidOTP);
                       } else {
-                        await AuthRepo()
-                            .signInWithPhone(widget.mobile, context);
+                        await AuthRepo().signInWithPhone(widget.mobile, context);
                       }
                     } catch (e) {
                       // EasyLoading.showError("Invalid OTP");
@@ -173,8 +157,7 @@ class _MobileVerificationState extends State<MobileVerification> {
                 child: Center(
                   child: Text(
                     '${lang.S.of(context).pleaseWait} 00:$_secondsRemaining ${lang.S.of(context).seconds}',
-                    style: kTextStyle.copyWith(
-                        color: kWhite, fontWeight: FontWeight.bold),
+                    style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
@@ -186,8 +169,7 @@ class _MobileVerificationState extends State<MobileVerification> {
                   children: [
                     Text(
                       lang.S.of(context).dontReceiveCode,
-                      style: kTextStyle.copyWith(
-                          color: kLightTextColor, fontSize: 14),
+                      style: kTextStyle.copyWith(color: kLightTextColor, fontSize: 14),
                     ),
                     GestureDetector(
                       onTap: () {
@@ -216,19 +198,15 @@ class _MobileVerificationState extends State<MobileVerification> {
                     //EasyLoading.show(status: "Verifying OTP");
                     EasyLoading.show(status: lang.S.of(context).verifyingOTP);
                     try {
-                      PhoneAuthCredential credential =
-                          PhoneAuthProvider.credential(
-                              verificationId: widget.id, smsCode: code);
-                      var user = await FirebaseAuth.instance
-                          .signInWithCredential(credential);
+                      PhoneAuthCredential credential = PhoneAuthProvider.credential(verificationId: widget.id, smsCode: code);
+                      var user = await FirebaseAuth.instance.signInWithCredential(credential);
                       print('---------user--------$user----------------');
                       if (user.user == null) {
                         //EasyLoading.showError("Invalid OTP");
                         EasyLoading.showError(lang.S.of(context).invalidOTP);
                         print('---user is invalid-------------');
                       } else {
-                        await AuthRepo()
-                            .signInWithPhone(widget.mobile, context);
+                        await AuthRepo().signInWithPhone(widget.mobile, context);
                       }
                     } catch (e) {
                       // EasyLoading.showError("Invalid OTP");

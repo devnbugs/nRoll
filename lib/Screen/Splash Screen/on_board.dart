@@ -63,8 +63,7 @@ class _OnBoardState extends State<OnBoard> {
               child: PageView.builder(
                 itemCount: sliderList.length,
                 controller: pageController,
-                onPageChanged: (int index) =>
-                    setState(() => currentIndexPage = index),
+                onPageChanged: (int index) => setState(() => currentIndexPage = index),
                 itemBuilder: (_, i) {
                   return Stack(
                     children: [
@@ -103,19 +102,14 @@ class _OnBoardState extends State<OnBoard> {
                                     const SizedBox(height: 20.0),
                                     Text(
                                       sliderList[i]['title'].toString(),
-                                      style: kTextStyle.copyWith(
-                                          color: kWhite,
-                                          fontSize: 24,
-                                          fontWeight: FontWeight.bold),
+                                      style: kTextStyle.copyWith(color: kWhite, fontSize: 24, fontWeight: FontWeight.bold),
                                     ),
                                     const SizedBox(height: 10.0),
                                     Padding(
-                                      padding: const EdgeInsets.only(
-                                          right: 10, left: 10),
+                                      padding: const EdgeInsets.only(right: 10, left: 10),
                                       child: Text(
                                         sliderList[i]['description'].toString(),
-                                        style: kTextStyle.copyWith(
-                                            color: kWhite.withOpacity(0.7)),
+                                        style: kTextStyle.copyWith(color: kWhite.withOpacity(0.7)),
                                         maxLines: 5,
                                         textAlign: TextAlign.center,
                                       ),
@@ -133,8 +127,7 @@ class _OnBoardState extends State<OnBoard> {
                                     ),
                                     const SizedBox(height: 25.0),
                                     Padding(
-                                      padding: const EdgeInsets.only(
-                                          left: 20, right: 20),
+                                      padding: const EdgeInsets.only(left: 20, right: 20),
                                       child: ButtonGlobal(
                                           buttontext: lang.S.of(context).next,
                                           buttonDecoration: kButtonDecoration,
@@ -142,15 +135,11 @@ class _OnBoardState extends State<OnBoard> {
                                             setState(() {
                                               currentIndexPage < 2;
                                               currentIndexPage < 2
-                                                  ? pageController.nextPage(
-                                                      duration: const Duration(
-                                                          microseconds: 3000),
-                                                      curve: Curves.bounceInOut)
+                                                  ? pageController.nextPage(duration: const Duration(microseconds: 3000), curve: Curves.bounceInOut)
                                                   : Navigator.push(
                                                       context,
                                                       MaterialPageRoute(
-                                                        builder: (context) =>
-                                                            const WelcomeScreen(),
+                                                        builder: (context) => const WelcomeScreen(),
                                                       ),
                                                     );
                                             });
@@ -159,11 +148,9 @@ class _OnBoardState extends State<OnBoard> {
                                     const SizedBox(height: 20.0),
                                     Text(
                                       lang.S.of(context).skipForNow,
-                                      style: kTextStyle.copyWith(
-                                          color: kWhite.withOpacity(0.7)),
+                                      style: kTextStyle.copyWith(color: kWhite.withOpacity(0.7)),
                                     ).onTap(
-                                      () async =>
-                                          const WelcomeScreen().launch(context),
+                                      () async => const WelcomeScreen().launch(context),
                                     ),
                                     const SizedBox(height: 20.0),
                                   ],

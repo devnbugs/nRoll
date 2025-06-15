@@ -59,8 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Zaten ödüllendirildiniz, daha sonra tekrar gelin",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Zaten Ödüllendirildiniz. Lütfen Yarın Tekrar Deneyin",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -79,20 +78,17 @@ class MessageLookup extends MessageLookupByLibrary {
           "Al için Görselleri Açıklayın",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple giriş, Apple cihazlarda çalışacaktır",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage(
           "Kabul ediyor musunuz?",
         ),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Bu hesabı silmek istediğinizden emin misiniz?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Yetkilendirme Başarısız",
         ),
@@ -107,13 +103,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Kamera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Nakit Roket"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Parolayı Değiştir"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Parolayı Değiştir"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Giriş Ücreti Alınıyor",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Cep Telefonunuzu Kontrol Edin",
         ),
@@ -128,8 +122,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Teklifleri Tamamla ve Puan Kazan",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Profili Tamamla"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Profili Tamamla"),
         "completeanaction": MessageLookupByLibrary.simpleMessage(
           "Bir eylemi tamamla",
         ),
@@ -165,8 +158,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Tamamlanması Gereken Günler",
         ),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("Hesapları Sil"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Hesap Siliniyor"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Hesap Siliniyor"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Silme Başarılı",
         ),
@@ -196,8 +188,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Adınızı Soyadınızı Girin",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Soyadınızı Girin"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Soyadınızı Girin"),
         "enterPassword": MessageLookupByLibrary.simpleMessage("Parolayı Girin"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "E-posta Adresinizi Girin",
@@ -221,13 +212,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Davet Kodunu Girin",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Giriş Ücreti"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Bir Hata Oluştu"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Bir Hata Oluştu"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Bir Hata Oluştu. Tekrar Deneyin",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Bir Hata Oluştu"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Bir Hata Oluştu"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Bir Hata Oluştu. Lütfen Tekrar Deneyin",
         ),
@@ -257,8 +246,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Teklifi"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galeri"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("Ödül Alınıyor"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("Ödüller Alınıyor"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("Ödüller Alınıyor"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "Bugünün Ödülü Alınıyor",
         ),
@@ -302,22 +290,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Arkadaşlarını Cash Rocket\'i kullanmaya davet et ve her biri için 100 puan al",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("ana çerçeve için"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("ana çerçeve için"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "Kullandığınızda algılayacaksınız",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Teklifi"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Teklifi"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("Dil"),
         "lastName": MessageLookupByLibrary.simpleMessage("Soyadı"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("Hadi Başlayalım"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("Hadi Başlayalım"),
         "loading": MessageLookupByLibrary.simpleMessage("Yükleniyor"),
         "logIn": MessageLookupByLibrary.simpleMessage("Giriş Yap"),
         "logOut": MessageLookupByLibrary.simpleMessage("Çıkış Yap"),
@@ -348,16 +333,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "İnternet Bağlantısı Bulunamadı",
         ),
-        "noOfferFound":
-            MessageLookupByLibrary.simpleMessage("Teklif Bulunamadı"),
+        "noOfferFound": MessageLookupByLibrary.simpleMessage("Teklif Bulunamadı"),
         "noQuizFound": MessageLookupByLibrary.simpleMessage("Test Bulunamadı"),
         "none": MessageLookupByLibrary.simpleMessage("Hiçbiri"),
         "notDefined": MessageLookupByLibrary.simpleMessage("Tanımlanmadı"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Yeterli Bakiye Yok",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Yeterli Para Yok"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Yeterli Para Yok"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP Gönderildi"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP Doğrulandı"),
@@ -385,14 +368,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "Kazı Kazan Kartı İçin Ödendi",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("Ücretli Test Oynama"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("Ücretli Test Oynama"),
         "password": MessageLookupByLibrary.simpleMessage("Parola"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Şifre boş olamaz",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Şifre 6 karakterden az olamaz",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -401,8 +382,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Şifre Gereklidir",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Şifre uzunluğu en az 6 karakter olmalıdır",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -430,12 +410,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Lütfen satın alma kodunuzu kontrol edin",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Lütfen yarın geri gelin\nvideoları izlemek için",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Lütfen görevi 22 gün içinde tamamlayın",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -453,8 +431,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Lütfen şifrenizi sıfırlamak için aşağıdaki kodu girin",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Lütfen Çekim Yöntemini ve Para Birimini Seçin",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -466,8 +443,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Alınan Puanlar"),
         "points": MessageLookupByLibrary.simpleMessage("Puanlar"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Puanlar Alındı"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Puanlar Alındı"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "puanlar düşürülecektir!",
         ),
@@ -476,16 +452,13 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish Anketi"),
-        "pressTheSpinWheel":
-            MessageLookupByLibrary.simpleMessage("ÇARK\'a BAS"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish Anketi"),
+        "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage("ÇARK\'a BAS"),
         "price": MessageLookupByLibrary.simpleMessage("fiyat"),
         "privacyPolicty": MessageLookupByLibrary.simpleMessage(
           "Gizlilik Politikası",
         ),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("Gizlilik Politikası"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("Gizlilik Politikası"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Gizlilik Politikası | Cash Rocket",
         ),
@@ -514,10 +487,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
           "Çekim İsteyişi",
         ),
-        "resendCode":
-            MessageLookupByLibrary.simpleMessage("Kodu Yeniden Gönder"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Parolayı Sıfırla"),
+        "resendCode": MessageLookupByLibrary.simpleMessage("Kodu Yeniden Gönder"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Parolayı Sıfırla"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "Şifre Sıfırlanıyor",
         ),
@@ -538,8 +509,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("Kazı ve kazan!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Kazı Kazan Kartı"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Yukarıdaki kartı kaydırarak kazıyın",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Saniyeler"),
@@ -558,8 +528,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Başarıyla Çıkış Yapıldı",
         ),
         "signUp": MessageLookupByLibrary.simpleMessage("Kaydol"),
-        "signUpSuccessful":
-            MessageLookupByLibrary.simpleMessage("Kayıt Başarılı"),
+        "signUpSuccessful": MessageLookupByLibrary.simpleMessage("Kayıt Başarılı"),
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage(
           "E-posta ile kaydol",
         ),
@@ -582,8 +551,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Başarılı"),
         "survey": MessageLookupByLibrary.simpleMessage("Anket"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Anket Tamamlandı. Yakında ödüllendirileceksiniz",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -595,16 +563,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Anket Paneli Açık",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Trend Teklifler"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Trend Teklifler"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Kullanım Koşulları",
         ),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "Kullanım Koşulları",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("Kullanım Şartları"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("Kullanım Şartları"),
         "token": MessageLookupByLibrary.simpleMessage("Jeton"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Token Güncellemesi Başarısız Oldu",
@@ -612,15 +578,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "topOffer": MessageLookupByLibrary.simpleMessage("En İyi Teklif!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("Toplam Ödüller"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("Toplam Videolar"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("Toplam Web Sitesi"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("Toplam Web Sitesi"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Yeniden Dene"),
         "tutorial": MessageLookupByLibrary.simpleMessage("Öğretici"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
           "Ullamcorper eros senectus urna sit elementum ali quet. Nibh mauris tristique elit pellentesque sa pien malesuada eleifend iaculis malesuada. Mau ris, ut id hendrerit habitant gravida urna congue arcu sit. At quisque leo semper urna gravida",
         ),
-        "updatePassword":
-            MessageLookupByLibrary.simpleMessage("Şifreyi Güncelle"),
+        "updatePassword": MessageLookupByLibrary.simpleMessage("Şifreyi Güncelle"),
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "Şifre Güncelleniyor",
         ),
@@ -646,8 +610,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "verification": MessageLookupByLibrary.simpleMessage("Doğrulama"),
         "verify": MessageLookupByLibrary.simpleMessage("Doğrula"),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("OTP Doğrulanıyor"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("OTP Doğrulanıyor"),
         "victory": MessageLookupByLibrary.simpleMessage("ZAfer"),
         "videos": MessageLookupByLibrary.simpleMessage("Videolar"),
         "visitWebsite": MessageLookupByLibrary.simpleMessage(
@@ -674,8 +637,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Viewos izleyin ve Puan Kazanın",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "6 haneli kodu\ncep telefonunuza gönderdik",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -707,8 +669,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Testi Tekrar Deniyorsunuz",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Bu testi zaten kazandınız. Diğer testi deneyin",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Kazandınız"),

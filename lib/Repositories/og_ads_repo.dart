@@ -6,10 +6,7 @@ import 'package:http/http.dart' as http;
 
 class OgAdsRepo {
   Future<OgAdsModel> getOgAds() async {
-    final response = await http.get(
-        Uri.parse(
-            '${Config.ogAdsUrl}?ip=${Config.ogAdsIp}&user_agent=${Config.ogAdsUserAgent}&ctype=${Config.ogAdsCtype}'),
-        headers: {'Authorization': 'Bearer ${Config.ogAdsAuthorizationToken}'});
+    final response = await http.get(Uri.parse('${Config.ogAdsUrl}?ip=${Config.ogAdsIp}&user_agent=${Config.ogAdsUserAgent}&ctype=${Config.ogAdsCtype}'), headers: {'Authorization': 'Bearer ${Config.ogAdsAuthorizationToken}'});
     var data = jsonDecode(response.body);
 
     if (response.statusCode == 200) {

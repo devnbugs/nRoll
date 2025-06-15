@@ -1,7 +1,7 @@
 class Config {
   //Server Config
-  static const String serverUrl = 'https://nroll.almuntijin.serv00.net/api/v1/';
-  static const String siteUrl = 'https://nroll.almuntijin.serv00.net/';
+  static const String serverUrl = 'https://cashrocket.acnoo.com/api/v1/';
+  static const String siteUrl = 'https://cashrocket.acnoo.com/';
   static const String signInUrl = 'authentication';
   static const String forgotPasswordUrl = 'send-reset-code';
   static const String verifyOtpUrl = 'verify-reset-code';
@@ -63,11 +63,9 @@ class Config {
   //OGAds
   static const String ogAdsUrl = 'https://downloadlocked.com/api/v2';
   static const String ogAdsIp = '37.111.207.139';
-  static const String ogAdsUserAgent =
-      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15';
+  static const String ogAdsUserAgent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15';
   static const String ogAdsCtype = '1';
-  static const String ogAdsAuthorizationToken =
-      'xRieX3Y6GaWioIdVfcmpZ1MRzJQy9zqIseFlVxPu';
+  static const String ogAdsAuthorizationToken = 'xRieX3Y6GaWioIdVfcmpZ1MRzJQy9zqIseFlVxPu';
 
   //AdGem
   static const String adGemUrl = 'https://api.adgem.com/v1/wall/json';
@@ -76,8 +74,7 @@ class Config {
 
   //Persona.ly
 
-  static const String personalyUrl =
-      'http://api.persona.ly/public/v1/offer/listOffers/';
+  static const String personalyUrl = 'http://api.persona.ly/public/v1/offer/listOffers/';
   static const String personalyAppHash = 'a1c52f5c48ce7fef07a90a465b32fd93';
   static const String personalyUserId = '7';
   static const String personalyUserIp = '199.119.74.245';

@@ -16,7 +16,7 @@ import '../Constant Data/constant.dart';
 import '../Home Screen/no_internet_screen.dart';
 
 class LogIn extends StatefulWidget {
-  const LogIn({super.key});
+  const LogIn({Key? key}) : super(key: key);
 
   @override
   State<LogIn> createState() => _LogInState();
@@ -68,8 +68,7 @@ class _LogInState extends State<LogIn> {
                   ),
                   Text(
                     appsName,
-                    style: kTextStyle.copyWith(
-                        color: kWhite, fontWeight: FontWeight.bold),
+                    style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 40.0),
                   AppTextField(
@@ -105,18 +104,14 @@ class _LogInState extends State<LogIn> {
                         EasyLoading.show(status: lang.S.of(context).sendingOtp);
                         await FirebaseAuth.instance.verifyPhoneNumber(
                           phoneNumber: selectedCode + phoneController.text,
-                          verificationCompleted:
-                              (PhoneAuthCredential credential) async {
+                          verificationCompleted: (PhoneAuthCredential credential) async {
                             try {
-                              var user = await FirebaseAuth.instance
-                                  .signInWithCredential(credential);
+                              var user = await FirebaseAuth.instance.signInWithCredential(credential);
                               if (user.user == null) {
                                 //EasyLoading.showError("Invalid OTP");
-                                EasyLoading.showError(
-                                    lang.S.of(context).invalidOTP);
+                                EasyLoading.showError(lang.S.of(context).invalidOTP);
                               } else {
-                                await AuthRepo().signInWithPhone(
-                                    phoneController.text, context);
+                                await AuthRepo().signInWithPhone(phoneController.text, context);
                               }
                             } catch (e) {
                               //toast("Invalid OTP");
@@ -125,8 +120,7 @@ class _LogInState extends State<LogIn> {
                           },
                           verificationFailed: (FirebaseAuthException e) {
                             // EasyLoading.showError(e.message ?? "Error Occurred");
-                            EasyLoading.showError(
-                                e.message ?? lang.S.of(context).errorOccurred);
+                            EasyLoading.showError(e.message ?? lang.S.of(context).errorOccurred);
                           },
                           codeSent: (String verificationId, int? resendToken) {
                             //EasyLoading.showSuccess("OTP Sent");
@@ -135,8 +129,7 @@ class _LogInState extends State<LogIn> {
                                 context,
                                 MaterialPageRoute(
                                     builder: (_) => MobileVerification(
-                                          mobile: selectedCode +
-                                              phoneController.text,
+                                          mobile: selectedCode + phoneController.text,
                                           id: verificationId,
                                           resendId: resendToken ?? 0,
                                         )));

@@ -11,6 +11,7 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 import 'package:nb_utils/nb_utils.dart';
+
 import '../../../Model/user_profile_model.dart';
 import '../../../Provider/database_provider.dart';
 import '../../../constant app information/const_commas.dart';
@@ -56,10 +57,7 @@ class _MtQuizState extends State<MtQuiz> {
                 children: [
                   Text(
                     lang.S.of(context).areYouAgree,
-                    style: kTextStyle.copyWith(
-                        color: kWhite,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 18.0),
+                    style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold, fontSize: 18.0),
                   ),
                   const SizedBox(height: 10.0),
                   Text(
@@ -102,22 +100,18 @@ class _MtQuizState extends State<MtQuiz> {
                           ).onTap(() async {
                             try {
                               //EasyLoading.show(status: 'Loading');
-                              EasyLoading.show(
-                                  status: lang.S.of(context).loading);
+                              EasyLoading.show(status: lang.S.of(context).loading);
                               //bool status = await RewardRepo().removePoint(amount, 'Paid Quiz Play');
-                              bool status = await RewardRepo().removePoint(
-                                  amount, lang.S.of(context).paidQuizPlay);
+                              bool status = await RewardRepo().removePoint(amount, lang.S.of(context).paidQuizPlay);
                               if (status && mounted) {
                                 //EasyLoading.showSuccess('Successful');
-                                EasyLoading.showSuccess(
-                                    lang.S.of(context).successful);
+                                EasyLoading.showSuccess(lang.S.of(context).successful);
                                 MtFootball(
                                   quizzes: quizzes,
                                 ).launch(context);
                               } else {
                                 //EasyLoading.showError('Not Enough Coin');
-                                EasyLoading.showError(
-                                    lang.S.of(context).notEnoughCoin);
+                                EasyLoading.showError(lang.S.of(context).notEnoughCoin);
                               }
                             } catch (e) {
                               EasyLoading.showError(e.toString());
@@ -128,17 +122,12 @@ class _MtQuizState extends State<MtQuiz> {
                         Expanded(
                           flex: 2,
                           child: Container(
-                            decoration: BoxDecoration(
-                                border: Border.all(
-                                    color: kGreyTextColor.withOpacity(0.5)),
-                                borderRadius: BorderRadius.circular(30.0),
-                                color: Colors.transparent),
+                            decoration: BoxDecoration(border: Border.all(color: kGreyTextColor.withOpacity(0.5)), borderRadius: BorderRadius.circular(30.0), color: Colors.transparent),
                             child: Padding(
                               padding: const EdgeInsets.all(10.0),
                               child: Text(
                                 lang.S.of(context).No,
-                                style:
-                                    kTextStyle.copyWith(color: kGreyTextColor),
+                                style: kTextStyle.copyWith(color: kGreyTextColor),
                                 textAlign: TextAlign.center,
                               ),
                             ),
@@ -189,19 +178,13 @@ class _MtQuizState extends State<MtQuiz> {
                         children: [
                           Text(
                             lang.S.of(context).winner,
-                            style: kTextStyle.copyWith(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18.0),
+                            style: kTextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18.0),
                           ),
                           const SizedBox(height: 10.0),
                           Text(
-                            lang.S
-                                .of(context)
-                                .youHaveAlreadyWonThisQuizTryPlayingOtherQuiz,
+                            lang.S.of(context).youHaveAlreadyWonThisQuizTryPlayingOtherQuiz,
                             // 'You have already won this quiz. Try playing other quiz',
-                            style: kTextStyle.copyWith(
-                                color: Colors.white, fontSize: 14.0),
+                            style: kTextStyle.copyWith(color: Colors.white, fontSize: 14.0),
                             maxLines: 2,
                           ),
                           const SizedBox(height: 10.0),
@@ -212,8 +195,7 @@ class _MtQuizState extends State<MtQuiz> {
                               borderRadius: BorderRadius.circular(30.0),
                             ),
                             child: Padding(
-                              padding: const EdgeInsets.only(
-                                  left: 15.0, right: 15.0),
+                              padding: const EdgeInsets.only(left: 15.0, right: 15.0),
                               child: Text(
                                 lang.S.of(context).ok,
                                 style: kTextStyle.copyWith(
@@ -266,8 +248,7 @@ class _MtQuizState extends State<MtQuiz> {
   @override
   Widget build(BuildContext context) {
     return Consumer(builder: (_, ref, watch) {
-      AsyncValue<UserProfileModel> userInfo =
-          ref.watch(personalProfileProvider);
+      AsyncValue<UserProfileModel> userInfo = ref.watch(personalProfileProvider);
       AsyncValue<QuizModel> allQuiz = ref.watch(quizProvider);
       return userInfo.when(data: (info) {
         if (info.data?.user?.status == 0) {
@@ -345,10 +326,7 @@ class _MtQuizState extends State<MtQuiz> {
                         ),
                         const SizedBox(width: 5.0),
                         Text(
-                          isBalanceShow
-                              ? myFormat
-                                  .format(info.data?.user?.wallet?.balance)
-                              : lang.S.of(context).balance,
+                          isBalanceShow ? myFormat.format(info.data?.user?.wallet?.balance) : lang.S.of(context).balance,
                           style: mediumTextStyle,
                           textAlign: TextAlign.start,
                         ),
@@ -384,8 +362,7 @@ class _MtQuizState extends State<MtQuiz> {
                     child: SingleChildScrollView(
                       physics: const AlwaysScrollableScrollPhysics(),
                       child: Padding(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 15, vertical: 20),
+                        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
                         child: Column(
                           children: [
                             ListView.builder(
@@ -394,205 +371,83 @@ class _MtQuizState extends State<MtQuiz> {
                                 physics: const NeverScrollableScrollPhysics(),
                                 itemBuilder: (_, i) {
                                   return Padding(
-                                    padding:
-                                        const EdgeInsets.only(bottom: 10.0),
+                                    padding: const EdgeInsets.only(bottom: 10.0),
                                     child: Theme(
-                                      data: Theme.of(context).copyWith(
-                                          dividerColor: Colors.transparent),
+                                      data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
                                       child: ExpansionTile(
-                                        initiallyExpanded:
-                                            i == 0 ? true : false,
+                                        initiallyExpanded: i == 0 ? true : false,
                                         iconColor: Colors.white,
-                                        tilePadding: const EdgeInsets.symmetric(
-                                            horizontal: 10),
+                                        tilePadding: const EdgeInsets.symmetric(horizontal: 10),
                                         collapsedIconColor: kWhite,
-                                        shape: RoundedRectangleBorder(
-                                            borderRadius:
-                                                BorderRadius.circular(10)),
-                                        collapsedBackgroundColor:
-                                            colorList[i % 4],
+                                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+                                        collapsedBackgroundColor: colorList[i % 4],
                                         backgroundColor: colorList[i % 4],
                                         title: Text(
-                                          quiz.data!.categoryQuiz![i].name ??
-                                              '',
-                                          style: kTextStyle.copyWith(
-                                              color: Colors.white),
+                                          quiz.data!.categoryQuiz![i].name ?? '',
+                                          style: kTextStyle.copyWith(color: Colors.white),
                                         ),
                                         leading: CircleAvatar(
                                           radius: 20,
                                           backgroundColor: Colors.transparent,
                                           backgroundImage: NetworkImage(
-                                            quiz.data!.categoryQuiz![i].image ??
-                                                '',
+                                            quiz.data!.categoryQuiz![i].image ?? '',
                                           ),
                                         ),
                                         children: [
                                           ListView.builder(
-                                              itemCount: quiz
-                                                      .data
-                                                      ?.categoryQuiz?[i]
-                                                      .quizzes
-                                                      ?.length ??
-                                                  0,
+                                              itemCount: quiz.data?.categoryQuiz?[i].quizzes?.length ?? 0,
                                               shrinkWrap: true,
-                                              physics:
-                                                  const NeverScrollableScrollPhysics(),
+                                              physics: const NeverScrollableScrollPhysics(),
                                               itemBuilder: (_, index) {
                                                 return Container(
                                                   decoration: BoxDecoration(
-                                                    borderRadius:
-                                                        const BorderRadius.only(
-                                                            bottomRight:
-                                                                Radius.circular(
-                                                                    10),
-                                                            bottomLeft:
-                                                                Radius.circular(
-                                                                    10)),
-                                                    color: Theme.of(context)
-                                                        .colorScheme
-                                                        .primaryContainer,
+                                                    borderRadius: const BorderRadius.only(bottomRight: Radius.circular(10), bottomLeft: Radius.circular(10)),
+                                                    color: Theme.of(context).colorScheme.primaryContainer,
                                                   ),
                                                   child: ListTile(
                                                     onTap: () async {
                                                       try {
                                                         // EasyLoading.show(status: 'Loading...');
-                                                        EasyLoading.show(
-                                                            status:
-                                                                '${lang.S.of(context).loading}...');
-                                                        var status =
-                                                            await RewardRepo()
-                                                                .checkQuiz(quiz
-                                                                    .data!
-                                                                    .categoryQuiz![
-                                                                        i]
-                                                                    .quizzes![
-                                                                        index]
-                                                                    .id
-                                                                    .toString());
-                                                        if (status
-                                                                    .data!
-                                                                    .userQuiz!
-                                                                    .winStatus ==
-                                                                '0' &&
-                                                            status
-                                                                    .data!
-                                                                    .userQuiz!
-                                                                    .resultStatus ==
-                                                                '3') {
+                                                        EasyLoading.show(status: '${lang.S.of(context).loading}...');
+                                                        var status = await RewardRepo().checkQuiz(quiz.data!.categoryQuiz![i].quizzes![index].id.toString());
+                                                        if (status.data!.userQuiz!.winStatus == '0' && status.data!.userQuiz!.resultStatus == '3') {
                                                           // EasyLoading.showError('You are retaking the quiz...');
-                                                          EasyLoading.showError(
-                                                              '${lang.S.of(context).youAreRetakingTheQuiz}...');
-                                                          showPopUp(
-                                                              quiz
-                                                                  .data!
-                                                                  .categoryQuiz![
-                                                                      i]
-                                                                  .quizzes![
-                                                                      index]
-                                                                  .freeOrPaid
-                                                                  .toString(),
-                                                              quiz
-                                                                  .data!
-                                                                  .categoryQuiz![
-                                                                      i]
-                                                                  .quizzes![index]);
-                                                        } else if (status
-                                                                    .data!
-                                                                    .userQuiz!
-                                                                    .winStatus ==
-                                                                '1' &&
-                                                            status
-                                                                    .data!
-                                                                    .userQuiz!
-                                                                    .resultStatus ==
-                                                                '1') {
+                                                          EasyLoading.showError('${lang.S.of(context).youAreRetakingTheQuiz}...');
+                                                          showPopUp(quiz.data!.categoryQuiz![i].quizzes![index].freeOrPaid.toString(), quiz.data!.categoryQuiz![i].quizzes![index]);
+                                                        } else if (status.data!.userQuiz!.winStatus == '1' && status.data!.userQuiz!.resultStatus == '1') {
                                                           //EasyLoading.showError('Already Played...');
-                                                          EasyLoading.showError(
-                                                              '${lang.S.of(context).alreadyPlayed}...');
+                                                          EasyLoading.showError('${lang.S.of(context).alreadyPlayed}...');
                                                           showRewardsPopUp();
                                                         }
                                                       } catch (e) {
                                                         // EasyLoading.showSuccess('Successful');
-                                                        EasyLoading.showSuccess(
-                                                            lang.S
-                                                                .of(context)
-                                                                .successful);
-                                                        if (quiz
-                                                                .data!
-                                                                .categoryQuiz![
-                                                                    i]
-                                                                .quizzes![index]
-                                                                .paidStatus ==
-                                                            0) {
+                                                        EasyLoading.showSuccess(lang.S.of(context).successful);
+                                                        if (quiz.data!.categoryQuiz![i].quizzes![index].paidStatus == 0) {
                                                           MtFootball(
-                                                            quizzes: quiz
-                                                                .data!
-                                                                .categoryQuiz![
-                                                                    i]
-                                                                .quizzes![index],
+                                                            quizzes: quiz.data!.categoryQuiz![i].quizzes![index],
                                                           ).launch(context);
                                                         } else {
-                                                          showPopUp(
-                                                              quiz
-                                                                  .data!
-                                                                  .categoryQuiz![
-                                                                      i]
-                                                                  .quizzes![
-                                                                      index]
-                                                                  .freeOrPaid
-                                                                  .toString(),
-                                                              quiz
-                                                                  .data!
-                                                                  .categoryQuiz![
-                                                                      i]
-                                                                  .quizzes![index]);
+                                                          showPopUp(quiz.data!.categoryQuiz![i].quizzes![index].freeOrPaid.toString(), quiz.data!.categoryQuiz![i].quizzes![index]);
                                                         }
                                                       }
                                                     },
-                                                    contentPadding:
-                                                        const EdgeInsets
-                                                            .symmetric(
-                                                            horizontal: 10),
+                                                    contentPadding: const EdgeInsets.symmetric(horizontal: 10),
                                                     leading: CircleAvatar(
-                                                      backgroundColor:
-                                                          kMainColor
-                                                              .withOpacity(0.1),
+                                                      backgroundColor: kMainColor.withOpacity(0.1),
                                                       radius: 20,
-                                                      backgroundImage:
-                                                          NetworkImage(
-                                                        quiz
-                                                                .data!
-                                                                .categoryQuiz![
-                                                                    i]
-                                                                .quizzes![index]
-                                                                .image ??
-                                                            '',
+                                                      backgroundImage: NetworkImage(
+                                                        quiz.data!.categoryQuiz![i].quizzes![index].image ?? '',
                                                       ),
                                                     ),
                                                     title: Text(
-                                                      quiz
-                                                              .data!
-                                                              .categoryQuiz![i]
-                                                              .quizzes![index]
-                                                              .name ??
-                                                          '',
-                                                      style:
-                                                          kTextStyle.copyWith(
-                                                              color: kWhite,
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .bold),
+                                                      quiz.data!.categoryQuiz![i].quizzes![index].name ?? '',
+                                                      style: kTextStyle.copyWith(color: kWhite, fontWeight: FontWeight.bold),
                                                     ),
                                                     subtitle: Text(
                                                       '${lang.S.of(context).entryFee}: ${quiz.data!.categoryQuiz![i].quizzes![index].paidStatus == 0 ? lang.S.of(context).free : quiz.data!.categoryQuiz![i].quizzes![index].freeOrPaid.toString()} || ${lang.S.of(context).rewardPoint}: ${quiz.data!.categoryQuiz![i].quizzes![index].rewardPoint}',
-                                                      style: kTextStyle.copyWith(
-                                                          color:
-                                                              kLightTextColor),
+                                                      style: kTextStyle.copyWith(color: kLightTextColor),
                                                     ),
-                                                    trailing: Icon(
-                                                        FeatherIcons
-                                                            .chevronRight,
-                                                        color: kLightTextColor),
+                                                    trailing: Icon(FeatherIcons.chevronRight, color: kLightTextColor),
                                                   ),
                                                 );
                                               })

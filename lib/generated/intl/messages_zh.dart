@@ -47,8 +47,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "已奖励，请稍后再来",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage("已获得奖励。请明天再试"),
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage("已获得奖励。请明天再试"),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
           "已奖励。稍后再试",
         ),
@@ -63,16 +62,13 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "annotateImagesForAl": MessageLookupByLibrary.simpleMessage("为AI标注图像"),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple登录将仅适用于Apple设备",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("您同意吗？"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage("您确定要删除此账户吗？"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage("您确定要删除此账户吗？"),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage("授权失败"),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("余额"),
@@ -89,8 +85,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "checkYourMobile": MessageLookupByLibrary.simpleMessage("检查您的手机"),
         "code": MessageLookupByLibrary.simpleMessage("代码"),
         "coins": MessageLookupByLibrary.simpleMessage("金币"),
-        "collectDailyRewardNow":
-            MessageLookupByLibrary.simpleMessage("立即领取每日奖励！"),
+        "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage("立即领取每日奖励！"),
         "completeAnAction": MessageLookupByLibrary.simpleMessage("完成一个操作"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "完成优惠并获取积分",
@@ -105,14 +100,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "continueWithFacebok": MessageLookupByLibrary.simpleMessage(
           "使用 Facebook 继续",
         ),
-        "continueWithGoogle":
-            MessageLookupByLibrary.simpleMessage("使用 Google 继续"),
+        "continueWithGoogle": MessageLookupByLibrary.simpleMessage("使用 Google 继续"),
         "continueWithMobile": MessageLookupByLibrary.simpleMessage("使用手机继续"),
         "customVideos": MessageLookupByLibrary.simpleMessage("自定义视频"),
         "d": MessageLookupByLibrary.simpleMessage("D"),
         "dailyReward": MessageLookupByLibrary.simpleMessage("每日奖励！"),
-        "dailyRewardUpdateFailed":
-            MessageLookupByLibrary.simpleMessage("每日奖励更新失败"),
+        "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage("每日奖励更新失败"),
         "dateUpdated": MessageLookupByLibrary.simpleMessage("更新日期（2021年6月7日）"),
         "daysToComplete": MessageLookupByLibrary.simpleMessage("完成天数"),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("删除账户"),
@@ -142,16 +135,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterYourEmail": MessageLookupByLibrary.simpleMessage("输入您的电子邮件地址"),
         "enterYourMobile": MessageLookupByLibrary.simpleMessage("输入您的手机号码"),
         "enterYourNewPassword": MessageLookupByLibrary.simpleMessage("输入您的新密码"),
-        "enterYourPasswordAgain":
-            MessageLookupByLibrary.simpleMessage("再次输入您的密码"),
+        "enterYourPasswordAgain": MessageLookupByLibrary.simpleMessage("再次输入您的密码"),
         "enterYourRegistrationEmail": MessageLookupByLibrary.simpleMessage(
           "输入您注册的电子邮件地址",
         ),
         "enterinvantationCode": MessageLookupByLibrary.simpleMessage("输入邀请码"),
         "entryFee": MessageLookupByLibrary.simpleMessage("入场费"),
         "errorHappened": MessageLookupByLibrary.simpleMessage("发生错误"),
-        "errorHappenedTryAgain":
-            MessageLookupByLibrary.simpleMessage("发生错误。请再试一次"),
+        "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage("发生错误。请再试一次"),
         "errorOccurred": MessageLookupByLibrary.simpleMessage("发生错误"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "发生错误，请重试",
@@ -184,11 +175,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
           "选择有益。 微生物时间控制大量的生命。 选择较多时，交替选择的影响很小。 选择较多时，准确选择，通常选择。 主要选择选择与选择相同。 最佳选择是选择的组合。 成功管理生活的方式。 完成选择选择，解决选择。",
         ),
-        "ifYouPlayThisQuizThen":
-            MessageLookupByLibrary.simpleMessage("如果您玩这个测验"),
+        "ifYouPlayThisQuizThen": MessageLookupByLibrary.simpleMessage("如果您玩这个测验"),
         "ifYouRetakeThen": MessageLookupByLibrary.simpleMessage("如果您重新参加"),
-        "ifYouScratchThisCard":
-            MessageLookupByLibrary.simpleMessage("如果您刮这张卡片"),
+        "ifYouScratchThisCard": MessageLookupByLibrary.simpleMessage("如果您刮这张卡片"),
         "imageSizeShouldBeSmallerThan2Mb": MessageLookupByLibrary.simpleMessage(
           "图片大小应小于2MB",
         ),
@@ -205,13 +194,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "邀请您的朋友使用现金火箭，每邀请一个朋友您将获得100积分",
         ),
         "isForMainFrame": MessageLookupByLibrary.simpleMessage("是否为主框架"),
-        "itUseYouWillDetect":
-            MessageLookupByLibrary.simpleMessage("如果您使用它，您将会检测到"),
+        "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage("如果您使用它，您将会检测到"),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall优惠"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "lactusMautis":
-            MessageLookupByLibrary.simpleMessage("果岭选择，选择，控制的综合选择。"),
+        "lactusMautis": MessageLookupByLibrary.simpleMessage("果岭选择，选择，控制的综合选择。"),
         "language": MessageLookupByLibrary.simpleMessage("语言"),
         "lastName": MessageLookupByLibrary.simpleMessage("姓氏"),
         "letsGetStarted": MessageLookupByLibrary.simpleMessage("让我们开始吧"),
@@ -228,11 +215,9 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "medium": MessageLookupByLibrary.simpleMessage("中等"),
         "minimum1000Points": MessageLookupByLibrary.simpleMessage("最低1000积分"),
-        "minimumWithdrawBalanceIs":
-            MessageLookupByLibrary.simpleMessage("最低提现余额为"),
+        "minimumWithdrawBalanceIs": MessageLookupByLibrary.simpleMessage("最低提现余额为"),
         "mobile": MessageLookupByLibrary.simpleMessage("手机号码"),
-        "mobileNumberIsRequired":
-            MessageLookupByLibrary.simpleMessage("手机号为必填项"),
+        "mobileNumberIsRequired": MessageLookupByLibrary.simpleMessage("手机号为必填项"),
         "myGymFitnessStudioManager": MessageLookupByLibrary.simpleMessage(
           "我的健身房: 健身工作室经理",
         ),
@@ -265,35 +250,29 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidQuizPlay": MessageLookupByLibrary.simpleMessage("付费测验游戏"),
         "password": MessageLookupByLibrary.simpleMessage("密码"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage("密码不能为空"),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "密码不能少于6个字符",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage("密码不匹配"),
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage("密码为必填项"),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage("密码长度必须至少为6个字符"),
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage("密码长度必须至少为6个字符"),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage("密码重置失败"),
         "passwordResetSuccessfully": MessageLookupByLibrary.simpleMessage(
           "密码已成功重置",
         ),
         "passwordUpdateFailed": MessageLookupByLibrary.simpleMessage("密码更新失败"),
-        "passwordUpdateSuccessful":
-            MessageLookupByLibrary.simpleMessage("密码更新成功"),
+        "passwordUpdateSuccessful": MessageLookupByLibrary.simpleMessage("密码更新成功"),
         "payPal": MessageLookupByLibrary.simpleMessage("PayPal"),
         "personaly": MessageLookupByLibrary.simpleMessage("亲自"),
         "playAgain": MessageLookupByLibrary.simpleMessage("再玩一次"),
-        "playRiseofKingdoms":
-            MessageLookupByLibrary.simpleMessage("1. 玩《王国崛起》"),
+        "playRiseofKingdoms": MessageLookupByLibrary.simpleMessage("1. 玩《王国崛起》"),
         "playVideo": MessageLookupByLibrary.simpleMessage("播放视频"),
         "pleaseCheckYourOtp": MessageLookupByLibrary.simpleMessage("请检查您的OTP"),
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "请检查您的购买代码",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage("请明天回来观看视频"),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage("请明天回来观看视频"),
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. 请在22天内完成任务",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage("请输入金额"),
@@ -307,8 +286,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "请在下面输入代码以重置您的",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage("请选择提现方式和货币"),
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage("请选择提现方式和货币"),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("请再试一次"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("请等待"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage("请等待加载完成"),
@@ -363,8 +341,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("保存"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("刮刮卡，赢取奖品！"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("刮刮卡"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "刮上面的卡片，滑动它",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("秒"),
@@ -392,16 +369,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("成功"),
         "survey": MessageLookupByLibrary.simpleMessage("调查"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "调查完成。将很快获得奖励",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage("调查不可用"),
         "surveyPanelClosed": MessageLookupByLibrary.simpleMessage("调查面板关闭"),
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage("调查面板开放"),
         "tendingOffers": MessageLookupByLibrary.simpleMessage("正在进行的优惠"),
-        "termandConditionOfUse":
-            MessageLookupByLibrary.simpleMessage("使用条款和条件"),
+        "termandConditionOfUse": MessageLookupByLibrary.simpleMessage("使用条款和条件"),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage("条款和条件"),
         "termsOfService": MessageLookupByLibrary.simpleMessage("服务条款"),
         "token": MessageLookupByLibrary.simpleMessage("令牌"),
@@ -446,13 +421,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "每天只能观看一个视频一次",
         ),
         "watchVideo": MessageLookupByLibrary.simpleMessage("观看视频"),
-        "watchVideoAndEarn":
-            MessageLookupByLibrary.simpleMessage("观看视频（赚取10个硬币）"),
+        "watchVideoAndEarn": MessageLookupByLibrary.simpleMessage("观看视频（赚取10个硬币）"),
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "观看Viewos并获得积分",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "我们已向您的手机发送了6位数验证码",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -475,21 +448,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreNotEligibleForThisSurvey": MessageLookupByLibrary.simpleMessage(
           "您不符合此调查的资格",
         ),
-        "youAreRetakingTheQuiz":
-            MessageLookupByLibrary.simpleMessage("您正在重新参加测验"),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage("您已经赢得了这个测验。尝试玩其他测验"),
+        "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage("您正在重新参加测验"),
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage("您已经赢得了这个测验。尝试玩其他测验"),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("您已获得"),
-        "youHaveEarned10Coins":
-            MessageLookupByLibrary.simpleMessage("您已赚取 10 个金币"),
+        "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage("您已赚取 10 个金币"),
         "youLose": MessageLookupByLibrary.simpleMessage("您输了"),
-        "youRejectedThisSurvey":
-            MessageLookupByLibrary.simpleMessage("您拒绝了此调查"),
+        "youRejectedThisSurvey": MessageLookupByLibrary.simpleMessage("您拒绝了此调查"),
         "yourFyberUserIDis": MessageLookupByLibrary.simpleMessage(
           "您的 Fyber 用户 ID 是",
         ),
-        "yourPasswordDoesNotMatch":
-            MessageLookupByLibrary.simpleMessage("您的密码不匹配"),
+        "yourPasswordDoesNotMatch": MessageLookupByLibrary.simpleMessage("您的密码不匹配"),
         "yourPurchaseCodeIsNotValid": MessageLookupByLibrary.simpleMessage(
           "您的购买代码无效。请从 Envato 购买我们的产品以获取新的购买代码。",
         ),

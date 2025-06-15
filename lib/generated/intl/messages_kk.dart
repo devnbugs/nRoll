@@ -48,8 +48,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "admobVideoAds": MessageLookupByLibrary.simpleMessage(
           "Admob Видео Жарнамалары",
         ),
-        "allFeatures":
-            MessageLookupByLibrary.simpleMessage("Барлық функциялар"),
+        "allFeatures": MessageLookupByLibrary.simpleMessage("Барлық функциялар"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "навигацияға рұқсат беру",
         ),
@@ -60,8 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Бұрын марапатталды, кейінірек қайтып оралыңыз",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Бұрын марапатталдыңыз. Ертең қайтадан көріңіз",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -80,19 +78,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "AI үшін суреттерді белгілеп қойыңыз",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple кірісі Apple құрылғыларында жұмыс істейді",
         ),
-        "areYouAgree":
-            MessageLookupByLibrary.simpleMessage("Сіз келісесіз бе?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouAgree": MessageLookupByLibrary.simpleMessage("Сіз келісесіз бе?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Бұл есептік жазбаны жойғыңыз келетініне сенімдісіз бе?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Авторизация сәтсіз болды",
         ),
@@ -115,10 +109,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Кіру ақысы алынуда",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Видео"),
-        "checkYourMobile":
-            MessageLookupByLibrary.simpleMessage("Мобильді тексеру"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Видео"),
+        "checkYourMobile": MessageLookupByLibrary.simpleMessage("Мобильді тексеру"),
         "code": MessageLookupByLibrary.simpleMessage("код"),
         "coins": MessageLookupByLibrary.simpleMessage("Салықтар"),
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
@@ -157,16 +149,14 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "customVideos": MessageLookupByLibrary.simpleMessage("Жеке бейнелер"),
         "d": MessageLookupByLibrary.simpleMessage("D"),
-        "dailyReward":
-            MessageLookupByLibrary.simpleMessage("Күнтізбе марапат!"),
+        "dailyReward": MessageLookupByLibrary.simpleMessage("Күнтізбе марапат!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Күнделікті марапат жаңартылуы сәтсіз болды",
         ),
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "Жаңартылды (2021 ж. 7 маусым)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("Аяқтау күндері"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("Аяқтау күндері"),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("Аккаунтты жою"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage(
           "Есептік жазба жойылуда",
@@ -196,13 +186,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage(
           "Нүкте санын енгізіңіз",
         ),
-        "enterFirstName":
-            MessageLookupByLibrary.simpleMessage("Атын енгізіңіз"),
+        "enterFirstName": MessageLookupByLibrary.simpleMessage("Атын енгізіңіз"),
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Толық атыңызды енгізіңіз",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Тегін енгізіңіз"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Тегін енгізіңіз"),
         "enterPassword": MessageLookupByLibrary.simpleMessage(
           "Құпия сөзді енгізіңіз",
         ),
@@ -262,8 +250,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Ұсынысы"),
         "gallary": MessageLookupByLibrary.simpleMessage("Галерея"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("Марапат алу"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("Марапаттар алуда"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("Марапаттар алуда"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "Бүгінгі марапатты алудасыз",
         ),
@@ -271,8 +258,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "Өзіңіздің аккаунтыңыз жоқ па?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Сәлем! Көбірек ақша!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Сәлем! Көбірек ақша!"),
         "history": MessageLookupByLibrary.simpleMessage("Тарих"),
         "home": MessageLookupByLibrary.simpleMessage("Басты бет"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -295,8 +281,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Нұсқаулар"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("Қате OTP"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Қош келдіңіз Коды"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Қош келдіңіз Коды"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Шақыру коды көшірілді",
         ),
@@ -307,14 +292,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Cash Rocket пайдаланушысы болуға достарыңызды шақырыңыз, сіз әр біре үшін 100 нүкте аласыз",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("негізгі кадр үшін"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("негізгі кадр үшін"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "Оны қолданып, сіз түсінесіз",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Ұсынысы"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Ұсынысы"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -352,21 +335,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "Интернет байланысы табылмады",
         ),
-        "noOfferFound":
-            MessageLookupByLibrary.simpleMessage("Ұсыныс табылмады"),
+        "noOfferFound": MessageLookupByLibrary.simpleMessage("Ұсыныс табылмады"),
         "noQuizFound": MessageLookupByLibrary.simpleMessage("Байқау табылмады"),
         "none": MessageLookupByLibrary.simpleMessage("Жоқ"),
         "notDefined": MessageLookupByLibrary.simpleMessage("Анықталмаған"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Жеткіліксіз баланс",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Жеткіліксіз монета"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Жеткіліксіз монета"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP жіберілді"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP расталды"),
-        "offerStatus":
-            MessageLookupByLibrary.simpleMessage("Тапсырыс мәртебесі"),
+        "offerStatus": MessageLookupByLibrary.simpleMessage("Тапсырыс мәртебесі"),
         "offerToro": MessageLookupByLibrary.simpleMessage("Offertoro"),
         "offers": MessageLookupByLibrary.simpleMessage("Тапсырыстар"),
         "ogAds": MessageLookupByLibrary.simpleMessage("Og Ads"),
@@ -397,8 +377,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Құпия сөз бос бола алмайды",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Құпия сөз 6 таңбадан қысқа болмауы керек",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -407,8 +386,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Құпия сөз қажет",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Құпия сөздің ұзындығы кем дегенде 6 таңба болуы керек",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -436,12 +414,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Сатып алу кодыңызды тексеріңіз",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Эртеңі бейне көру үшін қайта келіңіз",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Тапсырманы 22 күн ішінде аяқтаңыз",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -459,21 +435,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Кодты қалпына келтіру үшін төмендегі кодты енгізіңіз",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Ауыстыру әдісін және валютаны таңдаңыз",
         ),
-        "pleaseTryAgain":
-            MessageLookupByLibrary.simpleMessage("Қайтадан көріңіз"),
+        "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("Қайтадан көріңіз"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("Күте тұрыңыз"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Жүктелуді күтіңіз",
         ),
-        "pointRecived":
-            MessageLookupByLibrary.simpleMessage("Алынған нүктелер"),
+        "pointRecived": MessageLookupByLibrary.simpleMessage("Алынған нүктелер"),
         "points": MessageLookupByLibrary.simpleMessage("Баллар"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Ұпайлар алынды"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Ұпайлар алынды"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "ұпайлар алынады!",
         ),
@@ -492,8 +464,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacyPolicty": MessageLookupByLibrary.simpleMessage(
           "Құпиялылық саясаты",
         ),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("Құпиялылық саясаты"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("Құпиялылық саясаты"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Құпиялылық саясаты | Кеш Рокет",
         ),
@@ -519,10 +490,8 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "refer": MessageLookupByLibrary.simpleMessage("Анықтау"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Мені есте сақтау"),
-        "requestingWithdraw":
-            MessageLookupByLibrary.simpleMessage("Шығару сұрауы"),
-        "resendCode":
-            MessageLookupByLibrary.simpleMessage("Кодты қайта жіберу"),
+        "requestingWithdraw": MessageLookupByLibrary.simpleMessage("Шығару сұрауы"),
+        "resendCode": MessageLookupByLibrary.simpleMessage("Кодты қайта жіберу"),
         "resetPassword": MessageLookupByLibrary.simpleMessage(
           "Құпия сөзді қалпына келтіру",
         ),
@@ -543,19 +512,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Империялар: Қағанаттарды орнату",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Сақтау"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Кемелеп же жеңіл!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Кемелеп же жеңіл!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Қарымдас картасы"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Жоғарғы картаны кемелеу үшін онда тастау",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Секунд"),
-        "secureYourMoney":
-            MessageLookupByLibrary.simpleMessage("Ақшаны қорғау"),
+        "secureYourMoney": MessageLookupByLibrary.simpleMessage("Ақшаны қорғау"),
         "sendOtp": MessageLookupByLibrary.simpleMessage("ОТР жіберу"),
-        "sendingOtp":
-            MessageLookupByLibrary.simpleMessage("OTP жіберіліп жатыр"),
+        "sendingOtp": MessageLookupByLibrary.simpleMessage("OTP жіберіліп жатыр"),
         "share": MessageLookupByLibrary.simpleMessage("Бөлісу"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("Бағаны бөлісу"),
         "showingAds": MessageLookupByLibrary.simpleMessage(
@@ -580,8 +545,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Бір нәрсе дұрыс емес",
         ),
         "sorry": MessageLookupByLibrary.simpleMessage("Кешіріңіз"),
-        "spinTheWheel":
-            MessageLookupByLibrary.simpleMessage("Үлгіні айналдырыңыз"),
+        "spinTheWheel": MessageLookupByLibrary.simpleMessage("Үлгіні айналдырыңыз"),
         "spinTime": MessageLookupByLibrary.simpleMessage("дүрбелең уақыты"),
         "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage(
           "Spin Wheel Кіру ақысы",
@@ -592,8 +556,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Сәтті"),
         "survey": MessageLookupByLibrary.simpleMessage("Сауалнама"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Сауалнама аяқталды. Жақында марапат аласыз",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -605,8 +568,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Сауалнама панелі ашық",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Қазіргі ұсыныстар"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Қазіргі ұсыныстар"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Пайдалану ережелері",
         ),
@@ -621,11 +583,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Токен жаңартуы сәтсіз аяқталды",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Ең жақсы тапсырма!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("Жалпы марапаттар"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("Жалпы марапаттар"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("Барлық бейнелер"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("Барлық веб-сайттар"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("Барлық веб-сайттар"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Қайталап көріңіз"),
         "tutorial": MessageLookupByLibrary.simpleMessage("Нұсқаулық"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
@@ -686,8 +646,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Бейне көріп, ұпай алыңыз",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Біз сізге 6-санық кодты жібердік\nСіздің мобильді телефоныңызға ",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -709,18 +668,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Қате OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Ия"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Иә, жойыңыз!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("Сіз өшірілдіңіз!"),
-        "youAreDisabled":
-            MessageLookupByLibrary.simpleMessage("Сіз өшірілдіңіз!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("Сіз өшірілдіңіз!"),
+        "youAreDisabled": MessageLookupByLibrary.simpleMessage("Сіз өшірілдіңіз!"),
         "youAreNotEligibleForThisSurvey": MessageLookupByLibrary.simpleMessage(
           "Бұл сауалнама үшін қолайлы емессіз",
         ),
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Сіз викторинаны қайта ойнап жатырсыз",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Сіз бұл викторинаны жеңдіңіз. Басқа викториналарды ойнауды байқап көріңіз",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Сіз жеңілдіңіз"),

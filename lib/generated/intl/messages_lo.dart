@@ -30,8 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "PleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage(
           "ກະລຸນາໃສ່ OTP ຂອງທ່ານ",
         ),
-        "RedeemYourPints":
-            MessageLookupByLibrary.simpleMessage("ໄບຈຳຄ່າຂອງທ່ານ"),
+        "RedeemYourPints": MessageLookupByLibrary.simpleMessage("ໄບຈຳຄ່າຂອງທ່ານ"),
         "SecureYourMoney": MessageLookupByLibrary.simpleMessage(
           "ປັດທາງເງິນຂອງທ່ານ",
         ),
@@ -45,19 +44,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("AdMob Video"),
         "admobVideoAds": MessageLookupByLibrary.simpleMessage("Admob ບວນປອງ"),
-        "allFeatures":
-            MessageLookupByLibrary.simpleMessage("ສຳລັບການນຳສັນຍາຫຼັກ"),
+        "allFeatures": MessageLookupByLibrary.simpleMessage("ສຳລັບການນຳສັນຍາຫຼັກ"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "ໃຫ້ສະໜອງແລ້ວ",
         ),
-        "alreadyHaveAnAccount":
-            MessageLookupByLibrary.simpleMessage("ມີບັນຊີແລ້ວ"),
+        "alreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage("ມີບັນຊີແລ້ວ"),
         "alreadyPlayed": MessageLookupByLibrary.simpleMessage("ເຂົ້າຮຽນແລ້ວ"),
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "ເພີ່ມແລ້ວໃຈຄືນໃໝ່",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage("ແລ້ວ ຂໍໍ໋ໃສ່ຄວາມໄວເບິ້ດເອກ"),
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage("ແລ້ວ ຂໍໍ໋ໃສ່ຄວາມໄວເບິ້ດເອກ"),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
           "ເພີ່ມແລ້ວ. ກະລຸນາລອງໃໝ່ເວລາອື່ນ",
         ),
@@ -74,26 +70,21 @@ class MessageLookup extends MessageLookupByLibrary {
           "ເຂົ້າໃນຮູບພາບໃຫ້ສໍາລັບ Al",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "ການເຂົ້າໃຊ້ Apple ຈະເຮັດງານໃນເຄື່ອງໄອເປິ້ນ",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage(
           "ທ່ານກົດກະທົບກັບຄວາມຍິ່ງມີບັນດາບໍ?",
         ),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
-                "ຄວາມແທ້ຂອງບັນທຶກນີ້ ຈິງແລ້ວບໍ່?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage("ຄວາມແທ້ຂອງບັນທຶກນີ້ ຈິງແລ້ວບໍ່?"),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "ຂໍອະນຸມັດບໍ່ສໍາເລັດ",
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("ຍອດປະມານ"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs ສຳສອງຄວາມ"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs ສຳສອງຄວາມ"),
         "bitrise": MessageLookupByLibrary.simpleMessage("Bitrise"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -106,8 +97,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "ກຳລັງບັດຄ່າເຂົ້າ",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "ກວດສອບລະບົບໂທິດບຸ",
         ),
@@ -116,8 +106,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
           "ຮັບລາງວັນອອກພາຍໃຕ້ນີ້!",
         ),
-        "completeAnAction":
-            MessageLookupByLibrary.simpleMessage("ສົດເຮັດບັດບາດ"),
+        "completeAnAction": MessageLookupByLibrary.simpleMessage("ສົດເຮັດບັດບາດ"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "ສໍາເລັດສໍາລັບສະໜອງແລ້ວເຂົ້າຄະແນນ",
         ),
@@ -177,8 +166,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailDoesNotExist": MessageLookupByLibrary.simpleMessage(
           "ອີເມວບໍ່ເປັນຄວາມ",
         ),
-        "enterCoinAmount":
-            MessageLookupByLibrary.simpleMessage("ປ້ອນຈຳນວນເງິນ"),
+        "enterCoinAmount": MessageLookupByLibrary.simpleMessage("ປ້ອນຈຳນວນເງິນ"),
         "enterFirstName": MessageLookupByLibrary.simpleMessage("ພິມຊື່ແທ້"),
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "ປ້ອນຊື່ແທນສຸດຂອງທ່ານ",
@@ -188,8 +176,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "ປ້ອນທີ່ຢູ່ອີເມວຂອງທ່ານ",
         ),
-        "enterYourEmail":
-            MessageLookupByLibrary.simpleMessage("ປ້ອນອີເມວຂອງທ່ານ"),
+        "enterYourEmail": MessageLookupByLibrary.simpleMessage("ປ້ອນອີເມວຂອງທ່ານ"),
         "enterYourMobile": MessageLookupByLibrary.simpleMessage(
           "ປ້ອນໂທລະສັບຂອງທ່ານ",
         ),
@@ -238,16 +225,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Offer"),
         "gallary": MessageLookupByLibrary.simpleMessage("ຂໍ້ມູນຮູບ"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("ເລີມລາງຈິນ"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("ກຳລັງເອົາລາງວັນ"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("ກຳລັງເອົາລາງວັນ"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "ກຳລັງເອົາລາງວັນປະຈຸບັນ",
         ),
         "hard": MessageLookupByLibrary.simpleMessage("ງານງົວຈັກ"),
-        "havenotAnyAcconts":
-            MessageLookupByLibrary.simpleMessage("ຍັງບໍ່ມີບັນຊີ?"),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("ເຮັດງານເພີ່ມເງິນ!"),
+        "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage("ຍັງບໍ່ມີບັນຊີ?"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("ເຮັດງານເພີ່ມເງິນ!"),
         "history": MessageLookupByLibrary.simpleMessage("ປະຫວັດການ"),
         "home": MessageLookupByLibrary.simpleMessage("ຫນ້າຫລັກ"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -288,16 +272,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "ມີການໃຊ້, ທ່ານຈະຮັກ",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Offer"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Offer"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("ພາສາ"),
         "lastName": MessageLookupByLibrary.simpleMessage("ນາມສະກຸນ"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("ເລີ່ມການກໍາມາຈົບ"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("ເລີ່ມການກໍາມາຈົບ"),
         "loading": MessageLookupByLibrary.simpleMessage("ກຳລັງໂຮຍໃນ"),
         "logIn": MessageLookupByLibrary.simpleMessage("ເຂົ້າສູ່ລະບົບ"),
         "logOut": MessageLookupByLibrary.simpleMessage("ອອກຈາກລະບົບ"),
@@ -365,14 +347,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "ຈ່າຍເງິນໃຫ້ສໍາເລັດສໍາເລັດ",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("ຈ່າຍເງິນເກີນຄະແນນ"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("ຈ່າຍເງິນເກີນຄະແນນ"),
         "password": MessageLookupByLibrary.simpleMessage("ລະຫັດຜ່ານ"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "ລະສິດບໍ່ສາມາດເປົ່າເສົ້າ",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "ລະສິດບໍ່ສາມາດນ້ອຍກວ່າ 6 ອັກສອນ",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -381,8 +361,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "ລະຫັດຜໍ່ຈະເປັນການບິດ",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "ຄວາມຍາວລະຫັດຜໍ່ຕ້ອງເປັນຄົງ 6 ອັກສອນ",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -410,11 +389,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "ຂໍໍ໋ບກໍໍໃສ່ລະບົບສະເໜີ",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
-                "ກະລຸນາມີມື້ໃໝ່ເພື່ອເບິ່ງວິດເຕ"),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage("ກະລຸນາມີມື້ໃໝ່ເພື່ອເບິ່ງວິດເຕ"),
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. ກະລຸນາສ້າງຄໍາສັ່ງໃນເວລາ 22 ມື້",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -432,8 +408,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "ກະລຸນາໃສ່ລະຫັດບໍລິການຂໍ້ມູນຂອງທ່ານເພື່ອລອງຢືນຢັນການ",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "ກະລຸນາເລືອກວິທີການເບິ່ງແລະສະເພາະ",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("ກະລຸນາລອງໃໝ່"),
@@ -447,8 +422,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "ຄະແນນຈະເຖິງ!",
         ),
-        "pointsWillBeDucted":
-            MessageLookupByLibrary.simpleMessage("ຈຳນວດຈາກຄືນ!"),
+        "pointsWillBeDucted": MessageLookupByLibrary.simpleMessage("ຈຳນວດຈາກຄືນ!"),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfishSurvey": MessageLookupByLibrary.simpleMessage(
@@ -474,23 +448,18 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "quiz": MessageLookupByLibrary.simpleMessage("ສອງຄວາມ"),
         "quizzes": MessageLookupByLibrary.simpleMessage("ພາສາສາທາບ"),
-        "rateUs":
-            MessageLookupByLibrary.simpleMessage("ການຈັດອັນດັບຂອງພວກເຮົາ"),
-        "reEnterPassword":
-            MessageLookupByLibrary.simpleMessage("ປ້ອນລະຫັດຜ່ານຄືນ"),
+        "rateUs": MessageLookupByLibrary.simpleMessage("ການຈັດອັນດັບຂອງພວກເຮົາ"),
+        "reEnterPassword": MessageLookupByLibrary.simpleMessage("ປ້ອນລະຫັດຜ່ານຄືນ"),
         "reachLevel100InTheGame": MessageLookupByLibrary.simpleMessage(
           "ເຂົ້າໃນລະດັບ 100 ສຽງຕົວເກມ!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("ເລີ່ມຊ່າງ"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("ໃຊ້ຄືນເງິນຂອງທ່ານ"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("ໃຊ້ຄືນເງິນຂອງທ່ານ"),
         "refer": MessageLookupByLibrary.simpleMessage("ແນະນໍາ"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("ຈື່ຂ້ອຍ"),
-        "requestingWithdraw":
-            MessageLookupByLibrary.simpleMessage("ກຳລັງຂໍບັນຊີ"),
+        "requestingWithdraw": MessageLookupByLibrary.simpleMessage("ກຳລັງຂໍບັນຊີ"),
         "resendCode": MessageLookupByLibrary.simpleMessage("ສົ່ງລະຫັດຄ້າໃໝ່"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("ຕັ້ງລະຫັດຜ່ານຄືນ"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("ຕັ້ງລະຫັດຜ່ານຄືນ"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "ກຳລັງຕັ້ງລະຫັດຜໍ່",
         ),
@@ -514,8 +483,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "ປະລະທີ່ທຳການຢ້າກແລະຈະເຂົ້າລົງ!",
         ),
         "scratchCard": MessageLookupByLibrary.simpleMessage("ປະລະທີ່ທຳການຢ້າກ"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "ລາວມັດກັບປະລະທີ່ທຳການຢ້າກມໝາຍ",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("ວິນາທີ"),
@@ -526,37 +494,32 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendingOtp": MessageLookupByLibrary.simpleMessage("ກຳລັງສ່ອນ OTP"),
         "share": MessageLookupByLibrary.simpleMessage("ແບ່ງປັນ"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("ແບ່ງປັນການອອກແບບ"),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("ກະເສັດລະບົບສໍາເລັດ"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("ກະເສັດລະບົບສໍາເລັດ"),
         "signIn": MessageLookupByLibrary.simpleMessage("ເຂົ້າສູ່ລະບົບ"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "ການລົງບັນທຶກສໍາເລັດ",
         ),
         "signUp": MessageLookupByLibrary.simpleMessage("ລົງທະບຽນ"),
         "signUpSuccessful": MessageLookupByLibrary.simpleMessage("ສະແດງສຳເລັດ"),
-        "signUpwitEmail":
-            MessageLookupByLibrary.simpleMessage("ລົງທະບຽນໂດຍອີເມລ"),
+        "signUpwitEmail": MessageLookupByLibrary.simpleMessage("ລົງທະບຽນໂດຍອີເມລ"),
         "signingOut": MessageLookupByLibrary.simpleMessage("ລົງບັນທຶກ"),
         "signingUp": MessageLookupByLibrary.simpleMessage("ກຳລັງລົງບັນທຶກ"),
         "skip": MessageLookupByLibrary.simpleMessage("ຂ້າມອອກ"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("ຂ້າມປະຫມັກປັດຈຸບັນ"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("ຂ້າມປະຫມັກປັດຈຸບັນ"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "ມີບັນຫາບາງຢ່າງ",
         ),
         "sorry": MessageLookupByLibrary.simpleMessage("ຂໍອາຍຸ"),
         "spinTheWheel": MessageLookupByLibrary.simpleMessage("ຫາດລົດຄວາມ"),
         "spinTime": MessageLookupByLibrary.simpleMessage("ເວລາປ່ອນລົງ"),
-        "spinWheelEntryFee":
-            MessageLookupByLibrary.simpleMessage("ຄ່າເຂົ້າລອຍລົງ"),
+        "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage("ຄ່າເຂົ້າລອຍລົງ"),
         "spinWheelVideoAds": MessageLookupByLibrary.simpleMessage(
           "ປ່ອນລົງວິດໂອ້ດເພີ່ມ",
         ),
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("ສຳເລັດ"),
         "survey": MessageLookupByLibrary.simpleMessage("ການຮຽນ"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "ສຳສອງຄວາມສໍາເລັດ. ຈະເກັບໃບປອດເຫັນເພາະ",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -582,8 +545,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "ການປ່ອນສະໄໝບໍ່ສໍາເລັດ",
         ),
-        "topOffer":
-            MessageLookupByLibrary.simpleMessage("ລາຍການສະເໜີຍິນຍາມຫຼາຍ!"),
+        "topOffer": MessageLookupByLibrary.simpleMessage("ລາຍການສະເໜີຍິນຍາມຫຼາຍ!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("ລາງວັນທັງຫມົດ"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("ຮູບເງົາທັງຫມົ"),
         "totalWebsites": MessageLookupByLibrary.simpleMessage("ເວັບໂຮຕິກາວ"),
@@ -600,10 +562,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. ປັບຈຳນວນບ້ານຂອງທ່ານເປັນລະດັບທີ່ 17",
         ),
-        "urlChangeTo":
-            MessageLookupByLibrary.simpleMessage("ເອກະຊອງຕໍ່ສ້າງເປັນ"),
-        "userAlreadyExist":
-            MessageLookupByLibrary.simpleMessage("ຜູ້ໃຊ້ສະໜອງແລ້ວ"),
+        "urlChangeTo": MessageLookupByLibrary.simpleMessage("ເອກະຊອງຕໍ່ສ້າງເປັນ"),
+        "userAlreadyExist": MessageLookupByLibrary.simpleMessage("ຜູ້ໃຊ້ສະໜອງແລ້ວ"),
         "userCanaonly": MessageLookupByLibrary.simpleMessage(
           "5. ຜູ້ໃຊ້ສາມາດຮັບຄຳເລັດຈາກສິ້ນສຸດຂອງການຕິດຕັ້ງ Rise of kingdoms ລະບຸໄດ້ເທົ່ານັ້ນ",
         ),
@@ -619,8 +579,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "verifyingOTP": MessageLookupByLibrary.simpleMessage("ກຳລັງຢືນຢັນ OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("ສຳລັບຄວາມສາມາດ"),
         "videos": MessageLookupByLibrary.simpleMessage("ວີດີໂອ"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("ເຂົ້າໜຶ່ງໜ້າເວັບ"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("ເຂົ້າໜຶ່ງໜ້າເວັບ"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "ເຂົ້າໜຶ່ງໜ້າເວັບແລະໄດ້",
         ),
@@ -642,8 +601,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "ເບິ່ງວິດໂອ້ດແລ້ວເຂົ້າຄະແນນ",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "ເຮັດນີນເຂົ້າແລ້ວລາຄາ 6 ຕື່ມຫຼາຍຫລືຖືໂທິດບຸຕົນຖື",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -679,12 +637,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "ທ່ານກຳລັງເຮັດຄະແນນຄືນ",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "ທ່ານໄດ້ຊະນະຄະແນນນີ້ແລ້ວ. ລອງເລີ່ມຄະແນນອື່ນ",
         ),
-        "youHaveEarned":
-            MessageLookupByLibrary.simpleMessage("ທ່ານໄດ້ຈຳນວດແລ້ວ"),
+        "youHaveEarned": MessageLookupByLibrary.simpleMessage("ທ່ານໄດ້ຈຳນວດແລ້ວ"),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(
           "ທ່ານບໍ່ໄດ້ລາງເງິນ 10",
         ),

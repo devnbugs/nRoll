@@ -15,8 +15,8 @@ abstract class Fortune {
     if (min == max) {
       return min;
     }
-    final rng = _math.Random();
-    return min + rng.nextInt(max - min);
+    final _rng = _math.Random();
+    return min + _rng.nextInt(max - min);
   }
 
   /// Generates a random [Duration] uniformly distributed in the range

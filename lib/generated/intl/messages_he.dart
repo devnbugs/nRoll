@@ -33,8 +33,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "RedeemYourPints": MessageLookupByLibrary.simpleMessage(
           "ממש את הנקודות שלך",
         ),
-        "SecureYourMoney":
-            MessageLookupByLibrary.simpleMessage("אבטח את הכסף שלך"),
+        "SecureYourMoney": MessageLookupByLibrary.simpleMessage("אבטח את הכסף שלך"),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "WelcomeToCashRocket": MessageLookupByLibrary.simpleMessage(
           "ברוך הבא לקאש רוקט",
@@ -58,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "כבר קיבלת פרס, חזור מאוחר יותר",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "כבר הוענק תגמול. אנא נסה שוב מחר",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -78,18 +76,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "סמן תמונות ל-AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "כניסה עם Apple תעבוד במכשירי Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("האם אתה מסכים?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "האם אתה בטוח שברצונך למחוק את החשבון הזה?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "כישלון באישור",
         ),
@@ -105,10 +100,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "camera": MessageLookupByLibrary.simpleMessage("מצלמה"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("קאש רוקט"),
         "changePassword": MessageLookupByLibrary.simpleMessage("שנה סיסמה"),
-        "chargingEntryFee":
-            MessageLookupByLibrary.simpleMessage("גובים דמי כניסה"),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("וידאו Chartboost"),
+        "chargingEntryFee": MessageLookupByLibrary.simpleMessage("גובים דמי כניסה"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("וידאו Chartboost"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "בדוק את הטלפון שלך",
         ),
@@ -123,18 +116,15 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "completeProfile": MessageLookupByLibrary.simpleMessage("השלם פרופיל"),
         "completeanaction": MessageLookupByLibrary.simpleMessage("השלם פעולה"),
-        "completingProfile":
-            MessageLookupByLibrary.simpleMessage("משלים פרופיל"),
+        "completingProfile": MessageLookupByLibrary.simpleMessage("משלים פרופיל"),
         "confirmPassword": MessageLookupByLibrary.simpleMessage("אמת סיסמה"),
         "congratulations": MessageLookupByLibrary.simpleMessage("מזל טוב"),
         "continu": MessageLookupByLibrary.simpleMessage("המשך"),
-        "continueWithApple":
-            MessageLookupByLibrary.simpleMessage("המשך עם Apple"),
+        "continueWithApple": MessageLookupByLibrary.simpleMessage("המשך עם Apple"),
         "continueWithFacebok": MessageLookupByLibrary.simpleMessage(
           "המשך עם פייסבוק",
         ),
-        "continueWithGoogle":
-            MessageLookupByLibrary.simpleMessage("המשך עם גוגל"),
+        "continueWithGoogle": MessageLookupByLibrary.simpleMessage("המשך עם גוגל"),
         "continueWithMobile": MessageLookupByLibrary.simpleMessage(
           "המשך עם הטלפון הנייד",
         ),
@@ -172,11 +162,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailDoesNotExist": MessageLookupByLibrary.simpleMessage(
           "הדואר האלקטרוני אינו קיים",
         ),
-        "enterCoinAmount":
-            MessageLookupByLibrary.simpleMessage("הזן כמות מטבעות"),
+        "enterCoinAmount": MessageLookupByLibrary.simpleMessage("הזן כמות מטבעות"),
         "enterFirstName": MessageLookupByLibrary.simpleMessage("הזן שם פרטי"),
-        "enterFullName":
-            MessageLookupByLibrary.simpleMessage("הזן את שמך המלא"),
+        "enterFullName": MessageLookupByLibrary.simpleMessage("הזן את שמך המלא"),
         "enterLastName": MessageLookupByLibrary.simpleMessage("הזן שם משפחה"),
         "enterPassword": MessageLookupByLibrary.simpleMessage("הזן סיסמה"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
@@ -227,17 +215,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "forgotPassword": MessageLookupByLibrary.simpleMessage("שכחת סיסמה"),
         "free": MessageLookupByLibrary.simpleMessage("חינם"),
         "fullName": MessageLookupByLibrary.simpleMessage("שם מלא"),
-        "fullNameIsRequired":
-            MessageLookupByLibrary.simpleMessage("שם מלא נדרש"),
+        "fullNameIsRequired": MessageLookupByLibrary.simpleMessage("שם מלא נדרש"),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("הצעת Fyber"),
         "gallary": MessageLookupByLibrary.simpleMessage("גלריה"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("מקבל תגמול"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage("מקבל פרסים"),
-        "gettingTodayReward":
-            MessageLookupByLibrary.simpleMessage("מקבל פרס היום"),
+        "gettingTodayReward": MessageLookupByLibrary.simpleMessage("מקבל פרס היום"),
         "hard": MessageLookupByLibrary.simpleMessage("קשה"),
-        "havenotAnyAcconts":
-            MessageLookupByLibrary.simpleMessage("אין לך חשבון?"),
+        "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage("אין לך חשבון?"),
         "heyMoreCash": MessageLookupByLibrary.simpleMessage("הי! עוד כסף!"),
         "history": MessageLookupByLibrary.simpleMessage("היסטוריה"),
         "home": MessageLookupByLibrary.simpleMessage("בית"),
@@ -315,15 +300,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "לא נמצאה חיבור לאינטרנט",
         ),
-        "noOfferFound":
-            MessageLookupByLibrary.simpleMessage("לא נמצא שום הצעה"),
+        "noOfferFound": MessageLookupByLibrary.simpleMessage("לא נמצא שום הצעה"),
         "noQuizFound": MessageLookupByLibrary.simpleMessage("לא נמצאו שאלונים"),
         "none": MessageLookupByLibrary.simpleMessage("אין"),
         "notDefined": MessageLookupByLibrary.simpleMessage("לא מוגדר"),
-        "notEnoughBalance":
-            MessageLookupByLibrary.simpleMessage("אין מספיק יתרה"),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("לא מספיק מטבעות"),
+        "notEnoughBalance": MessageLookupByLibrary.simpleMessage("אין מספיק יתרה"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("לא מספיק מטבעות"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP נשלח"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP אומת"),
@@ -351,23 +333,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "שולם עבור כרטיס גרד",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("שחק חידון בתשלום"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("שחק חידון בתשלום"),
         "password": MessageLookupByLibrary.simpleMessage("סיסמה"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "הסיסמה לא יכולה להיות ריקה",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "הסיסמה לא יכולה להיות קצרה מ-6 תווים",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
           "הסיסמה אינה תואמת",
         ),
-        "passwordIsRequired":
-            MessageLookupByLibrary.simpleMessage("סיסמה נדרשת"),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordIsRequired": MessageLookupByLibrary.simpleMessage("סיסמה נדרשת"),
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "אורך הסיסמה חייב להיות לפחות 6 תווים",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -395,10 +373,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "אנא בדוק את קוד הרכישה שלך",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage("אנא חזור מחר לצפות בסרטון"),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage("אנא חזור מחר לצפות בסרטון"),
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. אנא השלם את המשימה בתוך 22 ימים",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -416,8 +392,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "אנא הזן את הקוד למטה כדי לאפס את",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage("אנא בחר שיטת משיכה ומטבע"),
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage("אנא בחר שיטת משיכה ומטבע"),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("אנא נסה שוב"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("אנא המתן"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
@@ -439,8 +414,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "לחץ על סובב את הגלגל",
         ),
         "price": MessageLookupByLibrary.simpleMessage("מחיר"),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("מדיניות פרטיות"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("מדיניות פרטיות"),
         "privicyPolcy": MessageLookupByLibrary.simpleMessage("מדיניות פרטיות"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "מדיניות פרטיות | קאש רוקט",
@@ -455,18 +429,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "quiz": MessageLookupByLibrary.simpleMessage("שאלון"),
         "quizzes": MessageLookupByLibrary.simpleMessage("חידונים"),
         "rateUs": MessageLookupByLibrary.simpleMessage("דרג אותנו"),
-        "reEnterPassword":
-            MessageLookupByLibrary.simpleMessage("הזן שוב סיסמה"),
+        "reEnterPassword": MessageLookupByLibrary.simpleMessage("הזן שוב סיסמה"),
         "reachLevel100InTheGame": MessageLookupByLibrary.simpleMessage(
           "הגע לרמה 100 במשחק!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("ממש"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("פדיון הנקודות שלך"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("פדיון הנקודות שלך"),
         "refer": MessageLookupByLibrary.simpleMessage("הפניה"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("זכור אותי"),
-        "requestingWithdraw":
-            MessageLookupByLibrary.simpleMessage("מבקש משיכה"),
+        "requestingWithdraw": MessageLookupByLibrary.simpleMessage("מבקש משיכה"),
         "resendCode": MessageLookupByLibrary.simpleMessage("שלח מחדש"),
         "resetPassword": MessageLookupByLibrary.simpleMessage("איפוס סיסמה"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage("מחדש סיסמה"),
@@ -488,13 +459,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("שמור"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("גרד וזכה!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("כרטיס חריג"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "גרד את הכרטיס למעלה על ידי החלקת אצבע",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("שניות"),
-        "secureYourMoney":
-            MessageLookupByLibrary.simpleMessage("אבטח את הכסף שלך"),
+        "secureYourMoney": MessageLookupByLibrary.simpleMessage("אבטח את הכסף שלך"),
         "sendOtp": MessageLookupByLibrary.simpleMessage("שלח קוד אוטומטי"),
         "sendingOtp": MessageLookupByLibrary.simpleMessage("שולח OTP"),
         "share": MessageLookupByLibrary.simpleMessage("שתף"),
@@ -505,8 +474,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "היציאה בוצעה בהצלחה",
         ),
         "signUp": MessageLookupByLibrary.simpleMessage("הרשמה"),
-        "signUpSuccessful":
-            MessageLookupByLibrary.simpleMessage("הרשמה הצליחה"),
+        "signUpSuccessful": MessageLookupByLibrary.simpleMessage("הרשמה הצליחה"),
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage(
           "הירשם באמצעות אימייל",
         ),
@@ -514,8 +482,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signingUp": MessageLookupByLibrary.simpleMessage("מתחבר"),
         "skip": MessageLookupByLibrary.simpleMessage("דלג"),
         "skipForNow": MessageLookupByLibrary.simpleMessage("דלג כעת"),
-        "somethingWentWrong":
-            MessageLookupByLibrary.simpleMessage("משהו השתבש"),
+        "somethingWentWrong": MessageLookupByLibrary.simpleMessage("משהו השתבש"),
         "sorry": MessageLookupByLibrary.simpleMessage("מצטערים"),
         "spinTheWheel": MessageLookupByLibrary.simpleMessage("סובב את הגלגל"),
         "spinTime": MessageLookupByLibrary.simpleMessage("זמן סיבוב"),
@@ -528,23 +495,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("הצלחה"),
         "survey": MessageLookupByLibrary.simpleMessage("סקר"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "הסקר הושלם. תתגמל בקרוב",
         ),
-        "surveyNotAvailable":
-            MessageLookupByLibrary.simpleMessage("הסקר לא זמין"),
+        "surveyNotAvailable": MessageLookupByLibrary.simpleMessage("הסקר לא זמין"),
         "surveyPanelClosed": MessageLookupByLibrary.simpleMessage(
           "לוח הסקרים סגור",
         ),
-        "surveyPanelOpen":
-            MessageLookupByLibrary.simpleMessage("לוח הסקרים פתוח"),
+        "surveyPanelOpen": MessageLookupByLibrary.simpleMessage("לוח הסקרים פתוח"),
         "tendingOffers": MessageLookupByLibrary.simpleMessage("הצעות בתהליך"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "תנאים והגבלות שימוש",
         ),
-        "termsAndConditions":
-            MessageLookupByLibrary.simpleMessage("תנאים והגבלות"),
+        "termsAndConditions": MessageLookupByLibrary.simpleMessage("תנאים והגבלות"),
         "termsOfService": MessageLookupByLibrary.simpleMessage("תנאי שימוש"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
@@ -560,23 +523,18 @@ class MessageLookup extends MessageLookupByLibrary {
           "אולאמקורפר ארוס סנקטוס אורנה סיט אלימנטום אליקואט. ניבה מאוריס טריסטיקו אליט פלנטסקוואה סא פין מאליסואדה אליפנד איאקוליס מאליסואדה. מאוריס, אוט איד הנדררית האביטנט גראווידה אורנה קונגוווה ארקו סיט. אט קוויסקוווה לאו סמפר אורנה גראווידה",
         ),
         "updatePassword": MessageLookupByLibrary.simpleMessage("עדכן סיסמה"),
-        "updatingPassword":
-            MessageLookupByLibrary.simpleMessage("מעודכן סיסמה"),
-        "updatingProfile":
-            MessageLookupByLibrary.simpleMessage("מעודכן פרופיל"),
+        "updatingPassword": MessageLookupByLibrary.simpleMessage("מעודכן סיסמה"),
+        "updatingProfile": MessageLookupByLibrary.simpleMessage("מעודכן פרופיל"),
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. שדרג את העיר שלך לרמה 17",
         ),
-        "urlChangeTo":
-            MessageLookupByLibrary.simpleMessage("שינוי כתובת URL ל"),
-        "userAlreadyExist":
-            MessageLookupByLibrary.simpleMessage("המשתמש כבר קיים"),
+        "urlChangeTo": MessageLookupByLibrary.simpleMessage("שינוי כתובת URL ל"),
+        "userAlreadyExist": MessageLookupByLibrary.simpleMessage("המשתמש כבר קיים"),
         "userCanaonly": MessageLookupByLibrary.simpleMessage(
           "5. המשתמש רק יכול לקבל פרס ממבצע אחד של Rise of Kingdoms",
         ),
         "userId": MessageLookupByLibrary.simpleMessage("userId"),
-        "userNotEligible":
-            MessageLookupByLibrary.simpleMessage("המשתמש אינו זכאי"),
+        "userNotEligible": MessageLookupByLibrary.simpleMessage("המשתמש אינו זכאי"),
         "userRejectedSurvey": MessageLookupByLibrary.simpleMessage(
           "המשתמש דחה את הסקר",
         ),
@@ -586,8 +544,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "victory": MessageLookupByLibrary.simpleMessage("ניצחון"),
         "videos": MessageLookupByLibrary.simpleMessage("סרטונים"),
         "visitWebsite": MessageLookupByLibrary.simpleMessage("בקר באתר"),
-        "visitWebsiteAndGet":
-            MessageLookupByLibrary.simpleMessage("בקר באתר וקבל"),
+        "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage("בקר באתר וקבל"),
         "visitWebsiteOnlyOneInADay": MessageLookupByLibrary.simpleMessage(
           "בקר באתר פעם אחת ביום",
         ),
@@ -606,8 +563,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "צפה בסרטונים וקבל נקודות",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "שלחנו 6\n קודים שלח את הנייד שלך",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -635,8 +591,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "אתה עורך שוב את החידון",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "כבר זכית בחידון הזה. נסה לשחק בחידון אחר",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("צברת נקודות"),

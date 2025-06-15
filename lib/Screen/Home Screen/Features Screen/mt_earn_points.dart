@@ -201,9 +201,7 @@ class _EarnPointsState extends State<EarnPoints> {
                       child: Container(
                         width: 325,
                         padding: const EdgeInsets.all(10.0),
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(10.0),
-                            color: const Color(0xFFFFFFFF)),
+                        decoration: BoxDecoration(borderRadius: BorderRadius.circular(10.0), color: const Color(0xFFFFFFFF)),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
@@ -226,23 +224,19 @@ class _EarnPointsState extends State<EarnPoints> {
                                 children: [
                                   Text(
                                     titleList[i],
-                                    style:
-                                        kTextStyle.copyWith(color: kTitleColor),
+                                    style: kTextStyle.copyWith(color: kTitleColor),
                                   ),
                                   const SizedBox(height: 4.0),
                                   Row(
                                     children: [
                                       Text(
                                         subtitleList[i],
-                                        style: kTextStyle.copyWith(
-                                            color: kGreyTextColor),
+                                        style: kTextStyle.copyWith(color: kGreyTextColor),
                                       ),
                                       const SizedBox(width: 80.0),
                                       Text(
                                         points[i],
-                                        style: kTextStyle.copyWith(
-                                            color: kMainColor,
-                                            fontWeight: FontWeight.bold),
+                                        style: kTextStyle.copyWith(color: kMainColor, fontWeight: FontWeight.bold),
                                       ),
                                     ],
                                   ),
@@ -251,8 +245,7 @@ class _EarnPointsState extends State<EarnPoints> {
                                     children: [
                                       Container(
                                         decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(30.0),
+                                          borderRadius: BorderRadius.circular(30.0),
                                           gradient: const LinearGradient(
                                             begin: Alignment.topCenter,
                                             colors: [
@@ -262,23 +255,17 @@ class _EarnPointsState extends State<EarnPoints> {
                                           ),
                                         ),
                                         child: Padding(
-                                          padding: const EdgeInsets.only(
-                                              left: 10.0,
-                                              right: 10.0,
-                                              top: 2.0,
-                                              bottom: 2.0),
+                                          padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
                                           child: Text(
                                             lang.S.of(context).topOffer,
-                                            style: kTextStyle.copyWith(
-                                                color: Colors.white),
+                                            style: kTextStyle.copyWith(color: Colors.white),
                                           ),
                                         ),
                                       ),
                                       const SizedBox(width: 4.0),
                                       Container(
                                         decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(30.0),
+                                          borderRadius: BorderRadius.circular(30.0),
                                           gradient: const LinearGradient(
                                             begin: Alignment.topCenter,
                                             colors: [
@@ -288,23 +275,17 @@ class _EarnPointsState extends State<EarnPoints> {
                                           ),
                                         ),
                                         child: Padding(
-                                          padding: const EdgeInsets.only(
-                                              left: 10.0,
-                                              right: 10.0,
-                                              top: 2.0,
-                                              bottom: 2.0),
+                                          padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
                                           child: Text(
                                             lang.S.of(context).free,
-                                            style: kTextStyle.copyWith(
-                                                color: Colors.white),
+                                            style: kTextStyle.copyWith(color: Colors.white),
                                           ),
                                         ),
                                       ),
                                       const SizedBox(width: 4.0),
                                       Container(
                                         decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(30.0),
+                                          borderRadius: BorderRadius.circular(30.0),
                                           gradient: const LinearGradient(
                                             begin: Alignment.topCenter,
                                             colors: [
@@ -314,15 +295,10 @@ class _EarnPointsState extends State<EarnPoints> {
                                           ),
                                         ),
                                         child: Padding(
-                                          padding: const EdgeInsets.only(
-                                              left: 10.0,
-                                              right: 10.0,
-                                              top: 2.0,
-                                              bottom: 2.0),
+                                          padding: const EdgeInsets.only(left: 10.0, right: 10.0, top: 2.0, bottom: 2.0),
                                           child: Text(
                                             lang.S.of(context).hard,
-                                            style: kTextStyle.copyWith(
-                                                color: Colors.white),
+                                            style: kTextStyle.copyWith(color: Colors.white),
                                           ),
                                         ),
                                       ),

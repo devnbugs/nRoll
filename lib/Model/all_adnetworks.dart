@@ -129,11 +129,9 @@ class Adnetwork {
     _admobRewardedAdIos = json['admob_rewarded_ad_ios'];
     _applovinRewardedAdAndroid = json['applovin_rewarded_ad_android'];
     _applovinRewardedAdIos = json['applovin_rewarded_ad_ios'];
-    _audienceNetworkRewardedAdAndroid =
-        json['audience_network_rewarded_ad_android'];
+    _audienceNetworkRewardedAdAndroid = json['audience_network_rewarded_ad_android'];
     _audienceNetworkAdIos = json['audience_network_ad_ios'];
-    _audienceNetworkInterstitialAndroid =
-        json['audience_network_interstitial_android'];
+    _audienceNetworkInterstitialAndroid = json['audience_network_interstitial_android'];
     _audienceNetworkInterstitialIos = json['audience_network_interstitial_ios'];
     _offertoroPublisherId = json['offertoro_publisher_id'];
     _offertoroAppId = json['offertoro_app_id'];
@@ -165,11 +163,9 @@ class Adnetwork {
   String? get admobRewardedAdIos => _admobRewardedAdIos;
   String? get applovinRewardedAdAndroid => _applovinRewardedAdAndroid;
   String? get applovinRewardedAdIos => _applovinRewardedAdIos;
-  String? get audienceNetworkRewardedAdAndroid =>
-      _audienceNetworkRewardedAdAndroid;
+  String? get audienceNetworkRewardedAdAndroid => _audienceNetworkRewardedAdAndroid;
   String? get audienceNetworkAdIos => _audienceNetworkAdIos;
-  String? get audienceNetworkInterstitialAndroid =>
-      _audienceNetworkInterstitialAndroid;
+  String? get audienceNetworkInterstitialAndroid => _audienceNetworkInterstitialAndroid;
   String? get audienceNetworkInterstitialIos => _audienceNetworkInterstitialIos;
   String? get offertoroPublisherId => _offertoroPublisherId;
   String? get offertoroAppId => _offertoroAppId;
@@ -186,11 +182,9 @@ class Adnetwork {
     map['admob_rewarded_ad_ios'] = _admobRewardedAdIos;
     map['applovin_rewarded_ad_android'] = _applovinRewardedAdAndroid;
     map['applovin_rewarded_ad_ios'] = _applovinRewardedAdIos;
-    map['audience_network_rewarded_ad_android'] =
-        _audienceNetworkRewardedAdAndroid;
+    map['audience_network_rewarded_ad_android'] = _audienceNetworkRewardedAdAndroid;
     map['audience_network_ad_ios'] = _audienceNetworkAdIos;
-    map['audience_network_interstitial_android'] =
-        _audienceNetworkInterstitialAndroid;
+    map['audience_network_interstitial_android'] = _audienceNetworkInterstitialAndroid;
     map['audience_network_interstitial_ios'] = _audienceNetworkInterstitialIos;
     map['offertoro_publisher_id'] = _offertoroPublisherId;
     map['offertoro_app_id'] = _offertoroAppId;

@@ -4,10 +4,10 @@ import 'package:cash_rocket/Provider/profile_provider.dart';
 import 'package:cash_rocket/Repositories/authentication_repo.dart';
 import 'package:cash_rocket/Screen/Constant%20Data/config.dart';
 import 'package:cash_rocket/Screen/Constant%20Data/constant.dart';
+import 'package:cash_rocket/generated/l10n.dart' as lang;
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
@@ -32,15 +32,12 @@ class _PlayVideoState extends State<PlayVideo> {
   void initState() {
     super.initState();
     if (widget.video.type == "video") {
-      videoPlayerController = VideoPlayerController.networkUrl(
-          Uri.parse(Config.siteUrl + widget.video.videoLink!))
-        ..initialize().then((value) => setState(() {}));
+      videoPlayerController = VideoPlayerController.networkUrl(Uri.parse(Config.siteUrl + widget.video.videoLink!))..initialize().then((value) => setState(() {}));
       _customVideoPlayerController = CustomVideoPlayerController(
         context: context,
         videoPlayerController: videoPlayerController,
       );
-      videoPlayerController.play().then((value) =>
-          _controller.restart(duration: widget.video.duration.toInt()));
+      videoPlayerController.play().then((value) => _controller.restart(duration: widget.video.duration.toInt()));
       videoPlayerController.setLooping(true);
     } else {
       _ycontroller = YoutubePlayerController.fromVideoId(
@@ -112,20 +109,16 @@ class _PlayVideoState extends State<PlayVideo> {
                     onComplete: () async {
                       try {
                         //EasyLoading.show(status: "Getting reward");
-                        EasyLoading.show(
-                            status: lang.S.of(context).gettingReward);
-                        bool status = await AuthRepo()
-                            .watchVideo(widget.video.id.toString());
+                        EasyLoading.show(status: lang.S.of(context).gettingReward);
+                        bool status = await AuthRepo().watchVideo(widget.video.id.toString());
                         if (status) {
                           ref.refresh(videoProvider);
                           ref.refresh(personalProfileProvider);
                           // EasyLoading.showSuccess("Rewarded Successfully");
-                          EasyLoading.showSuccess(
-                              lang.S.of(context).rewardedSuccessfully);
+                          EasyLoading.showSuccess(lang.S.of(context).rewardedSuccessfully);
                         } else {
                           // EasyLoading.showError("Error Occured");
-                          EasyLoading.showError(
-                              lang.S.of(context).errorOccurred);
+                          EasyLoading.showError(lang.S.of(context).errorOccurred);
                         }
                       } catch (e) {
                         EasyLoading.showError(e.toString());
@@ -140,9 +133,7 @@ class _PlayVideoState extends State<PlayVideo> {
             ),
             body: Center(
                 child: widget.video.type == "video"
-                    ? CustomVideoPlayer(
-                        customVideoPlayerController:
-                            _customVideoPlayerController)
+                    ? CustomVideoPlayer(customVideoPlayerController: _customVideoPlayerController)
                     : YoutubePlayer(
                         controller: _ycontroller,
                         aspectRatio: 16 / 9,

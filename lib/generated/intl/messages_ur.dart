@@ -41,8 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "کیش راکٹ میں خوش آمدید",
         ),
         "a": MessageLookupByLibrary.simpleMessage("A"),
-        "adColonyVideo":
-            MessageLookupByLibrary.simpleMessage("ایڈکولونی ویڈیو"),
+        "adColonyVideo": MessageLookupByLibrary.simpleMessage("ایڈکولونی ویڈیو"),
         "adGem": MessageLookupByLibrary.simpleMessage("ایڈجیم"),
         "adMob": MessageLookupByLibrary.simpleMessage("ایڈموب"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("ایڈموب ویڈیو"),
@@ -62,8 +61,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "پہلے ہی انعام مل چکا ہے۔ بعد میں واپس آئیں",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "پہلے ہی انعام مل چکا ہے۔ براہ کرم کل دوبارہ کوشش کریں",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -82,20 +80,16 @@ class MessageLookup extends MessageLookupByLibrary {
           "تصاویر کو AI کے لیے وضاحت کریں",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("ایپ لوون"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "ایپل لاگ ان ایپل ڈیوائسز پر کام کرے گا",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("کیا آپ راضی ہیں؟"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "کیا آپ واقعی اس اکاؤنٹ کو حذف کرنا چاہتے ہیں؟",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("اٹلس وی پی این"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("آڈینس نیٹ ورک"),
-        "authorizationFailed":
-            MessageLookupByLibrary.simpleMessage("تفویض ناکام"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("آڈینس نیٹ ورک"),
+        "authorizationFailed": MessageLookupByLibrary.simpleMessage("تفویض ناکام"),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("بیلنس"),
         "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs سروے"),
@@ -113,8 +107,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "داخلہ فیس وصول کی جا رہی ہے",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("چارٹ بوست ویڈیو"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("چارٹ بوست ویڈیو"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "اپنا موبائل چیک کریں",
         ),
@@ -132,8 +125,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeProfile": MessageLookupByLibrary.simpleMessage(
           "پروفائل مکمل کریں",
         ),
-        "completeanaction":
-            MessageLookupByLibrary.simpleMessage("کام مکمل کریں"),
+        "completeanaction": MessageLookupByLibrary.simpleMessage("کام مکمل کریں"),
         "completingProfile": MessageLookupByLibrary.simpleMessage(
           "پروفائل مکمل کی جا رہی ہے",
         ),
@@ -166,26 +158,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "daysToComplete": MessageLookupByLibrary.simpleMessage(
           "مکمل کرنے کے لئے دن",
         ),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("اکاؤنٹس حذف کریں"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("اکاؤنٹس حذف کریں"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage(
           "اکاؤنٹ حذف کر رہے ہیں",
         ),
-        "deletionSuccessful":
-            MessageLookupByLibrary.simpleMessage("حذف کامیاب"),
+        "deletionSuccessful": MessageLookupByLibrary.simpleMessage("حذف کامیاب"),
         "description": MessageLookupByLibrary.simpleMessage("تفصیل"),
         "dismissed": MessageLookupByLibrary.simpleMessage("رد کر دیا"),
         "doNotKnow": MessageLookupByLibrary.simpleMessage("نہیں معلوم"),
-        "dontReceiveCode":
-            MessageLookupByLibrary.simpleMessage("کوڈ نہیں مل رہا؟"),
+        "dontReceiveCode": MessageLookupByLibrary.simpleMessage("کوڈ نہیں مل رہا؟"),
         "earbdt": MessageLookupByLibrary.simpleMessage("بڈی ٹی ڈی کمائیں"),
         "earn": MessageLookupByLibrary.simpleMessage("کمائیں"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("امتیازات کمائیں"),
         "earnbdt": MessageLookupByLibrary.simpleMessage("بڈی ٹی ڈی کمائیں"),
-        "earnpoints":
-            MessageLookupByLibrary.simpleMessage("2921 امتیازات کمائیں"),
-        "editProfile":
-            MessageLookupByLibrary.simpleMessage("پروفائل ترمیم کریں"),
+        "earnpoints": MessageLookupByLibrary.simpleMessage("2921 امتیازات کمائیں"),
+        "editProfile": MessageLookupByLibrary.simpleMessage("پروفائل ترمیم کریں"),
         "email": MessageLookupByLibrary.simpleMessage("ای میل"),
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
           "ای میل ایڈریس ضروری ہے",
@@ -196,15 +183,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage(
           "سکے کی مقدار درج کریں",
         ),
-        "enterFirstName":
-            MessageLookupByLibrary.simpleMessage("پہلا نام درج کریں"),
+        "enterFirstName": MessageLookupByLibrary.simpleMessage("پہلا نام درج کریں"),
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "اپنا مکمل نام درج کریں",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("آخری نام درج کریں"),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("پاس ورڈ درج کریں"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("آخری نام درج کریں"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("پاس ورڈ درج کریں"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "اپنا ای میل ایڈریس درج کریں",
         ),
@@ -250,8 +234,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "ویڈیو لوڈ کرنے میں ناکام",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("پہلا نام"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("پاس ورڈ بھول گئے"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("پاس ورڈ بھول گئے"),
         "free": MessageLookupByLibrary.simpleMessage("مفت"),
         "fullName": MessageLookupByLibrary.simpleMessage("مکمل نام"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -306,8 +289,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "اپنے دوستوں کو کیش راکٹ استعمال کرنے کی دعوت دیں اور ہر ایک کے لئے آپ کو 100 امتیازات ملیں گی",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("اہم فریم کے لیے"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("اہم فریم کے لیے"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "اگر آپ اس کا استعمال کرتے ہیں تو آپ احساس کریں گے",
         ),
@@ -319,8 +301,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "language": MessageLookupByLibrary.simpleMessage("زبان"),
         "lastName": MessageLookupByLibrary.simpleMessage("آخری نام"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("چلو شروع کرتے ہیں"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("چلو شروع کرتے ہیں"),
         "loading": MessageLookupByLibrary.simpleMessage("لوڈ ہو رہا ہے"),
         "logIn": MessageLookupByLibrary.simpleMessage("لاگ ان کریں"),
         "logOut": MessageLookupByLibrary.simpleMessage("لاگ آؤٹ"),
@@ -351,13 +332,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "کوئی انٹرنیٹ کنکشن نہیں ملا",
         ),
-        "noOfferFound":
-            MessageLookupByLibrary.simpleMessage("کوئی پیشکش نہیں ملی"),
+        "noOfferFound": MessageLookupByLibrary.simpleMessage("کوئی پیشکش نہیں ملی"),
         "noQuizFound": MessageLookupByLibrary.simpleMessage("کوئز نہیں ملا"),
         "none": MessageLookupByLibrary.simpleMessage("کوئی نہیں"),
         "notDefined": MessageLookupByLibrary.simpleMessage("تعریف نہیں کی گئی"),
-        "notEnoughBalance":
-            MessageLookupByLibrary.simpleMessage("کافی بیلنس نہیں"),
+        "notEnoughBalance": MessageLookupByLibrary.simpleMessage("کافی بیلنس نہیں"),
         "notEnoughCoin": MessageLookupByLibrary.simpleMessage("کافی سکے نہیں"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP بھیجا گیا"),
@@ -370,8 +349,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "otpSentPleaseCheckYourEmail": MessageLookupByLibrary.simpleMessage(
           "OTP بھیجا گیا۔ براہ کرم اپنے ای میل چیک کریں",
         ),
-        "otpVerify":
-            MessageLookupByLibrary.simpleMessage("او ٹی پی تصدیق کریں"),
+        "otpVerify": MessageLookupByLibrary.simpleMessage("او ٹی پی تصدیق کریں"),
         "pageFinishedLoading": MessageLookupByLibrary.simpleMessage(
           "صفحہ لوڈ ہونا مکمل ہوا",
         ),
@@ -394,8 +372,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "پاسورڈ خالی نہیں ہو سکتا",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "پاسورڈ 6 حروف سے کم نہیں ہو سکتا",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -404,8 +381,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "پاس ورڈ ضروری ہے",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "پاس ورڈ کی لمبائی کم از کم 6 حروف ہونی چاہئے",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -433,12 +409,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "براہ کرم اپنے خریداری کے کوڈ کی جانچ کریں",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "براہ کرم کل واپس آئیں تاکہ ویڈیو دیکھیں",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. براہ کرم ٹاسک کو 22 دنوں کے اندر مکمل کریں",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -456,23 +430,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "براہ کرم اپنا کوڈ نیچے درج کریں تاکہ آپکا",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "براہ کرم واپسی کا طریقہ اور کرنسی منتخب کریں",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "براہ کرم دوبارہ کوشش کریں",
         ),
-        "pleaseWait":
-            MessageLookupByLibrary.simpleMessage("براہ کرم انتظار کریں"),
+        "pleaseWait": MessageLookupByLibrary.simpleMessage("براہ کرم انتظار کریں"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "برائے مہربانی لوڈ ہونے تک انتظار کریں",
         ),
-        "pointRecived":
-            MessageLookupByLibrary.simpleMessage("امتیازات موصول ہوئے"),
+        "pointRecived": MessageLookupByLibrary.simpleMessage("امتیازات موصول ہوئے"),
         "points": MessageLookupByLibrary.simpleMessage("پوائنٹس"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("پوائنٹس وصول ہوئے"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("پوائنٹس وصول ہوئے"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "پوائنٹس کٹ جائیں گے!",
         ),
@@ -486,10 +456,8 @@ class MessageLookup extends MessageLookupByLibrary {
           "چرخ گھمائیں دبائیں",
         ),
         "price": MessageLookupByLibrary.simpleMessage("قیمت"),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("رازداری پالیسی"),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("پرائیویسی پالیسی"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("رازداری پالیسی"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("پرائیویسی پالیسی"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "پرائیویسی پالیسی | کیش راکٹ",
         ),
@@ -527,8 +495,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "جائزہ دستیاب نہیں",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("انعام"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("انعام شامل کیا گیا"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("انعام شامل کیا گیا"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("انعام پوائنٹ"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "کامیابی سے انعام دیا گیا",
@@ -544,8 +511,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "اسکریچ کریں اور جیتیں!",
         ),
         "scratchCard": MessageLookupByLibrary.simpleMessage("اسکریچ کارڈ"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "والا کارڈ اسکریچ کریں اسے اس پر سوائپ کر کے",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("سیکنڈز"),
@@ -553,30 +519,24 @@ class MessageLookup extends MessageLookupByLibrary {
           "اپنے پیسے محفوظ کریں",
         ),
         "sendOtp": MessageLookupByLibrary.simpleMessage("OTP بھیجیں"),
-        "sendingOtp":
-            MessageLookupByLibrary.simpleMessage("OTP بھیجا جا رہا ہے"),
+        "sendingOtp": MessageLookupByLibrary.simpleMessage("OTP بھیجا جا رہا ہے"),
         "share": MessageLookupByLibrary.simpleMessage("شئیر کریں"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("اسکور شئیر کریں"),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("اشتہارات دکھا رہے ہیں"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("اشتہارات دکھا رہے ہیں"),
         "signIn": MessageLookupByLibrary.simpleMessage("سائن ان کریں"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "سائن آؤٹ کامیاب",
         ),
         "signUp": MessageLookupByLibrary.simpleMessage("سائن اپ کریں"),
-        "signUpSuccessful":
-            MessageLookupByLibrary.simpleMessage("سائن اپ کامیاب"),
+        "signUpSuccessful": MessageLookupByLibrary.simpleMessage("سائن اپ کامیاب"),
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage(
           "ای میل کے ساتھ سائن اپ کریں",
         ),
-        "signingOut":
-            MessageLookupByLibrary.simpleMessage("سائن آؤٹ کر رہے ہیں"),
-        "signingUp":
-            MessageLookupByLibrary.simpleMessage("سائن اپ کیا جا رہا ہے"),
+        "signingOut": MessageLookupByLibrary.simpleMessage("سائن آؤٹ کر رہے ہیں"),
+        "signingUp": MessageLookupByLibrary.simpleMessage("سائن اپ کیا جا رہا ہے"),
         "skip": MessageLookupByLibrary.simpleMessage("چھوڑ دیں"),
         "skipForNow": MessageLookupByLibrary.simpleMessage("ابھی چھوڑ دیں"),
-        "somethingWentWrong":
-            MessageLookupByLibrary.simpleMessage("کچھ غلط ہوگیا"),
+        "somethingWentWrong": MessageLookupByLibrary.simpleMessage("کچھ غلط ہوگیا"),
         "sorry": MessageLookupByLibrary.simpleMessage("معذرت"),
         "spinTheWheel": MessageLookupByLibrary.simpleMessage("چرخ گھمائیں"),
         "spinTime": MessageLookupByLibrary.simpleMessage("اسپن ٹائم"),
@@ -589,24 +549,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("اسٹارٹ ایپ"),
         "successful": MessageLookupByLibrary.simpleMessage("کامیاب"),
         "survey": MessageLookupByLibrary.simpleMessage("سروے"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "سروے مکمل ہو گیا۔ جلد انعام ملے گا",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
           "سروے دستیاب نہیں",
         ),
-        "surveyPanelClosed":
-            MessageLookupByLibrary.simpleMessage("سروے پینل بند"),
-        "surveyPanelOpen":
-            MessageLookupByLibrary.simpleMessage("سروے پینل کھلا"),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("آفرز کی دیکھ بھال"),
+        "surveyPanelClosed": MessageLookupByLibrary.simpleMessage("سروے پینل بند"),
+        "surveyPanelOpen": MessageLookupByLibrary.simpleMessage("سروے پینل کھلا"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("آفرز کی دیکھ بھال"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "استعمال کی شرائط و ضوابط",
         ),
-        "termsAndConditions":
-            MessageLookupByLibrary.simpleMessage("شرائط و ضوابط"),
+        "termsAndConditions": MessageLookupByLibrary.simpleMessage("شرائط و ضوابط"),
         "termsOfService": MessageLookupByLibrary.simpleMessage("سروس کی شرائط"),
         "token": MessageLookupByLibrary.simpleMessage("ٹوکن"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
@@ -643,8 +598,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "5. صارف صرف ایک رائز آف کنگڈمز آفر سے انعام حاصل کرسکتا ہے",
         ),
         "userId": MessageLookupByLibrary.simpleMessage("صارف کا ID"),
-        "userNotEligible":
-            MessageLookupByLibrary.simpleMessage("صارف اہل نہیں"),
+        "userNotEligible": MessageLookupByLibrary.simpleMessage("صارف اہل نہیں"),
         "userRejectedSurvey": MessageLookupByLibrary.simpleMessage(
           "صارف نے سروے مسترد کر دیا",
         ),
@@ -664,8 +618,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "vungleVideo": MessageLookupByLibrary.simpleMessage("ونگل ویڈیو"),
         "wannads": MessageLookupByLibrary.simpleMessage("واننڈز"),
-        "wannadsOfferwall":
-            MessageLookupByLibrary.simpleMessage("وانڈز آفر وال"),
+        "wannadsOfferwall": MessageLookupByLibrary.simpleMessage("وانڈز آفر وال"),
         "watchAVideoOnlyOneTimeInADay": MessageLookupByLibrary.simpleMessage(
           "ایک دن میں صرف ایک بار ویڈیو دیکھیں",
         ),
@@ -676,8 +629,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "ویڈیوز دیکھیں اور پوائنٹس حاصل کریں",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "ہم نے 6 ڈجٹ کوڈ آپ کے موبائل پر بھیجا ہے",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -690,8 +642,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wheel": MessageLookupByLibrary.simpleMessage("چرخ"),
         "winner": MessageLookupByLibrary.simpleMessage("جیتنے والا!"),
         "withdraw": MessageLookupByLibrary.simpleMessage("نکالو"),
-        "withdrawAccount":
-            MessageLookupByLibrary.simpleMessage("اکاؤنٹ واپس لیں"),
+        "withdrawAccount": MessageLookupByLibrary.simpleMessage("اکاؤنٹ واپس لیں"),
         "withdrawRequestedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "واپسی کی درخواست کامیابی سے کی گئی",
         ),
@@ -706,8 +657,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "آپ کوئز دوبارہ لے رہے ہیں",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "آپ نے پہلے ہی یہ کوئز جیت لیا ہے۔ دوسرے کوئز کھیلنے کی کوشش کریں",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("آپ نے کمایا ہے"),

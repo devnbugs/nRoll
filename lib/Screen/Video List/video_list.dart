@@ -2,13 +2,14 @@ import 'package:cash_rocket/Model/video_model.dart';
 import 'package:cash_rocket/Screen/Video%20List/blank_video_list.dart';
 import 'package:cash_rocket/Screen/Video%20List/play_video.dart';
 import 'package:cash_rocket/constant%20app%20information/const_information.dart';
+import 'package:cash_rocket/generated/l10n.dart' as lang;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 import '../../Provider/profile_provider.dart';
 import '../Constant Data/config.dart';
 import '../Constant Data/constant.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
 
 class VideoList extends StatefulWidget {
   const VideoList({super.key});
@@ -69,24 +70,18 @@ class _VideoListState extends State<VideoList> {
                 style: kTextStyle.copyWith(color: Colors.white),
               ),
               flexibleSpace: Container(
-                decoration: BoxDecoration(
-                    gradient: containerGradiant,
-                    borderRadius: const BorderRadius.only(
-                        bottomRight: Radius.circular(30),
-                        bottomLeft: Radius.circular(30))),
+                decoration: BoxDecoration(gradient: containerGradiant, borderRadius: const BorderRadius.only(bottomRight: Radius.circular(30), bottomLeft: Radius.circular(30))),
               ),
             ),
             body: SingleChildScrollView(
               child: Padding(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
                       '${lang.S.of(context).totalVideos}: ${videos.data?.length ?? 0}',
-                      style: kTextStyle.copyWith(
-                          fontWeight: FontWeight.bold, color: kWhite),
+                      style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kWhite),
                     ),
                     const SizedBox(
                       height: 5,
@@ -128,15 +123,7 @@ class _VideoListState extends State<VideoList> {
                                     Container(
                                       height: 76,
                                       width: 76,
-                                      decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(4),
-                                          image: DecorationImage(
-                                              fit: BoxFit.cover,
-                                              image: NetworkImage(Config
-                                                      .siteUrl +
-                                                  (videos.data?[i].thumbnail ??
-                                                      "")))),
+                                      decoration: BoxDecoration(borderRadius: BorderRadius.circular(4), image: DecorationImage(fit: BoxFit.cover, image: NetworkImage(Config.siteUrl + (videos.data?[i].thumbnail ?? "")))),
                                     ),
                                     // Image.network(
                                     //   Config.siteUrl + (videos.data?[i].thumbnail ?? ""),
@@ -145,21 +132,15 @@ class _VideoListState extends State<VideoList> {
                                     // ),
                                     const SizedBox(width: 10),
                                     Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                      crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Text(
                                           videos.data?[i].title ?? "",
-                                          style: kTextStyle.copyWith(
-                                              fontWeight: FontWeight.bold,
-                                              color: kWhite),
+                                          style: kTextStyle.copyWith(fontWeight: FontWeight.bold, color: kWhite),
                                         ),
                                         const SizedBox(height: 5),
 
-                                        Text(
-                                            ' ${videos.data?[i].coins ?? ""} ${lang.S.of(context).coins}',
-                                            style: kTextStyle.copyWith(
-                                                color: kWhite, fontSize: 13)),
+                                        Text(' ${videos.data?[i].coins ?? ""} ${lang.S.of(context).coins}', style: kTextStyle.copyWith(color: kWhite, fontSize: 13)),
                                         // RichText(
                                         //     text: TextSpan(text: lang.S.of(context).watchVideoAndEarn, style: kTextStyle.copyWith(fontSize: 13, color: kGreyTextColor), children: [
                                         //   TextSpan(
@@ -173,9 +154,7 @@ class _VideoListState extends State<VideoList> {
                                               MaterialPageRoute(
                                                 builder: (context) => PlayVideo(
                                                   video: videos.data![i],
-                                                  videoId: extractVideoId(videos
-                                                          .data![i].videoLink ??
-                                                      ""),
+                                                  videoId: extractVideoId(videos.data![i].videoLink ?? ""),
                                                 ),
                                               ),
                                             );
@@ -184,15 +163,10 @@ class _VideoListState extends State<VideoList> {
                                             height: 26,
                                             width: 90,
                                             alignment: Alignment.center,
-                                            decoration: BoxDecoration(
-                                                borderRadius:
-                                                    BorderRadius.circular(20),
-                                                gradient: buttonGradiant),
+                                            decoration: BoxDecoration(borderRadius: BorderRadius.circular(20), gradient: buttonGradiant),
                                             child: Text(
                                               lang.S.of(context).playVideo,
-                                              style: kTextStyle.copyWith(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 14),
+                                              style: kTextStyle.copyWith(fontWeight: FontWeight.bold, fontSize: 14),
                                             ),
                                           ),
                                         )

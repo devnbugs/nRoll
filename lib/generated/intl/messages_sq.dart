@@ -48,21 +48,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "admobVideoAds": MessageLookupByLibrary.simpleMessage(
           "Reklama Video Admob",
         ),
-        "allFeatures":
-            MessageLookupByLibrary.simpleMessage("Të gjitha veçoritë"),
+        "allFeatures": MessageLookupByLibrary.simpleMessage("Të gjitha veçoritë"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "lejoj navigimin në",
         ),
         "alreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
           "Tashmë keni një llogari",
         ),
-        "alreadyPlayed":
-            MessageLookupByLibrary.simpleMessage("Të luajtur më parë"),
+        "alreadyPlayed": MessageLookupByLibrary.simpleMessage("Të luajtur më parë"),
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Të shpërblyer tashmë, kthehuni më vonë",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Të shpërblyer tashmë. Ju lutem provoni përsëri nesër",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -81,18 +78,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Annotoni Imazhe për AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Ky login i Apple do të funksionojë në pajisjet Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("A jeni dakord?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Jeni të sigurt që dëshironi të fshini këtë Llogari?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Autorizimi dështoi",
         ),
@@ -113,8 +107,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Tarifa e hyrjes në ngarkesë",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Video Chartboost"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Video Chartboost"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Kontrolloni celularin tuaj",
         ),
@@ -171,8 +164,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "daysToComplete": MessageLookupByLibrary.simpleMessage(
           "Ditë për të përfunduar",
         ),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("Fshini llogaritë"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("Fshini llogaritë"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage(
           "Fshirja e Llogarisë",
         ),
@@ -207,8 +199,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Shkruani emrin tuaj të plotë",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Vendosni Mbiemrin"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Vendosni Mbiemrin"),
         "enterPassword": MessageLookupByLibrary.simpleMessage(
           "Shkruani fjalëkalimin",
         ),
@@ -234,13 +225,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Shkruani kodin e ftesës",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Tarifa e hyrjes"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Ndodhi një gabim"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Ndodhi një gabim"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Ndodhi një gabim. Provoni përsëri",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Ndodhi një gabim"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Ndodhi një gabim"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Ndodhi një gabim. Ju lutemi provoni përsëri",
         ),
@@ -282,8 +271,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "Nuk keni ndonjë llogari?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Hej! Më shumë para!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Hej! Më shumë para!"),
         "history": MessageLookupByLibrary.simpleMessage("Historia"),
         "home": MessageLookupByLibrary.simpleMessage("Faqja kryesore"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -324,16 +312,14 @@ class MessageLookup extends MessageLookupByLibrary {
           "nëse e përdorni, do ta zbuloni",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Ofertë Kiwi Wall"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Ofertë Kiwi Wall"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Muri i Kiwi"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("Gjuha"),
         "lastName": MessageLookupByLibrary.simpleMessage("Mbiemri"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("Le të fillojmë"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("Le të fillojmë"),
         "loading": MessageLookupByLibrary.simpleMessage("Duke u ngarkuar"),
         "logIn": MessageLookupByLibrary.simpleMessage("Hyrje"),
         "logOut": MessageLookupByLibrary.simpleMessage("Ç\'logohu"),
@@ -364,10 +350,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "noInternetCollection": MessageLookupByLibrary.simpleMessage(
           "Nuk është gjetur lidhja me internetin",
         ),
-        "noOfferFound":
-            MessageLookupByLibrary.simpleMessage("Nuk u gjet oferte"),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("Nuk u gjetën Quiz"),
+        "noOfferFound": MessageLookupByLibrary.simpleMessage("Nuk u gjet oferte"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("Nuk u gjetën Quiz"),
         "none": MessageLookupByLibrary.simpleMessage("Asnjë"),
         "notDefined": MessageLookupByLibrary.simpleMessage(
           "Nuk është e përcaktuar",
@@ -381,8 +365,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP i dërguar"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP e verifikuar"),
-        "offerStatus":
-            MessageLookupByLibrary.simpleMessage("Statusi i ofertës"),
+        "offerStatus": MessageLookupByLibrary.simpleMessage("Statusi i ofertës"),
         "offerToro": MessageLookupByLibrary.simpleMessage("Oferta Toro"),
         "offers": MessageLookupByLibrary.simpleMessage("Oferta"),
         "ogAds": MessageLookupByLibrary.simpleMessage("Og Ads"),
@@ -406,14 +389,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "Paguar për Kartën e Fërkimit",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("Lojë kuizi e paguar"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("Lojë kuizi e paguar"),
         "password": MessageLookupByLibrary.simpleMessage("Fjalëkalimi"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Fjalëkalimi nuk mund të jetë i zbrazët",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Fjalëkalimi nuk mund të jetë më pak se 6 karaktere",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -422,8 +403,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Fjalëkalimi është i kërkuar",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Gjatësia e fjalëkalimit duhet të jetë të paktën 6 karaktere",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -451,12 +431,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Ju lutem kontrolloni kodin tuaj të blerjes",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Ju lutemi kthehuni nesër\npër të parë videon",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Ju lutem përfundoni detyrën brenda 22 ditësh",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -474,8 +452,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Ju lutem shkruani kodin më poshtë për të rivendosur",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Ju lutemi zgjidhni metodën e tërheqjes dhe monedhën",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -496,8 +473,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Anketa Pollfish"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Anketa Pollfish"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Shtyp rrotullën",
         ),
@@ -536,8 +512,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
           "Duke kërkuar tërheqjen",
         ),
-        "resendCode":
-            MessageLookupByLibrary.simpleMessage("Dërgo kodin përsëri"),
+        "resendCode": MessageLookupByLibrary.simpleMessage("Dërgo kodin përsëri"),
         "resetPassword": MessageLookupByLibrary.simpleMessage(
           "Rivendos fjalëkalimin",
         ),
@@ -548,10 +523,8 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rishikimi nuk është në dispozicion",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("Shpërblim"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("Shpërblimi i shtuar"),
-        "rewardPoint":
-            MessageLookupByLibrary.simpleMessage("Pika e shpërblimit"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("Shpërblimi i shtuar"),
+        "rewardPoint": MessageLookupByLibrary.simpleMessage("Pika e shpërblimit"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Shpërblyer Suksesshëm",
         ),
@@ -562,11 +535,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Ngjitja e Mbretërive: Lufta e Humbur...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Ruaj"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Shkrije dhe fito!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Shkrije dhe fito!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Kartë shkrirjeje"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Shkrirni kartën e mësipërme duke e çarë me dorë",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Sekonda"),
@@ -577,8 +548,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendingOtp": MessageLookupByLibrary.simpleMessage("Duke dërguar OTP"),
         "share": MessageLookupByLibrary.simpleMessage("Ndaj"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("Ndaj pikët"),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("Duke treguar reklama"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("Duke treguar reklama"),
         "signIn": MessageLookupByLibrary.simpleMessage("Identifikohu"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "Dalja nga Llogaria I Sukseshem",
@@ -600,8 +570,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Dikush shkoi keq",
         ),
         "sorry": MessageLookupByLibrary.simpleMessage("Më vjen keq"),
-        "spinTheWheel":
-            MessageLookupByLibrary.simpleMessage("Rrotullo rrotullën"),
+        "spinTheWheel": MessageLookupByLibrary.simpleMessage("Rrotullo rrotullën"),
         "spinTime": MessageLookupByLibrary.simpleMessage("koha e rrotullimit"),
         "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage(
           "Tarifa e hyrjes në rrotullimin e rrotës",
@@ -612,8 +581,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Suksesshëm"),
         "survey": MessageLookupByLibrary.simpleMessage("Anketa"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Anketa e përfunduar. Do të shpërbleheni së shpejti",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -642,8 +610,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Përditësimi i tokenit dështoi",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Ofertë kryesore!"),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("Shpërblimet totale"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("Shpërblimet totale"),
         "totalVideos": MessageLookupByLibrary.simpleMessage(
           "Numri total i videove",
         ),
@@ -685,8 +652,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "verification": MessageLookupByLibrary.simpleMessage("Verifikimi"),
         "verify": MessageLookupByLibrary.simpleMessage("Verifikoni"),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("Po verifikohet OTP"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("Po verifikohet OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("FITORE"),
         "videos": MessageLookupByLibrary.simpleMessage("Video"),
         "visitWebsite": MessageLookupByLibrary.simpleMessage(
@@ -713,8 +679,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Shikoni video dhe merrni pikë",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Kemi dërguar kodin 6-shifror tek celulari juaj",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -748,8 +713,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Po e ribëni kuizin",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Keni fituar tashmë këtë kuiz. Provoni të luani kuize të tjera",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Ju keni fituar"),

@@ -45,8 +45,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("Video AdMob"),
-        "admobVideoAds":
-            MessageLookupByLibrary.simpleMessage("Iklan Video Admob"),
+        "admobVideoAds": MessageLookupByLibrary.simpleMessage("Iklan Video Admob"),
         "allFeatures": MessageLookupByLibrary.simpleMessage("Semua Fitur"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "memungkinkan navigasi ke",
@@ -54,13 +53,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
           "Sudah punya akun",
         ),
-        "alreadyPlayed":
-            MessageLookupByLibrary.simpleMessage("Sudah Dimainkan"),
+        "alreadyPlayed": MessageLookupByLibrary.simpleMessage("Sudah Dimainkan"),
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Sudah Diberi Hadiah. Kembali Lagi Nanti",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Sudah diberi hadiah. Silakan coba lagi besok",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -79,19 +76,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Annotasi Gambar untuk AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Login Apple hanya akan berfungsi pada perangkat Apple",
         ),
-        "areYouAgree":
-            MessageLookupByLibrary.simpleMessage("Apakah Anda setuju?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouAgree": MessageLookupByLibrary.simpleMessage("Apakah Anda setuju?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Apakah Anda yakin ingin menghapus akun ini?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Otorisasi Gagal",
         ),
@@ -106,13 +99,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Kamera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Rocket Tunai"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Ubah Kata Sandi"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Ubah Kata Sandi"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Memungut Biaya Masuk",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Video Chartboost"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Video Chartboost"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Periksa Ponsel Anda",
         ),
@@ -127,8 +118,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Lengkapi tawaran dan dapatkan poin",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Lengkapi Profil"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Lengkapi Profil"),
         "completeanaction": MessageLookupByLibrary.simpleMessage(
           "Selesaikan tindakan",
         ),
@@ -165,8 +155,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Hari untuk menyelesaikan",
         ),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("Hapus Akun"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Menghapus Akun"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Menghapus Akun"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Penghapusan Berhasil",
         ),
@@ -180,8 +169,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "earn": MessageLookupByLibrary.simpleMessage("dapatkan"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("Dapatkan Poin"),
         "earnbdt": MessageLookupByLibrary.simpleMessage("Dapatkan BDT"),
-        "earnpoints":
-            MessageLookupByLibrary.simpleMessage("Dapatkan 2921 poin"),
+        "earnpoints": MessageLookupByLibrary.simpleMessage("Dapatkan 2921 poin"),
         "editProfile": MessageLookupByLibrary.simpleMessage("Edit Profil"),
         "email": MessageLookupByLibrary.simpleMessage("Email"),
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -227,13 +215,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "Masukkan kode undangan",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("Biaya Masuk"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("Terjadi Kesalahan"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("Terjadi Kesalahan"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "Terjadi Kesalahan. Coba Lagi",
         ),
-        "errorOccurred":
-            MessageLookupByLibrary.simpleMessage("Terjadi Kesalahan"),
+        "errorOccurred": MessageLookupByLibrary.simpleMessage("Terjadi Kesalahan"),
         "errorOccurredPleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Terjadi Kesalahan. Silakan Coba Lagi",
         ),
@@ -252,8 +238,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Kesalahan saat memuat video",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("Nama Depan"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Lupa Kata Sandi"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("Lupa Kata Sandi"),
         "free": MessageLookupByLibrary.simpleMessage("Gratis"),
         "fullName": MessageLookupByLibrary.simpleMessage("Nama Lengkap"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -261,8 +246,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Tawaran Fyber"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galeri"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Mendapatkan Hadiah"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Mendapatkan Hadiah"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage(
           "Mendapatkan Hadiah",
         ),
@@ -293,8 +277,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "imageSizeShouldBeSmallerThan2Mb": MessageLookupByLibrary.simpleMessage(
           "Ukuran gambar harus kurang dari 2 MB",
         ),
-        "inProgress":
-            MessageLookupByLibrary.simpleMessage("Sedang Berlangsung"),
+        "inProgress": MessageLookupByLibrary.simpleMessage("Sedang Berlangsung"),
         "inbrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Instruksi"),
@@ -317,8 +300,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "jika Anda menggunakannya, Anda akan mendeteksinya",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Tawaran Kiwi Wall"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Tawaran Kiwi Wall"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -367,12 +349,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Saldo Tidak Cukup",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Koin Tidak Cukup"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Koin Tidak Cukup"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP Terkirim"),
-        "oTPVerified":
-            MessageLookupByLibrary.simpleMessage("OTP Terverifikasi"),
+        "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP Terverifikasi"),
         "offerStatus": MessageLookupByLibrary.simpleMessage("Status Penawaran"),
         "offerToro": MessageLookupByLibrary.simpleMessage("Tawaran Toro"),
         "offers": MessageLookupByLibrary.simpleMessage("Penawaran"),
@@ -397,14 +377,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "Bayar Untuk Kartu Calar",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("Main Kuis Berbayar"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("Main Kuis Berbayar"),
         "password": MessageLookupByLibrary.simpleMessage("Kata Sandi"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Kata sandi tidak boleh kosong",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Kata sandi tidak boleh kurang dari 6 karakter",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -413,8 +391,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Kata Sandi Diperlukan",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Panjang kata sandi harus minimal 6 Karakter",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -442,12 +419,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Silakan periksa kode pembelian Anda",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Silakan kembali besok\nuntuk menonton video",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Harap selesaikan tugas dalam 22 hari",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -465,12 +440,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Silakan masukkan kode di bawah ini untuk mengatur ulang",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Silakan Pilih Metode Penarikan dan Mata Uang",
         ),
-        "pleaseTryAgain":
-            MessageLookupByLibrary.simpleMessage("Silakan Coba Lagi"),
+        "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("Silakan Coba Lagi"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("Harap tunggu"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Silakan tunggu hingga dimuat",
@@ -486,16 +459,13 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Survei Pollfish"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Survei Pollfish"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Tekan Tombol PUTAR Roda",
         ),
         "price": MessageLookupByLibrary.simpleMessage("Harga"),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("Kebijakan Privasi"),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("Kebijakan Privasi"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("Kebijakan Privasi"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("Kebijakan Privasi"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Kebijakan Privasi | Cash Rocket",
         ),
@@ -535,8 +505,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Ulasan Tidak Tersedia",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("Hadiah"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("Hadiah Ditambahkan"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("Hadiah Ditambahkan"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("Poin Hadiah"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Hadiah Berhasil",
@@ -548,11 +517,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Lost Crus...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Simpan"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Gosok dan menang!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Gosok dan menang!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Kartu Gosok"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Gosok kartu di atas dengan menggeseknya",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Detik"),
@@ -578,8 +545,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signingOut": MessageLookupByLibrary.simpleMessage("Keluar"),
         "signingUp": MessageLookupByLibrary.simpleMessage("Mendaftar"),
         "skip": MessageLookupByLibrary.simpleMessage("Lewati"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("Lewati untuk sekarang"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("Lewati untuk sekarang"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "Ada yang Salah",
         ),
@@ -595,8 +561,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Berhasil"),
         "survey": MessageLookupByLibrary.simpleMessage("Survei"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Survei Selesai. Akan diberi hadiah segera",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -608,16 +573,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Panel Survei Terbuka",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Menjaga Tawaran"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Menjaga Tawaran"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Syarat dan Ketentuan Penggunaan",
         ),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "Syarat & Ketentuan",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("Syarat Layanan"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("Syarat Layanan"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Pembaruan token gagal",
@@ -625,8 +588,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "topOffer": MessageLookupByLibrary.simpleMessage("Penawaran Teratas!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("Total Hadiah"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("Total Video"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("Total Situs Web"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("Total Situs Web"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Coba Lagi"),
         "tutorial": MessageLookupByLibrary.simpleMessage("Tutorial"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
@@ -644,8 +606,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. Tingkatkan kota Anda hingga level 17",
         ),
-        "urlChangeTo":
-            MessageLookupByLibrary.simpleMessage("URL berubah menjadi"),
+        "urlChangeTo": MessageLookupByLibrary.simpleMessage("URL berubah menjadi"),
         "userAlreadyExist": MessageLookupByLibrary.simpleMessage(
           "Pengguna Sudah Ada",
         ),
@@ -661,12 +622,10 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "verification": MessageLookupByLibrary.simpleMessage("Verifikasi"),
         "verify": MessageLookupByLibrary.simpleMessage("Verifikasi"),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("Memverifikasi OTP"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("Memverifikasi OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("KEMENANGAN"),
         "videos": MessageLookupByLibrary.simpleMessage("Video"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("Kunjungi Situs Web"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("Kunjungi Situs Web"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "Kunjungi situs web & Dapatkan",
         ),
@@ -688,8 +647,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Tonton video dan dapatkan poin",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Kami telah mengirimkan kode 6 digit ke\nponsel Anda",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -702,8 +660,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wheel": MessageLookupByLibrary.simpleMessage("Roda"),
         "winner": MessageLookupByLibrary.simpleMessage("Pemenang!"),
         "withdraw": MessageLookupByLibrary.simpleMessage("Tarik"),
-        "withdrawAccount":
-            MessageLookupByLibrary.simpleMessage("Akun Penarikan"),
+        "withdrawAccount": MessageLookupByLibrary.simpleMessage("Akun Penarikan"),
         "withdrawRequestedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Permintaan Penarikan Berhasil",
         ),
@@ -722,8 +679,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Anda sedang mengulang kuis",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Anda sudah menang kuis ini. Cobalah kuis lain",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage(

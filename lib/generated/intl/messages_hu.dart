@@ -59,8 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Már jutalmazva. Jöjjön vissza később",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Már jutalmazva. Kérjük, próbálja meg újra holnap",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -79,25 +78,21 @@ class MessageLookup extends MessageLookupByLibrary {
           "Képek annotálása az AI számára",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Az Apple bejelentkezés csak Apple eszközökön működik",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Egyetértesz?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Biztosan törölni akarja ezt a fiókot?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Az engedélyezés nem sikerült",
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("Egyenleg"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs felmérés"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs felmérés"),
         "bitrise": MessageLookupByLibrary.simpleMessage("Bitrise"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -106,13 +101,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Kamera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Készpénz Rakéta"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Jelszó módosítása"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Jelszó módosítása"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Belépési díj felszámítása",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Videó"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Videó"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Ellenőrizze a mobilját",
         ),
@@ -127,8 +120,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Kínálatok teljesítése és pontok szerzése",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Profil kitöltése"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Profil kitöltése"),
         "completeanaction": MessageLookupByLibrary.simpleMessage(
           "Teljesíts egy feladatot",
         ),
@@ -161,10 +153,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "Frissítve: 2021. június 7.",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("Teljesítési napok"),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("Fiókok törlése"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("Teljesítési napok"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("Fiókok törlése"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage("Fiók törlése"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "A törlés sikeres",
@@ -179,10 +169,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "earn": MessageLookupByLibrary.simpleMessage("szerez"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("Pontok szerezése"),
         "earnbdt": MessageLookupByLibrary.simpleMessage("Szerezz BDT-t"),
-        "earnpoints":
-            MessageLookupByLibrary.simpleMessage("Szerezz 2921 pontot"),
-        "editProfile":
-            MessageLookupByLibrary.simpleMessage("Profil szerkesztése"),
+        "earnpoints": MessageLookupByLibrary.simpleMessage("Szerezz 2921 pontot"),
+        "editProfile": MessageLookupByLibrary.simpleMessage("Profil szerkesztése"),
         "email": MessageLookupByLibrary.simpleMessage("E-mail"),
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
           "E-mail cím szükséges",
@@ -202,8 +190,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterLastName": MessageLookupByLibrary.simpleMessage(
           "Adja meg a vezetéknevet",
         ),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("Add meg a jelszót"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("Add meg a jelszót"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Írd be az e-mail címedet",
         ),
@@ -272,8 +259,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "Nincs még fiókod?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("Hé! Több készpénz!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("Hé! Több készpénz!"),
         "history": MessageLookupByLibrary.simpleMessage("Előzmények"),
         "home": MessageLookupByLibrary.simpleMessage("Kezdőlap"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -314,8 +300,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Ha használja, észre fogja venni",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Ajánlat"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Ajánlat"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -354,16 +339,13 @@ class MessageLookup extends MessageLookupByLibrary {
           "Nincs internetkapcsolat",
         ),
         "noOfferFound": MessageLookupByLibrary.simpleMessage("Nincs ajánlat"),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("Nem található kvíz"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("Nem található kvíz"),
         "none": MessageLookupByLibrary.simpleMessage("Nincs"),
-        "notDefined":
-            MessageLookupByLibrary.simpleMessage("Nincs meghatározva"),
+        "notDefined": MessageLookupByLibrary.simpleMessage("Nincs meghatározva"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Nincs elég egyenleg",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Nincs elég érme"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Nincs elég érme"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP elküldve"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP ellenőrizve"),
@@ -391,14 +373,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "Fizetett a kaparós kártyáért",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("Fizetett kvíz játék"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("Fizetett kvíz játék"),
         "password": MessageLookupByLibrary.simpleMessage("Jelszó"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "A jelszó nem lehet üres",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "A jelszónak legalább 6 karakterből kell állnia",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -407,8 +387,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Jelszó szükséges",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "A jelszó hossza legalább 6 karakter kell legyen",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -436,12 +415,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Kérjük, ellenőrizze a vásárlási kódot",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Kérjük, térjen vissza holnap\na videó megtekintéséhez",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Kérlek, fejezd be a feladatot 22 napon belül",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -459,8 +436,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Kérlek, add meg az alábbi kódot a",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Kérjük, válassza ki a kifizetési módot és a pénznemet",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -472,8 +448,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Pontok megkapva"),
         "points": MessageLookupByLibrary.simpleMessage("Pontok"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Pontok megkapva"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Pontok megkapva"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "pontok lesznek levonva!",
         ),
@@ -482,8 +457,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish felmérés"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish felmérés"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Nyomd meg a PÖRGETÉS gombot",
         ),
@@ -529,8 +503,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Vélemény nem elérhető",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("Jutalom"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("Jutalom hozzáadva"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("Jutalom hozzáadva"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("Jutalompont"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "A jutalom sikeresen megkapva",
@@ -542,11 +515,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Elveszett Keresztesek...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Mentés"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Karcolj és nyerj!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Karcolj és nyerj!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Sorsjegy"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Karcolja le az fenti kártyát a húzással",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Másodperc"),
@@ -556,8 +527,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendOtp": MessageLookupByLibrary.simpleMessage("OTP küldése"),
         "sendingOtp": MessageLookupByLibrary.simpleMessage("OTP küldése"),
         "share": MessageLookupByLibrary.simpleMessage("Megosztás"),
-        "shareSqure":
-            MessageLookupByLibrary.simpleMessage("Eredmény megosztása"),
+        "shareSqure": MessageLookupByLibrary.simpleMessage("Eredmény megosztása"),
         "showingAds": MessageLookupByLibrary.simpleMessage(
           "Hirdetések megjelenítése",
         ),
@@ -593,8 +563,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Sikeres"),
         "survey": MessageLookupByLibrary.simpleMessage("Kutatás"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "A felmérés befejezve. Hamarosan jutalmat kap",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -606,8 +575,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "A felmérési panel nyitva",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Ajánlatok kezelése"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Ajánlatok kezelése"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Használati feltételek",
         ),
@@ -624,15 +592,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "topOffer": MessageLookupByLibrary.simpleMessage("Legjobb ajánlat!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("Összes jutalom"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("Összes videó"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("Összes weboldal"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("Összes weboldal"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("Próbáld újra"),
         "tutorial": MessageLookupByLibrary.simpleMessage("Útmutató"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
           "Ullamcorper eros senectus urna sit elementum aliquet. Nibh mauris tristique elit pellentesque sapien malesuada eleifend iaculis malesuada. Mauris,ut id hendrerit habitant gravida urna congue arcu sit. At quisque leo semper urna gravida",
         ),
-        "updatePassword":
-            MessageLookupByLibrary.simpleMessage("Jelszó frissítése"),
+        "updatePassword": MessageLookupByLibrary.simpleMessage("Jelszó frissítése"),
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "Jelszó frissítése",
         ),
@@ -642,16 +608,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. Fejleszd a városod a 17. szintre",
         ),
-        "urlChangeTo":
-            MessageLookupByLibrary.simpleMessage("URL változás ide:"),
+        "urlChangeTo": MessageLookupByLibrary.simpleMessage("URL változás ide:"),
         "userAlreadyExist": MessageLookupByLibrary.simpleMessage(
           "A felhasználó már létezik",
         ),
         "userCanaonly": MessageLookupByLibrary.simpleMessage(
           "5. A felhasználó csak egyetlen Rise of Kingdoms ajánlatból kaphat jutalmat",
         ),
-        "userId":
-            MessageLookupByLibrary.simpleMessage("felhasználói azonosító"),
+        "userId": MessageLookupByLibrary.simpleMessage("felhasználói azonosító"),
         "userNotEligible": MessageLookupByLibrary.simpleMessage(
           "A felhasználó nem jogosult",
         ),
@@ -680,16 +644,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchAVideoOnlyOneTimeInADay": MessageLookupByLibrary.simpleMessage(
           "Nézzen meg egy videót csak egyszer naponta",
         ),
-        "watchVideo":
-            MessageLookupByLibrary.simpleMessage("Videó megtekintése"),
+        "watchVideo": MessageLookupByLibrary.simpleMessage("Videó megtekintése"),
         "watchVideoAndEarn": MessageLookupByLibrary.simpleMessage(
           "Nézz meg egy videót (Szerezz 10 érmét)",
         ),
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Nézzen videókat és szerezzen pontokat",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Elküldtük a 6 jegyű kódot a\nmobiljára",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -711,18 +673,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Hibás OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Igen"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Igen, törölje!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("Ki van kapcsolva!"),
-        "youAreDisabled":
-            MessageLookupByLibrary.simpleMessage("Ki van kapcsolva!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("Ki van kapcsolva!"),
+        "youAreDisabled": MessageLookupByLibrary.simpleMessage("Ki van kapcsolva!"),
         "youAreNotEligibleForThisSurvey": MessageLookupByLibrary.simpleMessage(
           "Nem jogosult erre a felmérésre",
         ),
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Újraveszi a kvízt",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Már megnyerte ezt a kvízt. Próbáljon meg másik kvízt játszani",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Ön megszerezte"),

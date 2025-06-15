@@ -51,9 +51,9 @@ class _WheelIndicator extends StatelessWidget {
   final FortuneIndicator indicator;
 
   const _WheelIndicator({
-    super.key,
+    Key? key,
     required this.indicator,
-  });
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

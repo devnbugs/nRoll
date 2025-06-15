@@ -1,13 +1,14 @@
 import 'package:cash_rocket/Screen/Authentication/log_in.dart';
 import 'package:cash_rocket/Screen/Constant%20Data/main_button.dart';
 import 'package:cash_rocket/constant%20app%20information/const_information.dart';
+import 'package:cash_rocket/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:nb_utils/nb_utils.dart';
+
 import '../../Provider/database_provider.dart';
 import '../../Repositories/authentication_repo.dart';
 import '../Constant Data/constant.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
 
 class ChangePassword extends StatefulWidget {
   const ChangePassword({super.key});
@@ -18,8 +19,7 @@ class ChangePassword extends StatefulWidget {
 
 class _ChangePasswordState extends State<ChangePassword> {
   TextEditingController passwordEditingController = TextEditingController();
-  TextEditingController confirmPasswordEditingController =
-      TextEditingController();
+  TextEditingController confirmPasswordEditingController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -29,11 +29,7 @@ class _ChangePasswordState extends State<ChangePassword> {
         toolbarHeight: 90,
         iconTheme: const IconThemeData(color: kWhite),
         flexibleSpace: Container(
-          decoration: BoxDecoration(
-              borderRadius: const BorderRadius.only(
-                  bottomLeft: Radius.circular(30),
-                  bottomRight: Radius.circular(30)),
-              gradient: containerGradiant),
+          decoration: BoxDecoration(borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30)), gradient: containerGradiant),
         ),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
@@ -93,41 +89,32 @@ class _ChangePasswordState extends State<ChangePassword> {
                 onpressed: () async {
                   if (passwordEditingController.text.isEmpty) {
                     // EasyLoading.showError('Password can\'t be empty');
-                    EasyLoading.showError(
-                        lang.S.of(context).passwordCanNotBeEmpty);
+                    EasyLoading.showError(lang.S.of(context).passwordCanNotBeEmpty);
                   } else if (passwordEditingController.text.length < 6) {
                     //EasyLoading.showError('Password can\'t be less than 6 character');
-                    EasyLoading.showError(
-                        lang.S.of(context).passwordCanNotBeLessThan6Character);
-                  } else if (passwordEditingController.text !=
-                      confirmPasswordEditingController.text) {
+                    EasyLoading.showError(lang.S.of(context).passwordCanNotBeLessThan6Character);
+                  } else if (passwordEditingController.text != confirmPasswordEditingController.text) {
                     //EasyLoading.showError('Password doesn\'t match');
-                    EasyLoading.showError(
-                        lang.S.of(context).passwordDoesNotMatch);
+                    EasyLoading.showError(lang.S.of(context).passwordDoesNotMatch);
                   } else {
                     try {
                       //EasyLoading.show(status: 'Updating Password');
-                      EasyLoading.show(
-                          status: lang.S.of(context).updatingPassword);
-                      var response = await AuthRepo()
-                          .updatePassword(passwordEditingController.text);
+                      EasyLoading.show(status: lang.S.of(context).updatingPassword);
+                      var response = await AuthRepo().updatePassword(passwordEditingController.text);
                       if (response) {
                         var response = await AuthRepo().logOut();
                         if (response && mounted) {
                           DataBase().saveString('', 'token');
                           const LogIn().launch(context, isNewTask: true);
                           //EasyLoading.showSuccess('Password Update Successful');
-                          EasyLoading.showSuccess(
-                              lang.S.of(context).passwordUpdateSuccessful);
+                          EasyLoading.showSuccess(lang.S.of(context).passwordUpdateSuccessful);
                         } else {
                           //EasyLoading.showError('Please Try Again');
-                          EasyLoading.showError(
-                              lang.S.of(context).pleaseTryAgain);
+                          EasyLoading.showError(lang.S.of(context).pleaseTryAgain);
                         }
                       } else {
                         //EasyLoading.showError('Error Happened. Try again');
-                        EasyLoading.showError(
-                            lang.S.of(context).errorHappenedTryAgain);
+                        EasyLoading.showError(lang.S.of(context).errorHappenedTryAgain);
                       }
                     } catch (e) {
                       EasyLoading.showError(e.toString());

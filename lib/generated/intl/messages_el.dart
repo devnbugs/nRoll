@@ -48,8 +48,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "admobVideoAds": MessageLookupByLibrary.simpleMessage(
           "Διαφημίσεις βίντεο Admob",
         ),
-        "allFeatures":
-            MessageLookupByLibrary.simpleMessage("Όλες οι Λειτουργίες"),
+        "allFeatures": MessageLookupByLibrary.simpleMessage("Όλες οι Λειτουργίες"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "επιτρέπει πλοήγηση σε",
         ),
@@ -60,8 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Ήδη βραβευμένο, επιστρέψτε αργότερα",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Έχετε ήδη επιβραβευθεί. Δοκιμάστε ξανά αύριο",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -80,18 +78,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Σημειώστε εικόνες για AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Η είσοδος με Apple θα λειτουργήσει σε συσκευές Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Συμφωνείτε;"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον λογαριασμό;",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Η εξουσιοδότηση απέτυχε",
         ),
@@ -106,12 +101,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Κάμερα"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Cash Rocket"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Αλλαγή Κωδικού"),
-        "chargingEntryFee":
-            MessageLookupByLibrary.simpleMessage("Χρέωση εισόδου"),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Αλλαγή Κωδικού"),
+        "chargingEntryFee": MessageLookupByLibrary.simpleMessage("Χρέωση εισόδου"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Ελέγξτε το κινητό σας",
         ),
@@ -156,8 +148,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Προσαρμοσμένα βίντεο",
         ),
         "d": MessageLookupByLibrary.simpleMessage("D"),
-        "dailyReward":
-            MessageLookupByLibrary.simpleMessage("Ημερήσια Ανταμοιβή!"),
+        "dailyReward": MessageLookupByLibrary.simpleMessage("Ημερήσια Ανταμοιβή!"),
         "dailyRewardUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Η ενημέρωση καθημερινής επιβράβευσης απέτυχε",
         ),
@@ -186,12 +177,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "earn": MessageLookupByLibrary.simpleMessage("Κέρδος"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("Κερδίστε Πόντους"),
         "earnbdt": MessageLookupByLibrary.simpleMessage("Κέρδισε BDT"),
-        "earnpoints":
-            MessageLookupByLibrary.simpleMessage("Κερδίστε 2921 πόντους"),
-        "editProfile":
-            MessageLookupByLibrary.simpleMessage("Επεξεργασία Προφίλ"),
-        "email":
-            MessageLookupByLibrary.simpleMessage("Ηλεκτρονικό Ταχυδρομείο"),
+        "earnpoints": MessageLookupByLibrary.simpleMessage("Κερδίστε 2921 πόντους"),
+        "editProfile": MessageLookupByLibrary.simpleMessage("Επεξεργασία Προφίλ"),
+        "email": MessageLookupByLibrary.simpleMessage("Ηλεκτρονικό Ταχυδρομείο"),
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
           "Απαιτείται διεύθυνση email",
         ),
@@ -268,8 +256,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Προσφορά"),
         "gallary": MessageLookupByLibrary.simpleMessage("Συλλογή"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Λήψη επιβράβευσης"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Λήψη επιβράβευσης"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage("Λήψη βραβείων"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "Λήψη βραβείου της ημέρας",
@@ -316,22 +303,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Προσκαλέστε τους φίλους σας να χρησιμοποιήσουν το Cash Rocket και θα λάβετε 100 σημεία για καθέναν",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("για κύριο πλαίσιο"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("για κύριο πλαίσιο"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "Αν το χρησιμοποιήσετε, θα το ανιχνεύσετε",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Προσφορά"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Προσφορά"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Λύκτος μαυτής φαρέτρα σιτ ελίτ ιντέγερ κονσέκ τέτουρ ετιάμ κουις αυκτορ.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("Γλώσσα"),
         "lastName": MessageLookupByLibrary.simpleMessage("Επώνυμο"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("Ας ξεκινήσουμε"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("Ας ξεκινήσουμε"),
         "loading": MessageLookupByLibrary.simpleMessage("Φόρτωση"),
         "logIn": MessageLookupByLibrary.simpleMessage("Σύνδεση"),
         "logOut": MessageLookupByLibrary.simpleMessage("Αποσύνδεση"),
@@ -365,8 +349,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "noOfferFound": MessageLookupByLibrary.simpleMessage(
           "Δεν βρέθηκε καμία προσφορά",
         ),
-        "noQuizFound":
-            MessageLookupByLibrary.simpleMessage("Δεν βρέθηκε κουίζ"),
+        "noQuizFound": MessageLookupByLibrary.simpleMessage("Δεν βρέθηκε κουίζ"),
         "none": MessageLookupByLibrary.simpleMessage("Κανένα"),
         "notDefined": MessageLookupByLibrary.simpleMessage("Μη καθορισμένο"),
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
@@ -378,8 +361,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP Αποστάλθηκε"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP Επαληθεύτηκε"),
-        "offerStatus":
-            MessageLookupByLibrary.simpleMessage("Κατάσταση Προσφοράς"),
+        "offerStatus": MessageLookupByLibrary.simpleMessage("Κατάσταση Προσφοράς"),
         "offerToro": MessageLookupByLibrary.simpleMessage("Προσφορά Toro"),
         "offers": MessageLookupByLibrary.simpleMessage("Προσφορές"),
         "ogAds": MessageLookupByLibrary.simpleMessage("Og Ads"),
@@ -408,8 +390,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Ο κωδικός δεν μπορεί να είναι κενός",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Ο κωδικός δεν μπορεί να είναι μικρότερος από 6 χαρακτήρες",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -418,8 +399,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Απαιτείται κωδικός",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Το μήκος του κωδικού πρέπει να είναι τουλάχιστον 6 χαρακτήρες",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -447,12 +427,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Παρακαλώ ελέγξτε τον κωδικό αγοράς σας",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Παρακαλώ επιστρέψτε αύριο\nγια να παρακολουθήσετε το βίντεο",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Ολοκληρώστε την εργασία εντός 22 ημερών",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -470,22 +448,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Παρακαλούμε εισάγετε τον κωδικό παρακάτω για να επαναφέρετε τον",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Παρακαλώ επιλέξτε μέθοδο ανάληψης και νόμισμα",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
           "Παρακαλώ προσπαθήστε ξανά",
         ),
-        "pleaseWait":
-            MessageLookupByLibrary.simpleMessage("Παρακαλώ περιμένετε"),
+        "pleaseWait": MessageLookupByLibrary.simpleMessage("Παρακαλώ περιμένετε"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Παρακαλώ περιμένετε μέχρι να φορτωθεί",
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Ληφθέντα σημεία"),
         "points": MessageLookupByLibrary.simpleMessage("Πόντοι"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Πόντοι ληφθέντες"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Πόντοι ληφθέντες"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "οι πόντοι θα αφαιρεθούν!",
         ),
@@ -494,8 +469,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Έρευνα Pollfish"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Έρευνα Pollfish"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Πατήστε τον τροχό ΠΕΡΙΣΤΡΟΦΗ",
         ),
@@ -503,8 +477,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "privacyPolicty": MessageLookupByLibrary.simpleMessage(
           "Πολιτική Απορρήτου",
         ),
-        "privicyPolcy":
-            MessageLookupByLibrary.simpleMessage("Πολιτική Απορρήτου"),
+        "privicyPolcy": MessageLookupByLibrary.simpleMessage("Πολιτική Απορρήτου"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Πολιτική Απορρήτου | Cash Rocket",
         ),
@@ -533,10 +506,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
           "Αίτηση ανάληψης",
         ),
-        "resendCode":
-            MessageLookupByLibrary.simpleMessage("Επαναποστολή κωδικού"),
-        "resetPassword":
-            MessageLookupByLibrary.simpleMessage("Επαναφορά Κωδικού"),
+        "resendCode": MessageLookupByLibrary.simpleMessage("Επαναποστολή κωδικού"),
+        "resetPassword": MessageLookupByLibrary.simpleMessage("Επαναφορά Κωδικού"),
         "resettingPassword": MessageLookupByLibrary.simpleMessage(
           "Επαναφορά κωδικού",
         ),
@@ -544,8 +515,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Η αναθεώρηση δεν είναι διαθέσιμη",
         ),
         "reward": MessageLookupByLibrary.simpleMessage("Ανταμοιβή"),
-        "rewardAdded":
-            MessageLookupByLibrary.simpleMessage("Βραβείο προστέθηκε"),
+        "rewardAdded": MessageLookupByLibrary.simpleMessage("Βραβείο προστέθηκε"),
         "rewardPoint": MessageLookupByLibrary.simpleMessage("Πόντοι Βραβείου"),
         "rewardedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Επιβράβευση επιτυχής",
@@ -561,8 +531,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Ξύστε και κερδίστε!",
         ),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Κάρτα ξυσίματος"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Ξυστε την παραπάνω κάρτα σκράπινγκ την",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Δευτερόλεπτα"),
@@ -573,8 +542,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "sendingOtp": MessageLookupByLibrary.simpleMessage("Αποστολή OTP"),
         "share": MessageLookupByLibrary.simpleMessage("Κοινοποίηση"),
         "shareSqure": MessageLookupByLibrary.simpleMessage("Κοινοποίηση Σκορ"),
-        "showingAds":
-            MessageLookupByLibrary.simpleMessage("Εμφάνιση διαφημίσεων"),
+        "showingAds": MessageLookupByLibrary.simpleMessage("Εμφάνιση διαφημίσεων"),
         "signIn": MessageLookupByLibrary.simpleMessage("Είσοδος"),
         "signOutSuccessful": MessageLookupByLibrary.simpleMessage(
           "Επιτυχής αποσύνδεση",
@@ -589,8 +557,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signingOut": MessageLookupByLibrary.simpleMessage("Αποσύνδεση"),
         "signingUp": MessageLookupByLibrary.simpleMessage("Εγγραφή"),
         "skip": MessageLookupByLibrary.simpleMessage("Παράκαμψη"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("Παράλειψη για τώρα"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("Παράλειψη για τώρα"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "Κάτι πήγε στραβά",
         ),
@@ -608,8 +575,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Επιτυχής"),
         "survey": MessageLookupByLibrary.simpleMessage("Έρευνα"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Η έρευνα ολοκληρώθηκε. Θα επιβραβευτείτε σύντομα",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -627,8 +593,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Όροι Χρήσης",
         ),
-        "termsAndConditions":
-            MessageLookupByLibrary.simpleMessage("Όροι Χρήσης"),
+        "termsAndConditions": MessageLookupByLibrary.simpleMessage("Όροι Χρήσης"),
         "termsOfService": MessageLookupByLibrary.simpleMessage("Όροι Χρήσης"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
@@ -647,13 +612,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
           "Ullamcorper eros senectus urna sit elementum aliquet. Nibh mauris tristique elit pellentesque sapien malesuada eleifend iaculis malesuada. Mauris, ut id hendrerit habitant gravida urna congue arcu sit. At quisque leo semper urna gravida",
         ),
-        "updatePassword":
-            MessageLookupByLibrary.simpleMessage("Ενημέρωση κωδικού"),
+        "updatePassword": MessageLookupByLibrary.simpleMessage("Ενημέρωση κωδικού"),
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "Ενημέρωση κωδικού",
         ),
-        "updatingProfile":
-            MessageLookupByLibrary.simpleMessage("Ενημέρωση προφίλ"),
+        "updatingProfile": MessageLookupByLibrary.simpleMessage("Ενημέρωση προφίλ"),
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. Αναβαθμίστε την πόλη σας σε επίπεδο 17",
         ),
@@ -702,8 +665,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Παρακολουθήστε βίντεο και κερδίστε πόντους",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "Στείλαμε τον 6ψήφιο κωδικό στο\nκινητό σας",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -724,8 +686,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Λάθος OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Ναι"),
-        "yesDeleteIt":
-            MessageLookupByLibrary.simpleMessage("Ναι, διαγράψτε το!"),
+        "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Ναι, διαγράψτε το!"),
         "youAreDisable": MessageLookupByLibrary.simpleMessage(
           "Είστε απενεργοποιημένοι!",
         ),
@@ -738,8 +699,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Επαναλαμβάνετε το κουίζ",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Έχετε ήδη κερδίσει αυτό το κουίζ. Δοκιμάστε να παίξετε άλλο κουίζ",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Έχετε κερδίσει"),

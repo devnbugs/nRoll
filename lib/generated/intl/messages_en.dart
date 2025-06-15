@@ -45,8 +45,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("AdMob Video"),
-        "admobVideoAds":
-            MessageLookupByLibrary.simpleMessage("Admob Video Ads"),
+        "admobVideoAds": MessageLookupByLibrary.simpleMessage("Admob Video Ads"),
         "allFeatures": MessageLookupByLibrary.simpleMessage("All Features"),
         "allowingNavigationTo": MessageLookupByLibrary.simpleMessage(
           "allowing navigation to",
@@ -58,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Already rewarded come back later",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Already Rewarded. Please Try Again Tomorrow",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -78,18 +76,15 @@ class MessageLookup extends MessageLookupByLibrary {
           "Annotate Images for Al",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple login will work on apple devises",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Are you agree?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Are you sure you want to delete this Account?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Authorization Failed",
         ),
@@ -104,13 +99,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("Camera"),
         "cashRocket": MessageLookupByLibrary.simpleMessage("Cash Rocket"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("Change Password"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("Change Password"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Charging Entry fee",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Check Your Mobile",
         ),
@@ -125,18 +118,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Complete offers and get points",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Complete Profile"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Complete Profile"),
         "completeanaction": MessageLookupByLibrary.simpleMessage(
           "Complete an action",
         ),
         "completingProfile": MessageLookupByLibrary.simpleMessage(
           "Completing Profile",
         ),
-        "confirmPassword":
-            MessageLookupByLibrary.simpleMessage("Confirm Password"),
-        "congratulations":
-            MessageLookupByLibrary.simpleMessage("Congratulations"),
+        "confirmPassword": MessageLookupByLibrary.simpleMessage("Confirm Password"),
+        "congratulations": MessageLookupByLibrary.simpleMessage("Congratulations"),
         "continu": MessageLookupByLibrary.simpleMessage("Continue"),
         "continueWithApple": MessageLookupByLibrary.simpleMessage(
           "Continue with Apple",
@@ -159,12 +149,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "Date Updated” (7 Jun 2021)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("Days to complete"),
-        "deleteAccounts":
-            MessageLookupByLibrary.simpleMessage("Delete Accounts"),
-        "deletingAccount":
-            MessageLookupByLibrary.simpleMessage("Deleting Account"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("Days to complete"),
+        "deleteAccounts": MessageLookupByLibrary.simpleMessage("Delete Accounts"),
+        "deletingAccount": MessageLookupByLibrary.simpleMessage("Deleting Account"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
           "Deletion Successful",
         ),
@@ -190,13 +177,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage(
           "Enter Coin Amount",
         ),
-        "enterFirstName":
-            MessageLookupByLibrary.simpleMessage("Enter First Name"),
+        "enterFirstName": MessageLookupByLibrary.simpleMessage("Enter First Name"),
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Enter Your Full name",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Enter Last Name"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Enter Last Name"),
         "enterPassword": MessageLookupByLibrary.simpleMessage("Enter password"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Enter Your Email Address",
@@ -243,8 +228,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Error while logging out",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("First Name"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("Forgot Password"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("Forgot Password"),
         "free": MessageLookupByLibrary.simpleMessage("Free"),
         "fullName": MessageLookupByLibrary.simpleMessage("Full Name"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -253,8 +237,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Offer"),
         "gallary": MessageLookupByLibrary.simpleMessage("Gallery"),
         "gettingReward": MessageLookupByLibrary.simpleMessage("Getting reward"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("Getting rewards"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("Getting rewards"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "Getting Today\'s Reward",
         ),
@@ -288,8 +271,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Instructions"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("Invalid OTP"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Invitation Code"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Invitation Code"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Invitation Code Copied",
         ),
@@ -300,22 +282,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "Invite your friends to use Cash Rocket and you will receive 100 points for each one",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("isForMainFrame"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("isForMainFrame"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "it use, you will detect",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Offer"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Offer"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("Language"),
         "lastName": MessageLookupByLibrary.simpleMessage("Last Name"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("Let’s Get Startes"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("Let’s Get Startes"),
         "loading": MessageLookupByLibrary.simpleMessage("Loading"),
         "logIn": MessageLookupByLibrary.simpleMessage("Log In"),
         "logOut": MessageLookupByLibrary.simpleMessage("Log Out"),
@@ -353,8 +332,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "notEnoughBalance": MessageLookupByLibrary.simpleMessage(
           "Not enough Balance",
         ),
-        "notEnoughCoin":
-            MessageLookupByLibrary.simpleMessage("Not Enough Coin"),
+        "notEnoughCoin": MessageLookupByLibrary.simpleMessage("Not Enough Coin"),
         "oGAds": MessageLookupByLibrary.simpleMessage("OGAds"),
         "oTPSent": MessageLookupByLibrary.simpleMessage("OTP Sent"),
         "oTPVerified": MessageLookupByLibrary.simpleMessage("OTP Verified"),
@@ -387,8 +365,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Password can\'t be empty",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Password can\'t be less than 6 character",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -397,8 +374,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Password is Required",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Password length must be at least 6 Character",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -426,12 +402,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Please check your purchase code",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Please come back tomorrow\nto watch the video",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4.  Please complete the task within 22 days",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -449,20 +423,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Please enter the code below to reset your",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Please Select Withdraw Method and Currency",
         ),
-        "pleaseTryAgain":
-            MessageLookupByLibrary.simpleMessage("Please Try Again"),
+        "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("Please Try Again"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("Please wait"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "Please wait till loaded",
         ),
         "pointRecived": MessageLookupByLibrary.simpleMessage("Points received"),
         "points": MessageLookupByLibrary.simpleMessage("Points"),
-        "pointsReceived":
-            MessageLookupByLibrary.simpleMessage("Points received"),
+        "pointsReceived": MessageLookupByLibrary.simpleMessage("Points received"),
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "points will be deducted!",
         ),
@@ -471,14 +442,12 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish Survey"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish Survey"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Press the SPIN Wheel",
         ),
         "price": MessageLookupByLibrary.simpleMessage("price"),
-        "privacyPolicty":
-            MessageLookupByLibrary.simpleMessage("Privacy Policy"),
+        "privacyPolicty": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
         "privicyPolcy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
         "privicyPolicyICashRocket": MessageLookupByLibrary.simpleMessage(
           "Privacy Policy | Cash Rocket",
@@ -529,11 +498,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "Rise of Kingdoms: Lost Crus...",
         ),
         "saves": MessageLookupByLibrary.simpleMessage("Save"),
-        "scratchAndWin":
-            MessageLookupByLibrary.simpleMessage("Scratch and win!"),
+        "scratchAndWin": MessageLookupByLibrary.simpleMessage("Scratch and win!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("Scratch card"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Scratch the above card by swiping on it",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Seconds"),
@@ -575,8 +542,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Successful"),
         "survey": MessageLookupByLibrary.simpleMessage("Survey"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Survey Completed. Will be rewarded soon",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -595,8 +561,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "Terms & Conditions",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("Term of Service"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("Term of Service"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Token Update Failed",
@@ -610,13 +575,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
           "Ullamcorper eros senectus urna sit elementum ali quet. Nibh mauris tristique elit pellentesque sa pien malesuada eleifend iaculis malesuada. Mau ris, ut id hendrerit habitant gravida urna congue arcu sit. At quisque leo semper urna gravida",
         ),
-        "updatePassword":
-            MessageLookupByLibrary.simpleMessage("Update Password"),
+        "updatePassword": MessageLookupByLibrary.simpleMessage("Update Password"),
         "updatingPassword": MessageLookupByLibrary.simpleMessage(
           "Updating Password",
         ),
-        "updatingProfile":
-            MessageLookupByLibrary.simpleMessage("Updating Profile"),
+        "updatingProfile": MessageLookupByLibrary.simpleMessage("Updating Profile"),
         "upgradeyourcityotlevel17": MessageLookupByLibrary.simpleMessage(
           "2. Upgrade your city ot level 17",
         ),
@@ -661,8 +624,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Watch viewos and get Points",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "We’ve sent the 6 digit code to your\nMobile ",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -675,30 +637,25 @@ class MessageLookup extends MessageLookupByLibrary {
         "wheel": MessageLookupByLibrary.simpleMessage("Wheel"),
         "winner": MessageLookupByLibrary.simpleMessage("Winner!"),
         "withdraw": MessageLookupByLibrary.simpleMessage("Withdraw"),
-        "withdrawAccount":
-            MessageLookupByLibrary.simpleMessage("Withdraw Account"),
+        "withdrawAccount": MessageLookupByLibrary.simpleMessage("Withdraw Account"),
         "withdrawRequestedSuccessfully": MessageLookupByLibrary.simpleMessage(
           "Withdraw requested Successfully",
         ),
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Wrong OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Yes"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Yes, Delete it!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("You Are Disable!"),
-        "youAreDisabled":
-            MessageLookupByLibrary.simpleMessage("You Are Disabled!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("You Are Disable!"),
+        "youAreDisabled": MessageLookupByLibrary.simpleMessage("You Are Disabled!"),
         "youAreNotEligibleForThisSurvey": MessageLookupByLibrary.simpleMessage(
           "You are not eligible for this survey",
         ),
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "You are retaking the quiz",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "You have already won this quiz. Try playing other quiz",
         ),
-        "youHaveEarned":
-            MessageLookupByLibrary.simpleMessage("You Have Earned"),
+        "youHaveEarned": MessageLookupByLibrary.simpleMessage("You Have Earned"),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(
           "You Have Earned 10 Coins",
         ),

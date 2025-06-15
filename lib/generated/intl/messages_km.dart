@@ -41,8 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "សូមស្វាគមន៍មកកាស់រកិត",
         ),
         "a": MessageLookupByLibrary.simpleMessage("A"),
-        "adColonyVideo":
-            MessageLookupByLibrary.simpleMessage("វីដេអូ AdColony"),
+        "adColonyVideo": MessageLookupByLibrary.simpleMessage("វីដេអូ AdColony"),
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("វីដេអូ AdMob"),
@@ -60,8 +59,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "បានទទួលរង្វាន់ហើយ សូមត្រលប់មកវិញនៅពេលក្រោយ",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "បានទទួលរង្វាន់រួចរាល់។ សូមព្យាយាមម្តងទៀតនៅថ្ងៃស្អែក",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -80,14 +78,11 @@ class MessageLookup extends MessageLookupByLibrary {
           "ពិពណ៌នារូបភាពសម្រាប់ AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "ការចុះឈ្មោះដោយ Apple នឹងដំណើរការនៅលើឧបករណ៍ Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("តើអ្នកយល់ព្រមទេ?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
-                "តើអ្នកប្រាកដជាចង់លុបគណនីនេះទេ?"),
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage("តើអ្នកប្រាកដជាចង់លុបគណនីនេះទេ?"),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
         "audienceNetwork": MessageLookupByLibrary.simpleMessage("បណ្តាញស្តាប់"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
@@ -95,18 +90,14 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("តុល្យការណ៍"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs ស្ទង់មតិ"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs ស្ទង់មតិ"),
         "bitrise": MessageLookupByLibrary.simpleMessage("Bitrise"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
-        "blockingNavigationTo":
-            MessageLookupByLibrary.simpleMessage("ការចាកចេញទៅ"),
+        "blockingNavigationTo": MessageLookupByLibrary.simpleMessage("ការចាកចេញទៅ"),
         "c": MessageLookupByLibrary.simpleMessage("C"),
         "camera": MessageLookupByLibrary.simpleMessage("កាមេរ៉ា"),
-        "cashRocket":
-            MessageLookupByLibrary.simpleMessage("ស្ថានភាពសាច់ប្រាក់"),
-        "changePassword":
-            MessageLookupByLibrary.simpleMessage("ប្តូរពាក្យសម្ងាត់"),
+        "cashRocket": MessageLookupByLibrary.simpleMessage("ស្ថានភាពសាច់ប្រាក់"),
+        "changePassword": MessageLookupByLibrary.simpleMessage("ប្តូរពាក្យសម្ងាត់"),
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "កំពុងគិតកម្រៃចូល",
         ),
@@ -121,8 +112,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
           "ទាញយកប្រាក់រង្វាន់ប្រចាំថ្ងៃឥឡូវនេះ!",
         ),
-        "completeAnAction":
-            MessageLookupByLibrary.simpleMessage("បញ្ចប់សកម្មភាព"),
+        "completeAnAction": MessageLookupByLibrary.simpleMessage("បញ្ចប់សកម្មភាព"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "បញ្ចប់យោបល់ និងទទួលបានពិន្ទុ",
         ),
@@ -152,8 +142,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "continueWithMobile": MessageLookupByLibrary.simpleMessage(
           "បន្តជាមុខទូរស័ព្ទ",
         ),
-        "customVideos":
-            MessageLookupByLibrary.simpleMessage("វីដេអូផ្ទាល់ខ្លួន"),
+        "customVideos": MessageLookupByLibrary.simpleMessage("វីដេអូផ្ទាល់ខ្លួន"),
         "d": MessageLookupByLibrary.simpleMessage("D"),
         "dailyReward": MessageLookupByLibrary.simpleMessage(
           "ប្រាក់រង្វាន់ប្រចាំថ្ងៃ!",
@@ -164,8 +153,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "កាលបរិច្ឆេទធ្វើបច្ចុប្បន្នភាព (៧ មិថុនា ២០២១)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("ថ្ងៃដើម្បីបញ្ចប់"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("ថ្ងៃដើម្បីបញ្ចប់"),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("លុបគណនី"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage("កំពុងលុបគណនី"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
@@ -174,8 +162,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "description": MessageLookupByLibrary.simpleMessage("សេចក្តីពិពណ៌នា"),
         "dismissed": MessageLookupByLibrary.simpleMessage("បានបដិសេធ"),
         "doNotKnow": MessageLookupByLibrary.simpleMessage("មិនដឹងទេ"),
-        "dontReceiveCode":
-            MessageLookupByLibrary.simpleMessage("មិនបានទទួលកូដ?"),
+        "dontReceiveCode": MessageLookupByLibrary.simpleMessage("មិនបានទទួលកូដ?"),
         "earbdt": MessageLookupByLibrary.simpleMessage("រកប្រាក់ BDT"),
         "earn": MessageLookupByLibrary.simpleMessage("រកប្រាក់រង្វាន់"),
         "earnPoint": MessageLookupByLibrary.simpleMessage("រកប្រាក់រង្វាន់"),
@@ -183,25 +170,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "earnpoints": MessageLookupByLibrary.simpleMessage(
           "រកប្រាក់រង្វាន់ ២៩២១ ពិន្ទុ",
         ),
-        "editProfile":
-            MessageLookupByLibrary.simpleMessage("កែសម្រួលប្រវត្តិរូប"),
+        "editProfile": MessageLookupByLibrary.simpleMessage("កែសម្រួលប្រវត្តិរូប"),
         "email": MessageLookupByLibrary.simpleMessage("អ៊ីម៉ែល"),
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
           "អាសយដ្ឋានអ៊ីមែលគឺត្រូវការជាចាំបាច់",
         ),
-        "emailDoesNotExist":
-            MessageLookupByLibrary.simpleMessage("អ៊ីមែលមិនមានទេ"),
+        "emailDoesNotExist": MessageLookupByLibrary.simpleMessage("អ៊ីមែលមិនមានទេ"),
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage(
           "បញ្ចូលចំនួនក្រាមរូបសម្រាប់ប្រាក់",
         ),
-        "enterFirstName":
-            MessageLookupByLibrary.simpleMessage("បញ្ចូលឈ្មោះខាងមុខ"),
-        "enterFullName":
-            MessageLookupByLibrary.simpleMessage("បញ្ចូលឈ្មោះ​ពេញ"),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("បញ្ចូលឈ្មោះខាងចុះ"),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("បញ្ចូលពាក្យសម្ងាត់"),
+        "enterFirstName": MessageLookupByLibrary.simpleMessage("បញ្ចូលឈ្មោះខាងមុខ"),
+        "enterFullName": MessageLookupByLibrary.simpleMessage("បញ្ចូលឈ្មោះ​ពេញ"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("បញ្ចូលឈ្មោះខាងចុះ"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("បញ្ចូលពាក្យសម្ងាត់"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "បញ្ចូលអាសយដ្ឋានអ៊ីម៉ែលរបស់អ្នក",
         ),
@@ -247,8 +228,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "កំហុសនៅពេលចុះចូល",
         ),
         "firstName": MessageLookupByLibrary.simpleMessage("ឈ្មោះខាងមុខ"),
-        "forgotPassword":
-            MessageLookupByLibrary.simpleMessage("ភ្លេចលេខសម្ងាត់"),
+        "forgotPassword": MessageLookupByLibrary.simpleMessage("ភ្លេចលេខសម្ងាត់"),
         "free": MessageLookupByLibrary.simpleMessage("ឥតគិតថ្លៃ"),
         "fullName": MessageLookupByLibrary.simpleMessage("ឈ្មោះ​ពេញ"),
         "fullNameIsRequired": MessageLookupByLibrary.simpleMessage(
@@ -256,8 +236,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("យោបល់ Fyber"),
         "gallary": MessageLookupByLibrary.simpleMessage("វិចិត្រសាល"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("កំពុងទទួលរង្វាន់"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("កំពុងទទួលរង្វាន់"),
         "gettingRewards": MessageLookupByLibrary.simpleMessage(
           "កំពុងទទួលបានរង្វាន់",
         ),
@@ -268,8 +247,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "havenotAnyAcconts": MessageLookupByLibrary.simpleMessage(
           "មិនមានគណនីណាមួយទេ?",
         ),
-        "heyMoreCash":
-            MessageLookupByLibrary.simpleMessage("អេ! ប្រាក់ច្រើនទៀត!"),
+        "heyMoreCash": MessageLookupByLibrary.simpleMessage("អេ! ប្រាក់ច្រើនទៀត!"),
         "history": MessageLookupByLibrary.simpleMessage("ប្រវត្តិ"),
         "home": MessageLookupByLibrary.simpleMessage("ទំព័រដើម"),
         "iaculisNibh": MessageLookupByLibrary.simpleMessage(
@@ -303,22 +281,19 @@ class MessageLookup extends MessageLookupByLibrary {
         "inviteYourFriendtoUseCashRocket": MessageLookupByLibrary.simpleMessage(
           "អញ្ចឹងអ្នកមិត្តអ្នកប្រើកម្មវិធី Cash Rocket ហើយអ្នកនឹងទទួលបាន ១០០ ពិន្ទុសម្រាប់មួយនាក់របស់អ្នកសម្រាប់មួយគេ",
         ),
-        "isForMainFrame":
-            MessageLookupByLibrary.simpleMessage("សម្រាប់ស៊ុមសំខាន់"),
+        "isForMainFrame": MessageLookupByLibrary.simpleMessage("សម្រាប់ស៊ុមសំខាន់"),
         "itUseYouWillDetect": MessageLookupByLibrary.simpleMessage(
           "ប្រើវាអ្នកនឹងស្វែងរក",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("យោបល់ Kiwi Wall"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("យោបល់ Kiwi Wall"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("បង្វិលតាមរយៈ Kiwi"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
         ),
         "language": MessageLookupByLibrary.simpleMessage("ភាសា"),
         "lastName": MessageLookupByLibrary.simpleMessage("ឈ្មោះខាងចុះ"),
-        "letsGetStarted":
-            MessageLookupByLibrary.simpleMessage("ចាប់ផ្តើមបែបបទ"),
+        "letsGetStarted": MessageLookupByLibrary.simpleMessage("ចាប់ផ្តើមបែបបទ"),
         "loading": MessageLookupByLibrary.simpleMessage("កំពុងទាញយក"),
         "logIn": MessageLookupByLibrary.simpleMessage("ចូល"),
         "logOut": MessageLookupByLibrary.simpleMessage("ចាកចេញ"),
@@ -401,8 +376,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "ពាក្យសម្ងាត់មិនអាចទទេបានទេ",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "ពាក្យសម្ងាត់មិនអាចមានតិចជាង ៦តួអក្សរ",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -411,8 +385,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "ពាក្យសម្ងាត់គឺត្រូវការជាចាំបាច់",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "ប្រវែងពាក្យសម្ងាត់ត្រូវតែមាន ៦ តួអក្សរ",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -440,12 +413,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "សូមពិនិត្យកូដការជាវរបស់អ្នក",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "សូមមកវិញថ្ងៃស្អំំនេះដើម្បីទស្សនាវីដេអូ",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "៤. សូមបញ្ចប់ការអភិរក្សានេះក្នុងរយៈពេល ២២ ថ្ងៃ",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -463,12 +434,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "សូមបញ្ចូលកូដរកប្រាក់របស់អ្នកខាងក្រោមដើម្បីកំណត់សម្គាល់របស់អ្នក",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "សូមជ្រើសរើសវិធីនិងរូបិយប័ណ្ណចាកចេញ",
         ),
-        "pleaseTryAgain":
-            MessageLookupByLibrary.simpleMessage("សូមព្យាយាមម្តងទៀត"),
+        "pleaseTryAgain": MessageLookupByLibrary.simpleMessage("សូមព្យាយាមម្តងទៀត"),
         "pleaseWait": MessageLookupByLibrary.simpleMessage("សូមរង់ចាំ"),
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "សូមរង់ចាំរហូតដល់មានការលត់",
@@ -484,8 +453,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish ស្ទង់មតិ"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish ស្ទង់មតិ"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "ចុចលើកង្ហម្តតាមស្លាក SPIN",
         ),
@@ -545,8 +513,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "saves": MessageLookupByLibrary.simpleMessage("រក្សាទុក"),
         "scratchAndWin": MessageLookupByLibrary.simpleMessage("ស្លាស់និងឃើញ!"),
         "scratchCard": MessageLookupByLibrary.simpleMessage("កាតអគ្រិលអាពត"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "ស្លាស់កាតខាងលើដោយចាក់វាក្នុងន",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("វិនាទី"),
@@ -580,16 +547,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "sorry": MessageLookupByLibrary.simpleMessage("សូមអភ័យទោស"),
         "spinTheWheel": MessageLookupByLibrary.simpleMessage("បង្វិលកង្ហម្"),
         "spinTime": MessageLookupByLibrary.simpleMessage("ម៉ោងផង់"),
-        "spinWheelEntryFee":
-            MessageLookupByLibrary.simpleMessage("កម្រៃចូលផង់កង់"),
+        "spinWheelEntryFee": MessageLookupByLibrary.simpleMessage("កម្រៃចូលផង់កង់"),
         "spinWheelVideoAds": MessageLookupByLibrary.simpleMessage(
           "វីដេអូពាណិជ្ជកម្មផង់កង់",
         ),
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("ជោគជ័យ"),
         "survey": MessageLookupByLibrary.simpleMessage("ជំរើស"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "ការស្ទង់មតិបានបញ្ចប់។ នឹងត្រូវបានរង្វាន់ឆាប់ៗនេះ",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -610,8 +575,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "លក្ខ័ណសហគ្រាសសន្តិសុខ",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("លក្ខ័ណសេវាកម្ម"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("លក្ខ័ណសេវាកម្ម"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "ការអាប់ដេតតូខិនបរាជ័យ",
@@ -619,11 +583,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "topOffer": MessageLookupByLibrary.simpleMessage(
           "ការផ្តល់ជូនដំណឹងកំពុងល្បីពីរ",
         ),
-        "totalRewards":
-            MessageLookupByLibrary.simpleMessage("ប្រាក់រង្វាន់សរុប"),
+        "totalRewards": MessageLookupByLibrary.simpleMessage("ប្រាក់រង្វាន់សរុប"),
         "totalVideos": MessageLookupByLibrary.simpleMessage("វីដេអូសរុប"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("ទស្សនាគេហទំព័រសរុប"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("ទស្សនាគេហទំព័រសរុប"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("ព្យាយាមម្តងទៀត"),
         "tutorial": MessageLookupByLibrary.simpleMessage("មេរៀន"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
@@ -659,8 +621,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "verification": MessageLookupByLibrary.simpleMessage("ផ្ទៀងផ្ទៀង"),
         "verify": MessageLookupByLibrary.simpleMessage("ផ្ទៀងផ្ទៀង"),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("កំពុងពិនិត្យ OTP"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("កំពុងពិនិត្យ OTP"),
         "victory": MessageLookupByLibrary.simpleMessage("បញ្ជូលព្រឹត្តិការណ៍"),
         "videos": MessageLookupByLibrary.simpleMessage("វីដេអូ"),
         "visitWebsite": MessageLookupByLibrary.simpleMessage("ទស្សនាគេហទំព័រ"),
@@ -685,8 +646,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "មើលវីដេអូ និងទទួលបានពិន្ទុ",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "យើងបានផ្ញើកូដ 6 ខ្ទង់ទៅលើទូរស័ព្ទ\nរបស់អ្នក",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -708,18 +668,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "wrongOTP": MessageLookupByLibrary.simpleMessage("OTP មិនត្រឹមត្រូវ"),
         "yes": MessageLookupByLibrary.simpleMessage("បាទ/ចាស"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("បាទ/ចាស, លុបវា!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("អ្នកត្រូវបានបិទ!"),
-        "youAreDisabled":
-            MessageLookupByLibrary.simpleMessage("អ្នកត្រូវបានបិទ!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("អ្នកត្រូវបានបិទ!"),
+        "youAreDisabled": MessageLookupByLibrary.simpleMessage("អ្នកត្រូវបានបិទ!"),
         "youAreNotEligibleForThisSurvey": MessageLookupByLibrary.simpleMessage(
           "អ្នកមិនមានសិទ្ធិចូលរួមស្ទង់មតិនេះទេ",
         ),
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "អ្នកកំពុងធ្វើការប្រឡងវិញ",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "អ្នកបានឈ្នះការប្រឡងនេះហើយ។ សូមព្យាយាមលេងការប្រឡងផ្សេងទៀត",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("អ្នកបានរកឃើញ"),

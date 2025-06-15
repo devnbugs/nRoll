@@ -30,8 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "PleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage(
           "Zadejte prosím své OTP",
         ),
-        "RedeemYourPints":
-            MessageLookupByLibrary.simpleMessage("Vyměňte své body"),
+        "RedeemYourPints": MessageLookupByLibrary.simpleMessage("Vyměňte své body"),
         "SecureYourMoney": MessageLookupByLibrary.simpleMessage(
           "Zabezpečte své peníze",
         ),
@@ -58,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "Již odměněno, vraťte se později",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "Již odměněno. Zkuste to znovu zítra",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -78,25 +76,21 @@ class MessageLookup extends MessageLookupByLibrary {
           "Anotujte obrázky pro AI",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Přihlášení Apple bude fungovat na zařízeních Apple",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("Souhlasíte?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "Opravdu chcete smazat tento účet?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "Autorizace selhala",
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("Zůstatek"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs Průzkum"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs Průzkum"),
         "bitrise": MessageLookupByLibrary.simpleMessage("Bitrise"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -109,8 +103,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "chargingEntryFee": MessageLookupByLibrary.simpleMessage(
           "Účtování vstupního poplatku",
         ),
-        "chartboostVideo":
-            MessageLookupByLibrary.simpleMessage("Chartboost Video"),
+        "chartboostVideo": MessageLookupByLibrary.simpleMessage("Chartboost Video"),
         "checkYourMobile": MessageLookupByLibrary.simpleMessage(
           "Zkontrolujte svůj mobil",
         ),
@@ -119,20 +112,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "collectDailyRewardNow": MessageLookupByLibrary.simpleMessage(
           "Vyzvednout denní odměnu nyní!",
         ),
-        "completeAnAction":
-            MessageLookupByLibrary.simpleMessage("Dokončete akci"),
+        "completeAnAction": MessageLookupByLibrary.simpleMessage("Dokončete akci"),
         "completeOffersAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Dokončete nabídky a získejte body",
         ),
-        "completeProfile":
-            MessageLookupByLibrary.simpleMessage("Dokončete profil"),
-        "completeanaction":
-            MessageLookupByLibrary.simpleMessage("Dokončit akci"),
+        "completeProfile": MessageLookupByLibrary.simpleMessage("Dokončete profil"),
+        "completeanaction": MessageLookupByLibrary.simpleMessage("Dokončit akci"),
         "completingProfile": MessageLookupByLibrary.simpleMessage(
           "Dokončování profilu",
         ),
-        "confirmPassword":
-            MessageLookupByLibrary.simpleMessage("Potvrďte heslo"),
+        "confirmPassword": MessageLookupByLibrary.simpleMessage("Potvrďte heslo"),
         "congratulations": MessageLookupByLibrary.simpleMessage("Gratulujeme"),
         "continu": MessageLookupByLibrary.simpleMessage("Pokračovat"),
         "continueWithApple": MessageLookupByLibrary.simpleMessage(
@@ -156,8 +145,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "dateUpdated": MessageLookupByLibrary.simpleMessage(
           "Aktualizováno dne (7. června 2021)",
         ),
-        "daysToComplete":
-            MessageLookupByLibrary.simpleMessage("Dní do dokončení"),
+        "daysToComplete": MessageLookupByLibrary.simpleMessage("Dní do dokončení"),
         "deleteAccounts": MessageLookupByLibrary.simpleMessage("Smazat účty"),
         "deletingAccount": MessageLookupByLibrary.simpleMessage("Mazání účtu"),
         "deletionSuccessful": MessageLookupByLibrary.simpleMessage(
@@ -189,8 +177,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "Zadejte své celé jméno",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("Zadejte příjmení"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("Zadejte příjmení"),
         "enterPassword": MessageLookupByLibrary.simpleMessage("Zadejte heslo"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "Zadejte svou e-mailovou adresu",
@@ -247,10 +234,8 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber Nabídka"),
         "gallary": MessageLookupByLibrary.simpleMessage("Galerie"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("Získávání odměny"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("Získávání odměn"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("Získávání odměny"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("Získávání odměn"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "Získávání dnešní odměny",
         ),
@@ -281,8 +266,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "ingrain": MessageLookupByLibrary.simpleMessage("Inbrain"),
         "instructions": MessageLookupByLibrary.simpleMessage("Pokyny"),
         "invalidOTP": MessageLookupByLibrary.simpleMessage("Neplatné OTP"),
-        "invitationCode":
-            MessageLookupByLibrary.simpleMessage("Pozvánkový kód"),
+        "invitationCode": MessageLookupByLibrary.simpleMessage("Pozvánkový kód"),
         "invitationCodeCopied": MessageLookupByLibrary.simpleMessage(
           "Kód pozvánky zkopírován",
         ),
@@ -300,8 +284,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Pokud to použijete, zjistíte",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall Nabídka"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall Nabídka"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -380,14 +363,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "paidForScratchCard": MessageLookupByLibrary.simpleMessage(
           "Zaplaceno za stírací kartu",
         ),
-        "paidQuizPlay":
-            MessageLookupByLibrary.simpleMessage("Placené hraní kvízu"),
+        "paidQuizPlay": MessageLookupByLibrary.simpleMessage("Placené hraní kvízu"),
         "password": MessageLookupByLibrary.simpleMessage("Heslo"),
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "Heslo nemůže být prázdné",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "Heslo nemůže být kratší než 6 znaků",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -396,8 +377,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "Heslo je povinné",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "Délka hesla musí být alespoň 6 znaků",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -425,12 +405,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "Zkontrolujte prosím svůj nákupní kód",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage(
           "Prosím, vraťte se zítra,\nabyste si mohli video prohlédnout",
         ),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "4. Prosím dokončete úkol do 22 dnů",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -448,8 +426,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "Prosím zadejte kód níže pro resetování vašeho",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "Vyberte prosím metodu výběru a měnu",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -470,8 +447,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "polish": MessageLookupByLibrary.simpleMessage("Pollfish"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish Průzkum"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish Průzkum"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "Stiskněte tlačítko OTÁČET Kolečko",
         ),
@@ -502,8 +478,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "Dosaďte úroveň 100 ve hře!",
         ),
         "redeem": MessageLookupByLibrary.simpleMessage("Vyměnit"),
-        "redemYOurPoint":
-            MessageLookupByLibrary.simpleMessage("Vyměňte své body"),
+        "redemYOurPoint": MessageLookupByLibrary.simpleMessage("Vyměňte své body"),
         "refer": MessageLookupByLibrary.simpleMessage("Odkazovat"),
         "rememberMe": MessageLookupByLibrary.simpleMessage("Zapamatovat si mě"),
         "requestingWithdraw": MessageLookupByLibrary.simpleMessage(
@@ -533,10 +508,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "scratchAndWin": MessageLookupByLibrary.simpleMessage(
           "Škrábněte a vyhrajte!",
         ),
-        "scratchCard":
-            MessageLookupByLibrary.simpleMessage("Karta na škrábání"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchCard": MessageLookupByLibrary.simpleMessage("Karta na škrábání"),
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "Škrábněte výše uvedenou kartu potažením po ní",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("Sekundy"),
@@ -562,8 +535,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "signingOut": MessageLookupByLibrary.simpleMessage("Odhlášení"),
         "signingUp": MessageLookupByLibrary.simpleMessage("Registrace"),
         "skip": MessageLookupByLibrary.simpleMessage("Přeskočit"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("Přeskočit prozatím"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("Přeskočit prozatím"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "Něco se pokazilo",
         ),
@@ -579,8 +551,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("Úspěšný"),
         "survey": MessageLookupByLibrary.simpleMessage("Průzkum"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "Průzkum dokončen. Odměna bude brzy přidělena",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -592,24 +563,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "surveyPanelOpen": MessageLookupByLibrary.simpleMessage(
           "Panel průzkumu otevřen",
         ),
-        "tendingOffers":
-            MessageLookupByLibrary.simpleMessage("Nabídky v údržbě"),
+        "tendingOffers": MessageLookupByLibrary.simpleMessage("Nabídky v údržbě"),
         "termandConditionOfUse": MessageLookupByLibrary.simpleMessage(
           "Obchodní podmínky používání",
         ),
         "termsAndConditions": MessageLookupByLibrary.simpleMessage(
           "Obchodní podmínky",
         ),
-        "termsOfService":
-            MessageLookupByLibrary.simpleMessage("Podmínky služby"),
+        "termsOfService": MessageLookupByLibrary.simpleMessage("Podmínky služby"),
         "token": MessageLookupByLibrary.simpleMessage("token"),
         "tokenUpdateFailed": MessageLookupByLibrary.simpleMessage(
           "Aktualizace tokenu selhala",
         ),
         "topOffer": MessageLookupByLibrary.simpleMessage("Top nabídka!"),
         "totalRewards": MessageLookupByLibrary.simpleMessage("Celkové odměny"),
-        "totalVideos":
-            MessageLookupByLibrary.simpleMessage("Celkový počet videí"),
+        "totalVideos": MessageLookupByLibrary.simpleMessage("Celkový počet videí"),
         "totalWebsites": MessageLookupByLibrary.simpleMessage(
           "Celkový počet webových stránek",
         ),
@@ -660,8 +628,7 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "vungleVideo": MessageLookupByLibrary.simpleMessage("Vungle Video"),
         "wannads": MessageLookupByLibrary.simpleMessage("Wannads"),
-        "wannadsOfferwall":
-            MessageLookupByLibrary.simpleMessage("Wannads nabídka"),
+        "wannadsOfferwall": MessageLookupByLibrary.simpleMessage("Wannads nabídka"),
         "watchAVideoOnlyOneTimeInADay": MessageLookupByLibrary.simpleMessage(
           "Sledujte video pouze jednou denně",
         ),
@@ -672,8 +639,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "Sledujte videa a získejte body",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "odeslali jsme 6 kódů Pošlete svůj\nmobil",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -693,8 +659,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "wrongOTP": MessageLookupByLibrary.simpleMessage("Špatný OTP"),
         "yes": MessageLookupByLibrary.simpleMessage("Ano"),
         "yesDeleteIt": MessageLookupByLibrary.simpleMessage("Ano, smažte ho!"),
-        "youAreDisable":
-            MessageLookupByLibrary.simpleMessage("Jste deaktivováni!"),
+        "youAreDisable": MessageLookupByLibrary.simpleMessage("Jste deaktivováni!"),
         "youAreDisabled": MessageLookupByLibrary.simpleMessage(
           "Jste deaktivováni!",
         ),
@@ -704,8 +669,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "Opakujete kvíz",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "Tento kvíz jste již vyhráli. Zkuste hrát jiný kvíz",
         ),
         "youHaveEarned": MessageLookupByLibrary.simpleMessage("Získali jste"),

@@ -30,17 +30,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "PleaseEnterYourOTP": MessageLookupByLibrary.simpleMessage(
           "သင့် OTP ကို ထည့်ပါ",
         ),
-        "RedeemYourPints":
-            MessageLookupByLibrary.simpleMessage("သင့်အုတ်မျနေသည်"),
-        "SecureYourMoney":
-            MessageLookupByLibrary.simpleMessage("သင့်ပိုက်ငှာသည်"),
+        "RedeemYourPints": MessageLookupByLibrary.simpleMessage("သင့်အုတ်မျနေသည်"),
+        "SecureYourMoney": MessageLookupByLibrary.simpleMessage("သင့်ပိုက်ငှာသည်"),
         "Stripe": MessageLookupByLibrary.simpleMessage("Stripe"),
         "WelcomeToCashRocket": MessageLookupByLibrary.simpleMessage(
           "Cash Rocket သို့ ကြေညာသည်",
         ),
         "a": MessageLookupByLibrary.simpleMessage("A"),
-        "adColonyVideo":
-            MessageLookupByLibrary.simpleMessage("AdColony ဗီဒီယို"),
+        "adColonyVideo": MessageLookupByLibrary.simpleMessage("AdColony ဗီဒီယို"),
         "adGem": MessageLookupByLibrary.simpleMessage("AdGem"),
         "adMob": MessageLookupByLibrary.simpleMessage("AdMob"),
         "adMobVideo": MessageLookupByLibrary.simpleMessage("AdMob ဗီဒီယို"),
@@ -60,8 +57,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "alreadyRewardedComeBackLater": MessageLookupByLibrary.simpleMessage(
           "ယခင်က ဆုယူပြီးပါပြီ၊ နောက်လည်ကြိုးစားပါ",
         ),
-        "alreadyRewardedPleaseTryAgainTomorrow":
-            MessageLookupByLibrary.simpleMessage(
+        "alreadyRewardedPleaseTryAgainTomorrow": MessageLookupByLibrary.simpleMessage(
           "မကြာခင်ပေးဆောင်ပြီးပါပြီ။ ကျေးဇူးပြု၍ မနက်ဖြန်တစ်ခါသုံးပါ",
         ),
         "alreadyRewardedTryAgainLater": MessageLookupByLibrary.simpleMessage(
@@ -80,25 +76,21 @@ class MessageLookup extends MessageLookupByLibrary {
           "AI အတွက် ပုံများကို မှတ်သားပါ",
         ),
         "appLovin": MessageLookupByLibrary.simpleMessage("AppLovin"),
-        "appleLoginWillWorkOnAppleDevises":
-            MessageLookupByLibrary.simpleMessage(
+        "appleLoginWillWorkOnAppleDevises": MessageLookupByLibrary.simpleMessage(
           "Apple အကောင့်ဖြင့် ဝင်ရောက်ခြင်းသည် Apple ကိရိယာများတွင် လုပ်ဆောင်ပါသည်",
         ),
         "areYouAgree": MessageLookupByLibrary.simpleMessage("သေချာပါသလား?"),
-        "areYouSureYouWantToDeleteThisAccount":
-            MessageLookupByLibrary.simpleMessage(
+        "areYouSureYouWantToDeleteThisAccount": MessageLookupByLibrary.simpleMessage(
           "ဤအကောင့်ကိုဖျက်လိုသည်ကိုသေချာပါသလား?",
         ),
         "atlasVPN": MessageLookupByLibrary.simpleMessage("Atlas VPN"),
-        "audienceNetwork":
-            MessageLookupByLibrary.simpleMessage("Audience Network"),
+        "audienceNetwork": MessageLookupByLibrary.simpleMessage("Audience Network"),
         "authorizationFailed": MessageLookupByLibrary.simpleMessage(
           "အတည်ပြုချက်မအောင်မြင်ပါ",
         ),
         "b": MessageLookupByLibrary.simpleMessage("B"),
         "balance": MessageLookupByLibrary.simpleMessage("လက်ကျန်ငွေ"),
-        "bitlabsSurvey":
-            MessageLookupByLibrary.simpleMessage("Bitlabs စစ်တမ်း"),
+        "bitlabsSurvey": MessageLookupByLibrary.simpleMessage("Bitlabs စစ်တမ်း"),
         "bitrise": MessageLookupByLibrary.simpleMessage("Bitrise"),
         "bkash": MessageLookupByLibrary.simpleMessage("bkash"),
         "blockingNavigationTo": MessageLookupByLibrary.simpleMessage(
@@ -201,8 +193,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "emailAddressIsRequired": MessageLookupByLibrary.simpleMessage(
           "အီးမေးလ် လိပ်စာ လိုအပ်သည်",
         ),
-        "emailDoesNotExist":
-            MessageLookupByLibrary.simpleMessage("အီးမေးလ်မရှိပါ"),
+        "emailDoesNotExist": MessageLookupByLibrary.simpleMessage("အီးမေးလ်မရှိပါ"),
         "enterCoinAmount": MessageLookupByLibrary.simpleMessage(
           "ငွေပမာဏကိုရိုက်ထည့်ပါ",
         ),
@@ -210,10 +201,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "enterFullName": MessageLookupByLibrary.simpleMessage(
           "သင့်ရဲ့နာမည်အပြည့်အစုံကိုထည့်ပါ",
         ),
-        "enterLastName":
-            MessageLookupByLibrary.simpleMessage("နာမည်ပြန်ကျေးရန်"),
-        "enterPassword":
-            MessageLookupByLibrary.simpleMessage("စကားဝှက်ကိုထည့်ပါ"),
+        "enterLastName": MessageLookupByLibrary.simpleMessage("နာမည်ပြန်ကျေးရန်"),
+        "enterPassword": MessageLookupByLibrary.simpleMessage("စကားဝှက်ကိုထည့်ပါ"),
         "enterYourAddress": MessageLookupByLibrary.simpleMessage(
           "သင့်ရဲ့အီးမေးလ်လိပ်စာထည့်ပါ",
         ),
@@ -236,8 +225,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "ဖိတ်သိမ်းထားသောကုဒ်ကိုထည့်ပါ",
         ),
         "entryFee": MessageLookupByLibrary.simpleMessage("ဝင်ခွင့်အခွန်"),
-        "errorHappened":
-            MessageLookupByLibrary.simpleMessage("အမှားဖြစ်ပွားသည်"),
+        "errorHappened": MessageLookupByLibrary.simpleMessage("အမှားဖြစ်ပွားသည်"),
         "errorHappenedTryAgain": MessageLookupByLibrary.simpleMessage(
           "အမှားဖြစ်ပွားသည်။ ကျေးဇူးပြုပြီး ထပ်မံကြိုးစားပါ",
         ),
@@ -272,10 +260,8 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "fyberOffer": MessageLookupByLibrary.simpleMessage("Fyber အကူအညီ"),
         "gallary": MessageLookupByLibrary.simpleMessage("ပုံများ"),
-        "gettingReward":
-            MessageLookupByLibrary.simpleMessage("ဆုလာဘ်ရယူနေပါသည်"),
-        "gettingRewards":
-            MessageLookupByLibrary.simpleMessage("ဆုများရယူနေသည်"),
+        "gettingReward": MessageLookupByLibrary.simpleMessage("ဆုလာဘ်ရယူနေပါသည်"),
+        "gettingRewards": MessageLookupByLibrary.simpleMessage("ဆုများရယူနေသည်"),
         "gettingTodayReward": MessageLookupByLibrary.simpleMessage(
           "ဒီနေ့၏ ဆုကို ရယူနေသည်",
         ),
@@ -326,8 +312,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "သင့်ရှေးချယ်နိုင်သည်",
         ),
         "kiwiWall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
-        "kiwiWallOffer":
-            MessageLookupByLibrary.simpleMessage("Kiwi Wall အကူအညီ"),
+        "kiwiWallOffer": MessageLookupByLibrary.simpleMessage("Kiwi Wall အကူအညီ"),
         "kiwiwall": MessageLookupByLibrary.simpleMessage("Kiwi Wall"),
         "lactusMautis": MessageLookupByLibrary.simpleMessage(
           "Luctus mauris pharetra sit elit integer consec tetur etiam quis auctor.",
@@ -388,8 +373,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "otpSentPleaseCheckYourEmail": MessageLookupByLibrary.simpleMessage(
           "OTP ပေးပို့ပြီးပါသည်။ သင်၏ အီးမေးလ်ကို စစ်ဆေးပါ",
         ),
-        "otpVerify":
-            MessageLookupByLibrary.simpleMessage("OTP တစ်ခုစစ်မှန်ရန်"),
+        "otpVerify": MessageLookupByLibrary.simpleMessage("OTP တစ်ခုစစ်မှန်ရန်"),
         "pageFinishedLoading": MessageLookupByLibrary.simpleMessage(
           "စာမျက်နှာသည်ပြင်ဆင်ခြင်းပြီးဆုံးခဲ့သည်",
         ),
@@ -410,8 +394,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordCanNotBeEmpty": MessageLookupByLibrary.simpleMessage(
           "လျှို့ဝှက်နံပတ်သည်အချို့မရှိပါ",
         ),
-        "passwordCanNotBeLessThan6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordCanNotBeLessThan6Character": MessageLookupByLibrary.simpleMessage(
           "လျှို့ဝှက်နံပတ်သည် ၆ အက္ခရာထက်နည်းရမည်မဟုတ်ပါ",
         ),
         "passwordDoesNotMatch": MessageLookupByLibrary.simpleMessage(
@@ -420,8 +403,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "passwordIsRequired": MessageLookupByLibrary.simpleMessage(
           "စကားဝှက် လိုအပ်သည်",
         ),
-        "passwordLengthMustBeAtLeast6Character":
-            MessageLookupByLibrary.simpleMessage(
+        "passwordLengthMustBeAtLeast6Character": MessageLookupByLibrary.simpleMessage(
           "စကားဝှက်အရှည်မှာ အနည်းဆုံး ၆ လုံး ရှိရမည်",
         ),
         "passwordResetFailed": MessageLookupByLibrary.simpleMessage(
@@ -442,19 +424,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "playRiseofKingdoms": MessageLookupByLibrary.simpleMessage(
           "၁။ Rise of Kingdoms ကိုဖြည့်ပါ",
         ),
-        "playVideo":
-            MessageLookupByLibrary.simpleMessage("စိုက်ပျိုးကိုဖြင့်ပါ"),
+        "playVideo": MessageLookupByLibrary.simpleMessage("စိုက်ပျိုးကိုဖြင့်ပါ"),
         "pleaseCheckYourOtp": MessageLookupByLibrary.simpleMessage(
           "သင့် OTP ကို စစ်ဆေးပါ",
         ),
         "pleaseCheckYourPurchaseCode": MessageLookupByLibrary.simpleMessage(
           "သင့်ဝယ်ယူမှုကုဒ်ကိုစစ်ဆေးပါ",
         ),
-        "pleaseComeBackTomorrowToWatchTheVideo":
-            MessageLookupByLibrary.simpleMessage(
-                "စိုက်ပျိုးကို မနက်အတွက် ပြန်သည်"),
-        "pleaseCompleteTheTaskWithin22days":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseComeBackTomorrowToWatchTheVideo": MessageLookupByLibrary.simpleMessage("စိုက်ပျိုးကို မနက်အတွက် ပြန်သည်"),
+        "pleaseCompleteTheTaskWithin22days": MessageLookupByLibrary.simpleMessage(
           "၄။ ကျေးဇူးကိုက်ညီသောအဆင့်ကို ၂၂ ရက်အတွင်းအရေးပေးပါ",
         ),
         "pleaseEnterTheAmount": MessageLookupByLibrary.simpleMessage(
@@ -472,8 +450,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseResetYOurCode": MessageLookupByLibrary.simpleMessage(
           "သင့်ရဲ့ကုဒ်ကို ရွေးချယ်ပါကဒေါင်းလုတ်လိုက်ပါ",
         ),
-        "pleaseSelectWithdrawMethodAndCurrency":
-            MessageLookupByLibrary.simpleMessage(
+        "pleaseSelectWithdrawMethodAndCurrency": MessageLookupByLibrary.simpleMessage(
           "ထုတ်ယူနည်းနှင့် ငွေပမာဏကို ရွေးချယ်ပါ",
         ),
         "pleaseTryAgain": MessageLookupByLibrary.simpleMessage(
@@ -483,8 +460,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "pleaseWaitTillLoaded": MessageLookupByLibrary.simpleMessage(
           "တင်ဆက်နေသည့်အထိစောင့်ပါ",
         ),
-        "pointRecived":
-            MessageLookupByLibrary.simpleMessage("ရရှိသောပုံစံများ"),
+        "pointRecived": MessageLookupByLibrary.simpleMessage("ရရှိသောပုံစံများ"),
         "points": MessageLookupByLibrary.simpleMessage("အုတ်မျနေသည်"),
         "pointsReceived": MessageLookupByLibrary.simpleMessage(
           "Point များ ရရှိပြီး",
@@ -492,12 +468,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "pointsWillBeDeducted": MessageLookupByLibrary.simpleMessage(
           "point တွေ ချွေတာမည်!",
         ),
-        "pointsWillBeDucted":
-            MessageLookupByLibrary.simpleMessage("အုတ်မျနေသည်!"),
+        "pointsWillBeDucted": MessageLookupByLibrary.simpleMessage("အုတ်မျနေသည်!"),
         "polish": MessageLookupByLibrary.simpleMessage("ပုဒိန်များ"),
         "pollfish": MessageLookupByLibrary.simpleMessage("Pollfish"),
-        "pollfishSurvey":
-            MessageLookupByLibrary.simpleMessage("Pollfish စစ်တမ်း"),
+        "pollfishSurvey": MessageLookupByLibrary.simpleMessage("Pollfish စစ်တမ်း"),
         "pressTheSpinWheel": MessageLookupByLibrary.simpleMessage(
           "ကွဲလွှာကို တစ်နှစ်ချက်ပို့ပါ",
         ),
@@ -563,8 +537,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "စကရီခတ်နှင့် ရိုက်သွားပါ!",
         ),
         "scratchCard": MessageLookupByLibrary.simpleMessage("စကရီခတ်"),
-        "scratchTheAboveCardBySwipingOnnIt":
-            MessageLookupByLibrary.simpleMessage(
+        "scratchTheAboveCardBySwipingOnnIt": MessageLookupByLibrary.simpleMessage(
           "အထိပါကရီခတ်ကို အပေါ်မှ ခတ်ပါ",
         ),
         "seconds": MessageLookupByLibrary.simpleMessage("စက္ကန့်"),
@@ -572,11 +545,9 @@ class MessageLookup extends MessageLookupByLibrary {
           "သင့်ရဲ့ငွေကိုလွန်ခွင့်ပြုပါ",
         ),
         "sendOtp": MessageLookupByLibrary.simpleMessage("OTP ပို့ပါ"),
-        "sendingOtp":
-            MessageLookupByLibrary.simpleMessage("OTP ကို ပေးပို့နေသည်"),
+        "sendingOtp": MessageLookupByLibrary.simpleMessage("OTP ကို ပေးပို့နေသည်"),
         "share": MessageLookupByLibrary.simpleMessage("မျှဝေရန်"),
-        "shareSqure":
-            MessageLookupByLibrary.simpleMessage("ရုပ်ပိုင်းကို မျှဝေပါ"),
+        "shareSqure": MessageLookupByLibrary.simpleMessage("ရုပ်ပိုင်းကို မျှဝေပါ"),
         "showingAds": MessageLookupByLibrary.simpleMessage(
           "ကြော်ငြာများပြသနေပါသည်",
         ),
@@ -591,12 +562,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "signUpwitEmail": MessageLookupByLibrary.simpleMessage(
           "အီးမေးလ်ဖြင့် စာရင်းသွင်းရန်ဆက်လုပ်ပါ",
         ),
-        "signingOut":
-            MessageLookupByLibrary.simpleMessage("အကောင့်ထွက်နေပါသည်"),
+        "signingOut": MessageLookupByLibrary.simpleMessage("အကောင့်ထွက်နေပါသည်"),
         "signingUp": MessageLookupByLibrary.simpleMessage("စာရင်းသွင်းနေသည်"),
         "skip": MessageLookupByLibrary.simpleMessage("ရှေ့တာမရှိပါ"),
-        "skipForNow":
-            MessageLookupByLibrary.simpleMessage("ယခုအတွက်ထပ်ရှာဖွေပါ"),
+        "skipForNow": MessageLookupByLibrary.simpleMessage("ယခုအတွက်ထပ်ရှာဖွေပါ"),
         "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
           "တစ်ခုခု မှားသွားသည်",
         ),
@@ -614,8 +583,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "startApp": MessageLookupByLibrary.simpleMessage("StartApp"),
         "successful": MessageLookupByLibrary.simpleMessage("အောင်မြင်သည်"),
         "survey": MessageLookupByLibrary.simpleMessage("ဆားဗစ"),
-        "surveyCompletedWillBeRewardedSoon":
-            MessageLookupByLibrary.simpleMessage(
+        "surveyCompletedWillBeRewardedSoon": MessageLookupByLibrary.simpleMessage(
           "စစ်တမ်းပြီးဆုံးပါသည်။ အမြန်ဆုံးဆုလာဘ်ရမည်",
         ),
         "surveyNotAvailable": MessageLookupByLibrary.simpleMessage(
@@ -648,8 +616,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "ကုန်ပစ္စည်းများအားလုံး",
         ),
         "totalVideos": MessageLookupByLibrary.simpleMessage("စိုက်ပျိုးများစု"),
-        "totalWebsites":
-            MessageLookupByLibrary.simpleMessage("ဝက်ဘ်ဆိုက်များစု"),
+        "totalWebsites": MessageLookupByLibrary.simpleMessage("ဝက်ဘ်ဆိုက်များစု"),
         "tryAgain": MessageLookupByLibrary.simpleMessage("ထပ်မံရန်"),
         "tutorial": MessageLookupByLibrary.simpleMessage("ကြေညာချက်"),
         "ullamcorperEros": MessageLookupByLibrary.simpleMessage(
@@ -683,12 +650,10 @@ class MessageLookup extends MessageLookupByLibrary {
         ),
         "verification": MessageLookupByLibrary.simpleMessage("အတည်ပညာ"),
         "verify": MessageLookupByLibrary.simpleMessage("အတည်ပညာလုပ်ပါ"),
-        "verifyingOTP":
-            MessageLookupByLibrary.simpleMessage("OTP ကို အတည်ပြုပါ"),
+        "verifyingOTP": MessageLookupByLibrary.simpleMessage("OTP ကို အတည်ပြုပါ"),
         "victory": MessageLookupByLibrary.simpleMessage("မင်းသား"),
         "videos": MessageLookupByLibrary.simpleMessage("ဗီဒီယိုများ"),
-        "visitWebsite":
-            MessageLookupByLibrary.simpleMessage("ဝက်ဘ်ဆိုက်ဆားသည်"),
+        "visitWebsite": MessageLookupByLibrary.simpleMessage("ဝက်ဘ်ဆိုက်ဆားသည်"),
         "visitWebsiteAndGet": MessageLookupByLibrary.simpleMessage(
           "ဝက်ဘ်ဆိုက်သန့် ရရှိပါ",
         ),
@@ -703,16 +668,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "watchAVideoOnlyOneTimeInADay": MessageLookupByLibrary.simpleMessage(
           "နေ့အတွက် စိုက်ပျိုးသည်",
         ),
-        "watchVideo":
-            MessageLookupByLibrary.simpleMessage("စိုက်ပျိုးကိုကြည့်ပါ"),
+        "watchVideo": MessageLookupByLibrary.simpleMessage("စိုက်ပျိုးကိုကြည့်ပါ"),
         "watchVideoAndEarn": MessageLookupByLibrary.simpleMessage(
           "ဗီဒီယိုကိုကြည့်နိုင်ရန် (10 ငွေကိုရယူပါ)",
         ),
         "watchViewosAndGetPoints": MessageLookupByLibrary.simpleMessage(
           "ဗီဒီယိုများကို ကြည့်ပြီး Point များရယူပါ",
         ),
-        "weHaveSentFourCodeSendYourMobile":
-            MessageLookupByLibrary.simpleMessage(
+        "weHaveSentFourCodeSendYourMobile": MessageLookupByLibrary.simpleMessage(
           "သင့်ဖုန်းသို့ 6 ဂျစ် ကုဒ်\nပို့ထားတယ်",
         ),
         "webViewIsLoadingProgress": MessageLookupByLibrary.simpleMessage(
@@ -746,17 +709,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "youAreRetakingTheQuiz": MessageLookupByLibrary.simpleMessage(
           "သင် Quiz ကို ပြန်လည်ကစားနေပါသည်",
         ),
-        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz":
-            MessageLookupByLibrary.simpleMessage(
+        "youHaveAlreadyWonThisQuizTryPlayingOtherQuiz": MessageLookupByLibrary.simpleMessage(
           "သင်ဤ Quiz ကို ရရှိပြီးပါပြီ။ အခြား Quiz များကစားကြည့်ပါ",
         ),
-        "youHaveEarned":
-            MessageLookupByLibrary.simpleMessage("သင့်ရှေးချယ်သည်"),
+        "youHaveEarned": MessageLookupByLibrary.simpleMessage("သင့်ရှေးချယ်သည်"),
         "youHaveEarned10Coins": MessageLookupByLibrary.simpleMessage(
           "သင်သည် ၁၀ စာဖျော်ရွေများရရှိသည်",
         ),
-        "youLose":
-            MessageLookupByLibrary.simpleMessage("သင်ရဲကိုမျှတုံ့နိုင်သည်"),
+        "youLose": MessageLookupByLibrary.simpleMessage("သင်ရဲကိုမျှတုံ့နိုင်သည်"),
         "youRejectedThisSurvey": MessageLookupByLibrary.simpleMessage(
           "သင့်သည်ဤစစ်တမ်းကိုဉပမာကြောင်းပြန်ထုတ်ထားသည်",
         ),

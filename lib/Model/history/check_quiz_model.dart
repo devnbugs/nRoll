@@ -41,8 +41,7 @@ class Data {
   }
 
   Data.fromJson(dynamic json) {
-    _userQuiz =
-        json['user_quiz'] != null ? UserQuiz.fromJson(json['user_quiz']) : null;
+    _userQuiz = json['user_quiz'] != null ? UserQuiz.fromJson(json['user_quiz']) : null;
   }
   UserQuiz? _userQuiz;
 

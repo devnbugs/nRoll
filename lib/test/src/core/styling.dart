@@ -51,12 +51,7 @@ class FortuneItemStyle {
 
   @override
   bool operator ==(Object other) {
-    return other is FortuneItemStyle &&
-        borderColor == other.borderColor &&
-        borderWidth == other.borderWidth &&
-        color == other.color &&
-        textAlign == other.textAlign &&
-        textStyle == other.textStyle;
+    return other is FortuneItemStyle && borderColor == other.borderColor && borderWidth == other.borderWidth && color == other.color && textAlign == other.textAlign && textStyle == other.textStyle;
   }
 }
 
@@ -103,15 +98,12 @@ mixin DisableAwareStyleStrategy {
 ///
 /// The [ThemeData.primaryColor] is used as the border color and the background
 /// is drawn using the same color at 0.3 opacity.
-class UniformStyleStrategy
-    with DisableAwareStyleStrategy
-    implements StyleStrategy {
+class UniformStyleStrategy with DisableAwareStyleStrategy implements StyleStrategy {
   final Color? color;
   final Color? borderColor;
   final double? borderWidth;
   final TextAlign? textAlign;
   final TextStyle? textStyle;
-  @override
   final List<int> disabledIndices;
 
   const UniformStyleStrategy({
@@ -151,15 +143,12 @@ class UniformStyleStrategy
 /// It renders even items at 0.5 opacity and odd items using the original color.
 /// If the item count is odd, the first item is rendered with 0.7 opacity to
 /// prevent a non-uniform style.
-class AlternatingStyleStrategy
-    with DisableAwareStyleStrategy
-    implements StyleStrategy {
-  @override
+class AlternatingStyleStrategy with DisableAwareStyleStrategy implements StyleStrategy {
   final List<int> disabledIndices;
 
   Color _getFillColor(ThemeData theme, int index, int itemCount) {
     final color = theme.primaryColor;
-    final background = theme.colorScheme.surface;
+    final background = theme.colorScheme.background;
     final opacity = itemCount % 2 == 1 && index == 0
         ? 0.7 // TODO: make 0.75
         : index % 2 == 0

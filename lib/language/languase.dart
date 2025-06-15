@@ -3,117 +3,20 @@ import 'package:flag/flag_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 import 'package:provider/provider.dart';
+
 import '../Screen/Constant Data/constant.dart';
 import 'language_provider.dart';
 
 class Language extends StatefulWidget {
-  const Language({super.key});
+  const Language({Key? key}) : super(key: key);
 
   @override
   State<Language> createState() => _LanguageState();
 }
 
 class _LanguageState extends State<Language> {
-  List<String> baseFlagsCode = [
-    'US',
-    'ES',
-    'IN',
-    'SA',
-    'FR',
-    'BD',
-    'TR',
-    'CN',
-    'JP',
-    'RO',
-    'DE',
-    'VN',
-    'IT',
-    'TH',
-    'PT',
-    'IL',
-    'PL',
-    'HU',
-    'FI',
-    'KR',
-    'MY',
-    'ID',
-    'UA',
-    'BA',
-    'GR',
-    'NL',
-    'Pk',
-    'LK',
-    'IR',
-    'RS',
-    'KH',
-    'LA',
-    'RU',
-    'IN',
-    'IN',
-    'IN',
-    'ZA',
-    'CZ',
-    'SE',
-    'SK',
-    'SK',
-    'MM',
-    'AL',
-    'DK',
-    'AZ',
-    'KZ',
-    'HR',
-    'NP'
-  ];
-  List<String> countryList = [
-    'English',
-    'Spanish',
-    'Hindi',
-    'Arabic',
-    'France',
-    'Bengali',
-    'Turkish',
-    'Chinese',
-    'Japanese',
-    'Romanian',
-    'Germany',
-    'Vietnamese',
-    'Italian',
-    'Thai',
-    'Portuguese',
-    'Hebrew',
-    'Polish',
-    'Hungarian',
-    'Finland',
-    'Korean',
-    'Malay',
-    'Indonesian',
-    'Ukrainian',
-    'Bosnian',
-    'Greek',
-    'Dutch',
-    'Urdu',
-    'Sinhala',
-    'Persian',
-    'Serbian',
-    'Khmer',
-    'Lao',
-    'Russian',
-    'Kannada',
-    'Marathi',
-    'Tamil',
-    'Afrikaans',
-    'Czech',
-    'Swedish',
-    'Slovak',
-    'Swahili',
-    'Burmese',
-    'Albanian',
-    'Danish',
-    'Azerbaijani',
-    'Kazakh',
-    'Croatian',
-    'Nepali'
-  ];
+  List<String> baseFlagsCode = ['US', 'ES', 'IN', 'SA', 'FR', 'BD', 'TR', 'CN', 'JP', 'RO', 'DE', 'VN', 'IT', 'TH', 'PT', 'IL', 'PL', 'HU', 'FI', 'KR', 'MY', 'ID', 'UA', 'BA', 'GR', 'NL', 'Pk', 'LK', 'IR', 'RS', 'KH', 'LA', 'RU', 'IN', 'IN', 'IN', 'ZA', 'CZ', 'SE', 'SK', 'SK', 'MM', 'AL', 'DK', 'AZ', 'KZ', 'HR', 'NP'];
+  List<String> countryList = ['English', 'Spanish', 'Hindi', 'Arabic', 'France', 'Bengali', 'Turkish', 'Chinese', 'Japanese', 'Romanian', 'Germany', 'Vietnamese', 'Italian', 'Thai', 'Portuguese', 'Hebrew', 'Polish', 'Hungarian', 'Finland', 'Korean', 'Malay', 'Indonesian', 'Ukrainian', 'Bosnian', 'Greek', 'Dutch', 'Urdu', 'Sinhala', 'Persian', 'Serbian', 'Khmer', 'Lao', 'Russian', 'Kannada', 'Marathi', 'Tamil', 'Afrikaans', 'Czech', 'Swedish', 'Slovak', 'Swahili', 'Burmese', 'Albanian', 'Danish', 'Azerbaijani', 'Kazakh', 'Croatian', 'Nepali'];
   String selectedCountry = 'English';
 
   Future<void> saveData(String data) async {
@@ -127,10 +30,7 @@ class _LanguageState extends State<Language> {
     setState(() {});
   }
 
-  Future<void> saveDataOnLocal(
-      {required String key,
-      required String type,
-      required dynamic value}) async {
+  Future<void> saveDataOnLocal({required String key, required String type, required dynamic value}) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     if (type == 'bool') prefs.setBool(key, value);
     if (type == 'string') prefs.setString(key, value);
@@ -150,11 +50,7 @@ class _LanguageState extends State<Language> {
         titleSpacing: 0,
         toolbarHeight: 90,
         flexibleSpace: Container(
-          decoration: BoxDecoration(
-              gradient: containerGradiant,
-              borderRadius: const BorderRadius.only(
-                  bottomLeft: Radius.circular(30),
-                  bottomRight: Radius.circular(30))),
+          decoration: BoxDecoration(gradient: containerGradiant, borderRadius: const BorderRadius.only(bottomLeft: Radius.circular(30), bottomRight: Radius.circular(30))),
         ),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
@@ -190,63 +86,27 @@ class _LanguageState extends State<Language> {
                           () {
                             selectedCountry = countryList[index];
                             selectedCountry == 'English'
-                                ? context
-                                    .read<LanguageChangeProvider>()
-                                    .changeLocale("en")
+                                ? context.read<LanguageChangeProvider>().changeLocale("en")
                                 : selectedCountry == 'Arabic'
-                                    ? context
-                                        .read<LanguageChangeProvider>()
-                                        .changeLocale("ar")
+                                    ? context.read<LanguageChangeProvider>().changeLocale("ar")
                                     : selectedCountry == 'Spanish'
-                                        ? context
-                                            .read<LanguageChangeProvider>()
-                                            .changeLocale("es")
+                                        ? context.read<LanguageChangeProvider>().changeLocale("es")
                                         : selectedCountry == 'Hindi'
-                                            ? context
-                                                .read<LanguageChangeProvider>()
-                                                .changeLocale("hi")
+                                            ? context.read<LanguageChangeProvider>().changeLocale("hi")
                                             : selectedCountry == 'France'
-                                                ? context
-                                                    .read<
-                                                        LanguageChangeProvider>()
-                                                    .changeLocale("fr")
+                                                ? context.read<LanguageChangeProvider>().changeLocale("fr")
                                                 : selectedCountry == "Bengali"
-                                                    ? context
-                                                        .read<
-                                                            LanguageChangeProvider>()
-                                                        .changeLocale("bn")
-                                                    : selectedCountry ==
-                                                            "Turkish"
-                                                        ? context
-                                                            .read<
-                                                                LanguageChangeProvider>()
-                                                            .changeLocale("tr")
-                                                        : selectedCountry ==
-                                                                "Chinese"
-                                                            ? context
-                                                                .read<
-                                                                    LanguageChangeProvider>()
-                                                                .changeLocale(
-                                                                    "zh")
-                                                            : selectedCountry ==
-                                                                    "Japanese"
-                                                                ? context
-                                                                    .read<
-                                                                        LanguageChangeProvider>()
-                                                                    .changeLocale(
-                                                                        "ja")
-                                                                : selectedCountry ==
-                                                                        "Romanian"
-                                                                    ? context
-                                                                        .read<
-                                                                            LanguageChangeProvider>()
-                                                                        .changeLocale(
-                                                                            "ro")
-                                                                    : selectedCountry ==
-                                                                            "Germany"
-                                                                        ? context
-                                                                            .read<LanguageChangeProvider>()
-                                                                            .changeLocale("de")
+                                                    ? context.read<LanguageChangeProvider>().changeLocale("bn")
+                                                    : selectedCountry == "Turkish"
+                                                        ? context.read<LanguageChangeProvider>().changeLocale("tr")
+                                                        : selectedCountry == "Chinese"
+                                                            ? context.read<LanguageChangeProvider>().changeLocale("zh")
+                                                            : selectedCountry == "Japanese"
+                                                                ? context.read<LanguageChangeProvider>().changeLocale("ja")
+                                                                : selectedCountry == "Romanian"
+                                                                    ? context.read<LanguageChangeProvider>().changeLocale("ro")
+                                                                    : selectedCountry == "Germany"
+                                                                        ? context.read<LanguageChangeProvider>().changeLocale("de")
                                                                         : selectedCountry == "Vietnamese"
                                                                             ? context.read<LanguageChangeProvider>().changeLocale("vi")
                                                                             : selectedCountry == "Italian"
@@ -322,10 +182,7 @@ class _LanguageState extends State<Language> {
                                                                                                                                                                                                                         : selectedCountry == "Nepali"
                                                                                                                                                                                                                             ? context.read<LanguageChangeProvider>().changeLocale("ne")
                                                                                                                                                                                                                             : context.read<LanguageChangeProvider>().changeLocale("en");
-                            saveDataOnLocal(
-                                key: 'savedLanguage',
-                                type: 'string',
-                                value: selectedCountry);
+                            saveDataOnLocal(key: 'savedLanguage', type: 'string', value: selectedCountry);
                             saveData(selectedCountry);
                           },
                         );
@@ -340,8 +197,7 @@ class _LanguageState extends State<Language> {
                         style: kTextStyle.copyWith(color: kWhite),
                       ),
                       trailing: selectedCountry == countryList[index]
-                          ? const Icon(Icons.radio_button_checked,
-                              color: kMainColor)
+                          ? const Icon(Icons.radio_button_checked, color: kMainColor)
                           : const Icon(
                               Icons.radio_button_off,
                               color: Color(0xff9F9F9F),
