@@ -1,5 +1,5 @@
-import 'package:cash_rocket/Model/scratch_card_model.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Model/scratch_card_model.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

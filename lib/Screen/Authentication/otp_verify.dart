@@ -1,5 +1,5 @@
-import 'package:cash_rocket/Repositories/authentication_repo.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Repositories/authentication_repo.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:nb_utils/nb_utils.dart';

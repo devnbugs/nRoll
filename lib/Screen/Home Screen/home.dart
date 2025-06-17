@@ -1,8 +1,8 @@
 import 'package:bootstrap_icons/bootstrap_icons.dart';
-import 'package:cash_rocket/Screen/History/mt_history.dart';
-import 'package:cash_rocket/Screen/Home%20Screen/Features%20Screen/mt_quiz.dart';
-import 'package:cash_rocket/Screen/Profile/mt_profile.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Screen/History/mt_history.dart';
+import 'package:nrollapp/Screen/Home%20Screen/Features%20Screen/mt_quiz.dart';
+import 'package:nrollapp/Screen/Profile/mt_profile.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';

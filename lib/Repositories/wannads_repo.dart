@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:cash_rocket/Model/wannads_model.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/config.dart';
+import 'package:nrollapp/Model/wannads_model.dart';
+import 'package:nrollapp/Screen/Constant%20Data/config.dart';
 import 'package:http/http.dart' as http;
 
 class WannadsRepo {

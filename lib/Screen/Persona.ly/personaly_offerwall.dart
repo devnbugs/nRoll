@@ -1,7 +1,7 @@
-import 'package:cash_rocket/Model/personaly_model.dart';
-import 'package:cash_rocket/Provider/personaly_provider.dart';
-import 'package:cash_rocket/Screen/Persona.ly/personaly_offer_details.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Model/personaly_model.dart';
+import 'package:nrollapp/Provider/personaly_provider.dart';
+import 'package:nrollapp/Screen/Persona.ly/personaly_offer_details.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

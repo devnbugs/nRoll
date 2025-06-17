@@ -1,5 +1,5 @@
-import 'package:cash_rocket/Repositories/authentication_repo.dart';
-import 'package:cash_rocket/Repositories/withdraw_repo.dart';
+import 'package:nrollapp/Repositories/authentication_repo.dart';
+import 'package:nrollapp/Repositories/withdraw_repo.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../Repositories/quiz_repo.dart';

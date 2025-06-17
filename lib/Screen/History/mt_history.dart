@@ -1,9 +1,9 @@
 // ignore_for_file: unused_result
-import 'package:cash_rocket/Model/history/user_history_model.dart';
-import 'package:cash_rocket/Model/withdraw_history_model.dart';
-import 'package:cash_rocket/Provider/profile_provider.dart';
-import 'package:cash_rocket/constant%20app%20information/const_information.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Model/history/user_history_model.dart';
+import 'package:nrollapp/Model/withdraw_history_model.dart';
+import 'package:nrollapp/Provider/profile_provider.dart';
+import 'package:nrollapp/constant%20app%20information/const_information.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:date_time_format/date_time_format.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

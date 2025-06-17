@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:cash_rocket/Repositories/authentication_repo.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/button_global.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Repositories/authentication_repo.dart';
+import 'package:nrollapp/Screen/Constant%20Data/button_global.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:google_fonts/google_fonts.dart';

@@ -1,8 +1,8 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:cash_rocket/Provider/database_provider.dart';
-import 'package:cash_rocket/Screen/Home%20Screen/home.dart';
-import 'package:cash_rocket/Screen/Home%20Screen/no_internet_screen.dart';
+import 'package:nrollapp/Provider/database_provider.dart';
+import 'package:nrollapp/Screen/Home%20Screen/home.dart';
+import 'package:nrollapp/Screen/Home%20Screen/no_internet_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 import 'package:nb_utils/nb_utils.dart';

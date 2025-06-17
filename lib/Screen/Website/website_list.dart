@@ -1,8 +1,8 @@
-import 'package:cash_rocket/Model/website_visit_model.dart';
-import 'package:cash_rocket/Provider/profile_provider.dart';
-import 'package:cash_rocket/Screen/Website/visit_website.dart';
-import 'package:cash_rocket/constant%20app%20information/const_information.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Model/website_visit_model.dart';
+import 'package:nrollapp/Provider/profile_provider.dart';
+import 'package:nrollapp/Screen/Website/visit_website.dart';
+import 'package:nrollapp/constant%20app%20information/const_information.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

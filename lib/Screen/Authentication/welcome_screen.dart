@@ -1,9 +1,9 @@
-// import 'package:cash_rocket/Screen/Authentication/log_in.dart';
-// import 'package:cash_rocket/Screen/Constant%20Data/constant.dart';
+// import 'package:nrollapp/Screen/Authentication/log_in.dart';
+// import 'package:nrollapp/Screen/Constant%20Data/constant.dart';
 // import 'package:flutter/material.dart';
 // import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 // import 'package:nb_utils/nb_utils.dart';
-// import 'package:cash_rocket/generated/l10n.dart' as lang;
+// import 'package:nrollapp/generated/l10n.dart' as lang;
 // class WelcomeScreen extends StatefulWidget {
 //   const WelcomeScreen({Key? key}) : super(key: key);
 //

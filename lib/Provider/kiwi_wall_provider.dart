@@ -1,5 +1,5 @@
-import 'package:cash_rocket/Model/kiwi_wall_model.dart';
-import 'package:cash_rocket/Repositories/kiwi_wall_repo.dart';
+import 'package:nrollapp/Model/kiwi_wall_model.dart';
+import 'package:nrollapp/Repositories/kiwi_wall_repo.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 KiwiWallRepo _kiwiWallRepo = KiwiWallRepo();

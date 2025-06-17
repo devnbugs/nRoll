@@ -1,7 +1,7 @@
-import 'package:cash_rocket/Screen/Constant%20Data/main_button.dart';
-import 'package:cash_rocket/Screen/Home%20Screen/home.dart';
-import 'package:cash_rocket/constant%20app%20information/const_information.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Screen/Constant%20Data/main_button.dart';
+import 'package:nrollapp/Screen/Home%20Screen/home.dart';
+import 'package:nrollapp/constant%20app%20information/const_information.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:iconly/iconly.dart';

@@ -1,4 +1,4 @@
-# cash_rocket
+# nrollapp
 
 A new Flutter project
 

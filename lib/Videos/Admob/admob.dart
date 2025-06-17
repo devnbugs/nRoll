@@ -2,8 +2,8 @@
 
 import 'dart:io';
 
-import 'package:cash_rocket/Provider/database_provider.dart';
-import 'package:cash_rocket/Repositories/rewards_repo.dart';
+import 'package:nrollapp/Provider/database_provider.dart';
+import 'package:nrollapp/Repositories/rewards_repo.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';

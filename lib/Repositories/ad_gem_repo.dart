@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:cash_rocket/Screen/Constant%20Data/config.dart';
+import 'package:nrollapp/Screen/Constant%20Data/config.dart';
 import 'package:http/http.dart' as http;
 
 import '../Model/adgem_model.dart';

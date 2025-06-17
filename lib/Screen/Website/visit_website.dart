@@ -1,4 +1,4 @@
-import 'package:cash_rocket/Model/website_visit_model.dart';
+import 'package:nrollapp/Model/website_visit_model.dart';
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -6,7 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:webview_flutter_android/webview_flutter_android.dart';
 import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import '../../Provider/profile_provider.dart';
 import '../../Repositories/authentication_repo.dart';
 import '../Constant Data/constant.dart';

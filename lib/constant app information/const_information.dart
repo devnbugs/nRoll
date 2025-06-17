@@ -1,4 +1,4 @@
-import 'package:cash_rocket/Screen/Constant%20Data/constant.dart';
+import 'package:nrollapp/Screen/Constant%20Data/constant.dart';
 import 'package:flutter/material.dart';
 
 String splashLogo = 'images/update/splash.png';

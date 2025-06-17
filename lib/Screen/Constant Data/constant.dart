@@ -1,4 +1,4 @@
-import 'package:cash_rocket/constant%20app%20information/const_information.dart';
+import 'package:nrollapp/constant%20app%20information/const_information.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

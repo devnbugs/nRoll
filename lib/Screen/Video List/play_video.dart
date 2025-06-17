@@ -1,10 +1,10 @@
 import 'package:appinio_video_player/appinio_video_player.dart';
-import 'package:cash_rocket/Model/video_model.dart';
-import 'package:cash_rocket/Provider/profile_provider.dart';
-import 'package:cash_rocket/Repositories/authentication_repo.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/config.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/constant.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Model/video_model.dart';
+import 'package:nrollapp/Provider/profile_provider.dart';
+import 'package:nrollapp/Repositories/authentication_repo.dart';
+import 'package:nrollapp/Screen/Constant%20Data/config.dart';
+import 'package:nrollapp/Screen/Constant%20Data/constant.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';

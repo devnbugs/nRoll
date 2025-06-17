@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:cash_rocket/Model/quiz_model.dart';
+import 'package:nrollapp/Model/quiz_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import '../Provider/database_provider.dart';

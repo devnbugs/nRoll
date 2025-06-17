@@ -1,5 +1,5 @@
-import 'package:cash_rocket/Model/og_ads_model.dart';
-import 'package:cash_rocket/Repositories/og_ads_repo.dart';
+import 'package:nrollapp/Model/og_ads_model.dart';
+import 'package:nrollapp/Repositories/og_ads_repo.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 OgAdsRepo _ogAdsRepo = OgAdsRepo();

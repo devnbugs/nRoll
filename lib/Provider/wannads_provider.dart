@@ -1,5 +1,5 @@
-import 'package:cash_rocket/Model/wannads_model.dart';
-import 'package:cash_rocket/Repositories/wannads_repo.dart';
+import 'package:nrollapp/Model/wannads_model.dart';
+import 'package:nrollapp/Repositories/wannads_repo.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 WannadsRepo _wannadsRepo = WannadsRepo();

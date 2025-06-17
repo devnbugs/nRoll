@@ -1,9 +1,9 @@
 // ignore_for_file: unused_result
 
-import 'package:cash_rocket/Provider/profile_provider.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/button_global.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/constant.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Provider/profile_provider.dart';
+import 'package:nrollapp/Screen/Constant%20Data/button_global.dart';
+import 'package:nrollapp/Screen/Constant%20Data/constant.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lottie/lottie.dart';

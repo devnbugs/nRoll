@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:cash_rocket/Model/history/user_history_model.dart' as uh;
-import 'package:cash_rocket/Model/withdraw_currency_convert_model.dart' as wccm;
-import 'package:cash_rocket/Model/withdraw_history_model.dart' as wh;
-import 'package:cash_rocket/Model/withdraw_method_model.dart' as wm;
+import 'package:nrollapp/Model/history/user_history_model.dart' as uh;
+import 'package:nrollapp/Model/withdraw_currency_convert_model.dart' as wccm;
+import 'package:nrollapp/Model/withdraw_history_model.dart' as wh;
+import 'package:nrollapp/Model/withdraw_method_model.dart' as wm;
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 

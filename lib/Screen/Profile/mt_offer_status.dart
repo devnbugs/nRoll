@@ -1,6 +1,6 @@
-import 'package:cash_rocket/Screen/Profile/mt_offer_status_details.dart';
-import 'package:cash_rocket/constant%20app%20information/const_information.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Screen/Profile/mt_offer_status_details.dart';
+import 'package:nrollapp/constant%20app%20information/const_information.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
 

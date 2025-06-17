@@ -1,9 +1,9 @@
-import 'package:cash_rocket/Model/offertoro_model.dart';
-import 'package:cash_rocket/Provider/offertoro_provider.dart';
-import 'package:cash_rocket/Screen/Offer%20Toro/offertoro_offer_details.dart';
-import 'package:cash_rocket/constant%20app%20information/const_commas.dart';
-import 'package:cash_rocket/constant%20app%20information/const_information.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Model/offertoro_model.dart';
+import 'package:nrollapp/Provider/offertoro_provider.dart';
+import 'package:nrollapp/Screen/Offer%20Toro/offertoro_offer_details.dart';
+import 'package:nrollapp/constant%20app%20information/const_commas.dart';
+import 'package:nrollapp/constant%20app%20information/const_information.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

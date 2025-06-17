@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:cash_rocket/Model/all_adnetworks.dart';
-import 'package:cash_rocket/Model/history/check_quiz_model.dart';
+import 'package:nrollapp/Model/all_adnetworks.dart';
+import 'package:nrollapp/Model/history/check_quiz_model.dart';
 import 'package:http/http.dart' as http;
 
 import '../Provider/database_provider.dart';

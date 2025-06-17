@@ -1,7 +1,7 @@
-import 'package:cash_rocket/Screen/Authentication/log_in.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/main_button.dart';
-import 'package:cash_rocket/constant%20app%20information/const_information.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Screen/Authentication/log_in.dart';
+import 'package:nrollapp/Screen/Constant%20Data/main_button.dart';
+import 'package:nrollapp/constant%20app%20information/const_information.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:nb_utils/nb_utils.dart';

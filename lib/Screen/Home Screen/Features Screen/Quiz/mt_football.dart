@@ -1,13 +1,13 @@
 // ignore_for_file: use_build_context_synchronously
 
 // import 'package:assets_audio_player/assets_audio_player.dart';
-import 'package:cash_rocket/Model/quiz_model.dart';
-import 'package:cash_rocket/Repositories/rewards_repo.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/global_contanier.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/main_button.dart';
-import 'package:cash_rocket/Screen/Home%20Screen/Features%20Screen/Quiz/mt_loser.dart';
-import 'package:cash_rocket/Screen/Home%20Screen/Features%20Screen/Quiz/mt_victory.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Model/quiz_model.dart';
+import 'package:nrollapp/Repositories/rewards_repo.dart';
+import 'package:nrollapp/Screen/Constant%20Data/global_contanier.dart';
+import 'package:nrollapp/Screen/Constant%20Data/main_button.dart';
+import 'package:nrollapp/Screen/Home%20Screen/Features%20Screen/Quiz/mt_loser.dart';
+import 'package:nrollapp/Screen/Home%20Screen/Features%20Screen/Quiz/mt_victory.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:circular_countdown_timer/circular_countdown_timer.dart';
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';

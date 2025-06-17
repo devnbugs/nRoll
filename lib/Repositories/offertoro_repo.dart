@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:cash_rocket/Model/offertoro_model.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/config.dart';
+import 'package:nrollapp/Model/offertoro_model.dart';
+import 'package:nrollapp/Screen/Constant%20Data/config.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 

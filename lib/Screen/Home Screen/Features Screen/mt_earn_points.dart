@@ -1,4 +1,4 @@
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';

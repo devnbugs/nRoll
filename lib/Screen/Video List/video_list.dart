@@ -1,8 +1,8 @@
-import 'package:cash_rocket/Model/video_model.dart';
-import 'package:cash_rocket/Screen/Video%20List/blank_video_list.dart';
-import 'package:cash_rocket/Screen/Video%20List/play_video.dart';
-import 'package:cash_rocket/constant%20app%20information/const_information.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Model/video_model.dart';
+import 'package:nrollapp/Screen/Video%20List/blank_video_list.dart';
+import 'package:nrollapp/Screen/Video%20List/play_video.dart';
+import 'package:nrollapp/constant%20app%20information/const_information.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

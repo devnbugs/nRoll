@@ -1,10 +1,10 @@
 import 'package:applovin_max/applovin_max.dart';
-import 'package:cash_rocket/Screen/Constant%20Data/constant.dart';
-import 'package:cash_rocket/Screen/Video%20List/video_list.dart';
-import 'package:cash_rocket/Videos/Admob/admob.dart';
-import 'package:cash_rocket/Videos/AppLovin/applovin.dart';
-import 'package:cash_rocket/Videos/StartApp/startapp.dart';
-import 'package:cash_rocket/generated/l10n.dart' as lang;
+import 'package:nrollapp/Screen/Constant%20Data/constant.dart';
+import 'package:nrollapp/Screen/Video%20List/video_list.dart';
+import 'package:nrollapp/Videos/Admob/admob.dart';
+import 'package:nrollapp/Videos/AppLovin/applovin.dart';
+import 'package:nrollapp/Videos/StartApp/startapp.dart';
+import 'package:nrollapp/generated/l10n.dart' as lang;
 import 'package:feather_icons/feather_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
