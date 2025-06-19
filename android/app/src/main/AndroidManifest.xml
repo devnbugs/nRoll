@@ -11,11 +11,11 @@
         <!-- TODO replace YOUR_APP_ID with actual value -->
         <meta-data
             android:name="com.startapp.sdk.APPLICATION_ID"
-            android:value="206377776" />
+            android:value="205307863" />
 
         <!-- TODO Splash Ad controlled by the android:value below -->
         <provider
-            android:authorities="com.startapp.flutter.sdk.206377776"
+            android:authorities="com.startapp.flutter.sdk.205307863"
             android:name="com.startapp.flutter.sdk.StartAppFlutterHelper"
             android:exported="false">
             <meta-data
