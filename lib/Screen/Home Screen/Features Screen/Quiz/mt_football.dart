@@ -18,7 +18,7 @@ import '../../../Constant Data/config.dart';
 import '../../../Constant Data/constant.dart';
 
 class MtFootball extends StatefulWidget {
-  const MtFootball({Key? key, required this.quizzes}) : super(key: key);
+  const MtFootball({super.key, required this.quizzes});
   final Quizzes quizzes;
 
   @override

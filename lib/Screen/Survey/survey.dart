@@ -28,7 +28,7 @@ class _SurveyScreenState extends State<SurveyScreen> {
 
   bool _showButton = false;
   bool _completedSurvey = false;
-  int _currentIndex = 0;
+  final int _currentIndex = 0;
   int _cpa = 0;
 
   @override

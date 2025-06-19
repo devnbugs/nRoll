@@ -16,7 +16,7 @@ import '../Constant Data/constant.dart';
 import '../Home Screen/no_internet_screen.dart';
 
 class LogIn extends StatefulWidget {
-  const LogIn({Key? key}) : super(key: key);
+  const LogIn({super.key});
 
   @override
   State<LogIn> createState() => _LogInState();

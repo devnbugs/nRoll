@@ -47,6 +47,8 @@ class _Triangle extends StatelessWidget {
 
   const _Triangle({
     required this.color,
+    this.borderColor,
+    this.borderWidth = 1,
     this.elevation = 0,
   });
 

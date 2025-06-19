@@ -117,9 +117,11 @@ abstract class PanPhysics extends ValueNotifier<PanState> {
 
 class NoPanPhysics extends PanPhysics {
   /// {@macro flutter_fortune_wheel.PanPhysics.duration}
+  @override
   final Duration duration = Duration.zero;
 
   /// {@macro flutter_fortune_wheel.PanPhysics.curve}
+  @override
   final Curve curve = PanPhysics.kDefaultCurve;
 
   /// {@macro flutter_fortune_wheel.PanPhysics.handlePanStart}
@@ -147,9 +149,11 @@ class NoPanPhysics extends PanPhysics {
 ///  * [DirectionalPanPhysics], which is an alternative implementation
 class CircularPanPhysics extends PanPhysics {
   /// {@macro flutter_fortune_wheel.PanPhysics.duration}
+  @override
   final Duration duration;
 
   /// {@macro flutter_fortune_wheel.PanPhysics.curve}
+  @override
   final Curve curve;
 
   CircularPanPhysics({
@@ -158,11 +162,13 @@ class CircularPanPhysics extends PanPhysics {
   });
 
   /// {@macro flutter_fortune_wheel.PanPhysics.handlePanStart}
+  @override
   void handlePanStart(DragStartDetails details) {
     value = PanState(isPanning: true);
   }
 
   /// {@macro flutter_fortune_wheel.PanPhysics.handlePanUpdate}
+  @override
   void handlePanUpdate(DragUpdateDetails details) {
     final center = Offset(
       size.width / 2,
@@ -191,6 +197,7 @@ class CircularPanPhysics extends PanPhysics {
   }
 
   /// {@macro flutter_fortune_wheel.PanPhysics.handlePanEnd}
+  @override
   void handlePanEnd(DragEndDetails details) {
     if (value.distance.abs() > 100 && details.velocity.pixelsPerSecond.distance.abs() > 300) {
       value = value.copyWith(isPanning: false, wasFlung: true);
@@ -211,9 +218,11 @@ class DirectionalPanPhysics extends PanPhysics {
   double _startPosition = 0.0;
 
   /// {@macro flutter_fortune_wheel.PanPhysics.curve}
+  @override
   final Curve curve;
 
   /// {@macro flutter_fortune_wheel.PanPhysics.duration}
+  @override
   final Duration duration;
 
   double _getOffset(Offset offset) => _direction < 0 ? offset.dy : offset.dx;
@@ -243,12 +252,14 @@ class DirectionalPanPhysics extends PanPhysics {
         );
 
   /// {@macro flutter_fortune_wheel.PanPhysics.handlePanStart}
+  @override
   void handlePanStart(DragStartDetails details) {
     _startPosition = _getOffset(details.globalPosition);
     value = PanState(isPanning: true);
   }
 
   /// {@macro flutter_fortune_wheel.PanPhysics.handlePanUpdate}
+  @override
   void handlePanUpdate(DragUpdateDetails details) {
     final currentPosition = _getOffset(details.globalPosition);
     final distance = currentPosition - _startPosition;
@@ -256,6 +267,7 @@ class DirectionalPanPhysics extends PanPhysics {
   }
 
   /// {@macro flutter_fortune_wheel.PanPhysics.handlePanEnd}
+  @override
   void handlePanEnd(DragEndDetails details) {
     final velocity = _getOffset(details.velocity.pixelsPerSecond);
     if (value.distance.abs() > 100 && velocity.abs() > 300) {
@@ -291,7 +303,7 @@ class PanAwareBuilder extends HookWidget {
   /// The callback to be called whenever a fling/swipe gesture is detected.
   final VoidCallback? onFling;
 
-  PanAwareBuilder({
+  const PanAwareBuilder({super.key, 
     required this.builder,
     required this.physics,
     this.behavior,

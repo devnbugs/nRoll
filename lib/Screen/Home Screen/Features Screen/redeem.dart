@@ -22,7 +22,7 @@ import '../home.dart';
 import '../no_internet_screen.dart';
 
 class Redeem extends StatefulWidget {
-  const Redeem({Key? key}) : super(key: key);
+  const Redeem({super.key});
 
   @override
   State<Redeem> createState() => _RedeemState();

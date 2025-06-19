@@ -18,7 +18,7 @@ import '../../Constant Data/constant.dart';
 import '../no_internet_screen.dart';
 
 class Refer extends StatefulWidget {
-  const Refer({Key? key}) : super(key: key);
+  const Refer({super.key});
 
   @override
   State<Refer> createState() => _ReferState();

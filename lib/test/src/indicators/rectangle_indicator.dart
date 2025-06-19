@@ -6,11 +6,11 @@ class RectangleIndicator extends StatelessWidget {
   final Color color;
 
   const RectangleIndicator({
-    Key? key,
+    super.key,
     this.borderWidth = 2,
     this.borderColor,
     this.color = Colors.transparent,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -1,4 +1,5 @@
-import 'dart:math' as _math;
+import 'dart:math' as math;
+import 'dart:math' as _math show Random, min;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';

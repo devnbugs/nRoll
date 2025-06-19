@@ -17,7 +17,7 @@ import '../../Home Screen/home.dart';
 import '../../Home Screen/no_internet_screen.dart';
 
 class SetupProfile extends StatefulWidget {
-  const SetupProfile({Key? key}) : super(key: key);
+  const SetupProfile({super.key});
 
   @override
   State<SetupProfile> createState() => _SetupProfileState();
