@@ -77,18 +77,18 @@ class _LogInState extends State<LogIn> {
                     textFieldType: TextFieldType.PHONE,
                     controller: phoneController,
                     decoration: kInputDecoration.copyWith(
-                      hintText: "17xx-xxxxxx",
+                      hintText: "8123456789",
                       hintStyle: kTextStyle.copyWith(color: lightGreyTextColor),
                       floatingLabelBehavior: FloatingLabelBehavior.never,
                       prefixIcon: CountryCodePicker(
                         textStyle: kTextStyle.copyWith(color: kWhite),
                         onChanged: (country) {
                           setState(() {
-                            selectedCode = country.dialCode ?? "+880";
+                            selectedCode = country.dialCode ?? "+234";
                           });
                         },
-                        initialSelection: 'BD',
-                        showCountryOnly: false,
+                        initialSelection: 'NG',
+                        showCountryOnly: true,
                         showFlag: true,
                         showOnlyCountryWhenClosed: false,
                         alignLeft: false,

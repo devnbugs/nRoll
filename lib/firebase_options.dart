@@ -52,10 +52,10 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC3Od7B6uoSL00aLDA18vX9cIrQXXMFyA4',
-    appId: '1:379243505940:android:1985a76a2806344ed53a01',
-    messagingSenderId: '379243505940',
-    projectId: 'cash-rocket-1938d',
-    storageBucket: 'cash-rocket-1938d.appspot.com',
+    apiKey: 'AIzaSyDK-Y7XaZJx43u-BajDtrDhCEP95QfoI-E',
+    appId: '1:139679068087:android:853eb68196a9a78eda8232',
+    messagingSenderId: '139679068087',
+    projectId: 'nrollappnetwork',
+    storageBucket: 'nrollappnetwork.firebasestorage.app',
   );
 }
