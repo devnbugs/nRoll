@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "139679068087-gd66i288ec55glcd2lne68qsnc9f9eeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rabyte.nrollapp",
+            "certificate_hash": "33755c844280c13800d30837f717cd4a88f4ecb7"
+          }
+        },
+        {
           "client_id": "139679068087-jrbuda7o20trgkfhc9d5ddj8vjcku6dq.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "139679068087-jrbuda7o20trgkfhc9d5ddj8vjcku6dq.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "139679068087-u8ch045qap5clgtd0d1qfv0b4nle9dbh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rabyte.nrollapp"
+              }
             }
           ]
         }

@@ -242,7 +242,7 @@ class Currency {
     _symbol = symbol;
     _fullUnitName = fullUnitName;
     _subUnitName = subUnitName;
-    _default = defaulty;
+    _defaulty = defaulty;
     _status = status;
     _createdAt = createdAt;
     _updatedAt = updatedAt;
@@ -255,7 +255,7 @@ class Currency {
     _symbol = json['symbol'];
     _fullUnitName = json['full_unit_name'];
     _subUnitName = json['sub_unit_name'];
-    _default = json['default'];
+    _defaulty = json['default'];
     _status = json['status'];
     _createdAt = json['created_at'];
     _updatedAt = json['updated_at'];
@@ -266,7 +266,7 @@ class Currency {
   String? _symbol;
   dynamic _fullUnitName;
   dynamic _subUnitName;
-  int? _default;
+  int? _defaulty;
   int? _status;
   dynamic _createdAt;
   dynamic _updatedAt;
@@ -277,7 +277,7 @@ class Currency {
   String? get symbol => _symbol;
   dynamic get fullUnitName => _fullUnitName;
   dynamic get subUnitName => _subUnitName;
-  int? get defaulty => _default;
+  int? get defaulty => _defaulty;
   int? get status => _status;
   dynamic get createdAt => _createdAt;
   dynamic get updatedAt => _updatedAt;
@@ -290,7 +290,7 @@ class Currency {
     map['symbol'] = _symbol;
     map['full_unit_name'] = _fullUnitName;
     map['sub_unit_name'] = _subUnitName;
-    map['default'] = _default;
+    map['default'] = _defaulty;
     map['status'] = _status;
     map['created_at'] = _createdAt;
     map['updated_at'] = _updatedAt;
