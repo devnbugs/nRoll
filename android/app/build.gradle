@@ -1,8 +1,28 @@
+// The 'plugins' block must be the first non-comment, non-whitespace block.
 plugins {
     id "com.android.application"
     id "kotlin-android"
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id "dev.flutter.flutter-gradle-plugin"
+}
+
+// 1. Load the properties from key.properties file
+// This block is now placed between the 'plugins {}' and 'android {}' blocks.
+import java.util.Properties
+import java.io.FileInputStream
+
+// --- FIX START: Declare the variables here ---
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file("key.properties")
+// --- FIX END ---
+
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+} else {
+    // IMPORTANT: For production builds, you should handle this more robustly,
+    // e.g., by throwing an error or using environment variables in CI/CD.
+    // This warning is for local development if the file is missing.
+    println("WARNING: key.properties file not found. Release build might not be signed correctly.")
 }
 
 android {
@@ -30,11 +50,38 @@ android {
         versionName = flutter.versionName
     }
 
+    // 2. Define your signing configurations
+    // This 'signingConfigs' block should be inside the 'android { ... }' block,
+    // typically before the 'buildTypes { ... }' block.
+    signingConfigs {
+        release {
+            // Check if properties are loaded before attempting to use them
+            // The previous check was removed as the variables are now guaranteed to be initialized.
+            // If the file doesn't exist, keystoreProperties will be empty, and the signing will fail gracefully.
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.debug
+            // Link the 'release' build type to the 'release' signing config defined above
+            // This line replaces 'signingConfig = signingConfigs.debug'
+            signingConfig signingConfigs.release
+
+            // Optional: Enable code shrinking, obfuscation, and resource shrinking for release builds
+            // This makes your app smaller and harder to reverse-engineer.
+            // This is already present in your original file.
+            minifyEnabled true // Enables ProGuard/R8
+            shrinkResources true // Removes unused resources
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            // Debug builds are automatically signed by Android SDK's debug key.
+            // You typically don't need to specify a signingConfig here.
         }
     }
 }
