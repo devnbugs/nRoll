@@ -34,7 +34,7 @@ class _LogInState extends State<LogIn> {
     }
   }
 
-  String selectedCode = "+880";
+  String selectedCode = "+234";
 
   @override
   void initState() {
